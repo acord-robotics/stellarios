@@ -22,3 +22,7 @@ Clicking on the dome will zoom in on the dome and give you a number of programs 
 
 ## Other applications
 * Other games, mini-games
+
+Terragenesis 
+Dragonvale
+Droid inventor
