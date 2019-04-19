@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+<<<<<<< HEAD
+# Site settings
+title: Modern Blog
+description: Modern-Blog A Elegant template for Jekyll
+keywords: Modern, Blogging, Fun
+author: Wferr
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+=======
+remote_theme: Fastbyte01/KeepIt
+>>>>>>> 514244acb56cb5a70fbd96a55f8ce52239e8ef8b
