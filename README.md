@@ -26,3 +26,9 @@ Clicking on the dome will zoom in on the dome and give you a number of programs 
 Terragenesis 
 Dragonvale
 Droid inventor
+
+
+
+## Jekyll Stuff
+
+https://github.com/Fastbyte01/KeepIt/wiki/List-of-social-platforms-supported-out-of-box
