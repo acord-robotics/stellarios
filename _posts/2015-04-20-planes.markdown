@@ -3,8 +3,8 @@ title:  "Planes are cool!"
 subtitle: "The Fly!"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
-date:   2015-04-20 12:12:12
+image: "img/looping-orthographic-view-of-rotating-wireframe-model-of-curiosity-rover-displayed-specs-are-accurate-data-nasa-jpl_sut1-z7xg_thumbnail-full01.png"
+date:   2019-04-19 18:12:12
 ---
 
 ### Dolor sit amet?
