@@ -1,4 +1,15 @@
-_site
-.sass-cache
-node_modules
-_drafts
+# Hugo default output directory
+/public
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# Linux 
+.directory
