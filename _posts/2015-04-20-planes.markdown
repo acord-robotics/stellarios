@@ -1,7 +1,7 @@
 ---
 title:  "Star Sailors"
 subtitle: "Stellarios, by ACORD!"
-author: "LimoDroid"
+author: "wferr"
 comments: true
 avatar: "img/authors/5c6bea3b00589-bpfull.png"
 image: "img/looping-orthographic-view-of-rotating-wireframe-model-of-curiosity-rover-displayed-specs-are-accurate-data-nasa-jpl_sut1-z7xg_thumbnail-full01.png"
