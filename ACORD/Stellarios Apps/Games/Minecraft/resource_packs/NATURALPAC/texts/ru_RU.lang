@@ -1,0 +1,62 @@
+﻿///
+start.developer_naturalpack=© MINEPAPER | DEVELOPERS
+///
+information.title=Информация
+marketplace.title=Другие пакеты
+credits.title=Разработчики
+///
+credits.content.devTitle=§bРазработчики:
+credits.content.devText=§bХудожник: §eRodriges_116; §bНовые экраны: §eRodriges_116; §bПереводчик: §eRodriges_116; §bДизайнер: §eRodriges_116; §bАниматор: §eRodriges_116; §b3D-Модели: §eRodriges_116
+credits.content.betaTitle=§bКоманда предварительного тестирования:
+credits.content.betaText=§bЗакрытое "BETA" тестирование: §eRodriges_116, §eLimer9999 (Hotic), §eDarkMouse; §bЗакрытое "DEV" тестирование: §eRodriges_116, §eLimer9999 (Hotic)
+///
+store.content.product_name.title=ProductTitle
+store.content.product_name.text=ProductText
+store.content.product_name.link=ProductLink
+///
+store.soon=В разработке...
+///
+store.content.inventory+.title=Текстуры: Inventory+
+store.content.inventory+.text=§eДанный пакет текстур, поможет вам разнообразить ваш игровой инвентарь, сделав его более детализированным.
+store.content.inventory+.link=Приобрести: []
+store.content.villager+.title=Текстуры: Villager+
+store.content.villager+.text=§eДанный пакет текстур, изменять стандартных Жителей Minecraft, до неузнаваемости!
+store.content.villager+.link=Приобрести: []
+store.content.turtleDefault.title=Текстуры: Turtle Default
+store.content.turtleDefault.text=§eДанный пакет текстур, заменяет модель стандартных Черепах, на её первоначальную версию.
+store.content.turtleDefault.link=Приобрести: []
+store.content.snowMod.title=Текстуры: SnowMod
+store.content.snowMod.text=§eЗахотелось новогоднего настроения? Снега в свой мир Minecraft? Но ты играешь не в зимнем биоме? Тогда данный пакет текстур для тебя!
+store.content.snowMod.link=Приобрести: []
+/// Вступление
+information.content.title=Чего нового в 25031904?
+information.version.comment=§bЗаметка:
+information.content.comment=Данное обновление исправляет ошибку из-за которой NaturalPack несовместим с новой версией Minecraft: Bedrock 1.10. Так же оно пред носит вам некоторые новые блоки из 1.10, такие как: Костер, Кафедра, и Камнетес!
+information.alpha.test.link=§bЗаписаться на "Alpha-тестирование": §e [Недоступно]
+/// Блоки
+information.content.block.title=§bБлоки:
+information.content.block.text=§bСписок изменений: §eПерерисован:§f "Песок", "Красный песок";§eДобавлен:§f "Кафедра", "Костер", "Камнетес", "Точило", "Свекла".
+/// Предметы
+information.content.items.title=§bПредметы:
+information.content.items.text=§bСписок изменений: §eДобавлен:§f "Щит", "Свекла".
+/// Существа
+information.content.entity.title=§bСущества (Мобы):
+information.content.entity.text=§bСписок изменений: -
+/// Интерфейс
+information.content.interface.title=§bИнтерфейс:
+information.content.interface.text=§bСписок изменений: -
+/// Д.Изменения
+information.content.more.title=§bДругие изменения:
+information.content.more.text=§bСписок изменений: -
+/// Д.Заметкм
+information.content.other.title=§bДругие заметки:
+information.content.other.text=§e1. §fУбрано пользовательское небо для повышения производительности.
+///
+information.content.version=§bВерсия от: 05.04.2019
+information.content.version_nume=§bНомер: 05041904
+/// 25031903= 25-День; 03-Месяц; 1904-Версия= 19-Год; 04-Официальный номер версии
+
+///Minecraft
+
+///Шаблоны
+[ , "", "", "", "" ]

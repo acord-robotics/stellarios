@@ -1,0 +1,59 @@
+{
+  "objectName" : "starboyprotectoratedefensearcade",
+  "colonyTags" : ["human", "electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "The machine runs a game called 'Protectorate Defense'.",
+  "shortdescription" : "Protectorate Defense Arcade Machine",
+  "race" : "human",
+
+  "apexDescription" : "This game is way easier than defending a real base.",
+  "avianDescription" : "Psychedelic Rodeo Melee is actually a very soothing game.",
+  "floranDescription" : "Missssilesss just spears for hunting shipsss, Floran likesss.",
+  "glitchDescription" : "Emboldened. Defending one's home is a noble endeavor.",
+  "humanDescription" : "We must do our part to defend the Protectorate!  As long as we have enough quarters...",
+  "hylotlDescription" : "Though simple, the game belies a certain depth in the inevitabilities of war.",
+  "novakidDescription" : "Just like shootin' fish in a barrel.",
+
+  "inventoryIcon" : "starboyprotectoratedefensearcadeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "starboyprotectoratedefensearcadeleft.png:<color>.<frame>",
+      "rightImage" : "starboyprotectoratedefensearcaderight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/starboyarcade.lua", "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboyprotectoratedefensegame/starboyprotectoratedefensearcade.config"
+}

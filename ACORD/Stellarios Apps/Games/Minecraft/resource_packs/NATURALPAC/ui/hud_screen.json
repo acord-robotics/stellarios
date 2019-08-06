@@ -1,0 +1,29 @@
+/*********************************************************
++*   File created:                                       *
++*   (c) Mojang. All rights reserved                     *
++*   (c) Microsoft. All rights reserved.                 *
++*********************************************************/
+
+/*********************************************************
++*   File modifity:                                      *
++*   (c) MINEPAPER. All rights reserved                  *
++*   (c) NaturalPack. All rights reserved.               *
++*********************************************************/
+
+{
+  "namespace": "hud",
+
+  "full_progress_bar": {
+    "texture": "textures/ui/xp_full",
+	"uv_size": [ 368, 10 ]
+  },
+
+  "empty_progress_bar": {
+    "texture": "textures/ui/xp_empty",
+	"uv_size": [ 368, 10 ]
+  },
+
+  "progress_bar_nub": {
+    "texture": "textures/ui/xp_nub"
+ }
+}

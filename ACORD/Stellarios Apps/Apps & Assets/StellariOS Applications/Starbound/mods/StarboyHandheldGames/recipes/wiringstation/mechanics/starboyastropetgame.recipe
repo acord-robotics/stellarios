@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 6 },
+    { "item" : "smallbattery", "count" : 2 },
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "stickofram", "count" : 1 },
+	{ "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "starboyastropet", "count" : 1 },
+  "duration" : 2.0,
+  "groups" : [ "starboy" ]
+}
