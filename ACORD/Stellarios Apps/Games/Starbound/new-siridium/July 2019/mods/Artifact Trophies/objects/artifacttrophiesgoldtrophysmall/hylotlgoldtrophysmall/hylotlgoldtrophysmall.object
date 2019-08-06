@@ -1,0 +1,32 @@
+{
+  "objectName" : "hylotlgoldtrophysmall",
+  "colonyTags" : ["hylotl","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "The plaque reads /Awarded to the Protectorate that investigated the Grand Pagoda Library to retrieve the Hylotl Artifact./.",
+  "shortdescription" : "Small Hylotl Gold Trophy",
+  "category" : "decorative",
+  "price" : 1750,
+  "printable" : true,
+
+  "apexDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "avianDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "floranDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "glitchDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "humanDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "hylotlDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+  "novakidDescription" : "A smaller version of a pure gold trophy of the Hylotl artifact.",
+
+  "inventoryIcon" : "hylotlgoldtrophysmall.png",
+  "orientations" : [
+    {
+      "dualImage" : "hylotlgoldtrophysmall.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

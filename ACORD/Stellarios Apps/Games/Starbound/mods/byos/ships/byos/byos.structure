@@ -1,0 +1,13 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+    "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+    "maxFuel" : 1000,
+    "crewSize" : 12
+    }
+  },
+  
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "BYOSBlocks.png"
+}

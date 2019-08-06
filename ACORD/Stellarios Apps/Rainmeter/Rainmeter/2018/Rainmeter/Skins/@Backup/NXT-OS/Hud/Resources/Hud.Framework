@@ -1,0 +1,82 @@
+[Rainmeter]
+Update=-1
+OnRefreshAction=[!SetVariable "Time" "[CalcTime]"][!Update][!CommandMeasure "Animate" "Execute [CalcMode]"][!Move #Monitor.MainX# (#Monitor.MainY#+(#Monitor.MainH#-300))][!AutoSelectScreen 1][!Zpos 2]
+
+[Variables]
+@Include=#@#Settings.inc
+Size=1
+Counter=0
+Time=
+
+[CalcMode]
+Measure=Calc
+Formula=(#Animation.Hud# > 1 ? 2 : 1)
+
+[CalcTime]
+Measure=Calc
+Formula=(#Notification.HudDuration#*1000)-(#Animation.FPS#*#Animation.Hud#)
+
+;========================================================
+; Animate Section
+;========================================================
+
+[Animate]
+Measure=Plugin
+Plugin=ActionTimer
+Group=Animate
+ActionList1=Wait #Notification.HudDuration#000|Deactivate
+ActionList2=Wait #Time#|Repeat IconPos, #Animation.FPS#, #Animation.Hud#|Wait 1|Toggle|Deactivate
+Toggle=[!SetVariable "Counter" "(#Animation.Hud#-1)"][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]
+Deactivate=[!DeactivateConfig]
+IconPos="[!SetVariable "Counter" (#Counter#+1)][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]"
+DynamicVariables=1
+
+[AnimateCalc1]
+Measure=Calc
+Formula=clamp((1-(1 * ((#Counter#/#Animation.Hud#)) * (#Counter#/#Animation.Hud#) * ((1.81 + 1) * (#Counter#/#Animation.Hud#) - 1.70158) + 0)),0,1)
+DynamicVariables=1
+Group=Animate
+
+[AnimateCalc2]
+Measure=Calc
+Formula=1-(1 * ((#Counter#/#Animation.Hud#)) * (#Counter#/#Animation.Hud#) * ((1.81 + 1) * (#Counter#/#Animation.Hud#) - 1.70158) + 0)
+DynamicVariables=1
+Group=Animate
+
+[AnimateFade]
+Measure=Calc
+Formula=trunc(255*[AnimateCalc1])
+DynamicVariables=1
+Group=Animate
+
+;========================================================
+; Meters
+;========================================================
+
+[Space]
+meter=Image
+W=#Monitor.MainW#
+
+[Background]
+Meter=Image
+ImageName=Resources\Backgrounds\Background.png
+UpdateDivider=-1
+X=((#Monitor.MainW#-200)/2)
+AntiAlias=1
+ImageAlpha=[AnimateFade]
+TransformationMatrix=[AnimateCalc1];0;0;[AnimateCalc1];((#CURRENTCONFIGWIDTH#*(1-[AnimateCalc1]))/2);((200*(1-[AnimateCalc1]))/2)
+DynamicVariables=1
+Group=Animate
+
+[Icon]
+Meter=Image
+X=25r
+Y=25r
+W=150
+H=150
+AntiAlias=1
+ImageAlpha=[AnimateFade]
+TransformationMatrix=[AnimateCalc2];0;0;[AnimateCalc2];((#CURRENTCONFIGWIDTH#*(1-[AnimateCalc2]))/2);((200*(1-[AnimateCalc2]))/2)
+DynamicVariables=1
+Group=Animate
+ImageName=Resources\Icons\#Icon#

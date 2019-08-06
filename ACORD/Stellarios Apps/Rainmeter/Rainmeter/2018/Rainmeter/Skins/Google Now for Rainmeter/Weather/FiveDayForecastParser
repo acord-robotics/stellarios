@@ -1,0 +1,14 @@
+[URL]
+URL=http://wxdata.weather.com/wxdata/weather/local/ARBA0010?cc=*&unit=M&dayf=5
+[RegExp]
+RegExp=(?siU)<dnam>(.*),.*<tmp>(.*)</tmp>.*<t>(.*)</t>.*<icon>(.*)</icon>.*<day d="0" t="(.*)" dt=".*">.*<hi>(.*)</hi>.*<low>(.*)</low>.*<icon>.*<icon>(.*)</icon>.*<day d="1" t="(.*)" dt=".*">.*<hi>(.*)</hi>.*<low>(.*)</low>.*<icon>(.*)</icon>.*<day d="2" t="(.*)" dt=".*">.*<hi>(.*)</hi>.*<low>(.*)</low>.*<icon>(.*)</icon>.*<day d="3" t="(.*)" dt=".*">.*<hi>(.*)</hi>.*<low>(.*)</low>.*<icon>(.*)</icon>.*<day d="4" t="(.*)" dt=".*">.*<hi>(.*)</hi>.*<low>(.*)</low>.*<icon>(.*)</icon>
+[Notes]
+Notes=RainRegExp is a small utility to help you create the RegExp options needed to parse a web site with the Rainmeter WebParser Plugin.
+
+To use the tool, simply enter a URL in the input field at the top and click "Connect" to retrieve the site and display the output in the "HTML to Parse" panel.  You may also use the "Browse" button to load a text file with HTML stored locally on your hard drive.
+
+In the "Your RegExp" panel, create the regular expression needed to parse the website and return the information you want.  When "Parse" is clicked, the data will be returned in "StringIndex => Value" pairs in the "Output" panel.  When the expression is correctly returning the data you want, you can click "Copy" to send your regular expression to the clipboard so you can use it in Rainmeter skins.
+
+The "Save" button in the "Your RegExp" panel can be used to save the entire session.  This will save the URL, your regular expression, and any changes you have made to this notepad area.
+
+This Notepad panel can be used as a scratch pad as needed.  You can even delete this help text.  Any changes you make will only effect a "saved session" and will not permanently change this help information.

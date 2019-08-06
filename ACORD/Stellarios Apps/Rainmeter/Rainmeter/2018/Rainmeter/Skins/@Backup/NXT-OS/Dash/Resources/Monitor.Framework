@@ -1,0 +1,16 @@
+[Rainmeter]
+Update=-1
+Group=Dash
+OnRefreshAction=[!Zpos 1][!Move #X# #Y#][!Draggable 0][!ClickThrough 0]
+
+[Background]
+Meter=Image
+SolidColor=10,10,10,220
+H=#H#
+W=#W#
+X=0
+Y=0
+RightMouseDownAction=[!ZPosGroup 1 "NXTWidgets"]
+LeftMouseDownAction=[!ZPosGroup 1 "NXTWidgets"]
+LeftMouseUpAction=[!ZPosGroup 1 "NXTWidgets"][!CommandMeasure "DashScript" "deactivate()" NXT-OS\system]
+MouseActionCursor=0

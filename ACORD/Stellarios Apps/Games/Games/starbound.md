@@ -1,0 +1,1 @@
+Starbound: the ship is perfect security measure, as only I can choose who accesses my ship. To turn it into a planet, I will add some tree domes and some dirt.

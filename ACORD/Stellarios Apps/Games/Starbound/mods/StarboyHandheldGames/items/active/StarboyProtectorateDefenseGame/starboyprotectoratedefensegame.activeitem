@@ -1,0 +1,21 @@
+{
+  "itemName" : "starboyprotectoratedefensegame",
+  "level" : 1,
+  "price" : 1500,
+  "rarity" : "Legendary",
+  "description" : "A handheld game from earth. Controls: WASD & Numpad 1,2,3. Alternately: Arrowkeys & 1,2,3",
+  "shortdescription" : "Starboy Protectorate Defense",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "starboyprotectoratedefensegame.png",
+  "animation" : "starboyprotectoratedefensegame.animation",
+  "animationParts" : {
+    "transponder" : "starboyprotectoratedefensegame.png"
+  },
+  "scripts" : ["/scripts/starboygame.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboyprotectoratedefensegame/starboyprotectoratedefensegame.config"
+}

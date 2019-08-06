@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "venomsample", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "slime", "count" : 10 },
+	{ "item" : "oculemon", "count" : 1 }
+  ],
+	"output" : { "item" : "oculobaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

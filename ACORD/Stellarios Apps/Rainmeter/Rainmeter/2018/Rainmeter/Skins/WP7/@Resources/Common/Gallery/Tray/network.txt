@@ -1,0 +1,6 @@
+[TrayMeasure]
+Measure=NetTotal
+MaxValue=1
+MinValue=0
+TrayMeter=BITMAP
+TrayBitmap=#@#Graphics\Gallery\Tray\rm\net\%02i.ico

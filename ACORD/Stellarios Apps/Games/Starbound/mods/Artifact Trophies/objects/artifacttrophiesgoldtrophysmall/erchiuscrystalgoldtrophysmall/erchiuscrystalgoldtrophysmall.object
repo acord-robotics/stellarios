@@ -1,0 +1,32 @@
+{
+  "objectName" : "erchiusgoldtrophysmall",
+  "colonyTags" : ["human","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "The plaque reads /Awarded to the Protectorate that investigated the Erchius Mining Facility and defeated the evil residing at the source./.",
+  "shortdescription" : "Small Erchius Gold Trophy",
+  "category" : "decorative",
+  "price" : 1750,
+  "printable" : true,
+
+  "apexDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "avianDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "floranDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "glitchDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "humanDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "hylotlDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+  "novakidDescription" : "A smaller version of a pure gold trophy of the Erchius Crystal from the Mining Facility.",
+
+  "inventoryIcon" : "erchiuscrystalgoldtrophysmall.png",
+  "orientations" : [
+    {
+      "dualImage" : "erchiuscrystalgoldtrophysmall.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[Rainmeter]
+Update=1000
+OnRefreshAction=[!Zpos 1][!Move #X# #Y#]
+
+[Timer]
+Measure=Loop
+StartValue=0
+EndValue=3
+LoopCount=1
+IfAboveValue=2
+IfAboveAction=[!DeactivateConfig]
+
+[Text]
+Meter=String
+Text=#Number#
+FontFace=Open Sans Light
+FontSize=200
+FontColor=255,255,255
+StringAlign=CenterCenter
+AntiAlias=1
+X=150
+Y=150
+H=300
+W=300
+SolidColor=20,20,20,240

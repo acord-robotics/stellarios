@@ -1,0 +1,39 @@
+[Rainmeter]
+Group=NXTWidgets
+Update=1000
+AccurateText=1
+ContextTitle=Skin Menu
+ContextAction=[!SkinMenu]
+ContextTitle2=---
+ContextTitle3=Unload Widget
+ContextAction3=[!DeactivateConfig]
+RightMouseUpAction=[!SkinCustomMenu]
+
+[Variables]
+@Include=#SKINSPATH#NXT-OS\Overlay\State.inc
+Widget.OnShow=
+Widget.OnHide=
+
+[Widget.CenterLoad]
+Measure=Calc
+Formula=1
+IfAboveValue=0
+IfAboveAction=[!Move ((#SCREENAREAWIDTH#-#CURRENTCONFIGWIDTH#)/2) ((#SCREENAREAHEIGHT#-#CURRENTCONFIGHEIGHT#)/2)]
+DynamicVariables=1
+Disabled=1
+
+[Widget.HiddenCheck]
+Measure=Calc
+Formula=#Widgets.Activated#
+IfBelowValue=1
+IfBelowAction=[!Hide]
+UpdateDivider=-1
+
+[Widget.RunCommands]
+Measure=Calc
+Formula=#Widgets.Activated#
+IfAboveValue=0
+IfAboveAction=#Widget.OnShow#
+IfBelowValue=1
+IfBelowAction=#Widget.OnHide#
+DynamicVariables=1

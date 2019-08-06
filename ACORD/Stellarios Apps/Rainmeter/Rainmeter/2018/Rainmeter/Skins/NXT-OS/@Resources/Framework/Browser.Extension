@@ -1,0 +1,19 @@
+[Variables]
+Window.CloseCommands.BrowseExtension=[!CommandMeasure "FileBrowserController" "Destroy()"]
+
+[FileBrowserController]
+Measure=Script
+ScriptFile=#SKINSPATH#NXT-OS\@Resources\Scripts\Browse.lua
+
+[FileBrowserLock]
+Meter=Image
+Y=67
+W=#Window.Width#
+H=(#Window.Height#-67)
+SolidColor=0,0,0,1
+LeftMouseUpAction=[!CommandMeasure "Animate" "Execute 1" "NXT-OS\System\FileBrowser"]
+LeftMouseDownAction=" "
+RightMouseUpAction=" "
+RightMouseUpAction=" "
+DynamicVariables=1
+Hidden=1
