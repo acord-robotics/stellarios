@@ -1,0 +1,14 @@
+----------------------------------------------------------------------------------
+27/6/08
+[Components]
+Renamed and changed Side Plate to Side Plate 2
+Changed Main Eye Plate
+Removed Lower Details Plate (details now mount to bottom section of Side Eye Plate)
+Changed alignments on Top Ring
+[Changed Drawings]
+R5 Dome Sheet 2
+R5 Dome Sheet 5
+R5 Dome Sheet 6
+-----------------------------------------------------------------------------------
+24/11/11
+changed sheets 8 and 9 to correct plane distortion
