@@ -1,0 +1,719 @@
+[Variables]
+ColorScreen.FlipAnimationFrame=0
+ColorScreen.AniFrames=0
+
+[ColorScreenScript]
+Measure=Script
+ScriptFile=#SKINSPATH#NXT-OS\@Resources\Scripts\ColorPicker.lua
+
+[ColorScreen.AnimationBool]
+Measure=Calc
+Formula=#ColorPicker.Animation#
+IfAboveValue=0
+IfAboveAction=[!SetVariable "ColorScreen.AniFrames" "18"]
+
+
+[ColorScreen.Timer]
+Measure=Plugin
+Plugin=ActionTimer
+ActionList1=StartAnimateForward|Repeat AnimateForward, 16, #ColorScreen.AniFrames#|Wait 16|FinishAnimateForward
+ActionList2=StartAnimateBackward|Repeat AnimateBackward, 16, #ColorScreen.AniFrames#|Wait 16|FinishAnimateBackward
+StartAnimateForward=[!SetVariable "ColorScreen.FlipAnimationFrame" "0"][!UpdateMeasureGroup "ColorScreenAnimate"][!UpdateMeterGroup "ColorScreenAnimate"][!ShowMeter "ColorScreen.FlipAnimation"][!Redraw]
+AnimateForward=[!SetVariable "ColorScreen.FlipAnimationFrame" "(#ColorScreen.FlipAnimationFrame#+1)"][!UpdateMeterGroup "ColorScreenAnimate"][!UpdateMeasureGroup "ColorScreenAnimate"][!Redraw]
+FinishAnimateForward=[!CommandMeasure "ColorScreenScript" "switchtochoose()"][!HideMeter "ColorScreen.FlipAnimation"][!Redraw]
+StartAnimateBackward=[!SetVariable "ColorScreen.FlipAnimationFrame" "18"][!HideMeterGroup "ColorScreenIndicators"][!UpdateMeasureGroup "ColorScreenAnimate"][!UpdateMeterGroup "ColorScreenAnimate"][!ShowMeter "ColorScreen.FlipAnimation"][!Redraw]
+AnimateBackward=[!SetVariable "ColorScreen.FlipAnimationFrame" "(#ColorScreen.FlipAnimationFrame#-1)"][!UpdateMeterGroup "ColorScreenAnimate"][!UpdateMeasureGroup "ColorScreenAnimate"][!Redraw]
+FinishAnimateBackward=[!CommandMeasure "ColorScreenScript" "switchtoswatch()"][!HideMeter "ColorScreen.FlipAnimation"][!Redraw]
+Group=ColorScreenAnimate
+DynamicVariables=1
+
+[ColorScreen.Pos]
+Measure=Plugin
+Plugin=Slider
+MouseButton=Left
+ClickAction=[!CommandMeasure "ColorScreenScript" "toprecent($mouseX$,$mouseY$)"]
+DragAction=[!CommandMeasure "ColorScreenScript" "toprecent($mouseX$,$mouseY$)"]
+ReleaseAction=[!CommandMeasure "ColorScreenScript" "unlock()"]
+RelativeToSkin=1
+Disabled=1
+
+
+[ColorScreen.FlipAnimation.Calc]
+Measure=Calc
+Formula=#ColorScreen.FlipAnimationFrame#
+Group=ColorScreenAnimate
+DynamicVariables=1
+
+;========================================================
+; Color Picker 
+;========================================================
+
+[ColorScreen.Background]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Pop_Box.png
+ScaleMargins=15,15,15,15
+X=80
+Y=80
+W=414
+H=294
+Group=ColorScreenFull|ColorScreenBase
+Hidden=1
+
+[ColorScreen.Title]
+Meter=String
+Text=Pick a Color
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+StringAlign=CenterTop
+X=207r
+Y=9r
+W=414
+H=20
+AntiAlias=1
+Group=ColorScreenFull|ColorScreenBase
+Hidden=1
+
+[ColorScreen.Title.Line]
+Meter=Image
+SolidColor=255,255,255
+H=1
+W=404
+X=-202r
+Y=2R
+Group=ColorScreenFull|ColorScreenBase
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Background]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox.png
+ScaleMargins=5,5,5,5
+X=8r
+Y=8r
+W=204
+H=204
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Color]
+Meter=Image
+SolidColor=255,0,0
+X=2r
+Y=2r
+W=200
+H=200
+LeftMouseDownAction=[!CommandMeasure "ColorScreenScript" "call('#CURRENTSECTION#')"]
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Color.Overlay]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\picker_mask.png
+X=r
+Y=r
+W=200
+H=200
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Hue.Background]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox.png
+ScaleMargins=5,5,5,5
+X=10R
+Y=-2r
+W=24
+H=204
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Hue]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\HueBar.png
+X=2r
+Y=2r
+H=200
+W=20
+LeftMouseDownAction=[!CommandMeasure "ColorScreenScript" "call('#CURRENTSECTION#')"]
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Red.Title]
+Meter=String
+Text=R
+FontFace=Open Sans
+FontColor=80,80,80
+FontSize=12
+StringAlign=CenterCenter
+SolidColor=0,0,0,1
+AntiAlias=1
+W=15
+H=30
+X=13R
+Y=13r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Red.Inputbox.bg]
+Meter=Image
+MeterStyle=Window.Element.Input.Background.Adjust.Active
+PlusCommand=[!CommandMeasure colorscreenscript """Adjust("r","up")"""]
+MinusCommand=[!CommandMeasure colorscreenscript """Adjust("r","down")"""]
+Command=[!CommandMeasure colorscreenscript """Adjust("r",$UserInput$)"""]
+DefaultValue=#ColorScreen.Current.Red#
+RunDismiss=1
+InputNumber=1
+InputLimit=3
+Y=-15r
+X=13r
+W=128
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Red.Inputbox.Text]
+Meter=String
+MeterStyle=Window.Element.Input.DefaultText
+Text=#ColorScreen.Current.Red#
+DynamicVariables=1
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Green.Title]
+Meter=String
+Text=G
+FontFace=Open Sans
+FontColor=80,80,80
+FontSize=12
+StringAlign=CenterCenter
+SolidColor=0,0,0,1
+AntiAlias=1
+W=15
+H=30
+X=-21r
+Y=53r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Green.Inputbox.bg]
+Meter=Image
+MeterStyle=Window.Element.Input.Background.Adjust.Active
+PlusCommand=[!CommandMeasure colorscreenscript """Adjust("g","up")"""]
+MinusCommand=[!CommandMeasure colorscreenscript """Adjust("g","down")"""]
+Command=[!CommandMeasure colorscreenscript """Adjust("g",$UserInput$)"""]
+DefaultValue=#ColorScreen.Current.Green#
+RunDismiss=1
+InputNumber=1
+InputLimit=3
+Y=-15r
+X=13r
+W=128
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Green.Inputbox.Text]
+Meter=String
+MeterStyle=Window.Element.Input.DefaultText
+Text=#ColorScreen.Current.Green#
+DynamicVariables=1
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Blue.Title]
+Meter=String
+Text=B
+FontFace=Open Sans
+FontColor=80,80,80
+FontSize=12
+StringAlign=CenterCenter
+SolidColor=0,0,0,1
+AntiAlias=1
+W=15
+H=30
+X=-21r
+Y=53r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Blue.Inputbox.bg]
+Meter=Image
+MeterStyle=Window.Element.Input.Background.Adjust.Active
+PlusCommand=[!CommandMeasure colorscreenscript """Adjust("b","up")"""]
+MinusCommand=[!CommandMeasure colorscreenscript """Adjust("b","down")"""]
+Command=[!CommandMeasure colorscreenscript """Adjust("b",$UserInput$)"""]
+DefaultValue=#ColorScreen.Current.Blue#
+RunDismiss=1
+InputNumber=1
+InputLimit=3
+Y=-15r
+X=13r
+W=128
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Blue.Inputbox.Text]
+Meter=String
+MeterStyle=Window.Element.Input.DefaultText
+Text=#ColorScreen.Current.Blue#
+DynamicVariables=1
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Input.Alpha.Title]
+Meter=String
+Text=A
+FontFace=Open Sans
+FontColor=80,80,80
+FontSize=12
+StringAlign=CenterCenter
+SolidColor=0,0,0,1
+AntiAlias=1
+W=15
+H=30
+X=-21r
+Y=53r
+Group=ColorScreenFull|ColorScreenChooseAlpha
+Hidden=1
+
+[ColorScreen.Input.Alpha.Inputbox.bg]
+Meter=Image
+MeterStyle=Window.Element.Input.Background.Adjust.Active
+PlusCommand=[!CommandMeasure colorscreenscript """Adjust("a","up")"""]
+MinusCommand=[!CommandMeasure colorscreenscript """Adjust("a","down")"""]
+Command=[!CommandMeasure colorscreenscript """Adjust("a",$UserInput$)"""]
+DefaultValue=#ColorScreen.Current.Alpha#
+RunDismiss=1
+InputNumber=1
+InputLimit=3
+Y=-15r
+X=13r
+W=128
+Group=ColorScreenFull|ColorScreenChooseAlpha
+Hidden=1
+
+[ColorScreen.Input.Alpha.Inputbox.Text]
+Meter=String
+MeterStyle=Window.Element.Input.DefaultText
+Text=#ColorScreen.Current.Alpha#
+Group=ColorScreenFull|ColorScreenChooseAlpha
+Hidden=1
+
+[ColorScreen.PreviewColor.Title]
+Meter=String
+Text=Preview
+FontFace=Open Sans
+FontColor=80,80,80
+FontSize=12
+StringAlign=CenterCenter
+SolidColor=0,0,0,1
+AntiAlias=1
+W=60
+H=30
+X=2r
+Y=53r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.PreviewColor.Background]
+Meter=Image
+MeterStyle=Window.Element.Input.Background
+Y=-15r
+X=38r
+H=32
+W=80
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.PreviewColor.AlphaGrid]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\AlphaBackground.png
+Tile=1
+W=76
+H=28
+X=2r
+Y=2r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.PreviewColor]
+Meter=Image
+SolidColor=255,0,0
+W=76
+H=28
+X=r
+Y=r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Swatch.Background.Chooser]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=-310r
+Y=10R
+LeftMouseUpAction=[!CommandMeasure "ColorScreen.Timer" "Execute 2"]
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Swatch.Text.Chooser]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=Swatches
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Cancel.Background.Chooser]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=70r
+Y=-5r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "cancel()"]
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Cancel.Text.Chooser]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=Cancel
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Ok.Background.Chooser]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=70r
+Y=-5r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "finish()"]
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+[ColorScreen.Controls.Ok.Text.Chooser]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=OK
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenChoose
+Hidden=1
+
+;========================================================
+; Swatches Section
+;========================================================
+
+[ColorScreen.Swatch.Red]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Red.png
+X=-106r
+Y=-179r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.SelectStyle]
+SolidColor=0,0,0,1
+X=0r
+Y=0R
+W=46
+H=46
+Group=ColorScreenFull|ColorScreenSwatches|ColorScreenSwatchesSelectors
+Hidden=1
+
+[ColorScreen.Swatch.1]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(230,119,119)"]
+
+[ColorScreen.Swatch.2]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,66,66)"]
+
+[ColorScreen.Swatch.3]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,20,20)"]
+
+[ColorScreen.Swatch.4]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(191,0,0)"]
+
+
+[ColorScreen.Swatch.Orange]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Orange.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.5]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(230,156,119)"]
+
+[ColorScreen.Swatch.6]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,129,66)"]
+
+[ColorScreen.Swatch.7]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,98,20)"]
+
+[ColorScreen.Swatch.8]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(191,63,0)"]
+
+[ColorScreen.Swatch.Yellow]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Yellow.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.9]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(230,204,119)"]
+
+[ColorScreen.Swatch.10]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,211,66)"]
+
+[ColorScreen.Swatch.11]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,200,20)"]
+
+[ColorScreen.Swatch.12]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(191,145,0)"]
+
+[ColorScreen.Swatch.Green]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Green.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.13]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(140,213,136)"]
+
+[ColorScreen.Swatch.14]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(102,226,95)"]
+
+[ColorScreen.Swatch.15]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(64,218,56)"]
+
+[ColorScreen.Swatch.16]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(36,161,29)"]
+
+[ColorScreen.Swatch.Blue]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Blue.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.17]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(119,169,230)"]
+
+[ColorScreen.Swatch.18]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(66,151,255)"]
+
+[ColorScreen.Swatch.19]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(20,126,255)"]
+
+[ColorScreen.Swatch.20]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(0,86,191)"]
+
+[ColorScreen.Swatch.Purple]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Purple.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.21]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(171,119,230)"]
+
+[ColorScreen.Swatch.22]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(154,66,255)"]
+
+[ColorScreen.Swatch.23]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(129,20,255)"]
+
+[ColorScreen.Swatch.24]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(89,0,191)"]
+
+[ColorScreen.Swatch.Black]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Swatch_Black.png
+X=11R
+Y=-138r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Swatch.25]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+Y=0r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(255,255,255)"]
+
+[ColorScreen.Swatch.26]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(80,80,80)"]
+
+[ColorScreen.Swatch.27]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(30,30,30)"]
+
+[ColorScreen.Swatch.28]
+Meter=Image
+MeterStyle=ColorScreen.Swatch.SelectStyle
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "drawswatches(0,0,0)"]
+
+[ColorScreen.Controls.Chooser.Background.Swatches]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=-342r
+Y=18R
+LeftMouseUpAction=[!CommandMeasure "ColorScreen.Timer" "Execute 1"]
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Controls.Chooser.Text.Swatches]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=Custom
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Controls.Cancel.Background.Swatches]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=70r
+Y=-5r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "cancel()"]
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Controls.Cancel.Text.Swatches]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=Cancel
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Controls.Ok.Background.Swatches]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+W=124
+X=70r
+Y=-5r
+LeftMouseUpAction=[!CommandMeasure "ColorScreenScript" "finish()"]
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.Controls.Ok.Text.Swatches]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=Ok
+W=124
+X=62r
+Group=ColorScreenFull|ColorScreenSwatches
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Hue.Indicator]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\HueSelector.png
+Group=ColorScreenFull|ColorScreenChoose|ColorScreenIndicators
+Hidden=1
+
+[ColorScreen.ColorPickerBox.Color.Indicator]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\PickerCircle.png
+Group=ColorScreenFull|ColorScreenChoose|ColorScreenIndicators
+Hidden=1
+
+[ColorScreen.FlipAnimation]
+Meter=Bitmap
+MeasureName=ColorScreen.FlipAnimation.Calc
+BitmapImage=#SKINSPATH#NXT-OS\@Resources\Images\ColorFlipAnimation.png
+BitmapFrames=19
+BitmapExtend=1
+LeftMouseUpAction=" "
+X=r
+Y=r
+Group=ColorScreenAnimate
+Hidden=1
+
+[ColorScreen.BoxArrow]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Pop_Box_Arrow_Left.png
+ImageRotate=0
+AntiAlias=1
+Group=ColorScreenFull|ColorScreenBase
+Hidden=1
+
+[ColorScreen.Lock]
+Meter=Image
+MeterStyle=Window.Inner.Box
+ImageName=""
+SolidColor=0,0,0,1
+LeftMouseUpAction=" "
+LeftMouseDownAction=" "
+RightMouseUpAction=" "
+RightMouseDownAction=" "
+Hidden=1

@@ -1,0 +1,175 @@
+[14:09:23.941] [Info] Root: Preparing Root...
+[14:09:23.943] [Info] Root: Done preparing Root.
+[14:09:23.943] [Info] Client Version 1.4.3 (windows x86_64) Source ID: 126e56ae96dd14978b45ca472fb862fe7d005d17 Protocol: 747
+[14:09:23.943] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[14:09:24.419] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[14:09:24.510] [Warn] Root: Unrecognized file in asset directory 'Artifact Trophies.rar', skipping
+[14:09:24.610] [Warn] Root: Unrecognized file in asset directory 'Craftable Figurines 1.00.zip', skipping
+[14:09:24.690] [Warn] Root: Unrecognized file in asset directory 'EnhancedStorage_v5.7.2.zip', skipping
+[14:09:24.823] [Warn] Root: Unrecognized file in asset directory 'StarboyHandheldGamesV1.6.1.zip', skipping
+[14:09:24.832] [Warn] Root: Unrecognized file in asset directory 'byos1.3.zip', skipping
+[14:09:24.833] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[14:09:24.833] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[14:09:24.833] [Info] Root: Detected asset source named 'Artifact Trophies' at '..\mods\Artifact Trophies'
+[14:09:24.833] [Info] Root: Detected asset source named 'Community Art Pack' at '..\mods\Community_Art_Pack.pak'
+[14:09:24.833] [Info] Root: Detected unnamed asset source at '..\mods\Craftable Figurines 1.00'
+[14:09:24.833] [Info] Root: Detected asset source named 'Enhanced Storage' at '..\mods\EnhancedStorage_v5.7.2.pak'
+[14:09:24.833] [Info] Root: Detected asset source named 'Enhanced Storage [Hoarder Addon]' at '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[14:09:24.833] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '..\mods\ExtraZoomLevels.pak'
+[14:09:24.833] [Info] Root: Detected asset source named 'FlatTeleporters' at '..\mods\FlatTeleporters.pak'
+[14:09:24.833] [Info] Root: Detected asset source named 'Starboy Handheld Games' at '..\mods\StarboyHandheldGames'
+[14:09:24.833] [Info] Root: Detected asset source named 'playerportraits' at '..\mods\artwork.pak'
+[14:09:24.833] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[14:09:24.833] [Info] Loading assets from: '..\assets\packed.pak'
+[14:09:25.307] [Info] Loading assets from: '..\mods\Artifact Trophies'
+[14:09:25.313] [Info] Loading assets from: '..\mods\Community_Art_Pack.pak'
+[14:09:25.319] [Info] Loading assets from: '..\mods\Craftable Figurines 1.00'
+[14:09:25.325] [Info] Loading assets from: '..\mods\EnhancedStorage_v5.7.2.pak'
+[14:09:25.341] [Info] Loading assets from: '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[14:09:25.351] [Info] Loading assets from: '..\mods\ExtraZoomLevels.pak'
+[14:09:25.351] [Info] Loading assets from: '..\mods\FlatTeleporters.pak'
+[14:09:25.352] [Info] Loading assets from: '..\mods\StarboyHandheldGames'
+[14:09:25.361] [Info] Loading assets from: '..\mods\artwork.pak'
+[14:09:25.361] [Info] Loading assets from: '..\assets\user'
+[14:09:28.149] [Info] Assets digest is b250e9a6bc22bc8a37b5070e407472e4ddf0d0c756f4fde4c09aaed5617e81df
+[14:09:28.149] [Info] Root: Loaded Assets in 4.2066 seconds
+[14:09:28.151] [Info] Application: Initializing SDL Video
+[14:09:28.163] [Info] Application: Initializing SDL Joystick
+[14:09:28.356] [Info] Application: Initializing SDL Sound
+[14:09:28.515] [Info] Initialized Steam platform services
+[14:09:28.520] [Info] Initialized Discord platform services
+[14:09:28.596] [Info] Application: Creating SDL Window
+[14:09:28.950] [Info] Application: Enabling VSync with late swap tearing
+[14:09:29.007] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[14:09:29.013] [Info] OpenGL version: '4.6.0 NVIDIA 399.24' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2' shader: '4.60 NVIDIA'
+[14:09:29.123] [Info] Application: initialization...
+[14:09:29.128] [Info] Root: Loaded Configuration in 0.0053367 seconds
+[14:09:29.131] [Info] Application: renderer initialization...
+[14:09:29.132] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[14:09:29.132] [Info] Root: Loaded ImageMetadataDatabase in 1.70001e-06 seconds
+[14:09:29.135] [Info] Application: main update loop...
+[14:09:29.155] [Info] Loading mods from user generated content with id '729466018' from directory 'D:\Steam\steamapps\workshop\content\211820\729466018'
+[14:09:29.155] [Info] Loading mods from user generated content with id '760448042' from directory 'D:\Steam\steamapps\workshop\content\211820\760448042'
+[14:09:29.155] [Info] Loading mods from user generated content with id '1335123569' from directory 'D:\Steam\steamapps\workshop\content\211820\1335123569'
+[14:09:29.155] [Info] Loading mods from user generated content with id '1088459034' from directory 'D:\Steam\steamapps\workshop\content\211820\1088459034'
+[14:09:29.155] [Info] Loading mods from user generated content with id '1293079171' from directory 'D:\Steam\steamapps\workshop\content\211820\1293079171'
+[14:09:29.155] [Info] Loading mods from user generated content with id '1157929915' from directory 'D:\Steam\steamapps\workshop\content\211820\1157929915'
+[14:09:29.155] [Info] Loading mods from user generated content with id '760881689' from directory 'D:\Steam\steamapps\workshop\content\211820\760881689'
+[14:09:29.155] [Info] Reloading to include all user generated content
+[14:09:29.155] [Info] Root: Reloading from disk
+[14:09:29.155] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[14:09:29.281] [Info] Root: Loaded Configuration in 0.0012195 seconds
+[14:09:29.281] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[14:09:29.646] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[14:09:29.650] [Warn] Root: Unrecognized file in asset directory 'Artifact Trophies.rar', skipping
+[14:09:29.658] [Warn] Root: Unrecognized file in asset directory 'Craftable Figurines 1.00.zip', skipping
+[14:09:29.677] [Warn] Root: Unrecognized file in asset directory 'EnhancedStorage_v5.7.2.zip', skipping
+[14:09:29.682] [Warn] Root: Unrecognized file in asset directory 'StarboyHandheldGamesV1.6.1.zip', skipping
+[14:09:29.683] [Warn] Root: Unrecognized file in asset directory 'byos1.3.zip', skipping
+[14:09:29.683] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[14:09:29.683] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\729466018'
+[14:09:29.700] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\760448042'
+[14:09:29.706] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1335123569'
+[14:09:29.710] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1088459034'
+[14:09:29.715] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1293079171'
+[14:09:29.728] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1157929915'
+[14:09:29.793] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\760881689'
+[14:09:29.793] [Info] Root: Skipping hidden '.metadata' in asset directory
+[14:09:29.793] [Info] Root: Skipping hidden '.modinfo' in asset directory
+[14:09:29.807] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Artifact Trophies' at '..\mods\Artifact Trophies'
+[14:09:29.807] [Info] Root: Detected asset source named 'Community Art Pack' at '..\mods\Community_Art_Pack.pak'
+[14:09:29.807] [Info] Root: Detected unnamed asset source at '..\mods\Craftable Figurines 1.00'
+[14:09:29.807] [Info] Root: Detected asset source named 'CustomCollectionsUI' at 'D:\Steam\steamapps\workshop\content\211820\760881689\contents.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Trading Cards' at 'D:\Steam\steamapps\workshop\content\211820\760448042\contents.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Enhanced Storage' at '..\mods\EnhancedStorage_v5.7.2.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Enhanced Storage [Hoarder Addon]' at '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '..\mods\ExtraZoomLevels.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'FlatTeleporters' at '..\mods\FlatTeleporters.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Starboy Handheld Games' at '..\mods\StarboyHandheldGames'
+[14:09:29.807] [Info] Root: Detected asset source named 'playerportraits' at '..\mods\artwork.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Item Frame v1.3' at 'D:\Steam\steamapps\workshop\content\211820\729466018\contents.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'QuickbarMini' at 'D:\Steam\steamapps\workshop\content\211820\1088459034\contents.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Aether Book Creator' at 'D:\Steam\steamapps\workshop\content\211820\1335123569\contents.pak'
+[14:09:29.807] [Info] Root: Detected asset source named 'Tacticool Gear Pack' at 'D:\Steam\steamapps\workshop\content\211820\1293079171\contents.pak'
+[14:09:29.808] [Info] Root: Detected asset source named 'PropPack' at 'D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak'
+[14:09:29.808] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[14:09:29.808] [Info] Loading assets from: '..\assets\packed.pak'
+[14:09:30.262] [Info] Loading assets from: '..\mods\Artifact Trophies'
+[14:09:30.272] [Info] Loading assets from: '..\mods\Community_Art_Pack.pak'
+[14:09:30.277] [Info] Loading assets from: '..\mods\Craftable Figurines 1.00'
+[14:09:30.287] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\760881689\contents.pak'
+[14:09:30.287] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\760448042\contents.pak'
+[14:09:30.290] [Info] Loading assets from: '..\mods\EnhancedStorage_v5.7.2.pak'
+[14:09:30.306] [Info] Loading assets from: '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[14:09:30.316] [Info] Loading assets from: '..\mods\ExtraZoomLevels.pak'
+[14:09:30.316] [Info] Loading assets from: '..\mods\FlatTeleporters.pak'
+[14:09:30.317] [Info] Loading assets from: '..\mods\StarboyHandheldGames'
+[14:09:30.326] [Info] Loading assets from: '..\mods\artwork.pak'
+[14:09:30.327] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\729466018\contents.pak'
+[14:09:30.328] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1088459034\contents.pak'
+[14:09:30.328] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1335123569\contents.pak'
+[14:09:30.329] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1293079171\contents.pak'
+[14:09:30.335] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak'
+[14:09:30.407] [Info] Loading assets from: '..\assets\user'
+[14:09:31.231] [Info] Assets digest is ff1d710b24b2615d77403a40635bd8f103880008b90628e0361e5174aa8aadfc
+[14:09:31.231] [Info] Root: Loaded Assets in 1.9499 seconds
+[14:09:31.330] [Info] Root: Loaded NameGenerator in 0.068918 seconds
+[14:09:31.458] [Info] Root: Loaded ImageMetadataDatabase in 4.80004e-06 seconds
+[14:09:32.009] [Info] Root: Loaded PlantDatabase in 0.678467 seconds
+[14:09:32.869] [Info] Root: Loaded ProjectileDatabase in 0.859815 seconds
+[14:09:33.212] [Error] Could not apply patch from file /objects/protectorate/objects/protectoratelobbybin/protectoratelobbybin.object.patch in source: D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Index 1 out of range in pathApply("/orientations/1/spaceScan")
+[14:09:33.824] [Info] Root: Loaded MonsterDatabase in 0.954697 seconds
+[14:09:33.828] [Info] Root: Loaded ObjectDatabase in 2.56635 seconds
+[14:09:34.043] [Info] Root: Loaded StagehandDatabase in 0.214813 seconds
+[14:09:34.099] [Info] Root: Loaded VehicleDatabase in 0.0556829 seconds
+[14:09:34.412] [Info] Root: Loaded PlayerFactory in 0.31307 seconds
+[14:09:34.424] [Info] Root: Loaded NpcDatabase in 0.600607 seconds
+[14:09:34.548] [Info] Root: Loaded VersioningDatabase in 0.12322 seconds
+[14:09:34.548] [Info] Root: Loaded EntityFactory in 0.135891 seconds
+[14:09:34.690] [Info] Root: Loaded ParticleDatabase in 0.107892 seconds
+[14:09:35.204] [Info] Root: Loaded MaterialDatabase in 0.656689 seconds
+[14:09:35.235] [Info] Root: Loaded TerrainDatabase in 0.0305258 seconds
+[14:09:35.344] [Info] Root: Loaded BiomeDatabase in 0.108841 seconds
+[14:09:35.359] [Info] Root: Loaded LiquidsDatabase in 0.0156113 seconds
+[14:09:35.415] [Info] Root: Loaded StatusEffectDatabase in 0.0554711 seconds
+[14:09:35.970] [Info] Root: Loaded DamageDatabase in 0.554611 seconds
+[14:09:36.047] [Info] Root: Loaded EffectSourceDatabase in 0.0767899 seconds
+[14:09:36.082] [Info] Root: Loaded FunctionDatabase in 0.0349412 seconds
+[14:09:36.204] [Info] Root: Loaded TreasureDatabase in 0.122422 seconds
+[14:09:37.500] [Info] Root: Loaded DungeonDefinitions in 1.29491 seconds
+[14:09:37.513] [Info] Root: Loaded TilesetDatabase in 0.0123303 seconds
+[14:09:37.535] [Info] Root: Loaded StatisticsDatabase in 0.022698 seconds
+[14:09:37.538] [Info] Root: Loaded EmoteProcessor in 0.0023276 seconds
+[14:09:37.591] [Info] Root: Loaded SpeciesDatabase in 0.0525469 seconds
+[14:09:37.690] [Info] Root: Loaded QuestTemplateDatabase in 0.0995811 seconds
+[14:09:37.705] [Info] Root: Loaded AiDatabase in 0.0150684 seconds
+[14:09:37.716] [Info] Root: Loaded TechDatabase in 0.010703 seconds
+[14:09:37.761] [Info] Root: Loaded CodexDatabase in 0.0446157 seconds
+[14:09:38.199] [Info] Root: Loaded BehaviorDatabase in 0.437836 seconds
+[14:09:38.230] [Info] Root: Loaded DanceDatabase in 0.0314617 seconds
+[14:09:38.236] [Info] Root: Loaded SpawnTypeDatabase in 0.006381 seconds
+[14:09:38.268] [Info] Root: Loaded RadioMessageDatabase in 0.0309924 seconds
+[14:09:42.616] [Info] Root: Loaded ItemDatabase in 8.19238 seconds
+[14:09:42.768] [Info] Root: Loaded CollectionDatabase in 4.50166 seconds
+[14:09:43.775] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[14:10:39.572] [Info] UniverseServer: Acquiring universe lock file
+[14:10:39.617] [Info] UniverseServer: Loading settings
+[14:10:39.650] [Info] UniverseServer: Starting UniverseServer with UUID: 92b9aa6762eeaad1fab3c135e38d311b
+[14:10:39.713] [Info] UniverseServer: Logged in player 'Siridium' locally
+[14:10:39.713] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Siridium' from address local
+[14:10:39.756] [Info] UniverseServer: Loading system world (20, -3, 18726376) from disk storage
+[14:10:39.770] [Info] UniverseClient: Joined server as client 1
+[14:10:39.850] [Info] UniverseServer: Reviving player at ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[14:10:39.850] [Info] UniverseServer: Client 'Siridium' <1> (local) connected
+[14:10:39.851] [Info] UniverseServer: Loading client ship world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[14:10:40.038] [Info] Protected dungeonIds for world set to (65524)
+[14:10:40.166] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[14:10:40.171] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[14:10:40.177] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[14:10:40.178] [Info] Setting steam rich presence connection as steamid_76561198236190162
+[14:10:40.212] [Error] Cannot set Steam achievement kill10poptops
+[14:10:40.255] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[14:10:40.696] [Info] UniverseServer: Warping player 1 to ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4=1034.85.1024
+[14:10:41.230] [Info] Setting discord join secret as connect:discord_303447400289140736_601294751794331668_44b68490662cecf0
+[14:11:14.068] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'

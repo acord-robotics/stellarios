@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "bomb", "count" : 1 },
+	{ "item" : "climbingrope", "count" : 1 }
+  ],
+	"output" : { "item" : "paratailaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

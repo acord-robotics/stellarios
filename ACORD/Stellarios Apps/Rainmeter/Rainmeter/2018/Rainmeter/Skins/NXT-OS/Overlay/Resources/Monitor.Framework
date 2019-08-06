@@ -1,0 +1,15 @@
+[Rainmeter]
+Update=-1
+Group=NXTOverlay
+OnRefreshAction=[!Zpos 1][!Move #X# #Y#][!Draggable 0][!ClickThrough 0]
+
+[Background]
+Meter=Shape
+Shape=Rectangle 0,0,#W#,#H# | StrokeWidth 0 | Fill Color 10,10,10,220
+X=0
+Y=0
+RightMouseDownAction=[!ZPosGroup 1 "NXTWidgets"]
+LeftMouseDownAction=[!ZPosGroup 1 "NXTWidgets"]
+LeftMouseUpAction=[!DeactivateConfigGroup NXTOverlay][!HideFadeGroup "NXTWidgets"]
+MouseActionCursor=0
+UpdateDivider=-1

@@ -1,0 +1,32 @@
+{
+  "objectName" : "apexgoldtrophysmall",
+  "colonyTags" : ["apex","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "The plaque reads /Awarded to the Protectorate that braved the Miniknog Stronghold to retrieve the Apex Artifact./.",
+  "shortdescription" : "Small Apex Gold Trophy",
+  "category" : "decorative",
+  "price" : 1750,
+  "printable" : true,
+
+  "apexDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "avianDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "floranDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "glitchDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "humanDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "hylotlDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+  "novakidDescription" : "A smaller version of a pure gold trophy of the Apex artifact.",
+
+  "inventoryIcon" : "apexgoldtrophysmall.png",
+  "orientations" : [
+    {
+      "dualImage" : "apexgoldtrophysmall.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

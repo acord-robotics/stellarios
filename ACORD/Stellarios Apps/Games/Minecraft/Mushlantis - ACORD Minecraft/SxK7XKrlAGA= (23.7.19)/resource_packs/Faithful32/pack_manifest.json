@@ -1,0 +1,22 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Classic textures in twice the resolution! Thanks to Vattic and xMrVizzy! Created by Offroaders123",
+        "name": "§aFaithful 32x",
+        "uuid": "4d24808a-23d7-40c4-9925-9c4d8941b550",
+        "version": [1, 8, 1]
+    },
+    "modules": [
+        {
+            "description": "Classic textures in twice the resolution! Thanks to Vattic and xMrVizzy! Created by Offroaders123",
+            "type": "resources",
+            "uuid": "395d5ca9-bd68-4597-8e6c-f3cd4f45091e",
+            "version": [1, 8, 1]
+        }
+    ]
+}
+
+// Created by Offroaders123 for the Faithful 32x resource pack for Minecraft Bedrock Edition.
+
+// Textures have been created by Offroaders123, Vattic, and xMrVizzy.
+// Most textures are from Vattic and xMrVizzy's Faithful 32x resource pack, so credit is due to them!

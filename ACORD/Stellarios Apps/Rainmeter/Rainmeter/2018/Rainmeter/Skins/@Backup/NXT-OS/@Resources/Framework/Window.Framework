@@ -1,0 +1,447 @@
+[Rainmeter]
+Update=1000
+AccurateText=1
+OnCloseAction=#Window.CloseCommands.BrowseExtension##Window.CloseCommands#
+OnRefreshAction=#Window.LoadCommands#[!SnapEdges 0]
+OnFocusAction=[!SetOption "Window.Base" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Box.png"][!Update]
+OnUnfocusAction=[!SetOption "Window.Base" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Box_Inactive.png"][!Update]
+DragMargins=25,25,25,-67
+MouseActionCursor=0
+LocalFont=#SKINSPATH#NXT-OS\@Resources\Fonts\OpenSans-Light.ttf
+LocalFont2=#SKINSPATH#NXT-OS\@Resources\Fonts\OpenSans-Regular.ttf
+LocalFont3=#SKINSPATH#NXT-OS\@Resources\Fonts\OpenSans-Semibold.ttf
+
+[Variables]
+Window.Title=#CURRENTFILE#
+Window.CloseCommands.BrowseExtension=
+Window.CloseCommands=
+Window.LoadCommands=
+Window.CenterOnLoad=0
+Window.HelpButton=1
+Window.InnerColor=225,225,225
+Window.InnerWidth=(#Window.Width#-60)
+Window.InnerHeight=(#Window.Height#-97)
+
+Window.FontColor=80,80,80
+Window.SelectColor=3,154,255
+
+
+
+;========================================================
+;                    Help Measures
+;========================================================
+ 
+[Window.Measure.CenterOnload]
+Measure=Calc
+Formula=1
+IfAboveValue=0
+IfAboveAction=[!Move ((#WORKAREAWIDTH#-#Window.Width#)/2) ((#WORKAREAHEIGHT#-#Window.Height#)/2)]
+Disabled=(1-#Window.CenterOnLoad#)
+UpdateDivider=-1
+
+;========================================================
+;                     Window Base
+;========================================================
+
+[Window.Base]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Box.png
+ScaleMargins=30,30,30,30
+W=#Window.Width#
+H=#Window.Height#
+
+[Window.Title]
+Meter=String
+Text=#Window.Title#
+FontFace=Open Sans Light
+FontSize=14
+FontColor=80,80,80
+StringEffect=Shadow
+FontEffectColor=240,240,240
+AntiAlias=1
+X=37
+Y=33
+
+[Window.Title.Button.HelpButton]
+Meter=Button
+ButtonImage=#SKINSPATH#NXT-OS\@Resources\Images\Help.png
+X=(#Window.Width#-94)
+Y=30
+ButtonCommand=#Window.HelpAction#
+Hidden=#Window.HelpButton#
+
+[Window.Title.Button.Close]
+Meter=Button
+ButtonImage=#SKINSPATH#NXT-OS\@Resources\Images\Close.png
+X=(#Window.Width#-62)
+Y=30
+ButtonCommand=[!DeactivateConfig]
+
+[Window.Inner.Box]
+Meter=Image
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InnerOutline.png
+ScaleMargins=3,3,3,3
+X=30
+Y=67
+W=(#Window.Width#-60)
+H=(#Window.Height#-97)
+SolidColor=#Window.InnerColor#
+MouseActionCursor=0
+
+;========================================================
+;                   Elements Section
+;========================================================
+
+[Window.Element.Section.Line]
+SolidColor=170,170,170
+H=1
+X=38
+W=(#Window.Width#-76)
+
+[Window.Element.Section.Text]
+SolidColor=#Window.InnerColor#
+FontFace=Open Sans
+FontSize=10
+FontColor=170,170,170
+AntiAlias=1
+Padding=0,0,5,0
+H=15
+X=-1r
+Y=-9r
+
+[Window.Element.Separator]
+SolidColor=200,200,200
+H=1
+X=38
+Y=8R
+W=(#Window.Width#-76)
+
+[Window.TextStyle]
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.BodyTextStyle]
+FontFace=Open Sans
+FontSize=12
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.TextStyleLight]
+FontFace=Open Sans Light
+FontSize=10
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.BodyTextStyleLight]
+FontFace=Open Sans Light
+FontSize=12
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.TextLink]
+FontFace=Open Sans
+FontSize=12
+FontColor=57,164,255
+AntiAlias=1
+SolidColor=0,0,0,1
+MouseActionCursor=1
+
+[Window.Element.InfoIcon]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Information.png
+ImageTint=57,164,255
+AntiAlias=1
+PreserveAspectRatio=1
+
+[Window.Element.NxtosCircleLogo]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\CircleLogo.png
+ImageTint=80,80,80
+AntiAlias=1
+PreserveAspectRatio=1
+
+[Window.Element.RainmeterLogo]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\RainmeterIcon.png
+ImageTint=80,80,80
+AntiAlias=1
+PreserveAspectRatio=1
+
+[Window.Element.Input.Title]
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.Element.Input.Background]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox.png
+ScaleMargins=5,5,5,5
+H=30
+X=-2r
+Y=1R
+
+[Window.Element.Input.Background.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox.png
+ScaleMargins=5,5,5,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","normal","true")"""]
+
+[Window.Element.Input.Background.Browse]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Browse.png
+ScaleMargins=5,5,76,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","browse","false","$MouseX$","$MouseY$")"""]
+
+
+[Window.Element.Input.Background.Browse.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Browse.png
+ScaleMargins=5,5,76,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","browse","true","$MouseX$","$MouseY$")"""]
+
+[Window.Element.Input.Background.Adjust]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Adjust.png
+ScaleMargins=5,5,76,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","adjust","false","$MouseX$","$MouseY$")"""]
+MouseScrollUpAction=[!CommandMeasure "Window.Input.Script" adjust('#CURRENTSECTION#','up')]
+MouseScrollDownAction=[!CommandMeasure "Window.Input.Script" adjust('#CURRENTSECTION#','down')]
+
+
+[Window.Element.Input.Background.Adjust.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Adjust.png
+ScaleMargins=5,5,76,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","adjust","true","$MouseX$","$MouseY$")"""]
+MouseScrollUpAction=[!CommandMeasure "Window.Input.Script" adjust('#CURRENTSECTION#','up')]
+MouseScrollDownAction=[!CommandMeasure "Window.Input.Script" adjust('#CURRENTSECTION#','down')]
+
+[Window.Element.Input.Background.Dropdown]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Dropdown.png
+ScaleMargins=5,5,32,5
+H=30
+X=-2r
+Y=1R
+
+[Window.Element.Input.Background.Dropdown.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Dropdown.png
+ScaleMargins=5,5,32,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.DropDown.Script" """call("#CURRENTSECTION#")"""]
+
+
+[Window.Element.Input.Background.Password]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Password.png
+ScaleMargins=5,5,30,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","password","false","$MouseX$","$MouseY$")"""]
+
+[Window.Element.Input.Background.Password.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\InputBox_Password.png
+ScaleMargins=5,5,30,5
+H=30
+X=-2r
+Y=1R
+LeftMouseUpAction=[!CommandMeasure "Window.Input.Script" """processinput("#CURRENTSECTION#","password","true","$MouseX$","$MouseY$")"""]
+
+
+[Window.Element.Dropdown.Background]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\DropDownBackground.png
+ScaleMargins=5,2,5,5
+X=-8r
+Y=24r
+
+[Window.Element.Dropdown.Item]
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+AntiAlias=1
+X=r
+Y=R
+H=32
+Padding=10,0,0,0
+SolidColor=255,255,255
+StringAlign=LeftCenter
+DynamicVariables=1
+ClipString=1
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "FontColor" "255,255,255"][!SetOption "#CURRENTSECTION#" "SolidColor" "#Window.SelectColor#"][!UpdateMeter "#CURRENTSECTION#"][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "FontColor" "#Window.FontColor#"][!SetOption "#CURRENTSECTION#" "SolidColor" ""][!UpdateMeter "#CURRENTSECTION#"][!Redraw]
+
+[Window.Element.Dropdown.Separator]
+X=r
+Y=-16R
+H=17
+Padding=10,0,0,0
+SolidColor=191,191,191
+DynamicVariables=1
+
+[Window.Element.Input.DefaultText]
+FontFace=Open Sans
+FontSize=10
+FontColor=120,120,120
+AntiAlias=1
+X=8r
+Y=5r
+H=22
+ClipString=2
+DynamicVariables=1
+
+[Window.Element.Button]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=36
+
+[Window.Element.Button.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=36
+
+[Window.Element.Button.Text]
+FontFace=Open Sans
+AntiAlias=1
+FontSize=12
+StringAlign=Center
+FontColor=80,80,80
+ClipString=2
+W=140
+X=70r
+Y=7r
+
+[Window.Element.Button.Small]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=30
+
+[Window.Element.Button.Small.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=30
+
+[Window.Element.Button.Small.Text]
+FontFace=Open Sans
+AntiAlias=1
+FontSize=10
+StringAlign=Center
+FontColor=80,80,80
+ClipString=2
+W=140
+X=70r
+Y=5r
+
+[Window.Element.Switch.Label]
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+AntiAlias=1
+
+[Window.Element.Switch]
+DynamicVariables=1
+Y=-5r
+
+[Window.Element.Progressbar.Background]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\ProgressBar.png
+ScaleMargins=4,4,4,4
+ImageTint=180,180,180
+H=8
+
+[Window.Element.Progressbar]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\ProgressBar.png
+ScaleMargins=4,4,4,4
+ImageTint=80,80,80
+H=8
+X=r
+Y=r
+
+[Window.Element.Slider.Background]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\ProgressBar.png
+ScaleMargins=4,4,4,4
+Padding=4,4,4,4
+ImageTint=180,180,180
+H=8
+DynamicVariables=1
+LeftMouseDownAction=[!CommandMeasure "SliderController" "call('#CURRENTSECTION#')"]
+
+[Window.Element.Slider]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\ProgressBar.png
+ScaleMargins=4,4,4,4
+ImageTint=80,80,80
+DynamicVariables=1
+H=8
+X=4r
+Y=4r
+
+[Window.Element.Slider.Knob]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Knob.png
+X=-8R
+Y=-4r
+
+[Window.Element.Tab.Background]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Tabbackground.png
+ScaleMargins=6,6,6,6
+ImageTint=80,80,80
+H=24
+W=304
+
+[Window.Element.Tab.InActive]
+FontFace=Open Sans
+FontSize=10
+FontColor=80,80,80
+StringAlign=CenterCenter
+AntiAlias=1
+SolidColor=128,128,128,1
+ClipString=1
+W=100
+H=22
+X=51r
+Y=12r
+
+[Window.Element.Tab.Active]
+FontFace=Open Sans
+FontSize=10
+FontColor=255,255,255
+StringAlign=CenterCenter
+AntiAlias=1
+SolidColor=80,80,80
+ClipString=1
+W=100
+H=22
+X=51r
+Y=12r
+
+[Window.Element.Tab.Separator]
+X=50r
+Y=-12r
+W=1
+H=24
+SolidColor=80,80,80
+
+[Window.Fullsize]
+X=30
+Y=67
+W=(#Window.Width#-60)
+H=(#Window.Height#-97)

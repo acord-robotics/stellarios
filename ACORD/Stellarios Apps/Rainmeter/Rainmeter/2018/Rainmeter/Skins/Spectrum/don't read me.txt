@@ -1,0 +1,17 @@
+SPECTRUM v1.0 for Rainmeter 4.0+
+Released under Creative Commons 3.0 BY-NC-SA
+
+by BirdAlliance/TheProtagonists
+http://birdalliance.deviantart.com
+
+Notes:
+
+Scroll up or down on the volume icon to adjust volume, click the icon to mute\unmute.
+Left click the recycle icon to open recycle bin, right click to empty it.
+
+Credits:
+
+Some icons used are from Material Design Icons by Austin Andrews - https://materialdesignicons.com/
+The calendar is modified from Lua Calendar 5.0 by smurfier - http://smurfier.deviantart.com/art/LuaCalendar-5-0-280738925
+Weather part of sidebar skin is modified from VClouds Weather by VClouds - http://vclouds.deviantart.com/art/VClouds-Weather-161949569
+Center launcher is inspired by Circular Icon Launcher by sjoti - http://sjoti.deviantart.com/art/Animated-Circular-Icon-Launcher-1-2-591034487

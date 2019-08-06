@@ -1,0 +1,52 @@
+﻿start.developer_naturalpack=© MINEPAPER | DEVELOPERS
+information.title=Information
+marketplace.title=Other packages
+credits.title=Developers
+credits.content.devTitle=§b Developers:
+credits.content.devText=§b Artist: §eRodriges_116; §b New screens: §eRodriges_116; §b Interpreter: §eRodriges_116; §b Designer: §eRodriges_116; §b Animator: §eRodriges_116; §b 3D-Model: §eRodriges_116
+credits.content.betaTitle=§b Command prior testing:
+credits.content.betaText=§b Closed "BETA" testing: §eRodriges_116, §eLimer9999 (Hotic), §eDarkMouse; §b Closed "DEV" testing: §eRodriges_116, §eLimer9999 (Hotic)
+store.content.product_name.title=ProductTitle
+store.content.product_name.text=ProductText
+store.content.product_name.link=ProductLink
+store.soon=-
+store.content.inventory+.title=Textures: Inventory+
+store.content.inventory+.text=§e The package textures, will help you diversify your game inventory, making him more detailed.
+store.content.inventory+.link=Acquire: []
+store.content.villager+.title=Textures: Villager+
+store.content.villager+.text=§e The package textures, change standard Residents Minecraft, before unrecognizable!
+store.content.villager+.link=Acquire: []
+store.content.turtleDefault.title=Textures: Turtle Default
+store.content.turtleDefault.text=§e The package textures, substitutes model standard Turtles, on her the original version of.
+store.content.turtleDefault.link=Acquire: []
+store.content.snowMod.title=Textures: SnowMod
+store.content.snowMod.text=§e Wanted New Year moods? Snow at his peace Minecraft? But you play not at winter biome? Then the package textures for you!
+store.content.snowMod.link=Acquire: []
+/// Introduction
+information.content.title=What new at 25031904?
+information.version.comment=§b The note:
+information.content.comment=This update fixes a mistake of-behind which NaturalPack incompatible from new version Minecraft: Bedrock 1.10. So the same it before wears you some new blocks of 1.10, such as: Bonfire, Chair, and Rockshaper!
+information.alpha.test.link=§b Enroll on "Alpha-testing": §e [Not Available]
+/// Blocks
+information.content.block.title=§b Blocks:
+information.content.block.text=§b List change: §e Repainted:§f "Sand", "Red sand";§e Added:§f "Chair", "Bonfire", "Rockshaper", "Sharpener", "Beet".
+/// Objects
+information.content.items.title=§b Objects:
+information.content.items.text=§b List change: §eDobavlen:§f "Shield", "Beet".
+/// Creatures
+information.content.entity.title=§b Creatures (Moby):
+information.content.entity.text=§b List change: -
+/// Interface
+information.content.interface.title=§b Interface:
+information.content.interface.text=§b List change: -
+/// D.Changes
+information.content.more.title=§b Other changes:
+information.content.more.text=§b List change: -
+/// D.Zametkm
+information.content.other.title=§b Other notes:
+information.content.other.text=§e1. §f Harvested custom sky for increase productivity.
+information.content.version=§b Version from: 05.04.2019
+information.content.version_nume=§b Number: 05041904
+/// 25031903= 25-Day; 03-Month; 1904-Version= 19-Year; 04-Official number versions
+///Minecraft
+///Templates

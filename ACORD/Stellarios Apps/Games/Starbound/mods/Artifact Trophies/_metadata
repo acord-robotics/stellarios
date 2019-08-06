@@ -1,0 +1,10 @@
+{
+  "author" : "Max",
+  "description" : "Adds the main storyline quest artifacts as a placeable decoration. /n/nThey can all be bought for 1000 pixels each at the Illegal Goods store after you finish their associated quest. /n/nItem IDs: [spoiler]apextrophy[/spoiler]/n[spoiler]aviantrophy[/spoiler]/n[spoiler]florantrophy[/spoiler]/n[spoiler]glitchtrophy[/spoiler]/n[spoiler]humantrophy[/spoiler]/n[spoiler]hylotltrophy[/spoiler]]/n[spoiler]erchiuscrystaltrophy[/spoiler]/n/n/n[spoiler]I'm kinda surprised no one's made this mod yet lol[/spoiler]",
+  "friendlyName" : "Artifact Trophies",
+  "link" : "steam://url/CommunityFilePage/1486454176",
+  "name" : "Artifact Trophies",
+  "steamContentId" : "1486454176",
+  "tags" : "Furniture and Objects",
+  "version" : "1.1"
+}

@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Halo Energy Sword by NB6.ani
+
+[UpArrow]
+Path=Halo Energy Sword(alternate) by NB6.ani
+
+[Wait]
+Path=Halo Energy Sword(busy) by NB6.ani
+
+[AppStarting]
+Path=Halo Energy Sword(busyinbackground) by NB6.ani
+
+[Help]
+Path=Halo Energy Sword(helpselect) by NB6.ani
+
+[SizeWE]
+Path=Halo Energy Sword(horizontal) by NB6.ani
+
+[Hand]
+Path=Halo Energy Sword(linkselect) by NB6.ani
+
+[NWPen]
+Path=Halo Energy Sword(penleft) by NB6.ani
+
+[Crosshair]
+Path=Halo Energy Sword(precisionselect) by NB6.ani
+
+[SizeNWSE]
+Path=Halo Energy Sword(resize1) by NB6.ani
+
+[SizeNESW]
+Path=Halo Energy Sword(resize2) by NB6.ani
+
+[IBeam]
+Path=Halo Energy Sword(text) by NB6.ani
+
+[No]
+Path=Halo Energy Sword(unavailable) by NB6.ani
+
+[SizeNS]
+Path=Halo Energy Sword(vertical) by NB6.ani
+
+[SizeAll]
+Path=Halo Energy Sword(move1) by NB6.ani
+

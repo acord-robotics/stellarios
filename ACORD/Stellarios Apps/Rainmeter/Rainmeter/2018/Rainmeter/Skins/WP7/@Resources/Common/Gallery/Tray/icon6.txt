@@ -1,0 +1,4 @@
+[TrayMeasure] 
+Measure=CALC 
+TrayMeter=BITMAP 
+TrayBitmap="#@#Graphics\Gallery\Tray\icons\raindark.ico"

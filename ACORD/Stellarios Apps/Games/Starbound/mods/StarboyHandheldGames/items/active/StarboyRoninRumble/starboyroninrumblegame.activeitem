@@ -1,0 +1,21 @@
+{
+  "itemName" : "starboyroninrumblegame",
+  "level" : 1,
+  "price" : 1500,
+  "rarity" : "Legendary",
+  "description" : "A handheld game from earth. How to Play: Type the words as they appear!",
+  "shortdescription" : "Starboy Ronin Rumble",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "starboyroninrumblegame.png",
+  "animation" : "starboyroninrumblegame.animation",
+  "animationParts" : {
+    "transponder" : "starboyroninrumblegame.png"
+  },
+  "scripts" : ["/scripts/starboygame.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboyroninrumblegame/starboyroninrumblegame.config"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "op" : "add",
+    "path" : "/speciesShips/novakid/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/floran/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/avian/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/glitch/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/apex/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/human/-",
+    "value" : "/ships/byos/byos.structure"
+  },
+  {
+    "op" : "add",
+    "path" : "/speciesShips/hylotl/-",
+    "value" : "/ships/byos/byos.structure"
+  }
+]

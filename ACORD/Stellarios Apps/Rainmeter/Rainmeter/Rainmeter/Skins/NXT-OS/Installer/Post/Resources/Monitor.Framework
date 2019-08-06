@@ -1,0 +1,17 @@
+[Rainmeter]
+Update=-1
+Group=NXTPostInstaller
+OnRefreshAction=[!Zpos 2][!Move #X# #Y#][!Draggable 0][!ClickThrough 0]
+RightMouseDownAction=[!SkinCustomMenu]
+RightMouseUpAction=[!SkinCustomMenu]
+RightMouseDoubleClickAction=[!SkinCustomMenu]
+ContextTitle="---"
+ContextAction=
+
+[Background]
+Meter=Shape
+Shape=Rectangle 0,0,#W#,#H# | StrokeWidth 0 | Fill Color 20,20,25,255
+X=0
+Y=0
+MouseActionCursor=0
+UpdateDivider=-1

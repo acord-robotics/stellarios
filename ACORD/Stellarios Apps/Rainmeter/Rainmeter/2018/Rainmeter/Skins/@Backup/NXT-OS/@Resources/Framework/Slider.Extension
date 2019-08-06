@@ -1,0 +1,25 @@
+[Slider.Pos]
+Measure=Plugin
+Plugin=Slider
+MouseButton=Left
+ClickAction=[!CommandMeasure "SliderController" "adjust($mouseX$, $mouseY$)"]
+DragAction=[!CommandMeasure "SliderController" "adjust($mouseX$, $mouseY$)"]
+ReleaseAction=[!CommandMeasure "SliderController" "unlock()"]
+RelativeToSkin=1
+DynamicVariables=1
+Disabled=1
+
+[SliderController]
+Measure=Script
+ScriptFile=#SKINSPATH#NXT-OS\@Resources\Scripts\Slider.Lua
+
+[Slider.Lock]
+Meter=Image
+MeterStyle=Window.Inner.Box
+ImageName=""
+SolidColor=0,0,0,1
+LeftMouseUpAction=" "
+LeftMouseDownAction=" "
+RightMouseUpAction=" "
+RightMouseDownAction=" "
+Hidden=1

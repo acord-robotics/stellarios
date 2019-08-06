@@ -1,0 +1,643 @@
+<html>
+
+<head>
+<title>IP Address Locator - Enter an IP address to find its location - Lookup Country Region City etc</title>
+ <script src="http://maps.google.com/maps?file=api&amp;v=2&key=ABQIAAAAg8xOyLSHDPUoatRtMwcxshT3eyCfg3vQ7ofS_StPyzQeTJAw5hQwuxzEQ90EA0ZfmmRnaPvYKPUPNg" type="text/javascript"></script>
+ <script type="text/javascript">
+ //<![CDATA[
+
+	function load()
+	{
+		if (GBrowserIsCompatible())
+		{
+			var map = new GMap2(document.getElementById("map"));
+			map.addControl(new GLargeMapControl());
+			map.addControl(new GMapTypeControl());
+			map.addControl(new GScaleControl());
+			map.enableContinuousZoom();
+		
+				map.setCenter(new GLatLng(39.0137, -77.3069), 11);
+			
+		}
+	}
+
+	function GUnload()
+	{
+		if (window.GUnloadApi) 
+		{
+			GUnloadApi();
+		}
+	}
+
+//]]>
+</script>
+ 
+<link rel="stylesheet" type="text/css" href="geobytes.css">
+<meta name="keywords" content="IP address, location, IP address location, IP loc, Latitude, Longitude, lookup, database, geographic, map, data, Log Files, Log File analysis, IP, database, city, country, geobytes, geophrase, visitors, Networldmap, Geoup, Geo-Up, GLRS, Localization, geolocation, geo-location, geo, Fraud, Traffic, Traffic analysis, GeoSelect, GeoServer, Geo, IP">
+<meta name="session" content="&cid=0&c=0">
+
+<script language="JavaScript"><!--
+function GetCiaUrl()
+{
+	var sCiaUrl="http://www.cia.gov/cia/publications/factbook/geos/US.html";
+	sCiaUrl=sCiaUrl.toLowerCase();
+	document.location.href=sCiaUrl;
+}
+//-->
+
+</script>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/pr-crp04/pr-c1111-28591.css"><meta name="Microsoft Theme" content="pr-crp04 1111, default">
+<meta name="Microsoft Border" content="tlb, default">
+</head>
+
+<body onload="load()" onunload="GUnload()"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<div align="left">
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+ <td width="50%"><a href="Default.htm">
+ <img border="0" src="images/Geobytes-red_small.gif" width="198" height="43"></a>&nbsp;</td>
+ <td align="right" valign="top"><font size="1">&nbsp;<nobr>[&nbsp;<a href="Default.htm" target="">Home</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="Contact_Us.htm" target="">Contact&nbsp;Us</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="Support.htm" target="">Support</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="http://forums.geobytes.com/" target="">Forums</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="Pricing.htm" target="">Pricing</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="https://secure.geobytes.com/buy.htm" target="">Buy&nbsp;Now!</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="FreeServices.htm" target="">Free&nbsp;Services</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="http://www.cafeshops.com/geobytes" target="">Merchandise</a>&nbsp;]</nobr> <nobr>[&nbsp;IP&nbsp;Address&nbsp;Locator&nbsp;]</nobr> <nobr>[&nbsp;<a href="TraceRouteLocator.htm" target="">Trace&nbsp;Route&nbsp;Locator</a>&nbsp;]</nobr> <nobr>[&nbsp;<a href="SpamLocator.htm" target="">Spam&nbsp;Locator</a>&nbsp;]</nobr>
+
+ </font>&nbsp;<p>&nbsp;</td>
+ </tr>
+ </table>
+</div>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+<p><br>
+<br>
+</p>
+<p>
+
+&nbsp; </p>
+<p align="center"><font color="#FFFFFF"><b>Looking for FREE<br>
+
+geographic page<br>
+re-directs -&nbsp;<br>
+<a href="GeoDirection.htm">click here</a></b></font> </p>
+<p>&nbsp; </p>
+<p align="center"><a href="demo.htm">
+<img border="0" src="images/MissLondon.gif" width="106" height="111"><br>
+</a><font color="#FFFFFF"><b>See me in <br>
+the demo<br>
+(<a href="demo.htm">Click Here</a>)</b></font> </p>
+
+<p align="center">&nbsp; </p>
+<p align="center"><a href="https://secure.geobytes.com/buy.htm">
+<img border="0" src="images/CastTony.gif" width="136" height="139"></a><br>
+<b><font color="#FFFFFF">Get yourself<br>
+a $49<br>
+developers<br>
+license</font></b><font color="#FFFFFF"><b><br>
+(<a href="https://secure.geobytes.com/buy.htm">Click Here</a>)</b></font> </p>
+
+<p></p>
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<h4>IP Address Locator Tool</h4>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="750">
+ <tr>
+ <td width="100%">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+ <td>
+
+ <p><font size="2"><b>This IP Address Map lookup service is provided for FREE by <a href="http://www.geobytes.com">Geobytes,
+ inc</a>&nbsp;to assist you in locating the geographical location of an IP
+ Address. <a href="FreeServices.htm">Click here</a> to&nbsp; checkout our other
+ FREE localization services.</b></font></p>
+
+
+<table border="0" width="100%">
+ <tr>
+ <td><a href="/CaseKeyFlash/index.html">
+
+ <img border="0" src="images/davesm.gif" alt="Dave" title="Click Here" width="155" height="183"></a><br>
+	Still checking your junk folder for missing messages? Send your provider to 
+	our <a href="/CaseKeyFlash/index.html">CaseKeys</a> page.</td>
+ <td width="314" align="center">
+
+
+<font face="Bauhaus 93" size="7"><b>Beta <br>
+testers wanted!</b></font><font color="#464646"> <br>
+
+ <a href="http://forums.geobytes.com/viewtopic.php?p=5764">
+http://forums.geobytes.com/viewtopic.php?p=5764</a><font color="#464646">&nbsp;</font>
+ </td>
+ </tr>
+</table>
+<p><b><font size="1">The following results were generated using <a href="http://www.geobytes.com/GeoSelect.htm">GeoSelect</a>
+version II.</font></b></p>
+ </td>
+ <td width="10"></td>
+
+ <td width="237" rowspan="2">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0791294149386180";
+/* IP Locator 300x250, Top Right */
+google_ad_slot = "1388284330";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+ <h3>Tried Local Search yet?</h3>Hint: Try searching this <b>'Great Falls'</b> search engine for your name, your friend's name,
+ or on keywords like TV, Radio, News, Weather, Movies, Coupons, Fuel. 
+<!-- Google CSE Search Box Begins  -->
+<form id="cref" action="http://www.google.com/cse">
+ <input type="hidden" name="cref" value="http://cse.geobytes.com/cse.cse?GetCseContext&pt_LocationCode=USVAGFAL" />
+
+ <input type="hidden" name="client" value="pub-0791294149386180" /> 
+ <input type="hidden" name="cof" value="FORID:1" />
+ <input type="text" name="q" size="40" />
+ <input type="submit" name="sa" value="Search" />
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cref"></script>
+<!-- Google CSE Search Box Ends -->
+It is like having having all of your local services bookmarked, but easier to access.
+
+ </td>
+ </tr>
+ <tr>
+
+ <td>
+<div align="left">
+<form method="POST" action="IpLocator.htm?GetLocation">
+ <input type="hidden" name="cid" value="0">
+ <input type="hidden" name="c" value="0">
+ <input type="hidden" name="Template" value="iplocator.htm">
+ <h3>IP Address to locate:<input type="text" name="ipaddress" size="15" value="72.205.26.142">&nbsp;<input type="submit" value="Submit">
+ </h3>
+
+
+ </form>
+</div>
+
+ </td>
+ <td width="10"></td>
+ </tr>
+</table>
+
+
+
+
+
+<p>
+
+<form method="POST" action="http://localhost/IpLocator.htm?GetLocation">
+ <!-- If you would like direct access to our map database, then please visit www.geobytes.com 
+  ---- We have developer license from $49 which works out a lot cheaper then trying to rip
+  ---- all of our data through this page :) -->
+ <table>
+ <tr>
+ <td align="right">Country Code</td>
+ <td align="right"><input name="ro-no_bots_pls12" value="US" size="20" readonly></td>
+ <td align="right">Country</td>
+ <td align="right"><input name="ro-no_bots_pls13" value="United States" size="20" readonly></td>
+
+ <td align="left">
+ <table border="0" cellpadding="0" cellspacing="0">
+ <tr>
+ <td valign="bottom">
+ <p><b><font color="#800000" face="Arial" size="3">Distance to Nearby Cities</font></b></p>
+ </td>
+ </tr>
+ </table>
+
+ </td>
+ </tr>
+ <tr>
+ <td align="right">Region Code</td>
+ <td align="right"><input name="ro-no_bots_pls14" value="USVA" size="20" readonly></td>
+ <td align="right">Region</td>
+ <td align="right"> <input name="ro-no_bots_pls15" value="Virginia" size="20" readonly></td>
+
+ <td align="right" valign="top">
+ <p align="left">
+ <font color="#000000">km, mi, City, Region, Country</font></td>
+ </tr>
+ <tr>
+ <td align="right">City Code</td>
+ <td align="right"><input name="ro-no_bots_pls16" value="USVAGFAL" size="20" readonly></td>
+ <td align="right">City</td>
+
+ <td align="right"><input name="ro-no_bots_pls17" value="Great Falls" size="20" readonly></td>
+ <td align="right" rowspan="8" valign="top">
+ <p align="left"><font color="#000000"> 
+<textarea  rows="16" name="ro" cols="41" readonly >
+0  0  Great Falls, VA, US
+6  3  Greenway, VA, US
+7  4  Reston, VA, US
+9  5  Potomac, MD, US
+11 6  Sterling, VA, US
+11 6  Herndon, VA, US
+12 7  Vienna, VA, US
+13 8  Mc Lean, VA, US
+14 8  Oakton, VA, US
+14 8  Cabin John, MD, US
+15 9  Poolesville, MD, US
+15 9  West McLean, VA, US
+16 10 Glen Echo, MD, US
+16 10 Dunn Loring, VA, US
+17 10 Merrifield, VA, US
+17 10 Rockville, MD, US
+17 10 Ashburn, VA, US
+18 11 Bethesda, MD, US
+18 11 Germantown, MD, US
+18 11 Washington Grove, MD, US
+19 11 Gaithersburg, MD, US
+19 11 Chantilly, VA, US
+19 11 Garrett Park, MD, US
+20 12 Chevy Chase, MD, US
+20 12 Falls Church, VA, US
+20 12 Beallsville, MD, US
+20 12 Boyds, MD, US
+21 13 Arcola, VA, US
+21 13 Montgomery Village, MD, US
+21 13 Derwood, MD, US
+21 13 Kensington, MD, US
+22 13 Annandale, VA, US
+23 14 Arlington, VA, US
+24 15 Centreville, VA, US
+24 15 Barnesville, MD, US
+25 15 Burke, VA, US
+25 15 Silver Spring, MD, US
+25 15 Ft Myer, VA, US
+25 15 Dickerson, MD, US
+26 16 Aldie, VA, US
+26 16 Leesburg, VA, US
+26 16 Takoma Park, MD, US
+26 16 Olney, MD, US
+27 16 Clifton, VA, US
+27 16 Washington, DC, US
+28 17 Springfield, VA, US
+28 17 Clarksburg, MD, US
+28 17 White Oak, MD, US
+29 18 Fairfax, VA, US
+29 18 Catharpin, VA, US
+29 18 Sandy Spring, MD, US
+30 18 Fairfax Station, VA, US
+31 19 Mount Rainier, MD, US
+31 19 Brookeville, MD, US
+31 19 Alexandria, VA, US
+32 20 Brinklow, MD, US
+32 20 Ashton, MD, US
+32 20 Damascus, MD, US
+32 20 Paeonian Springs, VA, US
+32 20 Spencerville, MD, US
+33 20 Tuscarora, MD, US
+33 20 Newington, VA, US
+33 20 Hyattsville, MD, US
+33 20 Manassas, VA, US
+33 20 Brentwood, MD, US
+33 20 College Park, MD, US
+34 21 Bladensburg, MD, US
+34 21 Adamstown, MD, US
+34 21 Hamilton, VA, US
+34 21 Haymarket, VA, US
+35 21 Highland, MD, US
+35 21 Burtonsville, MD, US
+35 21 Gainesville, VA, US
+35 21 Beltsville, MD, US
+35 21 Riverdale, MD, US
+36 22 Waterford, VA, US
+36 22 Glenelg, MD, US
+36 22 Middleburg, VA, US
+36 22 Point of Rocks, MD, US
+36 22 Ijamsville, MD, US
+36 22 Lincoln, VA, US
+36 22 Oxon Hill, MD, US
+37 23 Fulton, MD, US
+37 23 Dayton, MD, US
+37 23 Lorton, VA, US
+38 23 Occoquan, VA, US
+38 23 Bristow, VA, US
+38 23 Clarksville, MD, US
+38 23 Capitol Heights, MD, US
+38 23 Buckeystown, MD, US
+38 23 Greenbelt, MD, US
+38 23 Philomont, VA, US
+39 24 Suitland, MD, US
+39 24 Glenwood, MD, US
+39 24 Monrovia, MD, US
+39 24 Broad Run, VA, US
+39 24 Purcellville, VA, US
+39 24 Fort Belvoir, VA, US
+40 25 Fort Washington, MD, US
+40 25 Temple Hills, MD, US
+40 25 Mount Vernon, VA, US
+40 25 Woodbridge, VA, US
+40 25 Lanham, MD, US
+41 25 Lovettsville, VA, US
+41 25 South Laurel, MD, US
+41 25 District Heights, MD, US
+42 26 North Laurel, MD, US
+42 26 Lisbon, MD, US
+42 26 The Plains, VA, US
+42 26 Simpsonville, MD, US
+42 26 Woodbine, MD, US
+43 26 Round Hill, VA, US
+43 26 Glenn Dale, MD, US
+43 26 Nokesville, VA, US
+43 26 Brunswick, MD, US
+44 27 Cooksville, MD, US
+44 27 New Market, MD, US
+44 27 Andrews Air Force Base, MD, US
+44 27 West Friendship, MD, US
+45 28 Columbia, MD, US
+45 28 Laurel, MD, US
+45 28 Jefferson, MD, US
+45 28 Savage, MD, US
+45 28 Mount Airy, MD, US
+45 28 Bryans Road, MD, US
+46 28 Bluemont, VA, US
+46 28 Accokeek, MD, US
+46 28 Frederick, MD, US
+46 28 Clinton, MD, US
+47 29 Bowie, MD, US
+47 29 Annapolis Junction, MD, US
+48 30 Fort George G Meade, MD, US
+48 30 Jessup, MD, US
+48 30 Dumfries, VA, US
+48 30 Upperville, VA, US
+49 30 Knoxville, MD, US
+49 30 Paris, VA, US
+49 30 Braddock Heights, MD, US
+50 31 Quantico, VA, US
+50 31 Ellicott City, MD, US
+50 31 Rectortown, VA, US
+51 31 Triangle, VA, US
+51 31 Henryton, MD, US
+51 31 Cheltenham, MD, US
+51 31 Burkittsville, MD, US
+52 32 Millville, WV, US
+52 32 Marriottsville, MD, US
+52 32 Sykesville, MD, US
+52 32 Brownsville, MD, US
+52 32 Elkridge, MD, US
+52 32 Odenton, MD, US
+53 33 Upper Marlboro, MD, US
+53 33 Woodstock, MD, US
+53 33 Libertytown, MD, US
+53 33 Warrenton, VA, US
+53 33 Marbury, MD, US
+53 33 Middletown, MD, US
+53 33 Calverton, VA, US
+53 33 Unionville, MD, US
+54 33 Walkersville, MD, US
+54 33 Casanova, VA, US
+54 33 Gapland, MD, US
+54 33 Halltown, WV, US
+54 33 Catlett, VA, US
+54 33 Hanover, MD, US
+55 34 Pomfret, MD, US
+55 34 Crofton, MD, US
+55 34 White Plains, MD, US
+56 35 Rohrersville, MD, US
+56 35 Indian Head, MD, US
+56 35 Bakerton, WV, US
+56 35 Harmans, MD, US
+56 35 Harpers Ferry, WV, US
+56 35 Halethorpe, MD, US
+56 35 Gambrills, MD, US
+56 35 Delaplane, VA, US
+56 35 Severn, MD, US
+57 35 Waldorf, MD, US
+57 35 Baltimore, MD, US
+57 35 Catonsville, MD, US
+57 35 Marshall, VA, US
+57 35 Charles Town, WV, US
+57 35 Rippon, WV, US
+58 36 Windsor Mill, MD, US
+58 36 Brandywine, MD, US
+58 36 Ranson, WV, US
+59 36 New Windsor, MD, US
+59 36 Davidsonville, MD, US
+59 36 Randallstown, MD, US
+59 36 Woodsboro, MD, US
+60 37 Ruby, VA, US
+60 37 Union Bridge, MD, US
+60 37 Markham, VA, US
+60 37 Millersville, MD, US
+60 37 Keedysville, MD, US
+60 37 Ironsides, MD, US
+60 37 Linthicum Heights, MD, US
+</textarea>
+</font></p></td>
+ </tr>
+ <tr>
+ <td align="right">CityId</td>
+ <td align="right"><input name="ro-no_bots_pls5" value="14474" size="20" readonly></td>
+
+ <td align="right">Certainty</td>
+ <td align="right"><input name="ro-no_bots_pls18" value="99" size="20" readonly></td>
+ </tr>
+ <tr>
+ <td align="right">Latitude</td>
+ <td align="right"><input name="ro-no_bots_pls10" value="39.0137" size="20" readonly></td>
+ <td align="right">Longitude</td>
+
+ <td align="right"><input name="ro-no_bots_pls19" value="-77.3069" size="20" readonly></td>
+ </tr>
+ <tr>
+ <td align="right">Capital City</td>
+ <td align="right"><input name="ro-no_bots_pls8" value="Washington, DC " size="20" readonly></td>
+ <td align="right">TimeZone</td>
+ <td align="right"><input name="ro-no_bots_pls9" value="-05:00" size="20" readonly></td>
+ </tr>
+
+ <tr>
+ <td align="right">Nationality Singular</td>
+ <td align="right"><input name="ro-no_bots_pls7" value="American" size="20" readonly></td>
+ <td align="right">Population</td>
+ <td align="right"><input name="ro-no_bots_pls3" value="278058881" size="20" readonly></td>
+ </tr>
+ <tr>
+ <td align="right">Nationality Plural&nbsp; </td>
+
+ <td align="right"><input name="ro-no_bots_pls2" value="Americans" size="20" readonly></td>
+ <td align="right">Is proxy</td>
+ <td align="right"><input name="ro-no_bots_pls11" value="false" size="20" readonly></td>
+ </tr>
+ <tr>
+ <td align="right">CIA Map Reference</td>
+ <td align="right"><input name="ro-no_bots_pls4" value="North America " size="20" readonly></td>
+ <td align="right">Currency</td>
+
+ <td align="right"><input name="ro-no_bots_pls1" value="US Dollar" size="20" readonly></td>
+
+ </tr>
+ <tr>
+ <td align="right"><a href="FAQ.htm#Mapbytes" title="What are Mapbytes? Mapbytes are a micro payment system that allows you to purchase IP Location resolutions from Geobytes. Mapbytes can be used to gain unlimited access to facilities like this one, and also other great services like GeoPhrase and GeoDirection">MapBytes</a>
+ Remaining</td>
+ <td align="right"><input name="ro-no_bots_pls6" value="Free" size="20" readonly></td>
+ <td align="right">Currency Code </td>
+
+ <td align="right"><input name="ro-no_bots_pls" value="USD" size="20" readonly></td>
+ </tr> <td align="right" colspan="2">
+ <table border="0" width="100%" id="table1">
+ <tr>
+ <td>Search WHOIS data at:</td>
+ <td><b><a href="http://www.ripe.net/perl/whois?query=72.205.26.142&amp;.submit=Submit+Query" target="_blank">RIPE</a><br>
+ <a href="http://ws.arin.net/cgi-bin/whois.pl?queryinput=72.205.26.142" target="_blank">ARIN</a><br>
+
+ <a href="http://www.apnic.net/apnic-bin/whois2.pl?results=all&search=72.205.26.142&whois=Go%21" target="_blank">APNIC</a><br>
+ <a href="http://lacnic.net/cgi-bin/lacnic/whois?lg=EN&query=72.205.26.142" target="_blank">LACNIC</a><br>
+ <a href="http://www.afrinic.net/cgi-bin/whois?bttSubmitWhois&searchtext=72.205.26.142" target="_blank">AfriNIC</a></b></td>
+ </tr>
+ </table>
+ </td>
+ <td align="right">Flag</td>
+
+ <td align="right" valign="top">
+ <p align="left"><a href="FreeServices.htm"><img border="0" src="http://www.geobytes.com/Flags/US-flag.jpg" width="107" height="54"></a></p></td>
+ <TD valign="top" rowspan="2"><p>Check out Geobytes other products including:<br>
+ <a href="GeoSelect.htm">GeoSelect</a>,
+ <a href="GeoNetMap.htm">GeoNetMap</a>,
+ <a href="GeoReport.htm">GeoReport</a>,
+ <br>
+ <a href="GeoPhrase.htm">GeoPhrase</a>,
+ <a href="GeoLyzer.htm">GeoLyzer</a>,
+ <a href="GeoRemote.htm">GeoRemote</a>,<br>
+
+ <a href="GeoDirection.htm">GeoDirection</a>, <a href="FAQ.htm#Mapbytes">MapBytes</a></Td>
+</tr>
+ <tr>
+ <td align="left" colspan="4"><p align="left"><a href="http://www.geobytes.com/FAQ.htm#DifferentFromWhoIs">Click here</a> to find out why our data can differ from the WHOIS data.</p></td>
+</tr>
+ <tr></form>
+ <td align="left" colspan="5">
+
+<p> <a href="TagsHeaders.htm">Click here</a> for a description of each of the above fields.</p>
+
+ <h3>Tried Local Search yet?</h3>If you are researching someone in <b>Great Falls</b>, then try entering their name here:
+<!-- Google CSE Search Box Begins  -->
+<form id="cref1" action="http://www.google.com/cse">
+ <input type="hidden" name="cref" value="http://cse.geobytes.com/cse.cse?GetCseContext&pt_LocationCode=USVAGFAL" />
+ <input type="hidden" name="client" value="pub-0791294149386180" /> 
+ <input type="hidden" name="cof" value="FORID:1" />
+
+ <input type="text" name="q" size="40" />
+ <input type="submit" name="sa" value="Search" />
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cref1"></script>
+<!-- Google CSE Search Box Ends -->
+</td>
+</tr>
+</table>
+
+
+<div id="map" style="width: 700px; height: 400px"></div>
+<p><a href="http://forums.geobytes.com/viewtopic.php?t=4121">Click here</a> to see the code to generate this map on your web page. No installs, free version avalible.</p>
+
+<p><a href="http://www.geobytes.com/maps/US-map.jpg">Click here</a> to view a map of The United States.</p>
+<p class="left">Much of the above 'country' information was sourced from the CIA World Fact Book at
+<a href="javascript:GetCiaUrl();">http://www.cia.gov/cia/publications/factbook/</a>&nbsp;</p>
+
+
+
+<p><font size="2"><span style="background-color: #FFFF00">Are you responsible
+for generating visitors to your companies web site? Geobytes' free <a href="GeoDirection.htm#HowCanThisBeFree">GeoDirection</a>
+service generates over 10,000 visitors per day which for 1 cent per visitor will
+be visiting your companies web site.&nbsp; If your site could use some real traffic then please drop me an email at <a href="&#109&#97&#105&#108&#116&#111&#58&#105&#78&#102&#79&#64&#103&#69&#111&#98&#89&#116&#69&#115&#46&#99&#111&#77">&#105&#78&#102&#79&#64&#103&#69&#111&#98&#89&#116&#69&#115&#46&#99&#111&#77</a>
+
+for more details. At 1 cent per click - it is an incredibly cost effective way
+to instantly build your traffic.</span></font><br><br><br>
+<center><script type="text/javascript"><!--
+google_ad_client = "pub-0791294149386180";
+//IpLocator 728x90, Bottom of Page
+google_ad_slot = "4362401604";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center>
+<font size="2"><br>
+<!-- BEGIN GEOBYTES GEOREPORTS CODE -->
+<script language="JavaScript"><!--
+ var sReferrerUrl=escape(document.referrer);
+ var imgsource='<img border=0 src="http://georeport.geobytes.com/~27457.1/Clear?ref='+sReferrerUrl+'">';
+ document.write(imgsource);//-->
+</script><noscript>
+ <img border=0 src="http://georeport.geobytes.com/~27457.1/Clear?">
+</noscript>
+<!-- END GEOBYTES GEOREPORTS CODE -->
+</font>
+ </td>
+ </tr><tr><td><div id="social-networks">
+
+				<h3 class="heading">Share This Tool</h3>
+				<p>If you wish, you can use one of these Social Network links to share or bookmark this tool.</p>
+				<ul>
+					<li class="delicious"><a target="_blank" href="http://del.icio.us/post?url=http://www.geobytes.com/IpLocator.htm">del.icio.us</a></li>
+					<li class="digg"><a target="_blank" href="http://digg.com/submit?phase=2&amp;url=http://www.geobytes.com/IpLocator.htm">Digg it</a></li>
+					<li class="furl"><a target="_blank" href="http://www.furl.net/storeIt.jsp?t=IP Address Locator | Geobytes&amp;u=www.geobytes.com/IpLocator.htm">Furl</a></li>
+
+					<li class="netscape"><a target="_blank" href="http://www.netscape.com/submit/?U=http://www.geobytes.com/IpLocator.htm">Netscape</a></li>
+					<li class="yahoo"><a target="_blank" href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=IP Address Locator | Geobytes&amp;u=www.geobytes.com/IpLocator.htm">Yahoo MyWeb</a></li>
+					<li class="stumbleupon"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http://www.geobytes.com/IpLocator.htm">StumbleUpon</a></li>
+					<li class="igoogle"><a target="_blank" href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http://www.geobytes.com/IpLocator.htm">Google</a></li>
+					<li class="technorati"><a target="_blank" href="http://www.technorati.com/faves?add=www.geobytes.com/IpLocator.htm">Technorati </a></li>
+					<li class="blinkList"><a target="_blank" href="http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Url=http://www.geobytes.com/IpLocator.htm">BlinkList</a></li>
+
+					<li class="newsvine"><a target="_blank" href="http://www.newsvine.com/_wine/save?popoff=0&amp;u=http://www.geobytes.com/IpLocator.htm">Newsvine</a></li>
+					<li class="magnolia"><a target="_blank" href="http://ma.gnolia.com/bookmarklet/add?url=http://www.geobytes.com/IpLocator.htm">ma.gnolia</a></li>
+					<li class="reddit"><a target="_blank" href="http://reddit.com/submit?url=http://www.geobytes.com/IpLocator.htm">reddit</a></li>
+					<li class="windows"><a target="_blank" href="https://favorites.live.com/quickadd.aspx?marklet=1&amp;mkt=en-us&amp;url=http://www.geobytes.com/IpLocator.htm">Windows Live</a></li>
+					<li class="tailrank"><a target="_blank" href="http://tailrank.com/share/?title=IP Address Locator | Geobytes&amp;link_href=www.geobytes.com/IpLocator.htm">Tailrank</a></li>
+					<li class="slashdot"><a target="_blank" href="http://slashdot.org/bookmark.pl?url=http://www.geobytes.com/IpLocator.htm">Slashdot</a></li>
+
+				</ul>
+			</div>
+ </td>
+ </tr>
+</table>
+
+<!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<table border="0" width="90%" cellspacing="0" cellpadding="0">
+ <tr>
+ <td width="214" height="60" rowspan="2"><font color="#FFFFFF">
+
+ <font size="1">Modified:08/29/06&nbsp;</font>&nbsp;&nbsp;<br>
+ </font><font size="1"><font color="#FFFFFF">© 2000 - 2003&nbsp;</font>&nbsp;<b>&nbsp;<br>
+ </b><font color="#FFFFFF">geobytes, inc.&nbsp;&nbsp;<br>
+ ARBN 091 652 961</font></font></td>
+ <td height="15" width="682" align="center">
+ <table border="0" cellPadding="0" cellSpacing="0" width="539">
+ <tr>
+
+ <td bgColor="#003366" width="100%"><center>
+ <img border="0" src="images/p_t.gif" width="1" height="1"></center>
+ </td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td width="682" align="center" height="45"><center><b>
+
+ <span class="465083303-08112002"><i>
+ <font face="Arial" color="#800000" size="2">Geobytes - because everybody's 
+ somewhere!<br>
+ </font></i></span></b><font size="1">Contact Geobytes via our
+ <a href="http://forums.geobytes.com/index.php">support forums</a><br>
+ </font><a href="Privacy.htm"><font size="1">Privacy Policy</font></a></center>
+ </td>
+ </tr>
+</table>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-637982-1";
+urchinTracker();
+</script>
+</td></tr><!--msnavigation--></table></body>
+</html>
+

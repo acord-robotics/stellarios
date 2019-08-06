@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "livingroot", "count" : 10 },
+	{ "item" : "clay", "count" : 30 },
+	{ "item" : "whitedye", "count" : 3 }
+  ],
+	"output" : { "item" : "nutmidgeaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

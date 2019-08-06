@@ -1,0 +1,21 @@
+[Variables]
+itemwidth=500
+hide4thitem=1
+overridewidth=1
+update=360
+YouTubeChannel=pbsideachannel
+YouTubeChannel1=TheOnion
+YouTubeChannel2=5secondfilms
+YouTubeChannel3=pbsideachannel
+Channel3=
+24Hour=%H:%M
+12Hour=%I:%M %p
+TimeFormat=#24Hour#
+ClockName=#24Hour#
+DayLightSavings=1
+RSS1=http://feeds.gawker.com/lifehacker/full
+Query=Windows Phone 7
+Channel=TheOnion
+Title=all
+Subtitle=channels
+width=500

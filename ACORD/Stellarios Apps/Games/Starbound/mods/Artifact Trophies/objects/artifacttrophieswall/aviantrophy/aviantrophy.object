@@ -1,0 +1,33 @@
+{
+  "objectName" : "aviantrophy",
+  "colonyTags" : ["avian","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "An exact replica of the Avian artifact from the Great Sovereign Temple.",
+  "shortdescription" : "Avian Artifact Trophy",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 1000,
+  "printable" : true,
+
+  "apexDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "avianDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "floranDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "glitchDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "humanDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "hylotlDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+  "novakidDescription" : "A replica of the Avian artifact from the Great Sovereign Temple.",
+
+  "inventoryIcon" : "aviantrophyicon.png",
+  "orientations" : [
+    {
+      "image" : "aviantrophy.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

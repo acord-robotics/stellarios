@@ -1,0 +1,458 @@
+[18:40:19.842] [Info] Root: Preparing Root...
+[18:40:19.844] [Info] Root: Done preparing Root.
+[18:40:19.844] [Info] Client Version 1.4.1 (windows x86_64) Source ID: 3c51d7607bf30e362eb59e1bace0ef0043f9a868 Protocol: 746
+[18:40:19.844] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[18:40:20.367] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[18:40:20.370] [Warn] Root: Unrecognized file in asset directory 'Artifact Trophies.rar', skipping
+[18:40:20.377] [Warn] Root: Unrecognized file in asset directory 'Craftable Figurines 1.00.zip', skipping
+[18:40:20.396] [Warn] Root: Unrecognized file in asset directory 'EnhancedStorage_v5.7.2.zip', skipping
+[18:40:20.400] [Warn] Root: Unrecognized file in asset directory 'StarboyHandheldGamesV1.6.1.zip', skipping
+[18:40:20.401] [Warn] Root: Unrecognized file in asset directory 'byos1.3.zip', skipping
+[18:40:20.401] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[18:40:20.401] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[18:40:20.401] [Info] Root: Detected asset source named 'Artifact Trophies' at '..\mods\Artifact Trophies'
+[18:40:20.401] [Info] Root: Detected asset source named 'Community Art Pack' at '..\mods\Community_Art_Pack.pak'
+[18:40:20.401] [Info] Root: Detected unnamed asset source at '..\mods\Craftable Figurines 1.00'
+[18:40:20.401] [Info] Root: Detected asset source named 'Enhanced Storage' at '..\mods\EnhancedStorage_v5.7.2.pak'
+[18:40:20.401] [Info] Root: Detected asset source named 'Enhanced Storage [Hoarder Addon]' at '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[18:40:20.401] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '..\mods\ExtraZoomLevels.pak'
+[18:40:20.401] [Info] Root: Detected asset source named 'FlatTeleporters' at '..\mods\FlatTeleporters.pak'
+[18:40:20.401] [Info] Root: Detected asset source named 'Starboy Handheld Games' at '..\mods\StarboyHandheldGames'
+[18:40:20.401] [Info] Root: Detected asset source named 'playerportraits' at '..\mods\artwork.pak'
+[18:40:20.401] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[18:40:20.401] [Info] Loading assets from: '..\assets\packed.pak'
+[18:40:20.908] [Info] Loading assets from: '..\mods\Artifact Trophies'
+[18:40:20.918] [Info] Loading assets from: '..\mods\Community_Art_Pack.pak'
+[18:40:20.926] [Info] Loading assets from: '..\mods\Craftable Figurines 1.00'
+[18:40:20.933] [Info] Loading assets from: '..\mods\EnhancedStorage_v5.7.2.pak'
+[18:40:20.952] [Info] Loading assets from: '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[18:40:20.965] [Info] Loading assets from: '..\mods\ExtraZoomLevels.pak'
+[18:40:20.968] [Info] Loading assets from: '..\mods\FlatTeleporters.pak'
+[18:40:20.977] [Info] Loading assets from: '..\mods\StarboyHandheldGames'
+[18:40:20.993] [Info] Loading assets from: '..\mods\artwork.pak'
+[18:40:20.997] [Info] Loading assets from: '..\assets\user'
+[18:40:22.488] [Info] Assets digest is 2943e402747dbc0a8189fae2d884146eb1a39dc07cae6740aee28ac5698b8278
+[18:40:22.488] [Info] Root: Loaded Assets in 2.6439 seconds
+[18:40:22.489] [Info] Application: Initializing SDL Video
+[18:40:22.495] [Info] Application: Initializing SDL Joystick
+[18:40:22.574] [Info] Application: Initializing SDL Sound
+[18:40:22.727] [Info] Initialized Steam platform services
+[18:40:22.764] [Info] Initialized Discord platform services
+[18:40:22.840] [Info] Application: Creating SDL Window
+[18:40:23.187] [Info] Application: Enabling VSync with late swap tearing
+[18:40:23.227] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[18:40:23.237] [Info] OpenGL version: '4.6.0 NVIDIA 399.24' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2' shader: '4.60 NVIDIA'
+[18:40:23.293] [Info] Application: initialization...
+[18:40:23.297] [Info] Root: Loaded Configuration in 0.0041425 seconds
+[18:40:23.299] [Info] Application: renderer initialization...
+[18:40:23.306] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[18:40:23.317] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[18:40:23.317] [Info] Root: Loaded ImageMetadataDatabase in 1.8e-06 seconds
+[18:40:23.360] [Info] Application: main update loop...
+[18:40:23.364] [Info] Loading mods from user generated content with id '760881689' from directory 'D:\Steam\steamapps\workshop\content\211820\760881689'
+[18:40:23.364] [Info] Loading mods from user generated content with id '729466018' from directory 'D:\Steam\steamapps\workshop\content\211820\729466018'
+[18:40:23.364] [Info] Loading mods from user generated content with id '760448042' from directory 'D:\Steam\steamapps\workshop\content\211820\760448042'
+[18:40:23.364] [Info] Loading mods from user generated content with id '1335123569' from directory 'D:\Steam\steamapps\workshop\content\211820\1335123569'
+[18:40:23.364] [Info] Loading mods from user generated content with id '1088459034' from directory 'D:\Steam\steamapps\workshop\content\211820\1088459034'
+[18:40:23.365] [Info] Loading mods from user generated content with id '1293079171' from directory 'D:\Steam\steamapps\workshop\content\211820\1293079171'
+[18:40:23.365] [Info] Loading mods from user generated content with id '1157929915' from directory 'D:\Steam\steamapps\workshop\content\211820\1157929915'
+[18:40:23.365] [Info] Reloading to include all user generated content
+[18:40:23.365] [Info] Root: Reloading from disk
+[18:40:23.365] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[18:40:23.433] [Info] Root: Loaded Configuration in 0.0008416 seconds
+[18:40:23.433] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[18:40:23.819] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[18:40:23.822] [Warn] Root: Unrecognized file in asset directory 'Artifact Trophies.rar', skipping
+[18:40:23.828] [Warn] Root: Unrecognized file in asset directory 'Craftable Figurines 1.00.zip', skipping
+[18:40:23.846] [Warn] Root: Unrecognized file in asset directory 'EnhancedStorage_v5.7.2.zip', skipping
+[18:40:23.850] [Warn] Root: Unrecognized file in asset directory 'StarboyHandheldGamesV1.6.1.zip', skipping
+[18:40:23.850] [Warn] Root: Unrecognized file in asset directory 'byos1.3.zip', skipping
+[18:40:23.850] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[18:40:23.866] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\760881689'
+[18:40:23.875] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\729466018'
+[18:40:23.888] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\760448042'
+[18:40:23.899] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1335123569'
+[18:40:23.911] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1088459034'
+[18:40:23.916] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1293079171'
+[18:40:23.935] [Info] Root: Scanning for asset sources in directory 'D:\Steam\steamapps\workshop\content\211820\1157929915'
+[18:40:24.038] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[18:40:24.038] [Info] Root: Detected asset source named 'Artifact Trophies' at '..\mods\Artifact Trophies'
+[18:40:24.038] [Info] Root: Detected asset source named 'Community Art Pack' at '..\mods\Community_Art_Pack.pak'
+[18:40:24.038] [Info] Root: Detected unnamed asset source at '..\mods\Craftable Figurines 1.00'
+[18:40:24.039] [Info] Root: Detected asset source named 'CustomCollectionsUI' at 'D:\Steam\steamapps\workshop\content\211820\760881689\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Trading Cards' at 'D:\Steam\steamapps\workshop\content\211820\760448042\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Enhanced Storage' at '..\mods\EnhancedStorage_v5.7.2.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Enhanced Storage [Hoarder Addon]' at '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'ExtraZoomLevels' at '..\mods\ExtraZoomLevels.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'FlatTeleporters' at '..\mods\FlatTeleporters.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Starboy Handheld Games' at '..\mods\StarboyHandheldGames'
+[18:40:24.039] [Info] Root: Detected asset source named 'playerportraits' at '..\mods\artwork.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Item Frame v1.3' at 'D:\Steam\steamapps\workshop\content\211820\729466018\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'QuickbarMini' at 'D:\Steam\steamapps\workshop\content\211820\1088459034\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Aether Book Creator' at 'D:\Steam\steamapps\workshop\content\211820\1335123569\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'Tacticool Gear Pack' at 'D:\Steam\steamapps\workshop\content\211820\1293079171\contents.pak'
+[18:40:24.039] [Info] Root: Detected asset source named 'PropPack' at 'D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak'
+[18:40:24.039] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[18:40:24.039] [Info] Loading assets from: '..\assets\packed.pak'
+[18:40:24.526] [Info] Loading assets from: '..\mods\Artifact Trophies'
+[18:40:24.534] [Info] Loading assets from: '..\mods\Community_Art_Pack.pak'
+[18:40:24.539] [Info] Loading assets from: '..\mods\Craftable Figurines 1.00'
+[18:40:24.546] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\760881689\contents.pak'
+[18:40:24.546] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\760448042\contents.pak'
+[18:40:24.549] [Info] Loading assets from: '..\mods\EnhancedStorage_v5.7.2.pak'
+[18:40:24.566] [Info] Loading assets from: '..\mods\EnhancedStorage[HoarderAddon]_v3.0.2.pak'
+[18:40:24.576] [Info] Loading assets from: '..\mods\ExtraZoomLevels.pak'
+[18:40:24.577] [Info] Loading assets from: '..\mods\FlatTeleporters.pak'
+[18:40:24.577] [Info] Loading assets from: '..\mods\StarboyHandheldGames'
+[18:40:24.587] [Info] Loading assets from: '..\mods\artwork.pak'
+[18:40:24.588] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\729466018\contents.pak'
+[18:40:24.588] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1088459034\contents.pak'
+[18:40:24.589] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1335123569\contents.pak'
+[18:40:24.589] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1293079171\contents.pak'
+[18:40:24.596] [Info] Loading assets from: 'D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak'
+[18:40:24.670] [Info] Loading assets from: '..\assets\user'
+[18:40:25.571] [Info] Assets digest is c8776e0d261d2ad49cae2cc5976e72acf6d54d9f749d7c45d044114dc6c928b6
+[18:40:25.571] [Info] Root: Loaded Assets in 2.13835 seconds
+[18:40:25.609] [Info] Root: Loaded ImageMetadataDatabase in 2e-06 seconds
+[18:40:25.612] [Info] Root: Loaded NameGenerator in 0.0400394 seconds
+[18:40:25.888] [Info] Root: Loaded PlantDatabase in 0.275756 seconds
+[18:40:26.121] [Error] Could not apply patch from file /objects/protectorate/objects/protectoratelobbybin/protectoratelobbybin.object.patch in source: D:\Steam\steamapps\workshop\content\211820\1157929915\contents.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Index 1 out of range in pathApply("/orientations/1/spaceScan")
+[18:40:26.160] [Info] Root: Loaded ProjectileDatabase in 0.27251 seconds
+[18:40:26.439] [Info] Root: Loaded ObjectDatabase in 0.866567 seconds
+[18:40:26.580] [Info] Root: Loaded MonsterDatabase in 0.419446 seconds
+[18:40:26.590] [Info] Root: Loaded StagehandDatabase in 0.0101408 seconds
+[18:40:26.597] [Info] Root: Loaded NpcDatabase in 0.157653 seconds
+[18:40:26.604] [Info] Root: Loaded VehicleDatabase in 0.013825 seconds
+[18:40:26.617] [Info] Root: Loaded PlayerFactory in 0.0210641 seconds
+[18:40:26.620] [Info] Root: Loaded VersioningDatabase in 0.0019751 seconds
+[18:40:26.620] [Info] Root: Loaded EntityFactory in 0.0155113 seconds
+[18:40:26.669] [Info] Root: Loaded ParticleDatabase in 0.0498023 seconds
+[18:40:27.033] [Info] Root: Loaded MaterialDatabase in 0.413983 seconds
+[18:40:27.067] [Info] Root: Loaded TerrainDatabase in 0.0330482 seconds
+[18:40:27.201] [Info] Root: Loaded BiomeDatabase in 0.134174 seconds
+[18:40:27.212] [Info] Root: Loaded LiquidsDatabase in 0.010797 seconds
+[18:40:27.299] [Info] Root: Loaded StatusEffectDatabase in 0.0872383 seconds
+[18:40:27.715] [Info] Root: Loaded DamageDatabase in 0.41638 seconds
+[18:40:27.809] [Info] Root: Loaded EffectSourceDatabase in 0.093718 seconds
+[18:40:27.833] [Info] Root: Loaded FunctionDatabase in 0.0241191 seconds
+[18:40:27.894] [Info] Root: Loaded TreasureDatabase in 0.0613137 seconds
+[18:40:28.979] [Info] Root: Loaded DungeonDefinitions in 1.08402 seconds
+[18:40:28.979] [Info] Root: Loaded TilesetDatabase in 6.85e-05 seconds
+[18:40:28.991] [Info] Root: Loaded StatisticsDatabase in 0.0113556 seconds
+[18:40:29.001] [Info] Root: Loaded EmoteProcessor in 0.009941 seconds
+[18:40:29.034] [Info] Root: Loaded SpeciesDatabase in 0.0341245 seconds
+[18:40:29.149] [Info] Root: Loaded QuestTemplateDatabase in 0.114721 seconds
+[18:40:29.150] [Info] Root: Loaded AiDatabase in 0.0008885 seconds
+[18:40:29.152] [Info] Root: Loaded TechDatabase in 0.0015292 seconds
+[18:40:29.173] [Info] Root: Loaded CodexDatabase in 0.0215936 seconds
+[18:40:29.561] [Info] Root: Loaded BehaviorDatabase in 0.388219 seconds
+[18:40:29.571] [Info] Root: Loaded DanceDatabase in 0.0097864 seconds
+[18:40:29.581] [Info] Root: Loaded SpawnTypeDatabase in 0.0092227 seconds
+[18:40:29.589] [Info] Root: Loaded RadioMessageDatabase in 0.00868 seconds
+[18:40:32.833] [Info] Root: Loaded ItemDatabase in 6.21509 seconds
+[18:40:32.989] [Info] Root: Loaded CollectionDatabase in 3.39924 seconds
+[18:40:33.527] [Error] No quest template found for id 'byos'
+[18:40:33.791] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[18:40:44.485] [Error] No quest template found for id 'byos'
+[18:40:45.386] [Error] No quest template found for id 'byos'
+[18:40:45.699] [Info] UniverseServer: Acquiring universe lock file
+[18:40:45.702] [Info] UniverseServer: Loading settings
+[18:40:45.709] [Info] UniverseServer: Starting UniverseServer with UUID: 92b9aa6762eeaad1fab3c135e38d311b
+[18:40:45.727] [Info] UniverseServer: Logged in player 'Siridium' locally
+[18:40:45.727] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Siridium' from address local
+[18:40:45.779] [Info] UniverseServer: Loading system world (-413293986, -328680384, -165594419) from disk storage
+[18:40:45.781] [Info] UniverseClient: Joined server as client 1
+[18:40:45.805] [Info] UniverseServer: Reviving player at ClientShipWorld:568b1b216e43cf457ecf1d3f25adf55e
+[18:40:45.806] [Info] UniverseServer: Client 'Siridium' <1> (local) connected
+[18:40:45.875] [Info] UniverseServer: Loading client ship world ClientShipWorld:568b1b216e43cf457ecf1d3f25adf55e
+[18:40:45.935] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[18:40:45.935] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[18:40:45.940] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[18:40:45.940] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[18:40:45.940] [Info] Setting steam rich presence connection as steamid_76561198236190162
+[18:40:45.945] [Error] Cannot set Steam achievement kill10poptops
+[18:40:45.976] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[18:40:46.028] [Info] Protected dungeonIds for world set to (65524)
+[18:40:46.558] [Info] Setting discord join secret as connect:discord_303447400289140736_589766309903073354_301b242587430749
+[18:40:46.999] [Info] UniverseServer: Warping player 1 to ClientShipWorld:568b1b216e43cf457ecf1d3f25adf55e=1032.78.992
+[18:43:26.252] [Info] Chat: <server> Insufficient privileges to spawn items.
+[18:43:29.154] [Info] Chat: <server> Admin privileges now given to player Siridium
+[18:45:19.962] [Info] Flying ship for player 1 to -413293986:-328680384:-165594419
+[18:45:25.226] [Info] UniverseServer: Arriving ship for player 1 at -413293986:-328680384:-165594419
+[18:45:42.074] [Info] Flying ship for player 1 to -413293986:-328680384:-165594419:9
+[18:45:43.434] [Info] UniverseServer: Creating celestial world -413293986:-328680384:-165594419:9
+[18:45:43.691] [Info] Protected dungeonIds for world set to (65524)
+[18:45:43.691] [Info] Placing dungeon avianairship
+[18:45:44.260] [Info] Placing dungeon at (1013, 1000)
+[18:45:44.501] [Warn] Failed to place dungeon object: woodencrate1 direction: 1 position: (1107, 990)
+[18:45:44.501] [Warn] Failed to place dungeon object: woodencrate1 direction: 1 position: (1106, 992)
+[18:45:45.202] [Info] Placing dungeon humancamp
+[18:45:45.226] [Info] Placing dungeon at (4002, 1000)
+[18:45:45.417] [Warn] Failed to place dungeon object: tent1red direction: 0 position: (3724, 1000)
+[18:45:45.423] [Warn] Failed to place dungeon object: smashabledrink2 direction: 1 position: (3802, 1000)
+[18:45:45.426] [Warn] Failed to place dungeon object: smashabledrink2 direction: 1 position: (3962, 1000)
+[18:45:45.429] [Warn] Failed to place dungeon object: tent1red direction: 0 position: (4004, 1000)
+[18:45:47.842] [Info] UniverseServer: Arriving ship for player 1 at -413293986:-328680384:-165594419:9
+[18:45:47.860] [Info] UniverseServer: Stopping idle world CelestialWorld:-413293986:-328680384:-165594419:9
+[18:47:10.279] [Info] UniverseClient: Client disconnecting...
+[18:47:10.301] [Info] Client received world stop packet, leaving: Removed
+[18:47:10.455] [Info] UniverseServer: Client 'Siridium' <1> (local) disconnected for reason: 
+[18:47:10.455] [Info] UniverseServer: Stopping idle world ClientShipWorld:568b1b216e43cf457ecf1d3f25adf55e
+[18:47:10.796] [Info] UniverseServer: Stopping UniverseServer
+[18:47:10.796] [Info] UniverseServer: Stopping TCP Server
+[18:47:10.881] [Info] Clearing steam rich presence connection
+[18:47:10.881] [Info] Deleting discord server lobby 589766309903073354
+[18:47:11.165] [Error] Could not connect delete server lobby (err 0)
+[18:47:52.056] [Info] UniverseServer: Acquiring universe lock file
+[18:47:52.061] [Info] UniverseServer: Loading settings
+[18:47:52.062] [Info] UniverseServer: Starting UniverseServer with UUID: 92b9aa6762eeaad1fab3c135e38d311b
+[18:47:52.069] [Info] UniverseServer: Logged in player 'Siridium' locally
+[18:47:52.069] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Siridium' from address local
+[18:47:52.125] [Info] UniverseServer: Spawning player at ship
+[18:47:52.125] [Info] UniverseServer: Client 'Siridium' <1> (local) connected
+[18:47:52.127] [Info] UniverseClient: Joined server as client 1
+[18:47:52.216] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[18:47:52.217] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[18:47:52.221] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[18:47:52.221] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[18:47:52.221] [Info] Setting steam rich presence connection as steamid_76561198236190162
+[18:47:52.221] [Info] Deleting discord server lobby 589766309903073354
+[18:47:52.221] [Info] Setting discord join secret as connect:discord_303447400289140736_589766309903073354_301b242587430749
+[18:47:52.226] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[18:47:52.226] [Info] UniverseServer: Creating new client ship world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[18:47:52.238] [Info] Protected dungeonIds for world set to (65524)
+[18:47:52.511] [Error] Could not connect delete server lobby (err 4)
+[18:47:52.832] [Info] UniverseServer: Warping player 1 to ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[18:47:52.914] [Info] Flying ship for player 1 to new starter world
+[18:47:52.914] [Info] Searching for new randomized starter world
+[18:47:53.029] [Info] Setting discord join secret as connect:discord_303447400289140736_589768098010365952_1da9682e3a4f848c
+[18:47:55.542] [Info] Chat: System is down, please reboot.
+[18:47:57.862] [Info] UniverseServer: Found randomized starter world at 667640940:381005819:-259078385:3
+[18:47:57.897] [Info] UniverseServer: Creating new system world at location (667640940, 381005819, -259078385)
+[18:47:57.916] [Info] UniverseServer: Creating celestial world 667640940:381005819:-259078385:3
+[18:47:57.922] [Info] Chat: Rebooting...
+[18:47:58.102] [Info] Protected dungeonIds for world set to (65524)
+[18:47:58.102] [Info] Placing dungeon naturalcave
+[18:47:58.166] [Info] Placing dungeon at (1119, 675)
+[18:47:58.568] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (1088, 441)
+[18:47:58.602] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (929, 469)
+[18:47:58.603] [Warn] Failed to place dungeon object: woodencrate1 direction: 0 position: (952, 470)
+[18:47:58.603] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (954, 470)
+[18:47:58.614] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (1044, 500)
+[18:47:58.614] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (931, 501)
+[18:47:58.646] [Warn] Failed to place dungeon object: oillantern1 direction: 0 position: (996, 537)
+[18:47:58.669] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (934, 556)
+[18:47:58.672] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (934, 559)
+[18:47:59.082] [Info] Placing dungeon gardengate
+[18:47:59.090] [Info] Placing dungeon at (2226, 675)
+[18:47:59.158] [Info] Protected dungeonIds for world set to (1, 65524)
+[18:48:00.576] [Info] Chat: I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.
+[18:48:01.684] [Info] UniverseServer: Arriving ship for player 1 at 667640940:381005819:-259078385:3
+[18:48:01.695] [Info] UniverseServer: Stopping idle world CelestialWorld:667640940:381005819:-259078385:3
+[18:48:02.325] [Info] Chat: I am also programmed to offer you information and advice.
+[18:48:02.942] [Info] Chat: Earth was attacked by an unknown force, and was subsequently annihilated.
+[18:48:03.142] [Info] Chat: The ship's navigation systems were damaged in our escape. Our location is currently unknown.
+[18:48:11.679] [Info] UniverseServer: Loading celestial world 667640940:381005819:-259078385:3
+[18:48:11.812] [Info] Protected dungeonIds for world set to (1, 65524)
+[18:48:11.982] [Info] UniverseServer: Warping player 1 to CelestialWorld:667640940:381005819:-259078385:3
+[18:48:11.991] [Info] UniverseServer: Stopping idle world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[18:48:12.035] [Info] Client received world stop packet, leaving: Removed
+[18:48:30.535] [Info] Chat: <SAIL> You have found some wood. My databanks tell me wood is a material with a great many uses. I suggest you kill additional trees and explore your crafting menu.
+[18:48:41.159] [Info] Chat: <SAIL> I see that you've discovered some seeds. I suggest planting them in some tilled soil, and watering them until they grow. The tools you need can be built at a foraging table.
+[18:49:53.222] [Info] Chat: <SAIL> My scans are picking up an unknown radio signal around this archaic energy source. I will patch it through to you now.
+[18:49:59.955] [Info] Chat: <???> If you've picked up this message, you must have found an Ancient Gateway - please use it to come and find me. You can power up the Gate with Core Fragments.
+[18:50:10.589] [Info] Chat: <SAIL> I have scanned for nearby Core Fragments. They appear naturally within the geology of this planet; readings suggest numerous ore clusters deep below the ground, near the planet's centre.
+[18:50:30.888] [Info] Chat: <server> Admin privileges now given to player Siridium
+[18:50:35.521] [Info] Chat: <server> Admin privileges taken away from Siridium
+[18:51:46.702] [Info] Chat: <server> Admin privileges now given to player Siridium
+[18:51:49.336] [Info] Chat: <server> Admin privileges taken away from Siridium
+[18:52:11.118] [Info] Chat: <server> Admin privileges now given to player Siridium
+[18:52:55.157] [Info] Chat: <SAIL> You discovered some plant fibre. This can be woven into useful fabrics at a spinning wheel.
+[18:53:44.817] [Info] Chat: <SAIL> You discovered some ore. Ore can be turned into bars using a furnace, bars are useful for crafting a wide range of equipment that may increase your life expectancy.
+[18:55:11.578] [Info] Chat: <SAIL> I am detecting a variety of life signs in this mine. If you are intending to search it for core fragments, I may advise adequately arming yourself first.
+[18:55:22.144] [Info] Chat: <SAIL> If you are not sufficiently confident in your personal combat capabilities, an alternative solution would be to dig closer to the planet's center to find the core fragments.
+[18:55:33.128] [Info] Quickbar item "^shadow;Aether's Book Creator^reset;": scriptAction is deprecated, please use new entry format
+[18:55:33.244] [Info] Chat: <SAIL> You discovered a core fragment! These are useful objects. I estimate that you will require at least 20 of them.
+[18:55:42.759] [Info] Chat: <SAIL> You've obtained a manipulator module. With enough of these you can upgrade your Matter Manipulator from the access panel on the right-hand toolbar.
+[18:59:18.625] [Info] Chat: <SAIL> You acquired Storage Matter. This material can be used to create your own storage objects and more. I suggest you find a proper machine through exploring the universe.
+[18:59:50.284] [Info] Chat: <SAIL> You appear to have successfully activated the gate. And it seems another message is coming through.
+[18:59:53.847] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[18:59:53.918] [Info] Protected dungeonIds for world set to (65524)
+[18:59:53.918] [Info] Placing dungeon outpost
+[18:59:53.929] [Info] Placing dungeon at (0, 750)
+[18:59:57.897] [Info] Protected dungeonIds for world set to (0, 65524)
+[18:59:58.637] [Info] Placing dungeon at (355, 636)
+[18:59:58.642] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[18:59:58.644] [Info] Placing dungeon at (355, 636)
+[18:59:58.649] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[18:59:58.651] [Info] Placing dungeon at (332, 621)
+[18:59:58.655] [Info] Placing dungeon at (332, 655)
+[18:59:58.660] [Info] Placing dungeon at (427, 618)
+[18:59:58.664] [Info] Placing dungeon at (310, 616)
+[18:59:58.666] [Info] Placing dungeon at (644, 641)
+[18:59:58.669] [Info] Placing dungeon at (401, 637)
+[18:59:58.679] [Info] Placing dungeon at (838, 608)
+[18:59:58.700] [Info] Placing dungeon at (452, 627)
+[18:59:58.704] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[18:59:58.706] [Info] Placing dungeon at (308, 640)
+[18:59:58.709] [Info] Placing dungeon at (931, 608)
+[18:59:58.726] [Info] Placing dungeon at (611, 645)
+[18:59:58.772] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-
+[18:59:59.531] [Info] Client received world stop packet, leaving: Removed
+[18:59:59.535] [Info] UniverseServer: Stopping idle world CelestialWorld:667640940:381005819:-259078385:3
+[18:59:59.930] [Info] Chat: <???> Please come. I urgently require help; the universe depends on it. Use this Ancient Gateway and meet me in the Ark ruins, just past the Outpost.
+[19:00:01.718] [Info] UniverseClient: Client disconnecting...
+[19:00:01.824] [Info] Client received world stop packet, leaving: Removed
+[19:00:01.888] [Info] UniverseServer: Client 'Siridium' <1> (local) disconnected for reason: 
+[19:00:01.889] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[19:00:03.203] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[19:00:03.371] [Info] UniverseServer: Stopping UniverseServer
+[19:00:03.371] [Info] UniverseServer: Stopping TCP Server
+[19:00:03.456] [Info] Clearing steam rich presence connection
+[19:00:03.456] [Info] Deleting discord server lobby 589768098010365952
+[19:00:03.933] [Error] Could not connect delete server lobby (err 0)
+[19:01:59.466] [Info] UniverseServer: Acquiring universe lock file
+[19:01:59.472] [Info] UniverseServer: Loading settings
+[19:01:59.473] [Info] UniverseServer: Starting UniverseServer with UUID: 92b9aa6762eeaad1fab3c135e38d311b
+[19:01:59.481] [Info] UniverseServer: Logged in player 'Siridium' locally
+[19:01:59.481] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Siridium' from address local
+[19:01:59.554] [Info] UniverseServer: Loading system world (667640940, 381005819, -259078385) from disk storage
+[19:01:59.557] [Info] UniverseClient: Joined server as client 1
+[19:01:59.596] [Info] UniverseServer: Player revive position is expired, spawning back at own ship
+[19:01:59.596] [Info] UniverseServer: Client 'Siridium' <1> (local) connected
+[19:01:59.654] [Info] UniverseServer: Loading client ship world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:01:59.659] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 64
+[19:01:59.659] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[19:01:59.664] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[19:01:59.664] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[19:01:59.664] [Info] Setting steam rich presence connection as steamid_76561198236190162
+[19:01:59.665] [Info] Deleting discord server lobby 589768098010365952
+[19:01:59.665] [Info] Setting discord join secret as connect:discord_303447400289140736_589768098010365952_1da9682e3a4f848c
+[19:01:59.736] [Info] Protected dungeonIds for world set to (65524)
+[19:01:59.755] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[19:01:59.955] [Error] Could not connect delete server lobby (err 4)
+[19:01:59.957] [Info] UniverseServer: Warping player 1 to ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:02:00.304] [Info] Setting discord join secret as connect:discord_303447400289140736_589771652477353994_33ad9031621e969e
+[19:02:06.430] [Info] UniverseServer: Loading celestial world 667640940:381005819:-259078385:3
+[19:02:06.572] [Info] Protected dungeonIds for world set to (1, 65524)
+[19:02:06.732] [Info] UniverseServer: Warping player 1 to CelestialWorld:667640940:381005819:-259078385:3
+[19:02:06.739] [Info] UniverseServer: Stopping idle world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:02:06.755] [Info] Client received world stop packet, leaving: Removed
+[19:03:23.832] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[19:03:23.957] [Info] Protected dungeonIds for world set to (65524)
+[19:03:23.957] [Info] Placing dungeon outpost
+[19:03:23.966] [Info] Placing dungeon at (0, 750)
+[19:03:28.325] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:03:29.067] [Info] Placing dungeon at (355, 636)
+[19:03:29.072] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:03:29.073] [Info] Placing dungeon at (355, 636)
+[19:03:29.078] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:03:29.079] [Info] Placing dungeon at (332, 621)
+[19:03:29.082] [Info] Placing dungeon at (332, 655)
+[19:03:29.085] [Info] Placing dungeon at (427, 618)
+[19:03:29.088] [Info] Placing dungeon at (310, 616)
+[19:03:29.089] [Info] Placing dungeon at (644, 641)
+[19:03:29.091] [Info] Placing dungeon at (401, 637)
+[19:03:29.099] [Info] Placing dungeon at (838, 608)
+[19:03:29.119] [Info] Placing dungeon at (452, 627)
+[19:03:29.123] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[19:03:29.123] [Info] Placing dungeon at (308, 640)
+[19:03:29.124] [Info] Placing dungeon at (931, 608)
+[19:03:29.140] [Info] Placing dungeon at (611, 645)
+[19:03:30.015] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-
+[19:03:30.026] [Info] Client received world stop packet, leaving: Removed
+[19:03:30.069] [Info] UniverseServer: Stopping idle world CelestialWorld:667640940:381005819:-259078385:3
+[19:05:36.520] [Info] Chat: <SAIL> I have received the coordinates for the Erchius Mining Facility. If you return to the ship you can teleport there using my mission interface.
+[19:05:45.316] [Info] UniverseServer: Loading client ship world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:05:45.398] [Info] Protected dungeonIds for world set to (65524)
+[19:05:45.618] [Info] UniverseServer: Warping player 1 to ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:05:45.627] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[19:05:45.635] [Info] Client received world stop packet, leaving: Removed
+[19:05:45.997] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[19:05:56.872] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:lunarbase:51f01b34c4d8fd999c5fa698919008c4:-' with expiry time 0
+[19:05:56.962] [Info] Protected dungeonIds for world set to (65524)
+[19:05:56.962] [Info] Placing dungeon lunarbase
+[19:05:57.004] [Info] Placing dungeon at (0, 1000)
+[19:06:01.149] [Warn] Failed to place dungeon object: lunarbasecrate direction: 1 position: (551, 918)
+[19:06:01.155] [Warn] Failed to place dungeon object: lunarbasecrate direction: 1 position: (551, 921)
+[19:06:01.175] [Warn] Failed to place dungeon object: prisonfloodlight direction: 0 position: (402, 933)
+[19:06:01.185] [Warn] Failed to place dungeon object: miningdoor direction: 0 position: (539, 948)
+[19:06:01.796] [Warn] Dungeon wire endpoint not found. (344, 705)
+[19:06:01.796] [Warn] Dungeon wire endpoint not found. (369, 705)
+[19:06:01.797] [Warn] Dungeon wire endpoint not found. (800, 907)
+[19:06:01.797] [Warn] Dungeon wire endpoint not found. (809, 907)
+[19:06:01.798] [Warn] Dungeon wire endpoint not found. (545, 992)
+[19:06:01.798] [Warn] Dungeon wire endpoint not found. (552, 992)
+[19:06:01.798] [Warn] Dungeon wire endpoint not found. (559, 992)
+[19:06:01.800] [Warn] Dungeon wire endpoint not found. (528, 830)
+[19:06:01.800] [Warn] Dungeon wire endpoint not found. (531, 830)
+[19:06:01.802] [Warn] Dungeon wire endpoint not found. (354, 654)
+[19:06:01.802] [Warn] Dungeon wires did not make a circuit.
+[19:06:01.802] [Warn] Dungeon wire endpoint not found. (355, 654)
+[19:06:01.802] [Warn] Dungeon wires did not make a circuit.
+[19:06:01.802] [Warn] Dungeon wire endpoint not found. (352, 655)
+[19:06:01.802] [Warn] Dungeon wires did not make a circuit.
+[19:06:02.603] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:06:03.653] [Info] UniverseServer: Warping player 1 to InstanceWorld:lunarbase:51f01b34c4d8fd999c5fa698919008c4:-
+[19:06:04.734] [Info] Client received world stop packet, leaving: Removed
+[19:06:04.737] [Info] UniverseServer: Stopping idle world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:06:09.753] [Info] Chat: <SAIL> All life readings emanate from a great depth below the surface. The readings are... Difficult to define. Congratulations in advance for your courage.
+[19:06:20.252] [Info] Chat: <SAIL> It appears lockdown has been instigated. You must locate a breaker to restore full power. Please proceed with caution in conditions of low light.
+[19:06:58.003] [Info] Chat: <SAIL> I detect both Erchius chemical signatures and human DNA in these entities. High likelihood of behavioural volatility predicted.
+[19:10:43.360] [Info] Skipped event recording for nonexistent entity 2787
+[19:12:38.556] [Info] Chat: <SAIL> Erchius readings have reached 94 rad. You are in peril. Your Peril level is currently 14,607 morts.
+[19:12:47.838] [Info] Chat: <Esther Bright> Sorry about the AI, dear.
+[19:12:55.272] [Info] Chat: <Esther Bright> Look at them; prolonged contact with the Erchius crystals seems to have denatured their very being! The poor creatures have lost themselves completely.
+[19:13:35.836] [Info] Chat: <SAIL> Erchius readings have reached 101 rad. Your current Peril level is 18,472 morts...
+[19:13:44.702] [Info] Chat: <Esther Bright> Hush! You're not helping.
+[19:14:09.668] [Info] Chat: <SAIL> Conventional weapons have an estimated 0% chance of damaging the Erchius crystal. You are invited to devise another means of attack.
+[19:15:17.633] [Info] Chat: <Esther Bright> Well done!
+[19:15:24.748] [Info] Chat: <SAIL> There is enough Erchius here to fully repair the ship.
+[19:15:32.197] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[19:15:32.293] [Info] Protected dungeonIds for world set to (65524)
+[19:15:32.293] [Info] Placing dungeon outpost
+[19:15:32.303] [Info] Placing dungeon at (0, 750)
+[19:15:36.208] [Info] Protected dungeonIds for world set to (0, 65524)
+[19:15:36.960] [Info] Placing dungeon at (332, 621)
+[19:15:36.963] [Info] Placing dungeon at (332, 655)
+[19:15:36.967] [Info] Placing dungeon at (427, 618)
+[19:15:36.969] [Info] Placing dungeon at (310, 616)
+[19:15:36.970] [Info] Placing dungeon at (644, 641)
+[19:15:36.987] [Info] Placing dungeon at (401, 637)
+[19:15:37.000] [Info] Placing dungeon at (838, 608)
+[19:15:37.029] [Info] Placing dungeon at (452, 627)
+[19:15:37.033] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[19:15:37.033] [Info] Placing dungeon at (308, 640)
+[19:15:37.035] [Info] Placing dungeon at (931, 608)
+[19:15:37.056] [Info] Placing dungeon at (611, 645)
+[19:15:37.059] [Info] Placing dungeon at (355, 636)
+[19:15:37.065] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:15:37.066] [Info] Placing dungeon at (355, 636)
+[19:15:37.073] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[19:15:37.909] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
+[19:15:37.932] [Info] Client received world stop packet, leaving: Removed
+[19:15:37.954] [Info] UniverseServer: Stopping idle world InstanceWorld:lunarbase:51f01b34c4d8fd999c5fa698919008c4:-
+[19:15:38.499] [Info] UniverseServer: Expiring temporary world InstanceWorld:lunarbase:51f01b34c4d8fd999c5fa698919008c4:-
+[19:16:06.858] [Info] UniverseServer: Loading client ship world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:16:06.936] [Info] Protected dungeonIds for world set to (65524)
+[19:16:07.276] [Info] UniverseServer: Warping player 1 to ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:16:07.290] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[19:16:07.296] [Info] Client received world stop packet, leaving: Removed
+[19:16:07.652] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[19:16:13.463] [Info] Chat: <SAIL> Erchius fuel for your FTL drive can be mined from moons. It should be noted that since Earth's destruction, all moons scanned have delivered strange, unpleasant and indecipherable readings.
+[19:16:16.982] [Info] UniverseClient: Client disconnecting...
+[19:16:17.054] [Info] Client received world stop packet, leaving: Removed
+[19:16:17.379] [Info] UniverseServer: Client 'Siridium' <1> (local) disconnected for reason: 
+[19:16:17.380] [Info] UniverseServer: Stopping idle world ClientShipWorld:51f01b34c4d8fd999c5fa698919008c4
+[19:16:17.777] [Info] UniverseServer: Stopping UniverseServer
+[19:16:17.777] [Info] UniverseServer: Stopping TCP Server
+[19:16:17.858] [Info] Clearing steam rich presence connection
+[19:16:17.858] [Info] Deleting discord server lobby 589771652477353994
+[19:16:18.148] [Error] Could not connect delete server lobby (err 0)
+[19:16:19.642] [Info] Application: quit requested
+[19:16:19.642] [Info] Application: quitting...
+[19:16:19.642] [Info] Application: shutdown...
+[19:16:19.877] [Info] Root: Shutting down Root
+[19:16:20.586] [Info] Application: Destroying SDL Window
+[19:16:20.634] [Info] Deleting discord server lobby 589771652477353994
+[19:16:20.638] [Info] Application: stopped gracefully
