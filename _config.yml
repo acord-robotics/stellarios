@@ -81,7 +81,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/nms-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -158,7 +158,7 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
