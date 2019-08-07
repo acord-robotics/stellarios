@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "sharpenedclaw", "count" : 10 },
-	{ "item" : "clay", "count" : 10 },
-	{ "item" : "bluedye", "count" : 1 }
-  ],
-	"output" : { "item" : "toumingoaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab1" ]
-}

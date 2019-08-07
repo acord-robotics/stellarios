@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "adultpoptopaf", "count" : 1 }
-  ],
-	"output" : { "item" : "rewardbag", "count" : 6 },
-	"groups" : [ "figurinescrafter", "figurinestab3" ]
-}

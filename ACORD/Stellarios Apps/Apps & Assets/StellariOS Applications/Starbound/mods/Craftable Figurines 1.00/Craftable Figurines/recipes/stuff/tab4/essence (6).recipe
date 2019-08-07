@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "kluexsentryaf", "count" : 1 }
-  ],
-	"output" : { "item" : "essence", "count" : 100 },
-	"groups" : [ "figurinescrafter", "figurinestab4" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "soluskatana", "count" : 1 }
-  ],
-	"output" : { "item" : "asranoxaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab2" ]
-}

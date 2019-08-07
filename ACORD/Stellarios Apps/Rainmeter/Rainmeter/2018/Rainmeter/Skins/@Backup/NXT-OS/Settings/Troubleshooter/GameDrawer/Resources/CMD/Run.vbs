@@ -1,2 +1,0 @@
-Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run """" & "Fix.bat" & """" & " " & """" & WScript.Arguments(0) & """" & " " & """" & WScript.Arguments(1) & """" & " " & """" & WScript.Arguments(2) & """",0,False

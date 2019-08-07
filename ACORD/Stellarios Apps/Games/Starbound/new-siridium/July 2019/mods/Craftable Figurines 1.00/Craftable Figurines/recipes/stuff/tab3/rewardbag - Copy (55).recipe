@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "tinticaf", "count" : 1 }
-  ],
-	"output" : { "item" : "rewardbag", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab3" ]
-}
