@@ -7,11 +7,11 @@ description: >
 
 Learn all about ACORD here
 
-* [The birth of an idea](/birth) - who formed ACORD, and why did we do it?
-* [ACORD in 2016](/2016) - in 2016, we started working on a grant for our robots
-* [ACORD in 2017](/2017) - in 2017, we started working on our second physical robot, "EssToo"
-* [ACORD in 2018](/2018) - Stellarios was first dreamt up in 2018
-* [Name Change & Rebirth](/2019) - in 2019, we rebranded from AoD to ACORD and started working on the official release of Stellarios
+* [The birth of an idea](/stellarios/birth) - who formed ACORD, and why did we do it?
+* [ACORD in 2016](/stellarios/2016) - in 2016, we started working on a grant for our robots
+* [ACORD in 2017](/stellarios/2017) - in 2017, we started working on our second physical robot, "EssToo"
+* [ACORD in 2018](/stellarios/2018) - Stellarios was first dreamt up in 2018
+* [Name Change & Rebirth](/stellarios/2019) - in 2019, we rebranded from AoD to ACORD and started working on the official release of Stellarios
 
 # Robots & Software
 
@@ -23,9 +23,9 @@ Stellarios is part of that good that we will do. With Stellarios, you can contro
 
 Our robots serve a variety of purposes. Our main project at this time, A0-D2, is being created for a variety of reasons - 
 
-* [Testing & Developing Stellarios](/testing) - The physical robot will be connected to a "virtual robot" inside Stellarios, meaning you can take your robot anywhere
-* [Science Experiments](/science) - Learn about our science work here
-* [Companion for people with disabilities](/companion) - Learn about our "companion robots" here
+* [Testing & Developing Stellarios](/stellarios/testing) - The physical robot will be connected to a "virtual robot" inside Stellarios, meaning you can take your robot anywhere
+* [Science Experiments](/stellarios/science) - Learn about our science work here
+* [Companion for people with disabilities](/stellarios/companion) - Learn about our "companion robots" here
 
 ## Games in Stellarios
 
