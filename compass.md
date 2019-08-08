@@ -6,4 +6,4 @@ permalink: /compass/
 
 # ACORD
 
-* [ABOUT ACORD](/acord) - Learn about us, what we do, and how to get involved
+* [ABOUT ACORD](/stellarios/ACORD) - Learn about us, what we do, and how to get involved
