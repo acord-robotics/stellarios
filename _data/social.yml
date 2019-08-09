@@ -58,7 +58,7 @@ rss:
 youtube:
   name: YouTube
   icon: icon-youtube
-  prepend: "https://www.youtube.com/channel/"
+  prepend: "https://www.youtube.com/channel/UC4U1i-c3GOMUiqRmNTGYoyg/"
 twitch:
   name: Twitch
   icon: icon-twitch
@@ -94,7 +94,7 @@ deviantart:
 steam:
   name: Steam
   icon: icon-steam
-  prepend: "http://steamcommunity.com/profiles/"
+  prepend: "http://steamcommunity.com/id/"
 dropbox:
   name: Dropbox
   icon: icon-dropbox
@@ -197,12 +197,10 @@ yelp:
   prepend: "https://www.yelp.com/user_details?userid="
 paypal:
   name: PayPal
-  icon: icon-paypal
-  prepend: "https://www.paypal.me/"
-keybase:
-  name: Keybase
-  icon: icon-key
-  prepend: "https://keybase.io/"
+  icon: icon-steam
 download:
   name: Download
   icon: icon-box-add
+acord:
+  name: ACORD
+  icon: icon-acord

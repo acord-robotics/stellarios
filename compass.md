@@ -1,21 +1,21 @@
 ---
 description: >
-	This is a dedicated site for the software suite known as Stellarios. On the site map, you can view all the versions of Stellarios, find out about ACORD, and more.
-permalink: /compass/
+  Here you'll see the entire site navigation, as well as all our social links and tutorials on code development
 ---
 
-# ACORD
-
-* [ABOUT ACORD](/stellarios/ACORD) - Learn about us, what we do, and how to get involved
-
-
-# Works
-* [Star Sailors](/starsailors/) - Our science fiction novella loosely based off Star Wars
-
-# Media
-## Stellarios
+# ACORD Navigation
 
 ## Star Sailors
-* [Concept Art](/stellarios/concept-art)
-* [Writing](/stellarios/writing)
-* [Read Star Sailors](http://acord.tech/starsailors)
+
+* [Read Star Sailors: Earthlings](http://acord-robotics.github.io/starsailors/starsailors) --- The first book in the series
+* Read Star Sailors: Infiniraid --- The iconic game first seen in "Earthlings"
+
+## Social
+[Steam](http://steamcommunity.com/id/droidology) - my steam account, which shows the games I'm playing as well as some ACORD games in the future
+
+## Code & Development
+* Read [Planning](http://acord-robotics.github.io/starsailors/planning) --- What's the aim of the game? How much have we done?
+* Github [Gist](https://gist.github.com/IrisDroidology/7bc4088ac071d2413a35e03891bd52c3) --- Snippets of game code
+
+## Documentation
+* [Documentation](http://acord-robotics.github.io/starsailors/docs)

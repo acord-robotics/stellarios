@@ -14,10 +14,9 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import {
-  HyImageElement,
-  WEBCOMPONENT_FEATURE_TESTS
-} from "hy-img/src/webcomponent";
+import "core-js/fn/array/for-each";
+
+import { HyImageElement, WEBCOMPONENT_FEATURE_TESTS } from "hy-img/src/webcomponent";
 
 import { hasFeatures } from "./common";
 

@@ -14,12 +14,16 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import { default as Color } from "color";
-import { default as elemDataset } from "elem-dataset";
+import "core-js/fn/array/find";
+import "core-js/fn/function/bind";
+
+import Color from "color";
 
 import { empty, of } from "rxjs";
 import { ajax } from "rxjs/ajax";
 import { catchError, finalize, map } from "rxjs/operators";
+
+import elemDataset from "elem-dataset";
 
 import { animate } from "./common";
 
@@ -39,8 +43,7 @@ export class CrossFader {
     const main = document.getElementById("_main");
     const pageStyle = document.getElementById("_pageStyle");
     const styleSheet =
-      Array.from(document.styleSheets).find(ss => ss.ownerNode === pageStyle) ||
-      {};
+      Array.from(document.styleSheets).find(ss => ss.ownerNode === pageStyle) || {};
 
     this.sidebar = document.getElementById("_sidebar");
     this.fadeDuration = fadeDuration;
@@ -62,7 +65,7 @@ export class CrossFader {
       responseType: "blob",
       url,
       crossDomain: isExternal(url),
-      headers: { Accept: "image/*" }
+      headers: { Accept: "image/*" },
     }).pipe(
       map(({ response }) => URL.createObjectURL(response)),
       catchError(() => of(image))
@@ -112,8 +115,6 @@ export class CrossFader {
       try {
         const c = Color(color);
         const active = c.darken(0.1);
-        const bodyBg = Color.hsl(tc.hue(), 12.5, 20);
-        const borderColor = Color.hsl(tc.hue(), 12.5, 27.5);
 
         // .content a
         this.rules[0].style.color = color;
@@ -147,7 +148,7 @@ export class CrossFader {
         // ::selection or ::-moz-selection (assuming it is last in the list)
         this.rules[this.rules.length - 1].style.backgroundColor = color;
       } catch (e) {
-        if (process.env.DEBUG) console.error(e);
+        console.error(e);
       }
     }
   }
@@ -162,7 +163,7 @@ export class CrossFader {
 
     return animate(div, [{ opacity: 0 }, { opacity: 1 }], {
       duration: this.fadeDuration,
-      easing: "ease"
+      easing: "ease",
     }).pipe(
       finalize(() => {
         if (prevDiv.objectURL) URL.revokeObjectURL(prevDiv.objectURL);
