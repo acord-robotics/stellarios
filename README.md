@@ -29,6 +29,5 @@ Droid inventor
 
 
 
-## Jekyll Stuff
-
-https://github.com/Fastbyte01/KeepIt/wiki/List-of-social-platforms-supported-out-of-box
+# Star Sailors
+* [Writing](https://photos.app.goo.gl/AXxjdiWkjUHvTxiL8)
