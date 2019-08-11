@@ -12,3 +12,6 @@
 • ---Cut to Opus---
 • Opus sees his captor for the first time
 • ---Cut to Gilbert Gilbert meets the scientist and plans a way to rescue Opus
+
+At Freo Lit on Friday, 9.8.19, I did some writing for Chapter 4, as well as a small bio on Starrix Lierge:
+The photos can be found here: https://photos.app.goo.gl/AXxjdiWkjUHvTxiL8
