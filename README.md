@@ -1,3 +1,6 @@
+# About
+Star Sailors is a novella series based off of Star Wars developed by ACORD as part of Stellarios
+
 # Photos
 * [Chapter 4 Photos](https://photos.app.goo.gl/AXxjdiWkjUHvTxiL8)
 
