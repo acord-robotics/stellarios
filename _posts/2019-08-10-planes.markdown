@@ -1,11 +1,13 @@
 ---
-title:  "Star Sailors"
+title:  "Open Source Rover"
 subtitle: "Stellarios, by ACORD!"
 author: "wferr"
 comments: true
 avatar: "img/authors/5c6bea3b00589-bpfull.png"
 image: "img/looping-orthographic-view-of-rotating-wireframe-model-of-curiosity-rover-displayed-specs-are-accurate-data-nasa-jpl_sut1-z7xg_thumbnail-full01.png"
-date:   2019-04-19 18:12:12
+description: 
+  Thanks to NASA & Github, we have a way to (kind of) recreate the Mars 2020 rover in our own backyard. This means we can create another branch of robots - the ones inspired by space probes and rovers. All branches can be controlled in Stellarios (see [this post](https://acord-robotics.github.io/stellarios/hydejack/releases/2019-07-31-8.5.0/) on how releases work).
+date:   2019-08-10 18:12:12
 ---
 
 # Stellarios
