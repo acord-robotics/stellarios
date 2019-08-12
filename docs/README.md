@@ -1,16 +1,14 @@
 ---
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-hide_description: true
+  The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases
+hide_description: false
 permalink: /docs/
 ---
 
 # Documentation
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/qwtel/hydejack/issues) on GitHub.
+If you think something is missing, go to this [repo](http://github.com/acord-robotics/helpdesk) and file an issue, or send us an email at helpdesk@allianceofdroids.org.au
 
-**NOTE**: While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+**NOTE**: The documentation is always being updated, so if something you've posted about on the helpdesk isn't here, please be patient.
 {:.message}
 
 Buyers of the PRO version can jump straight to [installation for PRO buyers](install.md#pro-version),
