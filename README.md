@@ -13,5 +13,8 @@ Star Sailors is a novella series based off of Star Wars developed by ACORD as pa
 * Chapter 9 (end chapter)
 * Character List
 
-# Chapter 4
+# Current Development
+## Chapter 4
 The file earth-ch-4.md carries on from the photos linked on chapter 4
+
+* [File](https://github.com/acord-robotics/stellarios/blob/star-sailors/earth-ch-4.md)
