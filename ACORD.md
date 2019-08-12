@@ -2,6 +2,13 @@
 description: >
 	ACORD is an Australian Robotics and Software company that was formed in 2015 as the "Alliance of Droids". At ACORD, we strive to build great products and improve the world with our inventions and innovations.
 ---
+# Our Online Presence
+You can check out all our websites and social media stuff on [this page](/stellarios/online-presence/), however the main stuff is listed here:
+
+* [ACORD Portal](http://allianceofdroids.org.au) - This portal is for ACORD members only, it is a way for us to communicate, develop, design and entertain!
+* [ACORD News](http://acord.tech/news) - Read our blog and find out about what's going on in the wide world of ACORD
+* [Twitter](http://twitter.com/ACORDRobotics) - Short snippets about what's going on
+* [Github](http://github.com/acord-robotics) - Our code projects
 
 # ABOUT ACORD
 
@@ -12,6 +19,14 @@ Learn all about ACORD here
 * [ACORD in 2017](/stellarios/2017) - in 2017, we started working on our second physical robot, "EssToo"
 * [ACORD in 2018](/stellarios/2018) - Stellarios was first dreamt up in 2018
 * [Name Change & Rebirth](/stellarios/2019) - in 2019, we rebranded from AoD to ACORD and started working on the official release of Stellarios
+
+## Our members
+### Liam Arbuckle
+Liam Arbuckle is our Chairman & Co-Founder, and was the CEO from 2016-2018. He codes in a variety of languages, including C# & C++, and is currently working on a number of games - including Asteroid Dodgers (see below)
+
+* [Github](http://github.com/irisdroidology)
+* [Website](http://acord.tech/otr)
+* [Twitter](http://twitter.com/OpusTheRobot)
 
 # Robots & Software
 
