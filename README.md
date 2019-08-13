@@ -213,7 +213,7 @@ Clicking on the dome will zoom in on the dome and give you a number of programs 
 
 Terragenesis 
 Dragonvale
-Droid inventor
+Droid inventor by Littlebits
 
 
 
