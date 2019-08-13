@@ -1,4 +1,0 @@
-[TrayMeasure] 
-Measure=CALC 
-TrayMeter=BITMAP 
-TrayBitmap="#@#Graphics\Gallery\Tray\icons\omnimo1.ico"

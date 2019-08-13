@@ -1,2 +1,0 @@
-[Variables]
-ItemSize=450

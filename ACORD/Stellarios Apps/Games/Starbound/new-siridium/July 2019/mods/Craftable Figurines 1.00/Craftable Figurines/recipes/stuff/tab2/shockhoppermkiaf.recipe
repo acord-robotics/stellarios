@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "penguinfossil", "count" : 1 },
-    { "item" : "dubloon", "count" : 5 }
-  ],
-	"output" : { "item" : "shockhoppermkiaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab2" ]
-}

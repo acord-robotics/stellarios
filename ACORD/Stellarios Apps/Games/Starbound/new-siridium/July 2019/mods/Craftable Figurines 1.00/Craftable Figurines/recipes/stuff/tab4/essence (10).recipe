@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "bonedragonaf", "count" : 1 }
-  ],
-	"output" : { "item" : "essence", "count" : 3000 },
-	"groups" : [ "figurinescrafter", "figurinestab4" ]
-}

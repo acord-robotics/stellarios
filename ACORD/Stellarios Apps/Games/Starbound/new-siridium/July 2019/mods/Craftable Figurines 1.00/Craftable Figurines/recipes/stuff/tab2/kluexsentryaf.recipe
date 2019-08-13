@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "kluexstaff", "count" : 1 }
-  ],
-	"output" : { "item" : "kluexsentryaf", "count" : 6 },
-	"groups" : [ "figurinescrafter", "figurinestab2" ]
-}

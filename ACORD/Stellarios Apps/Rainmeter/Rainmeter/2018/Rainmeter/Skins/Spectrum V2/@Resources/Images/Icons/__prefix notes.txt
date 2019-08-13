@@ -1,5 +1,0 @@
-_C_: creative: drawing, image editing, music
-
-_D_: develop: coding, language, IDE
-
-_G_: gaming: games, platforms
