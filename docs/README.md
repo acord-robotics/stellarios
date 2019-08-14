@@ -11,28 +11,18 @@ If you think something is missing, go to this [repo](http://github.com/acord-rob
 **NOTE**: The documentation is always being updated, so if something you've posted about on the helpdesk isn't here, please be patient.
 {:.message}
 
-Buyers of the PRO version can jump straight to [installation for PRO buyers](install.md#pro-version),
-or [upgrades for PRO buyers](upgrade.md#pro-version).
+Members of ACORD can [jump to the ACORD help desk](http://allianceofdroids.org.au/aod/forums/),
+or [continue reading](README.md#getting-started).
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
-{:.related-posts.faded}
+# Getting started
+* [Install]{:.heading.flip-title} --- How to install and run Stellarios
+* [Support]{:.heading.flip-title} --- Learn how to contact us if you run into a problem
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
-{:.related-posts.faded}
+## Versions
+* [Previous Versions]{:.heading.flip-title} --- All the previous releases of Stellarios
+* [App List]{:.heading.flip-title} --- What's currently part of Stellarios?
+* [Changelog]{:.heading.flip-title} --- What's been added in the updates?
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
 
 [install]: install.md
 [upgrade]: upgrade.md
