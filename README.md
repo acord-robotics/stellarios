@@ -25,6 +25,8 @@ This allows us to show what we have changed in different branches, for example w
 
 * [Log Directory](http://github.com/acord-robotics/stellarios/tree/master/Logs)
 
+## Game Logs
+* [NMS](https://github.com/acord-robotics/stellarios/tree/master/Logs/Games/No%20Man's%20Sky)
 
 05f9ec6b0419eb0a1301e51d5a93fda2f9fc8886
 >>>>>>> 05f9ec6b0419eb0a1301e51d5a93fda2f9fc8886
