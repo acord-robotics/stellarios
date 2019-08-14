@@ -12,14 +12,14 @@ hide_description: false
 # Stellarios
 * [Changelog](/stellarios/CHANGELOG) - What's been added in the previous versions?
 * [Release History](/stellarios/releases) - What's the most recent version?
-* [About Stellarios](/stellarios/ACORD#robots--software)
+* [About Stellarios](/stellarios/ACORD#robots--software) - What is Stellarios?
 
 # Works
 * [Star Sailors](/starsailors/) - Our science fiction novella loosely based off Star Wars
 
 # External Sites
 * [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything
-* [Public Blog](http://acord.tech/news
+* [Public Blog](http://acord.tech/news) - Find out everything about ACORD!
 
 # Media
 ## Stellarios
