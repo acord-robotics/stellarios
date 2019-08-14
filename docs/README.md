@@ -16,11 +16,11 @@ or [continue reading](README.md#getting-started).
 
 # Getting started
 * [Install]{:.heading.flip-title} --- How to install and run Stellarios
-* [Support]{:.heading.flip-title} --- Learn how to contact us if you run into a problem
+* [Support](/stellarios/support/) --- Learn how to contact us if you run into a problem
 
 ## Versions
-* [Previous Versions]{:.heading.flip-title} --- All the previous releases of Stellarios
-* [App List]{:.heading.flip-title} --- What's currently part of Stellarios?
+* [Previous Versions](/stellarios/releases) --- All the previous releases of Stellarios
+* [App List](/stellarios/apps) --- What's currently part of Stellarios?
 * [Changelog]{:.heading.flip-title} --- What's been added in the updates?
 
 
