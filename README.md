@@ -23,7 +23,7 @@
 # Logs
 This allows us to show what we have changed in different branches, for example what I've done in NMS or the stuff I've added in a new build of Asteroid Dodgers, making it easier to find stuff than searching through commits
 
-* [Log Directory](http://github.com/acord-robotics/stellarios/blob/master/logs)
+* [Log Directory](http://github.com/acord-robotics/stellarios/tree/master/Logs)
 
 
 05f9ec6b0419eb0a1301e51d5a93fda2f9fc8886
