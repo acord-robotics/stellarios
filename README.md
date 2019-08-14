@@ -1,180 +1,144 @@
-# Hydejack
+# ACORD Robotics/Stellarios
+Asteroid Dodgers is a game part of Stellarios that is created in Unity. It is actively developed at Github/Acord-Robotics/Unityballs.
 
-The "Best Jekyll Theme by a Mile".
+## Asteroid Dodgers (aka Unityballs)
+### Documentation - SDLC
+__State The Problem__
+What I want to learn: I want to learn how to create a game for both computers and mobile devices. I want to learn how to code in languages such as C# and C++. I've played games for ages, but mostly science fiction games. I've looked for true space colonization games for years, but until recently I never found any good ones. So, I thought that I should make my own game, and that's what I want to learn. 
 
+Skills I will need: I will need to know how to navigate the Unity interface and I will need to know the C# language. I've only ever created websites before, as I have trouble with understanding the languages used for games such as C# and JavaScript. Last year in Computer Science I created a text-based role-playing game using Python, and Python is a scripting language that I understand well as it is quite logical, and there are only 33 keywords in Python 3 so it is quite easy to understand. I considered creating a game in Python, but as I don't know how to create objects and textures for Python games, the best thing I could have done was a text-based-game, which I don't think is a good representation of my abilities. I used Unity briefly last year in Computer Science as well, and because of my search to find good space games (especially for mobile) and my hopes of learning code, I decided to learn how to use Unity & C#.
 
-![Screenshot](assets/img/blog/hydejack-8.png)
-Hydejack's cover page on a variety of screens.
+The app will be a game that will be available for mobile devices and computers. I intend on making it a game that will primarily entertain younger gamers, as the game will not be on the same level as games that experienced gamers will know. This means that they probably would not get enjoyment out of it, however anyone can play it and there is no real target audience. The needs of the user will be a computer, mouse and keyboard, or a mobile device and their hands, as well as the instructions for the game. The licensing will be open-source, so that everyone can improve the game if they want to and this means that I don't have to look over every proposed change. 
 
+__Project Timeline__
+Date	Time	Description
+July 7	2 hours	I completed the Roll-A-Ball Tutorial on Unity Tutorials. 
+July 7	45 minutes	 I restarted my game, creating a game similar to Roll-A-Ball, but without following the tutorial and without looking at the tutorial I had done
+July 8	35 minutes	I added "pickups" to the game - objects for the player to pick up. These had no textures, they were just spinning cubes
+July 9	60 minutes	I added a move function to the game.
+		{
+		        float moveHorizontal = Input.GetAxis("Horizontal");
+		        float moveVertical = Input.GetAxis("Vertical");
+		
+		        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+		
+		        if (Input.GetKeyDown(KeyCode.Space))
+		        {
+		            rb.AddForce(new Vector3(0, 10, 0), ForceMode.Impulse);
+		        }
+		
+		        rb.AddForce(movement * speed); // part of the rigidbody, to make the object (in this case the ball) move faster or slower. To solve the issue of compiling over and over again whenever I change the speed, I'll create a new public variable on line 7
+		    }
+		
+July 10	30 minutes	I added scoring to the game, using this code:
+		
+		{
+		        if (other.gameObject.CompareTag("Pick Up")) // The Pick Up tag needs to be declared in Unity    // Destroy(other.gameObject); With this code, when the player game object touches the "other collider", it will destroy the game object that the trigger is attached to, through the reference "other.gameObject". 
+		        {
+		            other.gameObject.SetActive(false);
+		            count = count + 1; // To display this score, we have created a "UI object - text" in the Unity editor. This also created a canvas and an event system in the hierachy.
+		            SetCountText();
+		        }
+		
+		        if (other.gameObject.CompareTag("Asteroid")) // If colliding with a game object that has the tag "Asteroid"....
+		        {
+		            other.gameObject.SetActive(false); // The asteroid will be set to false (i.e. not visible)
+		            count = count - 1; // The player's score will decrease by 1
+		            SetCountText(); 
+		        }
+		
+July 13	3 hours	 I restarted and finished the Roll-A-Ball tutorial as when I added scoring it screwed up my move function, which was different to the function seen in the tutorial
+July 14	2 hours	I started to deviate from the standard tutorial.  I added "asteroids", which are objects that the player needs to avoid. (I first tried to create the texture and when I couldn't I just went back to using the default texture and turned it into a prefab)
+July 17	5 minutes	 I added a script to the asteroids so that they will remove a point from the player's score 
+July 18	20 minutes	 I downloaded a sprite/texture from the Unity Asset store - for the spaceship
+July 19	2 hours	I resized the playboard, the pick up objects and the asteroids because the spaceship sprite is much bigger than the player
+July 23	2 hours	 I added a new move function to the spaceship, which previously could not move. I also added a script so that the scoring would work for the spaceship, which is a separate gameObject to the player (which is disabled). (2 hours, with different scripts now working because of the texture that I downloaded, which was in fact a prefab with custom movement scripts)
+		
+		{
+		        float h = Input.GetAxis("Horizontal") * 5;
+		        float v = Input.GetAxis("Vertical") * 5;
+		
+		        Vector3 vel = rb.velocity;
+		
+		        vel.x = h;
+		        vel.z = v;
+		        rb.velocity = vel;
+		
+		    }
+		
+July 28	30 minutes	Added time delay after the user completes or loses a level before the scene changes (waitfortime function) 
+July 30	25 minutes	Added a new scene for main menu and for level 2 (when you finish level 1, there is a delay of 5 seconds and then it transitions to Level 2)
+August 3	30 minutes	Found asteroid sprite/texture from the Unity asset store and added it to the asteroid prefab
+August 4	30 minutes	Started documentation
+August 6	1 hour	SDLC
+August 7	30 minutes	Large and small asteroids added, which take different amounts off your ship's durability
+August 7	30 minutes	Ship durability score - previously the asteroids just took points off your score from collecting the pickups. This was a problem as it meant that you may run into too many asteroids and not be able to collect enough pickups to finish the game
+August 8	30 minutes (with Mr Musovic)	Trace Table
+August 10	45 minutes	Similar apps
+Total time	20.75 hours	
 
-**Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
-
-> Your presence on the web — A [blog], a [portfolio], and a [resume].
-
-
-There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade.
-
-|                        | Free           | PRO      |
-|:-----------------------|:--------------:|:--------:|
-| Blog                   | &#x2714;       | &#x2714; |
-| [Features]             | &#x2714;       | &#x2714; |
-| [Portfolio]            |                | &#x2714; |
-| [Resume]               |                | &#x2714; |
-| [Welcome]              |                | &#x2714; |
-| [Newsletter Box][news] |                | &#x2714; |
-| [Custom Forms][forms]  |                | &#x2714; |
-| [Dark Mode][darkm]     |                | &#x2714; |
-| [Offline Support][ofln]|                | &#x2714; |
-| Cookie Banner          |                | &#x2714; |
-| No Hydejack Branding   |                | &#x2714; |
-| License                | [GPL-3.0][lic] | [PRO]    |
-| Source                 | [GitHub][src]  | Included |
-| Support[^1]            | No             | No       |
-| Price                  | Free           | $59      |
-| | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]][nfy] | [**Buy PRO** --- $59][buy] |
-
-
-
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
-
-
-## A Printable Resume
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
-
-![Resume PDF](assets/img/blog/resume.png)
-Front and center page of a print resume generated by Hydejack.
-
-
-
-## Just Markup
-**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a plain old *web page* at its core. It works without JavaScript, and you can even view it in a text-based browser like `w3m`:
-
-![w3m Screenshot](assets/img/blog/w3m.png)
-The Hydejack blog, as seen by the text browser `w3m`.
-
-
-
-## Syntax Highlighting
-**Hydejack** features syntax highlighting, powered by [Rouge].
-
-```js
-document.getElementsByTagName("hy-push-state")[0].addEventListener("hy-push-state-load", function() {
-  // <your init code>
-});
-```
-
-
-## Beautiful Math
-They say math is beautiful — and with **Hydejack**'s [math support][latex] it's also guaranteed to *look* beautiful.
-
-![Math Screenshot](assets/img/blog/example-content-iii.jpg)
-Hydejack uses KaTeX to efficiently render math.
-
-
-
-## Build an Audience
-The PRO version has built-in support for customizable [Tinyletter] newsletter subscription boxes.
-
-If you are using a different service like MailChimp, you can build a custom newsletter subscription box using [Custom Forms][forms].
-
-
-## A Personal Site That Belongs to You
-**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
-
-
-## Features
-An incomplete list of features included in all versions of **Hydejack**:
-
-* Full in-app page loading, powered by [hy-push-state]
-* Customizable sidebar and touch-enabled drawer menu, powered by [hy-drawer]
-* Lazy image loading with cancellation and placeholder, powered by [hy-img]
-* Advanced FLIP animations, inspired by Material Design
-* 99/100 [Google PageSpeed Score][gpss][^2]
-* [Syntax highlighting][syntax], powered by [Rouge]
-* [LaTeX math blocks][latex], powered by [KaTeX]
-* Change the wording of built-in strings and possibly translate in other languages
-* Support for categories and tags
-* Built-in icons for many social networks
-* Simple and semantic HTML
-* Structured Data for core entities
-* Author section below each article and support for multiple authors
-* Google Analytics and Google Fonts support
-
-
-## Download
-There are two versions of **Hydejack**: The *free version* includes basic blogging functionality, as did previous versions of the theme.
-The *PRO version* includes additional features for professionals:
-A [portfolio], a [resume] layout, and a [welcome] page to highlight your favorite projects and posts.
-
-This table below shows what's included in each version:
-
-|                        | Free           | PRO      |
-|:-----------------------|:--------------:|:--------:|
-| Blog                   | &#x2714;       | &#x2714; |
-| [Features]             | &#x2714;       | &#x2714; |
-| [Portfolio]            |                | &#x2714; |
-| [Resume]               |                | &#x2714; |
-| [Welcome]              |                | &#x2714; |
-| [Newsletter Box][news] |                | &#x2714; |
-| [Custom Forms][forms]  |                | &#x2714; |
-| [Dark Mode][darkm]     |                | &#x2714; |
-| [Offline Support][ofln]|                | &#x2714; |
-| Cookie Banner          |                | &#x2714; |
-| No Hydejack Branding   |                | &#x2714; |
-| License                | [GPL-3.0][lic] | [PRO]    |
-| Source                 | [GitHub][src]  | Included |
-| Support[^1]            | No             | No       |
-| Price                  | Free           | $59      |
-| | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]][nfy] | [**Buy PRO** --- $59][buy] |
+__Tracetable - For Scoring__
+Line 1	Score <-- 0
+Line 2	Repeat
+Line 3	Input(movement)
+Line 4	     If gameObject collides with pickUp
+Line 5	     Score <-- score + 1
+Line 6	Until(score == 5)
+Line 7	Output("Load Scene 2" after 5 second delay)
+	
 
 
 
+Line	Score	gameObject collide pickUp	Score = 5	Output
+1	 0	 		 
+4	 	FALSE	 	 
+6	 	 	FALSE	 
+5	 0		 	 
+4	 	TRUE		 
+5	 1	 	 	 
+6	 	 	FALSE	 
+4		 TRUE	 	 
+5	 2		 	 
+6	 	 	 FALSE	 
+4	 	 TRUE		 
+5	3	 	 	 
+7	 		 FALSE	 
+8	 	 TRUE	 	 
+4	 4			 
+7	 		 FALSE	 
+8	 	TRUE 	 	 
+4	 5	 		 
+5		 	 TRUE	 
+7	 	 	 	Load Level 2
 
-[^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
-      You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the [PRO] license.
+__ Similar apps available
+One of the most popular tutorials on Unity is the Roll-A-Ball tutorial, and this is the tutorial that I followed to learn how to use the Unity interface and get the hang of C#. Roll-A-Ball is a small game that involves a 3D ball (game object) that the player controls that attempts to pick up objects (that are named "pickups") on the play field. My game (Asteroid Dodgers) is quite like Roll-A-Ball, however there are things to avoid (namely asteroids) as well as things to pick up, and in the future levels there will be more of an adventure aspect to the game. Roll A Ball is a game that is not very aesthetically pleasing, however it doesn't need to be as the purpose of it is to show the user how to create games in Unity and is not going to be published on Steam or the Google Play Store.
 
-[^2]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
+Subway surfers is another game that is similar to my game. Like Asteroid Dodgers, it has things to avoid (trains, barriers and the policeman that is chasing you) as well as things to pick up (coins and powerups). Subway surfers has very cartoon-style graphics, which works as the average demographic for Subway Surfers is the pre-teen range. Subway surfers has an inventory system (for example, the coins that you have picked up) that is linked to your account, as well as a social network aspect that allows you to connect with your friends and try and beat their scores. The game has a scoring total that is linked to how far you have run, so there is a feature that tracks how far the user has run.
 
-[blog]: https://hydejack.com/blog/
-[portfolio]: https://hydejack.com/projects/
-[resume]: https://hydejack.com/resume/
-[download]: https://hydejack.com/download/
-[welcome]: https://hydejack.com/
-[forms]: https://hydejack.com/forms-by-example/
+Doodle Jump is a popular "arcade-style" game that has been around for around about 10 years. In Doodle Jump, you play as a character that is "drawn" onto a piece of paper. There are obstacles that are drawn onto the paper that you need to avoid, and in some levels (for example the pirate level) there are coins and other objects to collect. It is similar to Subway surfers in that it has an inventory system and will go on forever until the player dies (by running into an obstacle, for example). Both Subway Surfers and Doodle Jump are procedurally generated, which means that unlike my game (Asteroid Dodgers), there is no set map for each level. Instead, each time the game is loaded it puts different platforms (to jump on), collectables and obstacles in random positions according to rules that are set in the code. For example, in Doodle Jump there could be a rule saying that there can't be 2 monsters (obstacles) within 3 meters of each other. This means that when the map in a level is generated, each object is placed randomly but will make sure that it is possible for the user to continue playing without "dying". 
 
-[features]: #features
-[news]: #build-an-audience
-[syntax]: #syntax-highlighting
-[latex]: hydejack/_posts/2018-06-01-example-content-iii.md#math
-[darkm]: hydejack/_posts/2018-09-01-introducing-dark-mode.md
+__Remove barriers__
+Location	Equipment	Conditions
+Home	Table	Free of everything
+Library	Library Desk + Charging port	Cleared
+Gardham	Notebook, Computer	
+All Locations	Computer (Lenovo Yoga 910)	Microsoft Visual Studio Code
+		Unity
+		Tutorial/Unity cheatsheet
+		Everything else closed
+All Locations	Headphones/Earphones	Connected
+		Ambient music or heavy metal
+Home (Using Desktop)	Mouse	Connected, on mousepad
+All Locations	Phone	Silent, charging (if at home) or in pocket (at school)
 
-[lic]: LICENSE.md
-[pro]: licenses/PRO.md
-[docs]: docs/README.md
-[ofln]: docs/advanced.md#enabling-offline-support
+__Pseudocode & Flowchart__
 
-[kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.5.0.zip
-[src]: https://github.com/qwtel/hydejack
-[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
-[buy]: https://app.simplegoods.co/i/NATYVLYT
-[nfy]: https://app.netlify.com/start/deploy?repository=https://github.com/qwtel/hydejack-starter-kit
-[dtn]: https://www.netlify.com/img/deploy/button.svg
 
-[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2F
-[hy-push-state]: https://qwtel.com/hy-push-state/
-[hy-drawer]: https://qwtel.com/hy-drawer/
-[hy-img]: https://qwtel.com/hy-img/
-[rouge]: http://rouge.jneen.net
-[katex]: https://khan.github.io/KaTeX/
-[tinyletter]: https://tinyletter.com/
-
-*[FLIP]: First-Last-Invert-Play. A coding technique to achieve performant page transition animations.
+Score <-- 0
+Repeat
+	Input(Movement)
+		If gameObject collides pickUp
+		Score <-- Score + 1
+Until(score==5)
+Output("Load Scene 2" after 5 second delay)
