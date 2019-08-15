@@ -1,5 +1,7 @@
 # Hydejack
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a7814ae7-43dd-480e-bc15-892b52db89dd/deploy-status)](https://app.netlify.com/sites/affectionate-yonath-e925c9/deploys)
+
 The "Best Jekyll Theme by a Mile".
 
 
