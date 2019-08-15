@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f834697e-02e3-417c-a07b-30192eece0be/deploy-status)](https://app.netlify.com/sites/acordcorporation/deploys)
+
 # Hydejack
 
 The "Best Jekyll Theme by a Mile".
