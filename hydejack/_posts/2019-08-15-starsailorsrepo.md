@@ -14,4 +14,4 @@ The Star Sailors repository will still be used for the writing, development and 
 
 Star Sailors is a novella based loosely off of the Star Wars series of science-fiction movies, comics and novels. 
 
-The prologue and Chapters 1-8 are available on the [Star Sailors repo]()
+The prologue and Chapters 1-8 are available on the [Star Sailors repo](http://acord-robotics.github.io/starsailors) 
