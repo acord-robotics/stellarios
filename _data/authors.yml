@@ -24,8 +24,8 @@ author1:
     path:            https://avatars0.githubusercontent.com/u/47021021?s=280&v=4
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            https://avatars0.githubusercontent.com/u/47021021?s=280&v=4
+      2x:            https://avatars0.githubusercontent.com/u/47021021?s=280&v=4
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
