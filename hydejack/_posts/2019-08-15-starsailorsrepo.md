@@ -1,7 +1,7 @@
 ---
 title: Star Sailors Repo Information
 image: /assets/img/nasa-concept-ship-3d-model-max-obj-mtl-fbx.jpg
-categories: [StarSailors]
+categories: starsailors
 description: >
   We've used the Star Sailors Repo (Github/Acord-Robotics/StarSailors) for the past few months to catalogue the development of Stellarios. From now, that repo will only dicuss the development of the Star Sailors novella series, which will also be discussed here.
 ---
