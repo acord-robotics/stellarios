@@ -1,6 +1,6 @@
 ---
 description: >
-  The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases
+  The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases. The documentation is updated frequently
 hide_description: false
 permalink: /docs/
 ---
