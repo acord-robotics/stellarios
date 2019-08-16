@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "erchiuseye", "count" : 1 }
-  ],
-	"output" : { "item" : "erchiushorroraf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab2" ]
-}

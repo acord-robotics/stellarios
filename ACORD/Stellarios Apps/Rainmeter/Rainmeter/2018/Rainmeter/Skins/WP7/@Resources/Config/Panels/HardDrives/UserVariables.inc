@@ -1,9 +1,0 @@
-[Variables]
-DriveLabel1=C
-DriveLabel2=D
-DriveLabel3=E
-DriveLabel4=H
-DriveLabel5=G
-DriveLabel6=J
-PanelTitle=#STORAGE#
-=

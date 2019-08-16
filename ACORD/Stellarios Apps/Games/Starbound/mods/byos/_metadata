@@ -1,9 +1,0 @@
-{
-  "author" : "Amber Talamasca",
-  "description" : "Deep under the outpost lives a man with the secret to building your own ship.\n\nInspired by the FCS (Fully Customizable Ships) by Princeofmar5 mod that was unfortunatly abandoned, this mod brings you a ship that you can build from the ground up.\n\nFor but a mere dubloon (and the wits to find our questgiver) you can now own your own BYOS!\nYou want to travel around the universe in a tardis? have a planet for a spaceship? travel in the comfort of a spacewhale's stomach? If you can imagine and build it, it is now possible.\n\nWarning: this will utterly destroy your old ship. I've put a platform down to catch anything that does not remain hanging in the air, but I advise you to \n1: backup your player folder! (its in starbound\\storage\\player)\n2: clean up your ship before accepting this quest.\n\nShown picture is after cleanup, hazard blocks and custom placed blocks will remain in their original position. I'd advise bringing a broom before you start building (where's that useless janitor when you need him?)\n\nI'd advice you to not do this quest until your original ship is fully repaired (at that point it should be seperate from the main quest)\n\nExtra species are not included yet, they need more testing. \n\nnow without the residual blocks and such, and a platform to catch most anything you couldn't/forgot to remove before you did the quest.",
-  "friendlyName" : "BYOS - Build Your Own Ship",
-  "link" : "steam://url/CommunityFilePage/737732952",
-  "name" : "byos",
-  "steamContentId" : "737732952",
-  "version" : "1.3"
-}

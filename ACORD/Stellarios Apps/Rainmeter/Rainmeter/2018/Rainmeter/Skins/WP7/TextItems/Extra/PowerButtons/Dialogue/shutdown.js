@@ -1,1 +1,0 @@
-WScript.CreateObject("WScript.Shell").Run("cmd.exe /c ping -n 10 127.0.0.1 > NUL & notepad", 0)

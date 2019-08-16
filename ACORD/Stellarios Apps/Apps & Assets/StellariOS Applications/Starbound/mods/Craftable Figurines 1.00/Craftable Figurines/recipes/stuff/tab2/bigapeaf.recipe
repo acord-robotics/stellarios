@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "miniknoglauncher", "count" : 1 }
-  ],
-	"output" : { "item" : "bigapeaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab2" ]
-}
