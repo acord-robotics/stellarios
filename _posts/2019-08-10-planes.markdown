@@ -1,0 +1,34 @@
+---
+title:  "Open Source Rover"
+subtitle: "Stellarios, by ACORD!"
+author: "wferr"
+comments: true
+avatar: "img/authors/5c6bea3b00589-bpfull.png"
+image: "img/looping-orthographic-view-of-rotating-wireframe-model-of-curiosity-rover-displayed-specs-are-accurate-data-nasa-jpl_sut1-z7xg_thumbnail-full01.png"
+categories: robots
+description: 
+  Thanks to NASA & Github, we have a way to (kind of) recreate the Mars 2020 rover in our own backyard. This means we can create another branch of robots - the ones inspired by space probes and rovers. All branches can be controlled in Stellarios (see [this post](https://acord-robotics.github.io/stellarios/hydejack/releases/2019-07-31-8.5.0/) on how releases work).
+date:   2019-08-10 18:12:12
+---
+
+According to NASA, the Open Source Rover is
+
+"The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics."
+
+```c++
+void Screen::display_state(){
+  if (state == RUNNING){
+    RGBmatrixPanel::drawPixel(STATE[0], STATE[1], RGBmatrixPanel::Color444(GREEN));        
+  }
+  else if (state == IDLE){
+    RGBmatrixPanel::drawPixel(STATE[0], STATE[1], RGBmatrixPanel::Color444(RED));
+  } else if (state == 0x00){
+    RGBmatrixPanel::drawPixel(STATE[0], STATE[1], RGBmatrixPanel::Color444(WHITE));
+  }
+}
+```
+
+- A sample of the code that the OSR runs on
+
+Stellarios is the official operating system and app of ACORD.  Stellarios will be designed to work on MacOS & Windows devices, and  there will be apps created for Android, iOS & Linux devices.  Stellarios is going to be a bundle of applications that will be used by  ACORD Corporation members to perform certain operations.
+
