@@ -7,6 +7,14 @@ __Link__: https://create.arduino.cc/projecthub/fileark/diy-arduino-rc-mars-rover
 ### R2-D2
 __Link__: https://create.arduino.cc/projecthub/kutluhan-aktar/make-an-enhanced-r2-d2-to-be-controlled-by-an-android-app-e54b3d
 
+## Tinkercad & Arduino Simulators
+droidology@allianceofdroids.org.au - Autodesk
+
+* [7 best arduino simulators](https://windowsreport.com/arduino-simulators/)- Windowsreport
+
+## Raspberry Pi & Arduino
+https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
+
 
 
 
