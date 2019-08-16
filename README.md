@@ -11,6 +11,8 @@ __Link__: https://create.arduino.cc/projecthub/kutluhan-aktar/make-an-enhanced-r
 droidology@allianceofdroids.org.au - Autodesk
 
 * [7 best arduino simulators](https://windowsreport.com/arduino-simulators/)- Windowsreport
+* https://www.autodesk.com/education/free-software/eagle#
+* https://www.electronify.org/
 
 ## Raspberry Pi & Arduino
 https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
