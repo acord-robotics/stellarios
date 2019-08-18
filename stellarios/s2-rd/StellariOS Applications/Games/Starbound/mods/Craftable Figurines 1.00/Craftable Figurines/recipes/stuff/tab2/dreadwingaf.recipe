@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "penguinfossil", "count" : 1 },
+    { "item" : "dubloon", "count" : 3 }
+  ],
+	"output" : { "item" : "dreadwingaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab2" ]
+}

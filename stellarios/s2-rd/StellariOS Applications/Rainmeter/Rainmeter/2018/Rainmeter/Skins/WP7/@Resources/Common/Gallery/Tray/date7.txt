@@ -1,0 +1,7 @@
+[TrayMeasure]
+Measure=TIME
+Format=%d
+MaxValue=31
+MinValue=1
+TrayMeter=BITMAP
+TrayBitmap=#@#Graphics\Gallery\Tray\rm\date\datewhite.png

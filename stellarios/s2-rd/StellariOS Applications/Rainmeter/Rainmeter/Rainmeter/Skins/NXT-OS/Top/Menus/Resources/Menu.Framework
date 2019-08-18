@@ -1,0 +1,80 @@
+[Rainmeter]
+Update=-1
+OnRefreshAction=[!CommandMeasure "Menu.Timer" "Execute 1"][!CommandMeasure "Timer" "Stop 2" "NXT-OS\Top"]
+OnCloseAction=[!CommandMeasure "Timer" "Stop 2" "NXT-OS\Top"][!CommandMeasure "Timer" "Execute 2" "NXT-OS\Top"]
+OnFocusAction=[!SetOption "Menu.Check" "Formula" "1"][!UpdateMeasure Menu.Check]
+OnUnfocusAction=[!DeactivateConfig]
+
+[Variables]
+Animate.Size=10
+Animate.State=0
+Animate.Counter=0
+Animate.FPS=16
+Animate.Frames=15
+
+Menu.Width=300
+Menu.Height=300
+@IncludeVariables=#@#Settings.inc
+
+[Menu.Check]
+Measure=Calc
+Formula=0
+IfBelowValue=1
+IfBelowAction=[!DeactivateConfig]
+Disabled=1
+
+;========================================================
+; Animate Section
+;========================================================
+
+[Menu.Timer]
+Measure=Plugin
+Plugin=ActionTimer
+Group=Animate
+ActionList1=Wait 80|Repeat IconPos, #Animate.FPS#, #Animate.Frames#|Wait 5|Toggle|Show
+ActionList2=Wait 100|Check
+Show=[!CommandMeasure "Timer" "Stop 2" "NXT-OS\Top"][!CommandMeasure "ControlScript" "MenuShow()" "NXT-OS\Top"]
+Check=[!EnableMeasure "Menu.Check"][!UpdateMeasure "Menu.Check"]
+Toggle=[!SetVariable "Animate.State" "(#Animate.State# = 0 ? 1 : 0)"][!SetVariable "Animate.Counter" "0"][!Update]
+IconPos=[!SetVariable "Animate.Counter" "(#Animate.Counter#+1)"][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]
+DynamicVariables=1
+
+[AnimateCalc]
+Measure=Calc
+Formula=(#Animate.State# = 0)?(-#Animate.Size#*((((#Animate.Counter#/(#Animate.Frames#-1))-1)**4)-1)) : ((#Animate.Size#*((((#Animate.Counter#/(#Animate.Frames#-1))-1)**4)-1))+#Animate.Size#)
+DynamicVariables=1
+Group=Animate
+
+;========================================================
+; Menu Section
+;========================================================
+
+[Menu.Space]
+Meter=Image
+SolidColor=0,0,0,0
+W=(300*#Top.Scale#)
+H=100
+
+[Menu.BG]
+Meter=Image
+ImageName=#@#Images\Pop_Box.png
+ScaleMargins=10,10,10,10
+W=((#Menu.Width#*#Top.Scale#)+10)
+H=((#Menu.Height#*#Top.Scale#)+10)
+X=(((300*#Top.Scale#)-(#Menu.Width#*#Top.Scale#))/2)-5
+Y=(10+[AnimateCalc])
+DynamicVariables=1
+Group=Animate
+
+[Menu.Arrow]
+Meter=Image
+ImageName=#@#Images\Pop_Box_Arrow_Up.png
+X=(((300*#Top.Scale#)/2)-16)
+Y=-10r
+
+[Menu.Inner]
+Meter=Image
+W=(#Menu.Width#*#Top.Scale#)
+H=(#Menu.Height#*#Top.Scale#)
+X=((((300*#Top.Scale#)-(#Menu.Width#*#Top.Scale#))/2))
+Y=-1R

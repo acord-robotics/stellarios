@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cryonicextract", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "rawfish", "count" : 1 },
+	{ "item" : "bluedye", "count" : 1 }
+  ],
+	"output" : { "item" : "snuffishaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,PulsRadio 2000
+http://icecast.pulsradio.com/puls00HD.mp3
+#EXTINF:-2,PulsRadio 2000
+http://icecast.pulsradio.com/pulsA00AAC64.mp3

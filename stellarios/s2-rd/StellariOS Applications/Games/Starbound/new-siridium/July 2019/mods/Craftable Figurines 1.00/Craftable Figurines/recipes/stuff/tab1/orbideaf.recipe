@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "larva", "count" : 10 },
+    { "item" : "sharpenedclaw", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "bluedye", "count" : 1 },
+	{ "item" : "blackdye", "count" : 1 }
+  ],
+	"output" : { "item" : "orbideaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

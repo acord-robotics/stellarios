@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sharpenedclaw", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "greydye", "count" : 1 }
+  ],
+	"output" : { "item" : "poptopaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

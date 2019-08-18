@@ -1,0 +1,4 @@
+[TrayMeasure]
+Measure=CPU
+TrayMeter=BITMAP
+TrayBitmap=#@#Graphics\Gallery\Tray\rm\cpu\%02i.ico

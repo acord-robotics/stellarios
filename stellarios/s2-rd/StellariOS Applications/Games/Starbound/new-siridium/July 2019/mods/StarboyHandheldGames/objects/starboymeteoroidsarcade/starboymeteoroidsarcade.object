@@ -1,0 +1,59 @@
+{
+  "objectName" : "starboymeteoroidsarcade",
+  "colonyTags" : ["human", "electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "The machine runs a game called 'Meteoroids'.",
+  "shortdescription" : "Meteoroids Arcade Machine",
+  "race" : "human",
+
+  "apexDescription" : "This game is unrealistic.  It is very unlikely to encounter meteoroids that densely clustered.",
+  "avianDescription" : "Not bad but Aether Wings was better.",
+  "floranDescription" : "Rocksss don't put up much of a fight.",
+  "glitchDescription" : "Hyper. Had too many energy drinks while playing this.",
+  "humanDescription" : "I've lost a few nights of sleep trying to beat my high score.",
+  "hylotlDescription" : "We must take time to appreciate the classics.",
+  "novakidDescription" : "I make a mighty fine meteor wrangler.",
+
+  "inventoryIcon" : "starboymeteoroidsarcadeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "starboymeteoroidsarcadeleft.png:<color>.<frame>",
+      "rightImage" : "starboymeteoroidsarcaderight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/starboyarcade.lua", "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboymeteoroidsgame/starboymeteoroidsarcade.config"
+}

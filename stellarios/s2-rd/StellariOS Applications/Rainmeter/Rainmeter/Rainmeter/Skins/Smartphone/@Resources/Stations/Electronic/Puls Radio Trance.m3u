@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-2,(#1 192k) PulsRadio Version 100% Trance - www.pulsradio.com
+http://icecast.pulsradio.com:80/pulstranceHD.mp3
+#EXTINF:-2,(#2 192k) PulsRadio Version 100% Trance - www.pulsradio.com
+http://firewall.trance.pulsradio.com:80
+#EXTINF:-2,(#3 192k) PulsRadio Version 100% Trance - www.pulsradio.com
+http://stream.trance.pulsradio.com:9000
+#EXTINF:-2,(#4 192k) PulsRadio Version 100% Trance - www.pulsradio.com
+http://firewall.trance.pulsradio.com:80
+#EXTINF:-2,(#5 192k) PulsRadio Version 100% Trance - www.pulsradio.com
+http://stream.trance.pulsradio.com:9000

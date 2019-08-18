@@ -1,0 +1,95 @@
+DEBUG: (00:53:29.391) Refreshing (Name: "IPLookup" Ini: "IP.ini")
+DEBUG: (00:53:29.469) Unable to load image: C:\Program Files\Rainmeter\Skins\IPLookup\%1.png
+DEBUG: (00:53:29.469) WebParser: Fetching URL: http://www.geobytes.com/IpLocator.htm?GetLocation
+DEBUG: (00:53:29.859) WebParser: Finished URL: http://www.geobytes.com/IpLocator.htm?GetLocation
+DEBUG: (00:53:29.859) WebParser: (Index  0) <title>IP Address Locator - Enter an IP address to find its location - Lookup Country Region City etc</title>
+ <script src="http://maps.google.com/maps?file=api&amp;v=2&key=ABQIAAAAg8xOyLSHDPUoatRtMwcxshT3eyCfg3vQ7ofS_StPyzQeTJAw5hQwuxzEQ90EA0ZfmmRnaPvYKP
+DEBUG: (00:53:29.859) WebParser: (Index  1)  - Enter an IP address to find its location - Lookup Country Region City etc</title>
+ <script src="http://maps.google.com/maps?file=api&amp;v=2&key=ABQIAAAAg8xOyLSHDPUoatRtMwcxshT3eyCfg3vQ7ofS_StPyzQeTJAw5hQwuxzEQ90EA0ZfmmRnaPvYKPUPNg" type="text/javascri
+DEBUG: (00:53:29.859) WebParser: (Index  2) 72.205.26.142
+DEBUG: (00:53:29.859) WebParser: (Index  3) &nbsp;<input type="submit" value="Submit">
+ </h3>
+
+
+ </form>
+</div>
+
+ </td>
+ <td width="10"></td>
+ </tr>
+</table>
+
+
+
+
+
+<p>
+
+<form method="POST" action="http://localhost/IpLocator.htm?GetLocation">
+ <!-- If you would like direct access to
+DEBUG: (00:53:29.859) WebParser: (Index  4) US
+DEBUG: (00:53:29.859) WebParser: (Index  5)  readonly></td>
+ <td align="right">Country</td>
+ <td align="right"><input name="
+DEBUG: (00:53:29.859) WebParser: (Index  6) United States
+DEBUG: (00:53:29.859) WebParser: (Index  7)  readonly></td>
+ <td align="left">
+ <table border="0" cellpadding="0" cellspacing="0">
+ <tr>
+ <td valign="bottom">
+ <p><b><font color="#800000" face="Arial" size="3">Distance to Nearby Cities</font></b></p>
+ </td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+
+DEBUG: (00:53:29.859) WebParser: (Index  8) USVA
+DEBUG: (00:53:29.859) WebParser: (Index  9)  readonly></td>
+ <td align="right">Region</td>
+ <td align="right"> <input name="
+DEBUG: (00:53:29.859) WebParser: (Index 10) Virginia
+DEBUG: (00:53:29.859) WebParser: (Index 11)  readonly></td>
+ <td align="right" valign="top">
+ <p align="left">
+ <font color="#000000">km, mi, City, Region, Country</font></td>
+ </tr>
+ <tr>
+ <td align="right">City Code</td>
+ <td align="right"><input name="
+DEBUG: (00:53:29.859) WebParser: (Index 12) USVAGFAL
+DEBUG: (00:53:29.859) WebParser: (Index 13)  readonly></td>
+ <td align="right">City</td>
+ <td align="right"><input name="
+DEBUG: (00:53:29.859) WebParser: (Index 14) Great Falls
+DEBUG: (00:53:29.859) WebParser: (Index 15)  readonly></td>
+ <td align="right" rowspan="8" valign="top">
+ <p align="left"><font color="#000000"> 
+<textarea  rows="16" name="ro" cols="41" readonly >
+0  0  Great Falls, VA, US
+6  3  Greenway, VA, US
+7  4  Reston, VA, US
+9  5  Potomac, MD, US
+11 
+DEBUG: (00:53:29.859) WebParser: (Index 16) 39.0137
+DEBUG: (00:53:29.859) WebParser: (Index 17)  readonly></td>
+ <td align="right">Longitude</td>
+ <td align="right"><input name="
+DEBUG: (00:53:29.859) WebParser: (Index 18) -77.3069
+DEBUG: (00:53:29.859) WebParser: (Index 19)  readonly></td>
+ </tr>
+ <tr>
+ <td align="right">Capital City</td>
+ <td align="right"><input name="ro-no_bots_pls8" value="Washington, DC " size="20" readonly></td>
+ <td align="right">TimeZone</td>
+ <td align="right"><input name="
+DEBUG: (00:53:29.859) WebParser: (Index 20) -05:00
+DEBUG: (00:53:29.859) WebParser: (Index 21)  readonly></td>
+ </tr>
+ <tr>
+ <td align="right">Nationality Singular</td>
+ <td align="right"><input name="ro-no_bots_pls7" value="American" size="20" readonly></td>
+ <td align="right">Population</td>
+ <td align="right"><input name="ro-no_bots_pls3" v
+DEBUG: (00:53:29.859) WebParser: (Index 22) North America 
+DEBUG: (00:53:29.859) WebParser: (Index 23) 

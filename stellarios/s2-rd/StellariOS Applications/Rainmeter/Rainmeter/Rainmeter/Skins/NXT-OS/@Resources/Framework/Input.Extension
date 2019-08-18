@@ -1,0 +1,15 @@
+[Window.Input.Script]
+Measure=Script
+ScriptFile=#SKINSPATH#NXT-OS\@Resources\Scripts\Input.lua
+
+[Window.InputMeasure]
+Measure=Plugin
+Plugin=NXTInput
+FontFace=Segoe Ui Semibold
+FontSize=10
+FontColor=120,120,120
+AntiAlias=1
+FocusDismiss=1
+RunDismiss=0
+OnDismissAction=[!Update]
+Command1=
