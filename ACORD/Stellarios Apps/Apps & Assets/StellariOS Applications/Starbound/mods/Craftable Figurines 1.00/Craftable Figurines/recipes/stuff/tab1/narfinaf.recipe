@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "cryonicextract", "count" : 10 },
-	{ "item" : "clay", "count" : 10 },
-	{ "item" : "prisiliteore", "count" : 1 }
-  ],
-	"output" : { "item" : "narfinaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab1" ]
-}

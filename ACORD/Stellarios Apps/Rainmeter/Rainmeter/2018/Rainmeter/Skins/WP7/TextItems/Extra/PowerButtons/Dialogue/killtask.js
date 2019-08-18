@@ -1,1 +1,0 @@
-WScript.CreateObject("WScript.Shell").Run("cmd.exe /c taskkill /F /IM OmnimoApp.EXE", 0)

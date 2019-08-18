@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "staticcell", "count" : 10 },
-	{ "item" : "clay", "count" : 10 },
-	{ "item" : "ironbar", "count" : 1 }
-  ],
-	"output" : { "item" : "triplodaf", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab1" ]
-}
