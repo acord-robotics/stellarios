@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fleshstrand", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "pinkdye", "count" : 1 }
+  ],
+	"output" : { "item" : "hemogoblinaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

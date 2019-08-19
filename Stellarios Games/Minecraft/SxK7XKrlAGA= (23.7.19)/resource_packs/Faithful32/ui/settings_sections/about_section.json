@@ -1,0 +1,174 @@
+{
+  "namespace": "about_section",
+
+  "title_label": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "color": "$a_color_format",
+    "shadow": true,
+    "offset": [ 15, 0 ]
+  },
+
+  "link_label": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "color": [ 1.0, 1.0, 0.333 ],
+    "offset": [ 15, 0 ]
+  },
+
+  // Faithful 32x Button
+
+  "about_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "about_button_toggle",
+    "$glyph_texture": "textures/ui/about_glyph",
+    "$glyph_color_texture": "textures/ui/about_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "about.faithful32x.button",
+    "$toggle_property_bag": {
+      "#panel_title": "about.faithful32x.header"
+    }
+  },
+
+  "about_section": {
+    "type": "stack_panel",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "about_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "spacer_0": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "about_image": {
+          "type": "image",
+	  "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [ 0, 0 ],
+          "texture": "textures/ui/about_image",
+          "layer": 3,
+          "uv": [ 0, 0 ],
+          "uv_size": [ 0, 0 ],
+          "size": [ 240, 32 ]
+        }
+      },
+      {
+        "spacer_1": {
+          "type": "panel",
+          "size": [ 0, 6 ]
+        }
+      },
+      {
+        "selector_group_lable_0@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text0"
+        }
+      },
+      {
+        "selector_group_lable_1@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text1"
+        }
+      },
+      {
+        "spacer_2": {
+          "type": "panel",
+          "size": [ 0, 12 ]
+        }
+      },
+      {
+        "title_label_0@about_section.title_label": {
+          "text": "about.faithful32x.text2"
+        }
+      },
+      {
+        "spacer_3": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "selector_group_lable_2@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text3"
+        }
+      },
+      {
+        "selector_group_lable_3@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text4"
+        }
+      },
+      {
+        "spacer_4": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "link_label_0@about_section.link_label": {
+          "text": "https://sites.google.com/view/"
+        }
+      },
+      {
+        "link_label_1@about_section.link_label": {
+          "text": "faithful-32x-bedrock-edition"
+        }
+      },
+      {
+        "spacer_5": {
+          "type": "panel",
+          "size": [ 0, 8 ]
+        }
+      },
+      {
+        "link_label_2@about_section.link_label": {
+          "text": "http://mcpedl.com/faithful-32x-pack/"
+        }
+      },
+      {
+        "spacer_6": {
+          "type": "panel",
+          "size": [ 0, 12 ]
+        }
+      },
+      {
+        "title_label_1@about_section.title_label": {
+          "text": "about.faithful32x.text5"
+        }
+      },
+      {
+        "spacer_7": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "selector_group_lable_4@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text6"
+        }
+      },
+      {
+        "selector_group_lable_5@settings_common.selector_group_label": {
+          "text": "about.faithful32x.text7"
+        }
+      },
+      {
+        "spacer_8": {
+          "type": "panel",
+          "size": [ 0, 8 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+// Created by Offroaders123 for the Faithful 32x resource pack for Minecraft Bedrock Edition.
+
+// The About Button was added by Offroaders123 for the Faithful 32x resource pack for Minecraft Bedrock Edition.

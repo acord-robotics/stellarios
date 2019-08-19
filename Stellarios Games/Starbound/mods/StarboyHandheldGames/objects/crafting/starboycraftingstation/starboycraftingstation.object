@@ -1,0 +1,66 @@
+{
+  "objectName" : "starboycraftingstation",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Starboy Crafting Station",
+        "subtitle" : "  Make some games!",
+        "icon" : {
+          "file" : "/interface/crafting/starboycraftingstationinterfaceicon.png"
+        }
+      }
+    },
+    "filter" : [ "starboy"]
+  },
+  "printable" : false,
+  "description" : "Assemble Starboy Handlehelds and Arcades.",
+  "shortdescription" : "^orange;Starboy Crafting Station^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "A Starboy assembly station.",
+  "avianDescription" : "With this I can make all sorts of Starboy Games.",
+  "floranDescription" : "Fancy station for making gamesss.",
+  "glitchDescription" : "Interested. It's for constructing Starboy Game Systems.",
+  "humanDescription" : "I can't wait to play some of my old favorites.",
+  "hylotlDescription" : "A station with which game systems can be crafted.",
+  "novakidDescription" : "An elaborate contraption for makin' some good ol' games.",
+
+  "inventoryIcon" : "starboycraftingstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "starboycraftingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "starboycraftingstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 25,
+      "animationCycle" : 3,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "starboycraftingstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "starboycraftingstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 25,
+      "animationCycle" : 4,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

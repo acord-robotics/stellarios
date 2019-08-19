@@ -1,0 +1,32 @@
+{
+  "objectName" : "humangoldtrophy",
+  "colonyTags" : ["human","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "The plaque reads /Awarded to the Protectorate after defeating the Ruin, saving the universe from its grasp./.",
+  "shortdescription" : "Human Gold Trophy",
+  "category" : "decorative",
+  "price" : 1500,
+  "printable" : true,
+
+  "apexDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "avianDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "floranDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "glitchDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "humanDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "hylotlDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+  "novakidDescription" : "A trophy made of pure gold that resembles the Human artifact.",
+
+  "inventoryIcon" : "humangoldtrophy.png",
+  "orientations" : [
+    {
+      "dualImage" : "humangoldtrophy.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
