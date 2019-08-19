@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ixodoomclaw", "count" : 1 }
+  ],
+	"output" : { "item" : "ixolingaf", "count" : 6 },
+	"groups" : [ "figurinescrafter", "figurinestab2" ]
+}

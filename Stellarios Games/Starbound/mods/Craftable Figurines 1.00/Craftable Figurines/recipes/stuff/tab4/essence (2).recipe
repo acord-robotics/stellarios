@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "glitchbaronfigure", "count" : 1 }
+  ],
+	"output" : { "item" : "essence", "count" : 10000 },
+	"groups" : [ "figurinescrafter", "figurinestab4" ]
+}
