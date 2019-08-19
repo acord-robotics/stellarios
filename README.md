@@ -20,6 +20,7 @@ https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe
 [Artifactory Slack Group](https://app.slack.com/client/T0LQE2JNR/C0LQBEQ2Y) -- Arduino nights on Wednesdays
 
 [Simple Esplora RGB lighting tutorial](https://create.arduino.cc/projecthub/Programmer25/esplora-for-beginners-working-with-the-rgb-led-f57933?ref=part&ref_id=9578&offset=5)
+https://create.arduino.cc/projecthub/ebto/control-a-robot-arm-with-arduino-esplora-bd60a8?ref=part&ref_id=9578&offset=1
 
 * [7 best arduino simulators](https://windowsreport.com/arduino-simulators/)- Windowsreport
 * https://www.autodesk.com/education/free-software/eagle#
@@ -35,7 +36,9 @@ https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe
 https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
 
 
-
+# other projects
+* https://www.makeuseof.com/tag/10-great-arduino-projects-for-beginners/
+* https://www.techworld.com/picture-gallery/apps-wearables/-fun-raspberry-pi-projects-for-beginners-3636867/
 
 
 
