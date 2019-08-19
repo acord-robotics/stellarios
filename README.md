@@ -17,7 +17,9 @@ Acquired Arduino Esplora
 https://www.arduino.cc/en/Tutorial/EsploraBlink
 https://www.google.com/search?client=firefox-b-d&q=arduino+esplora+software
 https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe
-https://app.slack.com/client/T0LQE2JNR/C0LQBEQ2Y
+[Artifactory Slack Group](https://app.slack.com/client/T0LQE2JNR/C0LQBEQ2Y) -- Arduino nights on Wednesdays
+
+[Simple Esplora RGB lighting tutorial](https://create.arduino.cc/projecthub/Programmer25/esplora-for-beginners-working-with-the-rgb-led-f57933?ref=part&ref_id=9578&offset=5)
 
 * [7 best arduino simulators](https://windowsreport.com/arduino-simulators/)- Windowsreport
 * https://www.autodesk.com/education/free-software/eagle#
