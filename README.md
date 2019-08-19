@@ -1,5 +1,5 @@
 # [Github/Acord-Robotics/Stellarios](http://github.com/acord-robotics/stellarios)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8b98a896-d3f2-4124-9a2b-f3c8d65f1310/deploy-status)](https://app.netlify.com/sites/acordstellarios/deploys)
 
 # ACORD Navigation
 * [ACORD Network](#acord-network)
