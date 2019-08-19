@@ -13,7 +13,7 @@ hide_description: false
 * [Changelog](/stellarios/CHANGELOG) - What's been added in the previous versions?
 * [Release History](/stellarios/releases) - What's the most recent version?
 * [About Stellarios](/stellarios/ACORD#robots--software) - What is Stellarios?
-* [Mobile Site](acordstellarios.netlify.com) & [Main Site](http://acord-robotics.github.io/stellarios) 
+* [Mobile Site](http://acordstellarios.netlify.com) & [Main Site](/stellarios) & [ACORD Site](http://s2rd.netlify.com)
 
 # Works
 * [Star Sailors](/starsailors/) - Our science fiction novella loosely based off Star Wars
