@@ -81,7 +81,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/Stellarios Media/xq7zOck.jpg
+accent_image:          /assets/img/mars-surface-astonaut-spaceship-stars-artwork.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
