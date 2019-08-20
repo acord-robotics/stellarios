@@ -5,7 +5,7 @@ hide_description: false
 
 # Star Sailors: Earthlings
 * [Prologue]
-* [Chapter 1]
+* [Chapter 1](/stellarios/earth-ch-1)
 * [Chapter 2]
 * [Chapter 3]
 * [Chapter 4]

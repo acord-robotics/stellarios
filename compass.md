@@ -16,7 +16,7 @@ hide_description: false
 * [Mobile Site](http://acordstellarios.netlify.com) & [Main Site](http://acord-robotics.github.io/stellarios) & [ACORD Site](http://s2rd.netlify.com) & [Portal](http://acord.tech/portal)
 
 # Works
-* [Star Sailors](/starsailors/) - Our science fiction novella loosely based off Star Wars
+* [Star Sailors](/stellarios/starsailors/) - Our science fiction novella loosely based off Star Wars
 
 # External Sites
 * [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything
