@@ -4,6 +4,7 @@ hide_description: false
 ---
 
 # Star Sailors: Earthlings
+[Everything about Earthlings](/stellarios/earthlings)
 * [Prologue](/stellarios/earth-prologue)
 * [Chapter 1](/stellarios/earth-ch-1)
 * [Chapter 2](/stellarios/earth-ch-2)

@@ -1,3 +1,5 @@
+Jayin stood with his arms clasped behind his back. He faced a jumble of holograms; holograms of his advisors and his political allies. Out of the corner of his eye, he saw Orson, his cousin. It seemed like so long ago that he had last gone hunting with Orson, before he had become a politician, 18 standard years ago. For someone like Jayin, who
+
 # Outline
 • Starrix contacts Jayin
 • Gilbert fights the mind control drug
