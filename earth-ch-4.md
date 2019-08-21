@@ -6,7 +6,7 @@ Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that
 
 Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon
 
-# Outline
+# Outline for Chapter 4
 • Starrix contacts Jayin
 • Gilbert fights the mind control drug
 	○ Gilbert defeats the invading fleet (the invading fleet is captured through the ion cannons)
