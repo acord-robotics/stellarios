@@ -2,7 +2,9 @@ Jayin stood with his arms clasped behind his back. He faced a jumble of hologram
 
 Jayin shook himself back to the present as his chief political advisor, Lorian Nox, approached him and put a datacard onto his table. He *really* needed to see his doctor. His pills weren't working. Getting distracted in this business was a weakness that others could exploit. *And,* he thought to himself grimly, *probably have already*. 
 
-Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that Starrix's fleet are in trouble.
+Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that Starrix's fleet are in trouble. They weren't able to complete their message before their communication was terminated, but our scanners have shown some sort of pirate group in the area. A pirate group that was completely unidentifiable via our scanners."
+
+Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon
 
 # Outline
 • Starrix contacts Jayin
