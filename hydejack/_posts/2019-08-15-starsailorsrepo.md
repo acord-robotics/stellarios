@@ -1,5 +1,5 @@
 ---
-title: Star Sailors Repo Information
+title: Star Sailors Repo
 image: /assets/img/nasa-concept-ship-3d-model-max-obj-mtl-fbx.jpg
 categories: starsailors
 comments: true
