@@ -1,6 +1,6 @@
 Jayin stood with his arms clasped behind his back. He faced a jumble of holograms; holograms of his advisors and his political allies. Out of the corner of his eye, he saw Orson, his cousin. It seemed like so long ago that he had last gone hunting with Orson, before he had become a politician, 18 standard years ago. For someone like Jayin, who lived for hundreds of years, this was a very, *very* short time ago. He sighed. Orson had been so young back then. So naive and so full of ideas. Spend too much time in politics, and the result of that sat before him. Many bribes and moments of treachery later, and Orson was no longer the idealist that had been driven to join Jayin's team. He was something else. But he was still loyal to Jayin, unlike many of his other advisors.
 
-Jayin shook himself back to the present as his chief advisor, Lorian Nox, 
+Jayin shook himself back to the present as his chief political advisor, Lorian Nox, approached him and put a datacard onto his table. He *really* needed to see his doctor. His pills weren't working. Getting distracted in this business was a weakness that others could exploit. *And,* he thought to himself grimly, *probably have already*.
 
 # Outline
 • Starrix contacts Jayin
