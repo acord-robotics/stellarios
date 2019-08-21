@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://acord-robotics.github.io
+url:                   https://acord-robotics.github.io/
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -31,6 +31,13 @@ description:           >
 tagline:               >
   "Software Suite by ACORD".
   Robotics software & science-fiction games.
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: stellarios
+
 
 # A list of keywords for your blog
 keywords:              []
@@ -81,7 +88,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/Stellarios Media/xq7zOck.jpg
+accent_image:          /assets/img/mars-surface-astonaut-spaceship-stars-artwork.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -109,6 +116,7 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+        comments:      true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:

@@ -7,16 +7,16 @@ hide_description: false
 
 # ACORD
 
-* [ABOUT ACORD](/stellarios/ACORD) - Learn about us, what we do, and how to get involved
+* [ABOUT ACORD]({{ site.baseurl }}/ACORD) - Learn about us, what we do, and how to get involved
 
 # Stellarios
-* [Changelog](/stellarios/CHANGELOG) - What's been added in the previous versions?
-* [Release History](/stellarios/releases) - What's the most recent version?
-* [About Stellarios](/stellarios/ACORD#robots--software) - What is Stellarios?
-* [Mobile Site](http://acordcorporation.netlify.com) & [ACORD Portal Stellarios](http://acord-stellarios.netlify.com) & [Main Site](http://acord-robotics.github.io/stellarios) 
+* [Changelog]({{ site.baseurl }}/CHANGELOG) - What's been added in the previous versions?
+* [Release History]({{ site.baseurl }}/releases) - What's the most recent version?
+* [About Stellarios]({{ site.baseurl }}/ACORD#robots--software) - What is Stellarios?
+* [Mobile Site](http://acordstellarios.netlify.com) & [Main Site](http://acord-robotics.github.io/stellarios) & [ACORD Site](http://s2rd.netlify.com) & [Portal](http://acord.tech/portal)
 
 # Works
-* [Star Sailors](/starsailors/) - Our science fiction novella loosely based off Star Wars
+* [Star Sailors]({{ site.baseurl }}/starsailors/) - Our science fiction novella loosely based off Star Wars
 
 # External Sites
 * [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything

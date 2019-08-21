@@ -1,7 +1,8 @@
 ---
-title: Star Sailors Repo Information
+title: Star Sailors Repo
 image: /assets/img/nasa-concept-ship-3d-model-max-obj-mtl-fbx.jpg
 categories: starsailors
+comments: true
 description: >
   We've used the Star Sailors Repo (Github/Acord-Robotics/StarSailors) for the past few months to catalogue the development of Stellarios. From now, that repo will only dicuss the development of the Star Sailors novella series, which will also be discussed here.
 author: Liam
@@ -23,4 +24,5 @@ ACORD members can read the exclusive 9th chapter on the [ACORD Portal](http://al
 
 There is an RPG being developed based off of Star Sailors, as well as a series of games that can be played to "level up" or move ahead in the RPG, which is currently in development and is available on the Portal.
 
--  LimoDroid AKA OpusTheRobot, Chairman ACORD
+-  LimoDroid AKA OpusTheRobot, 
+
