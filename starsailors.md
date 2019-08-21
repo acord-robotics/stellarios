@@ -4,11 +4,11 @@ hide_description: false
 ---
 
 # Star Sailors: Earthlings
-[Everything about Earthlings](/stellarios/earthlings)
+[Everything about Earthlings]({{ site.baseurl }}/earthlings)
 * [Prologue]({{ site.baseurl }}/earth-prologue)
-* [Chapter 1](/earth-ch-1)
-* [Chapter 2](/earth-ch-2)
-* [Chapter 3](/earth-ch-3)
-* [Chapter 4](/earth-ch-4)
+* [Chapter 1]({{ site.baseurl }}/earth-ch-1)
+* [Chapter 2]({{ site.baseurl }}/earth-ch-2)
+* [Chapter 3]({{ site.baseurl }}/earth-ch-3)
+* [Chapter 4]({{ site.baseurl }}/earth-ch-4)
 
-[Back to Compass](/compass)
+[Back to Compass]({{ site.baseurl }}/compass)
