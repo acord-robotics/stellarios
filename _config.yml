@@ -61,10 +61,10 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
-#   - title:             Impress
-#     url:               /impress/
-#   - title:             Cookies Policy
-#     url:               /cookies-policy/
+   - title:             ACORD Network
+     url:               http://acord.tech/acord
+   - title:             Development News
+     url:               /stellarios/releases
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2019. All rights reserved.
