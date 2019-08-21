@@ -31,10 +31,4 @@ layout: base
     {% include components/related-posts.html post=post %}
   {% else %}
   {% endcase %}
-{% endfor %}
-
-{% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
-{% endif %}
-{% include disqus.html %}
-{% include comments.html %}
+{% endfor 
