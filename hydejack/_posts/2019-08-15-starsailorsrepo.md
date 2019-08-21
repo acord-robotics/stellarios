@@ -24,8 +24,5 @@ ACORD members can read the exclusive 9th chapter on the [ACORD Portal](http://al
 
 There is an RPG being developed based off of Star Sailors, as well as a series of games that can be played to "level up" or move ahead in the RPG, which is currently in development and is available on the Portal.
 
--  LimoDroid AKA OpusTheRobot, Chairman ACORD
-
-<div id="disqus_thread"></div>
-<script>
+-  LimoDroid AKA OpusTheRobot, 
 
