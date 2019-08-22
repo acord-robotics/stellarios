@@ -1,4 +1,11 @@
 # JPL Open Source Rover Project
+From Github/Acord-Robotics/Open-Source-Rover & Github/NASA-JPL/Open-Source-Rover
+
+## ACORD
+This will be part of Stellarios. I (ACORD) will learn how to create this and test it out with Raspberry Pi & Arduino. There are other projects we can use that use Arduinos.
+
+https://mars.nasa.gov/ask-nasa-mars/#/
+
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 <img src="images/rover.png" width="100%">
