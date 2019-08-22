@@ -4,7 +4,7 @@ Jayin shook himself back to the present as his chief political advisor, Lorian N
 
 Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that Starrix's fleet are in trouble. They weren't able to complete their message before their communication was terminated, but our scanners have shown some sort of pirate group in the area. A pirate group that was completely unidentifiable via our scanners."
 
-Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon
+Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon. They were either truly unknown - *now those were rare* - or they weren't members of parliament, meaning they didn't recognise the laws or ways of the majority of the galaxy - '*the civilized part*' thought Jayin grimly. 
 
 # Outline for Chapter 4
 • Starrix contacts Jayin
