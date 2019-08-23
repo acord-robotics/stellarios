@@ -1,6 +1,6 @@
 
 # ACORD ROBOTICS/Star Sailors
-[Wiki](https://gitlab.com/acord-robotics/robodev/s2rd-stellarios/wikis/home)
+[Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 [ACORD Portal](https://gitlab.com/snippets/1869196)
 
 <<<<<<< HEAD
@@ -319,3 +319,4 @@ https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-p
 
 
 
+[Wiki](https://gitlab.com/acord-robotics/robodev/s2rd-stellarios/wikis/home)
