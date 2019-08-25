@@ -4,9 +4,6 @@
 [submodule "open-source-rover"]
 	path = open-source-rover
 	url = http://github.com/nasa-jpl/open-source-rover
-[submodule "osr-code-acord"]
-	path = osr-code-acord
-	url = https://gitlab.com/IrisDroidology/osr-rover-code
 [submodule "osr-app-acord"]
 	path = osr-app-acord
 	url = https://gitlab.com/acord-robotics/osr-android-app
