@@ -10,3 +10,6 @@
 [submodule "padawan360-acord"]
 	path = padawan360-acord
 	url = https://gitlab.com/acord-robotics/robodev/padawan360
+[submodule "logs\\submods\\osr-code\\motor-comments-1"]
+	path = logs\\submods\\osr-code\\motor-comments-1
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
