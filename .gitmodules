@@ -13,3 +13,12 @@
 [submodule "logs\\submods\\osr-code\\motor-comments-1"]
 	path = logs\\submods\\osr-code\\motor-comments-1
 	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs\\osr-code"]
+	path = logs\\osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs/osr-code"]
+	path = logs/osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs/Submod/OSR-code/motor-1"]
+	path = logs/Submod/OSR-code/motor-1
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
