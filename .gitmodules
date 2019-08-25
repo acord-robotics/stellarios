@@ -1,6 +1,3 @@
-[submodule "s2rd"]
-	path = s2rd
-	url = http://gitlab.com/acord-robotics/robodev/s2rd
 [submodule "open-source-rover"]
 	path = open-source-rover
 	url = http://github.com/nasa-jpl/open-source-rover
