@@ -1,0 +1,18 @@
+[submodule "s2rd"]
+	path = s2rd
+	url = http://gitlab.com/acord-robotics/robodev/s2rd
+[submodule "open-source-rover"]
+	path = open-source-rover
+	url = http://github.com/nasa-jpl/open-source-rover
+[submodule "osr-code-acord"]
+	path = osr-code-acord
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "osr-app-acord"]
+	path = osr-app-acord
+	url = https://gitlab.com/acord-robotics/osr-android-app
+[submodule "acord-robotics"]
+	path = acord-robotics
+	url = https://gitlab.com/acord-robotics/acord-robotics
+[submodule "padawan360-acord"]
+	path = padawan360-acord
+	url = https://gitlab.com/acord-robotics/robodev/padawan360
