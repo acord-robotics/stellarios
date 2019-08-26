@@ -32,7 +32,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         ACORDRobotics
-    github:          ({{ site.baseurl }}/o)
+    github:          ({{ site.baseurl }}/)
     steam:           droidology
     download:        http://acord.tech/stellarios
     tumblr:          limodroid 
