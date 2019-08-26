@@ -12,3 +12,11 @@ hide_description: false
 * [Chapter 4]({{ site.baseurl }}/earth-ch-4)
 
 [Back to Compass]({{ site.baseurl }}/compass)
+
+* Read it on [Wattpad](https://www.wattpad.com/776817208) - the writing is also being done on Wattpad, not just Github. 
+
+
+
+
+### Notes
+Chapter 9 is only on Github & ACORD, not on Wattpad
