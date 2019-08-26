@@ -42,7 +42,7 @@ https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-p
 * https://www.techworld.com/picture-gallery/apps-wearables/-fun-raspberry-pi-projects-for-beginners-3636867/
 
 
-
+https://www.tapatalk.com/groups/jpl_opensource_rover/hello-t4.html#p1127
 
 
 
