@@ -32,10 +32,11 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         ACORDRobotics
-    github:          IrisDroidology
+    github:          ({{ site.baseurl }}/opus)
     steam:           droidology
     download:        http://acord.tech/stellarios
     tumblr:          limodroid 
+    dribble:         http://github.com/IrisDroidology
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
