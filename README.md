@@ -1,4 +1,5 @@
 # ACORD & Arduino
+Arduino project site: https://acord-robotics.github.io/arduino-stellarios/ & https://github.com/acord-robotics/arduino-stellarios - for easier documentation. Documentation is also stored here
 ## Projects by Arduino.cc
 
 ### Mars Rover
