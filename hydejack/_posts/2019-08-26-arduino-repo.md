@@ -40,3 +40,6 @@ class Robot():
 
 ```
 
+Currently the fork of Open Source Rover is our only Arduino project 
+which is part of Stellarios, however that doesn’t mean it will be the 
+last!
