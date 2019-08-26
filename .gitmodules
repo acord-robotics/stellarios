@@ -22,3 +22,6 @@
 [submodule "logs/Submod/OSR-code/motor-1"]
 	path = logs/Submod/OSR-code/motor-1
 	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "osr-code"]
+	path = osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code	
