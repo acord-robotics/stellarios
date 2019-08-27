@@ -1,3 +1,6 @@
 [submodule "Stellarios"]
 	path = ACORD
 	url = https://github.com/acord-robotics/starsailors
+[submodule "python-learning"]
+	path = python-learning
+	url = http://github.com/irisdroidology/python-learning
