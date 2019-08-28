@@ -1,5 +1,8 @@
 
 # ACORD ROBOTICS/Star Sailors
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 [ACORD Portal](https://gitlab.com/snippets/1869196)
 
