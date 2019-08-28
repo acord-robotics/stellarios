@@ -194,6 +194,7 @@ The theme we're thinking of using is https://github.com/artemsheludko/adam-blog.
 
 
 # ACORD & Arduino
+Arduino project site: https://acord-robotics.github.io/arduino-stellarios/ & https://github.com/acord-robotics/arduino-stellarios - for easier documentation. Documentation is also stored here
 ## Projects by Arduino.cc
 
 ### Mars Rover
@@ -236,7 +237,7 @@ https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-p
 * https://www.techworld.com/picture-gallery/apps-wearables/-fun-raspberry-pi-projects-for-beginners-3636867/
 
 
-
+https://www.tapatalk.com/groups/jpl_opensource_rover/hello-t4.html#p1127
 
 
 
