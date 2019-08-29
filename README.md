@@ -6,10 +6,11 @@
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 [ACORD Portal](https://gitlab.com/snippets/1869196)
 
-<<<<<<< HEAD
-=======
+# ACORD portal
+The ACORD portal is only available to ACORD members. This branch of the Stellarios repo is to list all the posts, changes, plugins, databases, some files (not media - that's hosted on Google Photos, links are here though) forum stuff, etc.
+
+
 # ACORD ROBOTICS/Star Sailors
->>>>>>> 05f9ec6b0419eb0a1301e51d5a93fda2f9fc8886
 @IrisDroidology
 
 # ACORD Navigation
