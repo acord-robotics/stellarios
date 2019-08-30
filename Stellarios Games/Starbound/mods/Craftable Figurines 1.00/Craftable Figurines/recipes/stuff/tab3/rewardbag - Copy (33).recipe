@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "taroniaf", "count" : 1 }
-  ],
-	"output" : { "item" : "rewardbag", "count" : 1 },
-	"groups" : [ "figurinescrafter", "figurinestab3" ]
-}
