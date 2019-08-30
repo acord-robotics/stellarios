@@ -1,7 +1,7 @@
 
 # ACORD ROBOTICS/Star Sailors
 
-![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)(https://www.python.org/)
 
 ![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)
 
