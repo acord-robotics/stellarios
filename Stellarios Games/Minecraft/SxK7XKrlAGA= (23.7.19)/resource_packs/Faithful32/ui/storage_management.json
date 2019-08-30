@@ -1,0 +1,51 @@
+{
+  "namespace": "storage_management",
+
+  "common_main_button": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    
+    "$background_texture": "textures/ui/Gray",
+    "$background_size": ["100% - 2px", "100%"],
+    "$background_layer": 0,
+    "$ignore_border|default": true,
+
+    "controls": [
+      {
+        "background":{
+          "type": "image",
+          "layer": "$background_layer",
+          "texture": "$background_texture",
+          "size": "$background_size"
+        }
+      },
+      {
+        "border":{
+          "type": "image",
+          "layer": 1,
+          "ignored": "$ignore_border",
+
+          "variables":[
+            {
+              "requires": "($button_state = default)",
+              "$border_texture": "textures/ui/Black"
+            },
+            {
+              "requires": "($button_state = hover)",
+              "$border_texture": "textures/ui/White"
+            }
+          ],
+
+          "texture": "$border_texture",
+          "size": ["100% - 3px", "100% - 1px"]
+        }
+      },
+      {
+        "main_content_panel@storage_management.main_content_panel": {
+        }
+      }
+    ]
+  }
+}
+
+// Edited by Offroaders123 for the Faithful 32x resource pack for Minecraft Bedrock Edition.

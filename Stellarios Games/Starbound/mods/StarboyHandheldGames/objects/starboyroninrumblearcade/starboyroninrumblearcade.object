@@ -1,0 +1,58 @@
+{
+  "objectName" : "starboyroninrumblearcade",
+  "colonyTags" : ["human", "electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "The machine runs a game called 'Ronin Rumble'.",
+  "shortdescription" : "Ronin Rumble Arcade Machine",
+  "race" : "human",
+
+  "apexDescription" : "Keep your blade sharp, and your mind even sharper.",
+  "avianDescription" : "I keep hitting extra keys with my feathers...",
+  "floranDescription" : "Not even swordsss can make wordsss cool.",
+  "glitchDescription" : "Bored.  What is fun about reciting the dictionary.",
+  "humanDescription" : "This game tricked me into learning something!",
+  "hylotlDescription" : "A true test of speed, precision, and wit. Perfect for scholars and warriors.",
+  "novakidDescription" : "I'll take my trusty 6 shooter over some big knife anyday, thank you.",
+
+  "inventoryIcon" : "starboyroninrumblearcadeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "starboyroninrumblearcadeleft.png:<color>.<frame>",
+      "rightImage" : "starboyroninrumblearcaderight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/starboyarcade.lua", "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboyroninrumblegame/starboyroninrumblearcade.config"
+}

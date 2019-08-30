@@ -1,3 +1,33 @@
 [submodule "Stellarios"]
 	path = ACORD
 	url = https://github.com/acord-robotics/starsailors
+[submodule "python-learning"]
+	path = python-learning
+	url = http://github.com/irisdroidology/python-learning
+[submodule "open-source-rover"]
+	path = open-source-rover
+	url = http://github.com/nasa-jpl/open-source-rover
+[submodule "osr-app-acord"]
+	path = osr-app-acord
+	url = https://gitlab.com/acord-robotics/osr-android-app
+[submodule "acord-robotics"]
+	path = acord-robotics
+	url = https://gitlab.com/acord-robotics/acord-robotics
+[submodule "padawan360-acord"]
+	path = padawan360-acord
+	url = https://gitlab.com/acord-robotics/robodev/padawan360
+[submodule "logs\\submods\\osr-code\\motor-comments-1"]
+	path = logs\\submods\\osr-code\\motor-comments-1
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs\\osr-code"]
+	path = logs\\osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs/osr-code"]
+	path = logs/osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "logs/Submod/OSR-code/motor-1"]
+	path = logs/Submod/OSR-code/motor-1
+	url = https://gitlab.com/IrisDroidology/osr-rover-code
+[submodule "osr-code"]
+	path = osr-code
+	url = https://gitlab.com/IrisDroidology/osr-rover-code	

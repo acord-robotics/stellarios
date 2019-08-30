@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "phasematter", "count" : 10 },
+    { "item" : "goldbar", "count" : 2 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "whitedye", "count" : 1 }
+  ],
+	"output" : { "item" : "gosmetaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

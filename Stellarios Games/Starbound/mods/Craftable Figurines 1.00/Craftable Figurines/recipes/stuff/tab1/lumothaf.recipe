@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "staticcell", "count" : 5 },
+    { "item" : "phasematter", "count" : 5 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "ironbar", "count" : 1 },
+	{ "item" : "glass", "count" : 1 }
+  ],
+	"output" : { "item" : "lumothaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

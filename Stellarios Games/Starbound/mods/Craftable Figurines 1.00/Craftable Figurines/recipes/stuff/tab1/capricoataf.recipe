@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "bone", "count" : 2 },
+	{ "item" : "whitedye", "count" : 1 },
+	{ "item" : "browndye", "count" : 1 }
+  ],
+	"output" : { "item" : "capricoataf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}
