@@ -4,7 +4,7 @@ Jayin shook himself back to the present as his chief political advisor, Lorian N
 
 Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that Starrix's fleet are in trouble. They weren't able to complete their message before their communication was terminated, but our scanners have shown some sort of pirate group in the area. A pirate group that was completely unidentifiable via our scanners."
 
-Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon. They were either truly unknown - *now those were rare* - or they weren't members of parliament, meaning they didn't recognise the laws or ways of the majority of the galaxy - '*the civilized part*' thought Jayin grimly. 
+Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon. They were either truly unknown - *now those were rare* - or they weren't members of parliament, meaning they didn't recognise the laws or ways of the majority of the galaxy - '*the civilized part*' thought Jayin grimly. Attacks by the latter group were common - only last month the Juganoth Mining Corporation had lost its prospecting fleet around the gas planet.
 
 # Outline for Chapter 4
 • Starrix contacts Jayin
@@ -20,3 +20,5 @@ Jayin struggled to understand what this meant. "Are you saying that they are an 
 • ---Cut to Opus---
 • Opus sees his captor for the first time
 • ---Cut to Gilbert Gilbert meets the scientist and plans a way to rescue Opus
+
+* Attacks by "latter group" (line 7) - for supplies, foragers like grounders in the 100?
