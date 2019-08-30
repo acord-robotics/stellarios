@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 6756ed7b80223ac4e8f026ce27541de4, type: 3}
+  title: Star Sparrow Modular Spaceship
+  sections:
+  - heading: Complete Collection
+    text: This spaceship set is a free sample from our Ultimate Spaceships Creator.
+    linkText: Click here to get the complete collection!
+    url: http://u3d.as/J0F
+  - heading: Build Your Own Spaceships
+    text: You can build your own spaceships by quickly modifying the examples located
+      in the Examples Modular scene. In addition, you can also assemble your own spaceship
+      from scratch by opening up the modules scene and moving/rotating/scaling and
+      duplicating the modules until you have something you are happy with.
+    linkText: 
+    url: 
+  - heading: Unified Materials
+    text: 'The materials listed under unified are compatible when using different
+      spaceships from our Unity Asset Store collection. '
+    linkText: 
+    url: 
+  - heading: 
+    text: These materials enable you to combine modules from different spaceship sets
+      included in our Ultimate Spaceships Creator, or to create factions with a unified
+      color.
+    linkText: 
+    url: 
+  - heading: Changing Colors
+    text: If all of the included materials in this pack are not enough, you can feel
+      free to modify the included Substance Painter file and export new textures,
+      or to use the "mask" texture with the neutral color texture to change color
+      in Photoshop or with script.
+    linkText: 
+    url: 
+  - heading: Can I Use This Asset in My Game?
+    text: Yes! You can use this asset in your free or commercial game. We wish you
+      all the best in all of your projects!
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: Forum Thread
+    url: https://forum.unity.com/threads/released-modular-spaceships-collection.518276/
+  loadedLayout: 1
