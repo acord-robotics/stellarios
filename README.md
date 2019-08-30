@@ -3,15 +3,15 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![forthebadge]https://forthebadge.com/images/badges/built-for-android.svg
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)
 
-[![forthebadge]https://forthebadge.com/images/badges/built-with-science.svg
+[![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)
 
-[![forthebadge]https://forthebadge.com/images/badges/made-with-c-plus-plus.svg
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)
 
-[![forthebadge]https://forthebadge.com/images/badges/made-with-c-sharp.svg
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)
 
-[![forthebadge]https://forthebadge.com/images/badges/made-with-python.svg
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 
 
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
