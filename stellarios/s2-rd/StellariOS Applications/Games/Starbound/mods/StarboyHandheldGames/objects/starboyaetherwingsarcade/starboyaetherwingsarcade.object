@@ -1,0 +1,59 @@
+{
+  "objectName" : "starboyaetherwingsarcade",
+  "colonyTags" : ["human", "electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "The machine runs a game called 'Aether Wings'.",
+  "shortdescription" : "Aether Wings Arcade Machine",
+  "race" : "human",
+
+  "apexDescription" : "Enemies on all sides, you must save the day with only your wits and trusty ship.",
+  "avianDescription" : "I wish I could be an Aether Wing Pilot some day!",
+  "floranDescription" : "Floran thinksss real ssspace needs more evil robotsss.",
+  "glitchDescription" : "Ecstatic. A true test of skill.",
+  "humanDescription" : "This retells the story of the most famous Avian Space Ace!",
+  "hylotlDescription" : "There is a kind of beauty in the patterns form by the arduous foes, if you think about it.",
+  "novakidDescription" : "This one's way harder than shootin' fish in a barrel.",
+
+  "inventoryIcon" : "starboyaetherwingsarcadeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "starboyaetherwingsarcadeleft.png:<color>.<frame>",
+      "rightImage" : "starboyaetherwingsarcaderight.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/starboyarcade.lua", "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "videogame",
+      "videogame",
+      "videogameComplete"
+    ],
+    "defaultReactions" : {
+      "videogame" : [
+        [1.0, "typing"]
+      ],
+      "videogameComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboyaetherwingsgame/starboyaetherwingsarcade.config"
+}

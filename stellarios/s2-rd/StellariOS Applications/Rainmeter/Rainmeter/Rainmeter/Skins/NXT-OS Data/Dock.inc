@@ -1,0 +1,3 @@
+<Icon>C:\Users\arbuc\Documents\Rainmeter\Skins\NXT-OS\@Resources\DockIcons\GitHub.png</Icon><Path>C:\Users\arbuc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub Desktop.lnk</Path><Text>ACORD</Text><Format>1</Format>
+<Icon>C:\Users\arbuc\Documents\Rainmeter\Skins\NXT-OS\@Resources\DockIcons\Steam.png</Icon><Path>C:\Program Files (x86)\Steam\steamapps\common\Starbound\win64\starbound.exe</Path><Text>Starbound</Text><Format>1</Format>
+<Icon>C:\Users\arbuc\Documents\Rainmeter\Skins\NXT-OS\@Resources\DockIcons\Discord.png</Icon><Path>C:\Program Files (x86)\Steam\steamapps\common\Take On Mars\TKOM.exe</Path><Text>Take on Mars</Text><Format>1</Format>

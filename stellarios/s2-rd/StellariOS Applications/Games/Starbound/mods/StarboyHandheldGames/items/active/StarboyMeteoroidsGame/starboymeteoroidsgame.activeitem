@@ -1,0 +1,21 @@
+{
+  "itemName" : "starboymeteoroidsgame",
+  "level" : 1,
+  "price" : 1500,
+  "rarity" : "Legendary",
+  "description" : "An old handheld game from earth. Controls: WASD or Arrowkeys & Space.",
+  "shortdescription" : "Starboy Meteoroids",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "starboymeteoroidsgame.png",
+  "animation" : "starboymeteoroidsgame.animation",
+  "animationParts" : {
+    "transponder" : "starboymeteoroidsgame.png"
+  },
+  "scripts" : ["/scripts/starboygame.lua"],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/starboymeteoroidsgame/starboymeteoroidsgame.config"
+}

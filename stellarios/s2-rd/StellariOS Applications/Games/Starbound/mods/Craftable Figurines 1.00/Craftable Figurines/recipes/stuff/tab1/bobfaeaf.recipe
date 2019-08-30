@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "hardenedcarapace", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "orangedye", "count" : 1 }
+  ],
+	"output" : { "item" : "bobfaeaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

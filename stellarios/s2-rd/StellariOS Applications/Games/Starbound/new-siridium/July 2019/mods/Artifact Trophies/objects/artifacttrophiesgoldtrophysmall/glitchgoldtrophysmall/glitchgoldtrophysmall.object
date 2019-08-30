@@ -1,0 +1,32 @@
+{
+  "objectName" : "glitchgoldtrophysmall",
+  "colonyTags" : ["glitch","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "The plaque reads /Awarded to the Protectorate that protected Baron's Keep to retrieve the Glitch Artifact./.",
+  "shortdescription" : "Small Glitch Gold Trophy",
+  "category" : "decorative",
+  "price" : 1750,
+  "printable" : true,
+
+  "apexDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "avianDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "floranDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "glitchDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "humanDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "hylotlDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+  "novakidDescription" : "A smaller version of a pure gold trophy of the Glitch artifact.",
+
+  "inventoryIcon" : "glitchgoldtrophysmall.png",
+  "orientations" : [
+    {
+      "dualImage" : "glitchgoldtrophysmall.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

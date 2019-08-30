@@ -1,0 +1,64 @@
+[Rainmeter]
+Group=NXTWidgets
+Update=1000
+AccurateText=1
+
+[Variables]
+@Include=#SKINSPATH#NXT-OS\Dash\Dash.inc
+Widget.OnShow=
+Widget.OnHide=
+
+[Widget.HiddenCheck]
+Measure=Calc
+Formula=#Dash.Activated#
+IfBelowValue=1
+IfBelowAction=[!Hide]
+UpdateDivider=-1
+
+[Widget.EditCheck]
+Measure=Calc
+Formula=#Dash.Edit#
+IfAboveValue=0
+IfAboveAction=[!ShowMeterGroup "Close"][!Zpos 2][!Update]
+IfBelowValue=1
+IfBelowAction=[!HideMeterGroup "Close"][!Zpos 1][!Update]
+DynamicVariables=1
+
+[Widget.RunCommands]
+Measure=Calc
+Formula=#Dash.Activated#
+IfAboveValue=0
+IfAboveAction=#Widget.OnShow#
+IfBelowValue=1
+IfBelowAction=#Widget.OnHide#
+DynamicVariables=1
+
+;========================================================
+; Close Styles
+;========================================================
+
+[Widget.CloseOverlay]
+SolidColor=40,40,40,230
+W=#CURRENTCONFIGWIDTH#
+H=#CURRENTCONFIGHEIGHT#
+Hidden=1
+Group=Close
+LeftMouseUpAction=" "
+LeftMouseDownAction=" "
+RightMouseUpAction=" "
+RightMouseDownAction=" "
+DynamicVariables=1
+UpdateDivider=-1
+
+[Widget.CloseButton]
+ImageName=#SKINSPATH#NXT-OS\Dash\Resources\Images\Close.Png
+W=32
+H=32
+X=(#CURRENTCONFIGWIDTH#-32)/2
+Y=(#CURRENTCONFIGHEIGHT#-32)/2
+ImageAlpha=200
+Hidden=1
+Group=Close
+LeftMouseUpAction=[!DeactivateConfig]
+DynamicVariables=1
+UpdateDivider=-1

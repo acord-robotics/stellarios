@@ -1,0 +1,19 @@
+[Variables]
+Escala=1.0
+Wallpaper=06
+AppSmp=Ap_MyPhone
+IdiomaSmartPhone=en_US
+Unidad=m
+Ciudad=SPXX0050
+AlertaViento=28
+Idioma=EN
+Codigo=3768
+Reproductor=Winamp                                  
+CarpetaMP3=C:/Music MP3
+CarpetaRadio=#@#Stations
+MyReader=tech03
+URLFinal=
+CLTexto=16,16,16,255
+CLFondo=232,232,232,255
+MRFondo=1
+MRAjuste=0

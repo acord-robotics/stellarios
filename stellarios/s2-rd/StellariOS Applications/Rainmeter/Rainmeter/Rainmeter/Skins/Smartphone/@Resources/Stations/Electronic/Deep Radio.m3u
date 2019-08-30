@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,(#1 - 89/1000) Deep Radio
+http://195.66.134.42:80/sd
+#EXTINF:-1,(#2 - 97/1000) Deep Radio
+http://195.66.134.40:80/sd

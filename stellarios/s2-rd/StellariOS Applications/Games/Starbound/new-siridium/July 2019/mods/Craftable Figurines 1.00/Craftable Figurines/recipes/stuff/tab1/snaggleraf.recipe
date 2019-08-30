@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ammonitefossil", "count" : 1 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "greendye", "count" : 1 }
+  ],
+	"output" : { "item" : "snaggleraf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "erchiushorroraf", "count" : 1 }
+  ],
+	"output" : { "item" : "essence", "count" : 1250 },
+	"groups" : [ "figurinescrafter", "figurinestab4" ]
+}

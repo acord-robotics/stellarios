@@ -1,0 +1,58 @@
+{
+  "Welcome":{
+    "itemName":"Welcome Center",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\WelcomeCenter\" \"Welcome.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Welcome.png",
+    "itemDescription":"The NXT-OS welcome center.",
+    "itemSource":"NXT-OS System"
+  },
+  "Info":{
+    "itemName":"Info",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\Info\" \"Info.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Info.png",
+    "itemDescription":"The NXT-OS info screen.",
+    "itemSource":"NXT-OS System"
+  },
+  "Updates":{
+    "itemName":"Updates",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\System\\Updater\" \"Updater.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Updates.png",
+    "itemDescription":"The NXT-OS update center.",
+    "itemSource":"NXT-OS System"
+  },
+  "Help Center":{
+    "itemName":"Help Center",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\System\\Help\" \"Help.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Help.png",
+    "itemDescription":"The NXT-OS help center.",
+    "itemSource":"NXT-OS System"
+  },
+  "Settings":{
+    "itemName":"Settings",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\Settings\" \"Settings.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Settings.png",
+    "itemDescription":"The NXT-OS settings menu.",
+    "itemSource":"NXT-OS System"
+  },
+  "Reminders":{
+    "itemName":"Reminders",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\Reminders\" \"Reminders.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Reminders.png",
+    "itemDescription":"The NXT-OS desktop reminders app.",
+    "itemSource":"NXT-OS System"
+  },
+  "Notes":{
+    "itemName":"Notes",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\Notes\" \"Notes.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Notes.png",
+    "itemDescription":"The NXT-OS desktop notes app.",
+    "itemSource":"NXT-OS System"
+  },
+  "Calculator":{
+    "itemName":"Calculator",
+    "itemPath":"[!ActivateConfig \"NXT-OS\\Calculator\" \"Calculator.ini\"]",
+    "itemIcon":"#SKINSPATH#NXT-OS\\@Resources\\Images\\Icons\\Calculator.png",
+    "itemDescription":"The NXT-OS desktop calculator app.",
+    "itemSource":"NXT-OS System"
+  }
+}

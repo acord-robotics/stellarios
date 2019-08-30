@@ -1,0 +1,12 @@
+[Variables]
+GetCity="(?iU).*<nombre>(.*)</nombre>"
+GetDate="(?iU).*<fecha>(.*)</fecha>"
+GetHour="(?iU).*<hora_datos>(.*)</hora_datos>"
+GetTemp="(?iU).*<temperatura>(.*)</temperatura>"
+GetCond="(?iU).*<texto>(.*)</texto>"
+GetHumi="(?iU).*<humedad>(.*)</humedad>"
+GetPres="(?iU).*<presion>(.*)</presion>"
+GetIcon="(?iU).*<icono>(.*)</icono>"
+GetWind="(?iU).*<viento>(.*)</viento>"
+GetWDir="(?iU).*<dir_viento>(.*)</dir_viento>"
+GetWIcon="(?iU).*<ico_viento>(.*)</ico_viento>"

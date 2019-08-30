@@ -1,0 +1,13 @@
+[Variables]
+HideSystemUsername=0
+HideCustomUsername=1
+CustomUserName=%1
+UserFontSize=20
+HideToolTip=0
+User3Picture=keanu.png
+UsecustomUsername=1
+ShowSystemUserPic=0
+CustomUserPic=
+ShowUserName=0
+ShowUptime=0
+FontSize=7

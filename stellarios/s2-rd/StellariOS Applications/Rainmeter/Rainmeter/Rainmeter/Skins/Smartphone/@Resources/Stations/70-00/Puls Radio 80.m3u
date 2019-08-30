@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-2,(#1 192k) MagicRadio - Les tubes de toujours - www.magicradio.fr
+http://icecast.pulsradio.com:80/magicradioHD.mp3
+#EXTINF:-2,(#2 192k) MagicRadio - Les tubes de toujours - www.magicradio.fr
+http://icecast.pulsradio.com:80/magicradioHD.mp3
+#EXTINF:-2,(#3 64k) MagicRadio - Les tubes de toujours - www.magicradio.fr
+http://icecast.pulsradio.com:80/magicradioAAC64.mp3

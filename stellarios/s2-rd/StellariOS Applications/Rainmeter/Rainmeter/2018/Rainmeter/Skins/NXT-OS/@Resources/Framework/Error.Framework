@@ -1,0 +1,240 @@
+[Rainmeter]
+Update=1000
+OnRefreshAction=[!FadeDuration 0][!Zpos 1][!CommandMeasure "Animate" "Execute 1"]
+DynamicWindowSize=1
+MouseActionCursor=0
+DragMargins=25,25,25,-67
+
+[Variables]
+Window.Width=550
+Window.Height=[BodySizeCalc]
+Window.Title=Error!
+Window.CloseAction=
+
+Animate.Size=100
+Animate.Time=20
+Animate.State=0
+Animate.Counter=1
+
+Active=0
+rightaction=
+leftaction=
+
+[BodySizeCalc]
+Measure=Calc
+Formula=Clamp(([Text:H]+154), 240, 900)
+DynamicVariables=1
+
+[ActiveCheck]
+Measure=Calc
+Formula=#active#
+IfBelowValue=1
+IfBelowAction=!DeactivateConfig
+DynamicVariables=1
+Disabled=1
+
+;========================================================
+; Keyboard measures
+;========================================================
+
+[kESC]
+Measure=Plugin
+Plugin=HotKey
+HotKey=ESCAPE
+KeyDownAction=[!CommandMeasure "Animate" "Execute 3"]
+
+[kENTER]
+Measure=Plugin
+Plugin=HotKey
+HotKey=ENTER
+KeyDownAction=[!EnableMeasure "kRUN"][!Update]
+
+[kRUN]
+Measure=Calc
+Formula=1
+IfAboveValue=0
+IfAboveAction=#rightaction#[!CommandMeasure "Animate" "Execute 3"]
+DynamicVariables=1
+Disabled=1
+
+[kLEFT]
+Measure=Plugin
+Plugin=HotKey
+HotKey=LEFT
+KeyDownAction=[!SetOption "kRUN" "IfAboveAction" """#*leftaction*#[!CommandMeasure "Animate" "Execute 3"]"""][!SetOption LeftButton MeterStyle Window.Element.Button.Small.Active][!SetOption RightButton MeterStyle Window.Element.Button.Small][!Update]
+
+[kRIGHT]
+Measure=Plugin
+Plugin=HotKey
+HotKey=RIGHT
+KeyDownAction=[!SetOption "kRUN" "IfAboveAction" """#*rightaction*#[!CommandMeasure "Animate" "Execute 3"]"""][!SetOption LeftButton MeterStyle Window.Element.Button.Small][!SetOption RightButton MeterStyle Window.Element.Button.Small.Active][!Update]
+
+;========================================================
+; Animate Section
+;========================================================
+
+[Animate]
+Measure=Plugin
+Plugin=ActionTimer
+Group=Animate
+ActionList1=First|Wait 16|Second
+ActionList2=Repeat Scale, 15, #Animate.Time#|Wait 5|Toggle
+ActionList3=Repeat Scale, 15, 17|Wait 5|Close
+ActionList4=Start|UnFocus|Wait 100|Focus|Wait 100|UnFocus|Wait 100|Focus|Wait 100|UnFocus|Wait 100|Focus
+First=[!Update][!UpdateMeasure BodySizeCalc]
+Second=[!Move ((#WORKAREAWIDTH#-#Window.Width#)/2) ((#WORKAREAHEIGHT#-#Window.Height#)/2)][!EnableMeasure "ActiveCheck"][!CommandMeasure "Animate" "Execute 2"]
+Close=[!DeactivateConfig]
+Toggle="[!SetVariable "Animate.State" "(#Animate.State# = 0 ? 1 : 0)"][!SetVariable "Animate.Counter" "0"][!Update]"
+
+Start=[!Zpos 1][Play "#@#Sounds\Focus.wav"]
+Focus=[!SetOption "Window.Base" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Box_Error.png"][!UpdateMeter Window.Base][!Redraw]
+UnFocus=[!SetOption "Window.Base" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Box_Error_Inactive.png"][!UpdateMeter Window.Base][!Redraw]
+
+Scale=[!SetVariable "Animate.Counter" "(#Animate.Counter#+1)][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]
+DynamicVariables=1
+
+[AnimateCalc]
+Measure=calc
+Formula=(#Animate.State# = 0)?((-#Animate.Size#*((((#Animate.Counter#/(#Animate.Time#-1))-1)**4)-1))/100) : (((#Animate.Size#*((((#Animate.Counter#/(#Animate.Time#-1))-1)**4)-1))+#Animate.Size#)/100)
+DynamicVariables=1
+Group=Animate
+
+[FadeCalc]
+Measure=calc
+Formula=((AnimateCalc)*255)
+DynamicVariables=1
+Group=Animate
+
+;========================================================
+; Meter Styles
+;========================================================
+
+[AnimateBase]
+TransformationMatrix=[AnimateCalc];0;0;[AnimateCalc];((#Window.Width#*(1-[AnimateCalc]))/2);(([BodySizeCalc]*(1-[AnimateCalc]))/2)
+DynamicVariables=1
+Group=Animate
+
+
+[Window.Element.Button.Small]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=30
+Y=([BodySizeCalc]-63)
+ImageAlpha=[FadeCalc]
+DynamicVariables=1
+TransformationMatrix=[AnimateCalc];0;0;[AnimateCalc];((#Window.Width#*(1-[AnimateCalc]))/2);(([BodySizeCalc]*(1-[AnimateCalc]))/2)
+
+[Window.Element.Button.Small.Active]
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png
+MouseOverAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\ButtonHover_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "ImageName" "#SKINSPATH#NXT-OS\@Resources\Images\Button_Active.png"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+ScaleMargins=5,5,5,5
+W=140
+H=30
+Y=([BodySizeCalc]-63)
+ImageAlpha=[FadeCalc]
+DynamicVariables=1
+TransformationMatrix=[AnimateCalc];0;0;[AnimateCalc];((#Window.Width#*(1-[AnimateCalc]))/2);(([BodySizeCalc]*(1-[AnimateCalc]))/2)
+
+
+[Window.Element.Button.Small.Text]
+FontFace=Open Sans
+AntiAlias=1
+FontSize=10
+StringAlign=Center
+FontColor=80,80,80,[FadeCalc]
+ClipString=2
+W=140
+X=70r
+Y=5r
+TransformationMatrix=[AnimateCalc];0;0;[AnimateCalc];((#Window.Width#*(1-[AnimateCalc]))/2);(([BodySizeCalc]*(1-[AnimateCalc]))/2)
+DynamicVariables=1
+
+;========================================================
+; Meters
+;========================================================
+
+[Window.Base]
+Meter=Image
+MeterStyle=AnimateBase
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Box_Error.png
+ScaleMargins=30,70,30,30
+W=#Window.Width#
+H=[BodySizeCalc]
+ImageAlpha=[FadeCalc]
+
+[Window.Title]
+Meter=String
+MeterStyle=AnimateBase
+Text=#Window.Title#
+FontFace=Open Sans Light
+FontSize=14
+FontColor=80,80,80,[FadeCalc]
+StringEffect=Shadow
+FontEffectColor=240,240,240,[FadeCalc]
+AntiAlias=1
+X=37
+Y=33
+
+
+[Window.Title.Button.Close]
+Meter=Button
+MeterStyle=AnimateBase
+ButtonImage=#SKINSPATH#NXT-OS\@Resources\Images\Close.png
+X=(#Window.Width#-62)
+Y=30
+ButtonCommand=[!CommandMeasure "Animate" "Execute 3"]
+
+[Icon]
+Meter=Image
+MeterStyle=AnimateBase
+ImageName=#SKINSPATH#NXT-OS\@Resources\Images\Information.png
+W=64
+X=41
+Y=83
+AntiAlias=1
+PreserveAspectRatio=1
+ImageTint=57,164,255
+ImageAlpha=[FadeCalc]
+
+[Text]
+Meter=String
+MeterStyle=AnimateBase
+FontFace=Open Sans
+FontSize=12
+FontColor=80,80,80
+AntiAlias=1
+Text=#Text#
+X=16R
+Y=-4r
+W=(#Window.Width#-160)
+ClipString=2
+
+[LeftButton]
+Meter=Image
+MeterStyle=Window.Element.Button.Small
+X=(#Window.Width#-321)
+LeftMouseUpAction=#leftaction#[!CommandMeasure "Animate" "Execute 3"]
+Group=Animate|Left
+
+[LeftButtonText]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=#LeftText#
+Group=Animate|Left
+
+[RightButton]
+Meter=Image
+MeterStyle=Window.Element.Button.Small.Active
+X=(#Window.Width#-173)
+LeftMouseUpAction=#rightaction#[!CommandMeasure "Animate" "Execute 3"]
+Group=Animate|Right
+
+[RightButtonText]
+Meter=String
+MeterStyle=Window.Element.Button.Small.Text
+Text=#RightText#
+Group=Animate|Right

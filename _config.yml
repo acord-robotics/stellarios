@@ -1,68 +1,71 @@
-# Config
+﻿# Config
 # ========================================================================================
 
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://acord-robotics.github.io
+url:                   http://irisdroidology.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
 # (with leading /, but without the < >).
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
-# e.g. `/hydejack`.
-baseurl:               '/stellarios'
+# e.g. `/Star Sailors`.
+baseurl:               '/starsailors'
 
 # Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
+# You may also provide a location, e.g.: en-us, de_AT.c
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Stellarios
+title:                 ACORD
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Stellarios - by ACORD".
-  **Stellarios** is a software suite for Mac, Windows and mobile devices designed and developed by ACORD.
-
+  "ACORD Robotics".
+  **ACORD** is an Australian Robotics Company.
 # A shorter description for the sidebar.
-tagline:               >
-  "Software Suite by ACORD".
-  Robotics software & science-fiction games.
-
+tagline:              >
+  by ACORD
 # A list of keywords for your blog
 keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/acord.PNG
+logo:                  /assets/icons/favicon.ico
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                Liam Arbuckle
-  email:             irisdroidology@allianceofdroids.org.au
+  name:                <firstname> <lastname>
+  email:               irisdroidology@allianceofdroids.org.au
+  download: 		   http://allianceofdroids.org.au/aod/star-sailors/
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
+  # dowloads:			 http://github.com/acord-robotics/
 
 # Add links to the sidebar.
 menu:
-  - title:             Site Map
-    url:               /compass/
-  - title:             ACORD
-    url:               /ACORD/
+  - title:             Stellarios
+    url:               /stellarios/
   - title:             Documentation
-    url:               /docs/
-  - title:             ACORD Portal
-    url:               http://acord.tech/portal
+    url:               /docs/ 
+  - title:             Site Map
+    url:               /compass/  
+  - title:             About
+    url:               /about/
+  - title:             Stellarios Repo
+    url:               http://github.com/acord-robotics/stellarios
+  - title:             ACORD Corporation Network
+    url:               http://acord-robotics.github.io/acordnews/    
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
-#   - title:             Impress
-#     url:               /impress/
+#   - title:             Documentation
+#     url:               /docs/
 #   - title:             Cookies Policy
 #     url:               /cookies-policy/
 
@@ -73,21 +76,21 @@ copyright:             © 2019. All rights reserved.
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
-paginate_path:         /page-:num/
+paginate:              5
+paginate_path:         /blog/page-:num/
 
 
 # Customizaton
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/oscar-cafaro-wk-8-2.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/e.jpg
+accent_color:          rgb(79,177,132)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(25,55,21)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -141,7 +144,7 @@ defaults:
 # disqus:                <disqus_shortname>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-# tinyletter:            <tinyletter_username>
+# tinyletter:            acordrobotics
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -202,7 +205,7 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            false
+    always:            true
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
@@ -217,7 +220,7 @@ hydejack:
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
-    enabled:           false
+    enabled:           true
     cache_version:     1
 
 
@@ -236,6 +239,10 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
+  
+  robots:
+    permalink:        /robots/:path/
+    output:           true
 
 
 # File inclusion/exclusion
@@ -271,7 +278,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
-  - jekyll-replace-img
+  - jekyll-gallery-generator
 
 # Theme
 # ---------------------------------------------------------------------------------------
@@ -293,7 +300,7 @@ plugins:
 
 # Used for Twitter cards
 # twitter:
-#   username:            <shortname>
+#   username:            OpusTheRobot
 
 # Used for Facebook open graph
 # facebook:
@@ -306,7 +313,8 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#     - https://github.com/IrisDroidology
+#     - https://www.youtube.com/channel/UC4U1i-c3GOMUiqRmNTGYoyg/
 
 
 # Other Plugins
@@ -325,15 +333,6 @@ relative_links:
 titles_from_headings:
   strip_title:         true
   collections:         true
-  
-replace_img:
-  re_img:              <img\s*(?<attrs>.*?)\s*/>
-  re_ignore:           (re|data)-ignore
-  replacement:         |
-    <hy-img root-margin="512px" %{attrs}>
-      <noscript><img data-ignore %{attrs}/></noscript>
-      <span slot="loading" class="loading"><span class="icon-cog"></span></span>
-    </hy-img>
 
 kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
@@ -351,3 +350,5 @@ compress_html:
 
 sass:
   style:               compressed
+
+remote_theme: IrisDroidology/hydejack

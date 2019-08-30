@@ -1,0 +1,156 @@
+[Rainmeter]
+Update=-1
+OnRefreshAction=[!SetVariable "Time" "[CalcTime]"][!Update][!CommandMeasure "Animate" "Execute [CalcStretch]"][!Move #Monitor.MainX# (#Monitor.MainY#+(#Monitor.MainH#-300))][!AutoSelectScreen 1][!Zpos 2]
+
+[Variables]
+@Include=#@#Settings.inc
+Size=1
+Counter=0
+Time=
+Stretch=0
+Hold=0
+State=0
+StretchCounter=0
+Text=
+CloseCommands=
+
+[CalcStretch]
+Measure=Calc
+Formula=(#Stretch# = 1 ? (#Hold# = 1 ? 2 : 1) : CalcMode)
+
+[CalcMode]
+Measure=Calc
+Formula=(#Animation.Hud# > 1 ? 4 : 3)
+
+[CalcTime]
+Measure=Calc
+Formula=(#Notification.HudDuration#*1000)-(#Animation.FPS#*#Animation.Hud#)
+
+;========================================================
+; Animate Section
+;========================================================
+
+[Animate]
+Measure=Plugin
+Plugin=ActionTimer
+Group=Animate
+ActionList1=First|Wait 800|Repeat Stretch, 16, 40|Wait 5|Toggle|Wait 4000|Start
+ActionList2=First|Wait 800|Repeat Stretch, 16, 40|Wait 5|Toggle
+ActionList3=Wait #Notification.HudDuration#000|Deactivate
+ActionList4=Wait #Time#|Repeat IconPos, #Animation.FPS#, #Animation.Hud#|Wait 300|Finish|Deactivate
+ActionList5=Hide|Repeat Stretch, 16, 39|StartClose
+First=[!ShowMeterGroup "Text"]
+Toggle=[!SetVariable "Time" "10"][!SetVariable "Notification.HudDuration" "0"][!SetVariable "State" "(#State# = 0 ? 1 : 0)"][!SetVariable "StretchCounter" "0"][!Update]
+Stretch=[!SetVariable "StretchCounter" "(#StretchCounter#+1)"][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]
+Start=[!CommandMeasure "Animate" "Execute 5"]
+StartClose=[!CommandMeasure "Animate" "Execute [CalcMode]"]
+Hide=[!HideMeterGroup "Text"]
+
+IconPos="[!SetVariable "Counter" (#Counter#+1)][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]"
+Finish=[!SetVariable "Counter" "(#Animation.Hud#-1)"][!UpdateMeasureGroup "Animate"][!UpdateMeterGroup "Animate"][!Redraw]
+Deactivate=#CloseCommands#[!DeactivateConfig]
+DynamicVariables=1
+
+[AnimateCalc1]
+Measure=Calc
+Formula=clamp((1-(1 * ((#Counter#/#Animation.Hud#)) * (#Counter#/#Animation.Hud#) * ((2.81) * (#Counter#/#Animation.Hud#) - 1.70158))),0,1)
+DynamicVariables=1
+Group=Animate
+
+[AnimateCalc2]
+Measure=Calc
+Formula=1-(1 * ((#Counter#/#Animation.Hud#)) * (#Counter#/#Animation.Hud#) * ((2.81) * (#Counter#/#Animation.Hud#) - 1.70158))
+DynamicVariables=1
+Group=Animate
+
+[AnimateCalc3]
+Measure=Calc
+Formula=clamp((1-(1 * ((#Counter#/#Animation.Hud#)) * (#Counter#/#Animation.Hud#) * ((1.81 + 2.8) * (#Counter#/#Animation.Hud#) - 1.70158) - 0)),0,1)
+DynamicVariables=1
+Group=Animate
+
+[AnimateFade1]
+Measure=Calc
+Formula=trunc(255*[AnimateCalc1])
+DynamicVariables=1
+Group=Animate
+
+[AnimateFade2]
+Measure=Calc
+Formula=trunc(200*[AnimateCalc1])
+DynamicVariables=1
+Group=Animate
+
+[AnimateFade3]
+Measure=Calc
+Formula=trunc(255*[AnimateCalc3])
+DynamicVariables=1
+Group=Animate
+
+[AnimateStretch]
+Measure=Calc
+Formula=(#State# = 0)?(-1*((((#StretchCounter#/(40-1))-1)**4)-1)) : ((1*((((#StretchCounter#/(40-1))-1)**4)-1))+1)
+DynamicVariables=1
+Group=Animate
+
+[AnimateStretchFade]
+Measure=Calc
+Formula=clamp(((AnimateStretch-0.85)*1700), 0, 255)
+DynamicVariables=1
+Group=Animate
+
+
+;========================================================
+; Meters
+;========================================================
+
+[Space]
+Meter=Image
+W=#Monitor.MainW#
+
+[Background]
+Meter=Shape
+X=((#Monitor.MainW#-600)/2)
+Shape=Rectangle (200-(200*[AnimateStretch])),0,(200+[AnimateStretch]*400),200,100,100 | Fill Color 20,20,20,[AnimateFade2] | StrokeWidth 0
+TransformationMatrix=[AnimateCalc1];0;0;[AnimateCalc1];((#CURRENTCONFIGWIDTH#*(1-[AnimateCalc1]))/2);((200*(1-[AnimateCalc1]))/2)
+DynamicVariables=1
+Group=Animate
+
+[Ring]
+Meter=Shape
+X=(200-[AnimateStretch]*200)r
+Shape=Ellipse 100,100,90,90 | Fill Color 0,0,0,0 | StrokeWidth 3.5 | Stroke Color 150,150,150,[AnimateFade3]
+TransformationMatrix=[AnimateCalc3];0;0;[AnimateCalc3];((#CURRENTCONFIGWIDTH#*(1-[AnimateCalc3]))/2);((200*(1-[AnimateCalc3]))/2)
+DynamicVariables=1
+Group=Animate
+
+[Icon]
+Meter=Image
+X=40r
+Y=40r
+W=120
+H=120
+AntiAlias=1
+ImageAlpha=[AnimateFade1]
+TransformationMatrix=[AnimateCalc2];0;0;[AnimateCalc2];((#CURRENTCONFIGWIDTH#*(1-[AnimateCalc2]))/2);((200*(1-[AnimateCalc2]))/2)
+DynamicVariables=1
+Group=Animate
+ImageName=Resources\Icons\#Icon#
+
+[Text]
+Meter=String
+Text=#Text#
+X=40R
+Y=50r
+W=380
+StringAlign=LeftCenter
+InlinePattern=#CRLF#(.*)
+InlineSetting=Size | 12
+ClipString=2
+FontFace=Open Sans
+FontColor=255,255,255,[AnimateStretchFade]
+FontSize=20
+AntiAlias=1
+DynamicVariables=1
+Group=Animate|Text
+Hidden=1
