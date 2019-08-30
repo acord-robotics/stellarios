@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "bigapeaf", "count" : 1 }
+  ],
+	"output" : { "item" : "essence", "count" : 2800 },
+	"groups" : [ "figurinescrafter", "figurinestab4" ]
+}

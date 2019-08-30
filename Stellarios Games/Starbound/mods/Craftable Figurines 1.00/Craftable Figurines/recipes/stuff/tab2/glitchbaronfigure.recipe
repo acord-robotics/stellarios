@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "protectoratebroadsword", "count" : 1 }
+  ],
+	"output" : { "item" : "glitchbaronfigure", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab2" ]
+}

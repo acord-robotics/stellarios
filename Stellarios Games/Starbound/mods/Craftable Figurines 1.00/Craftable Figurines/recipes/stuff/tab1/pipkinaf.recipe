@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "stickofram", "count" : 10 },
+	{ "item" : "clay", "count" : 10 },
+	{ "item" : "copperbar", "count" : 1 },
+	{ "item" : "goldbar", "count" : 1 }
+  ],
+	"output" : { "item" : "pipkinaf", "count" : 1 },
+	"groups" : [ "figurinescrafter", "figurinestab1" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "glitchtrophy",
+  "colonyTags" : ["glitch","pretty","valuable"],
+  "rarity" : "Legendary",
+  "description" : "An exact replica of the Glitch artifact from the Baron's Keep.",
+  "shortdescription" : "Glitch Artifact Trophy",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 1000,
+  "printable" : true,
+
+  "apexDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "avianDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "floranDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "glitchDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "humanDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "hylotlDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+  "novakidDescription" : "A replica of the Glitch artifact from the Baron's Keep.",
+
+  "inventoryIcon" : "glitchtrophyicon.png",
+  "orientations" : [
+    {
+      "image" : "glitchtrophy.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
