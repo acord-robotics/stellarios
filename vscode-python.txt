@@ -1,5 +1,0 @@
-# Visual Studio Code & Python
-https://code.visualstudio.com/docs/python/python-tutorial
-
-# with cmd prompt (windows)
-py -3 --version
