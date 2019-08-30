@@ -1,0 +1,32 @@
+Grok learning
+print("Hello World!")
+#this means that the console will print the phrase "Hello World" without the quotation mark
+
+#printing multiple things
+
+print("Harry", "Potter")
+#this will make the console print Harry Potter
+
+firstname = 'Harry'
+lastname = 'Potter'
+print(firstname, lastname)
+
+#asking the user a question
+name = input("What is your name? ")
+print(name)
+
+#joining messages together
+name = input("What is your name? ")
+print("So you call yourself '" + name + "' huh?")
+
+#hello to you three
+friend1 = input("Friend: ")
+friend2 = input("Friend: ")
+friend3 = input("Friend: ")
+print("Hello, young " + friend1)
+print("Hello, wise " + friend2)
+print("Hello, brave " + friend3)
+
+#completed module 1
+
+#python the calculator
