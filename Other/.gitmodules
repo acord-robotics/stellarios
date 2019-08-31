@@ -31,3 +31,6 @@
 [submodule "osr-code"]
 	path = osr-code
 	url = https://gitlab.com/IrisDroidology/osr-rover-code	
+[submodule "starsailors"]
+	path = starsailors
+	url = https://github.com/acord-robotics/starsailors
