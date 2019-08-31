@@ -12,7 +12,7 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)
 
 
-
+This project is also stored here: https://gitlab.com/acord-robotics/robodev/s2rd/tree/stellarios
 
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 [ACORD Portal](https://gitlab.com/snippets/1869196)
