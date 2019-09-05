@@ -4,7 +4,15 @@ Jayin shook himself back to the present as his chief political advisor, Lorian N
 
 Nox, who was a Keplernian, spoke in his gravelly voice. "Jayin, we've heard that Starrix's fleet are in trouble. They weren't able to complete their message before their communication was terminated, but our scanners have shown some sort of pirate group in the area. A pirate group that was completely unidentifiable via our scanners."
 
-Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon. They were either truly unknown - *now those were rare* - or they weren't members of parliament, meaning they didn't recognise the laws or ways of the majority of the galaxy - '*the civilized part*' thought Jayin grimly. 
+Jayin struggled to understand what this meant. "Are you saying that they are an unknown species?" Such species weren't uncommon. They were either truly unknown - *now those were rare* - or they weren't members of parliament, meaning they didn't recognise the laws or ways of the majority of the galaxy - '*the civilized part*' thought Jayin grimly. Attacks by the latter group were common - only last month the Juganoth Mining Corporation had lost its prospecting fleet around the gas planet Vao-73. He'd spent ages trying to clean that mess up, and he didn't want that to happen again.
+
+Nox pointed to the data card that he had put on Jayin's desk, and as Jayin slipped it into his datapad he continued. "I don't think any species is truly unknown," Nox said slowly. "They produce enough waste products on their home planets that even if they aren't intelligent, so we know where everyone is. But we've never seen this species and we've never communicated with them. We knew they were there, but the sector they were in is classed as a conservation area by Parliament, and we had other problems to deal with. We had no reason to  believe that they'd traveled outside of their system, so we took a note of it and moved on."
+
+A video on Jayin's datapad was about to play, but Jayin paused it. "So we know that this species has the ability to travel through hyperspace, but we do nothing about it? How far have they traveled?" 'Do they really know nothing about us? Could they have been spying on us?' Jayin thought to himself.
+
+"Chancellor, I think you misunderstand. This group is very small, probably only a few hundred of them are around. They've communicated with the other intelligent species in their area, but we think - think - that they are the equivalent of merchants. We've mapped their movements in the past year, and there is no sign of them moving much further than 2000 light-years from their home planet, which isn't very far." Nox motioned towards the datapad that Jayin was holding, and Jayin unpaused the video. The video was actually a highly detailed render. The video zoomed in on a ship that was in orbit around a pale blue dot - 'is that their home planet?' before launching into hyperspace. The image zoomed out again
+
+
 
 # Outline for Chapter 4
 • Starrix contacts Jayin
