@@ -28,3 +28,44 @@ Every member of ACORD gets the ACORD package of Stellarios, which includes:
 * Star Sailors (novella series) - special edition
 
 Stellarios is free for personal and commercial use and is open-source. Joining ACORD is free and gets you plenty of cool stuff only available to ACORD members. It's easy to sign up - go to http://allianceofdroids.org.au/aod/signup
+
+# List of Apps & Games in Stellarios
+* [Asteroid Dodgers](#asteroid-dodgers)
+* Droid Control Unit
+* ACORD Archives
+* Star Sailors RPG
+
+# Arduino
+Check out the [Arduino Branch](http://github.com/acord-robotics/stellarios/tree/_arduino)
+
+# Python
+Check out the [Python Repo](http://irisdroidology.github.io/learning-python)
+
+# Asteroid Dodgers
+Asteroid Dodgers is a game created by ACORD in collaboration with [@Orgzy-Design](http://github.com/orgzy-design) (our Chairman's company). It is a slight parody on Star Sailors and is part of the RPG family.
+
+## Development
+__What's going on?__
+Currently we are working on developing Asteroid Dodgers in the Unity Game Engine. Level 2 is what is being developed, as well as the main menu.
+
+## Level 1
+Explore the galaxy and find "alien artifacts"
+
+## Level 2
+Bring those artifacts back to your base
+
+# Installation of Stellarios
+Stellarios can be installed by ACORD members at [the portal](http://allianceofdroids.org.au/aod/star-sailors-embed). For everyone else, download this git repository. There is currently no single executable file for the whole of Stellarios, there are individual executables for the different games and apps in Stellarios
+
+# Support
+Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to discuss problems, or submit an issue request on this reposiotry. ACORD members should go to the [gitlab](http://gitlab.com/acord-robotics/robodev/s2rd) and launch an issue there, or go to the [ACORD forums](http://allianceofdroids.org.au/aod/forums) and launch a ticket there.
+
+# To Do
+## Asteroid Dodgers
+* Add Main Menu (due in by 8th September 2019)
+* Add Level 2 (due in by 8th September 2019)
+* Increase width of playboard in Level 1 (due in by September 7th 2019)
+* Evaluation (start by 9th September 2019)
+
+## Python
+* Complete Udemy course (due in by 30th September 2019)
