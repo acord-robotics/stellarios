@@ -1,7 +1,10 @@
-# ACORD Robotics/Stellarios
-Asteroid Dodgers is a game part of Stellarios that is created in Unity. It is actively developed at Github/Acord-Robotics/Unityballs.
+# ACORD Robotics/Stellarios/Acord-Games
+A large part of the Stellarios software suite by ACORD is our games. These games are made both by us and by other developers (for example Backflip Studios, CCP Games, Hello Games, etc). Here's a list of all our games, the [ACORD world backups](http://allianceofdroids.org.au/aod/forums/forum/droidologists/aod-game-worlds/) and more.
+
 
 ## Asteroid Dodgers (aka Unityballs)
+Asteroid Dodgers is a game part of Stellarios that is created in Unity. It is actively developed at Github/Acord-Robotics/Unityballs.
+
 ### Documentation - SDLC
 __State The Problem__
 What I want to learn: I want to learn how to create a game for both computers and mobile devices. I want to learn how to code in languages such as C# and C++. I've played games for ages, but mostly science fiction games. I've looked for true space colonization games for years, but until recently I never found any good ones. So, I thought that I should make my own game, and that's what I want to learn. 
