@@ -69,3 +69,7 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 
 ## Python
 * Complete Udemy course (due in by 30th September 2019)
+
+# Developers of ACORD/Stellarios
+* Liam Arbuckle (@IrisDroidology) - Lead developer
+* Farid
