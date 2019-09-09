@@ -1,4 +1,8 @@
 # CHANGELOG
+With each version of Stellarios comes new features and new software. This changelog is for general Stellarios changes (i.e. Theme changes, new apps, major updates to apps/hardware). For the changelogs for specific software, click on the software button:
+
+* [Asteroid Dodgers](/stellarios/asteroid-dodgers-changelog)
+* [Open Source Rover *Fork*](/stellarios/osr-changelog)
 
 ## 1.0
 Upcoming
