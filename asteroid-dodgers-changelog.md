@@ -12,6 +12,17 @@ Builds are sort of pre-Alpha versions that just add different things to the game
 * Main Menu (currently with "Play, Options, Quit")
 * Level selector bg image
 
+## Build 6.2
+* Added "Quit" functionality to Main Menu
+* Added "How to Play" functionality to Main Menu
+
+### Build 6.2.1
+* Added level select functionality to Level Selector Scene (from Main Menu)
+* More comments for scripts
+
+### Build 6.1
+* Added Level Selector functionality to Main Menu
+
 
 # Build 5
 * Level switcher once Level 1 is complete
