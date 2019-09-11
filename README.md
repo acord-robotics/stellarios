@@ -73,3 +73,4 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 # Developers of ACORD/Stellarios
 * Liam Arbuckle (@IrisDroidology) - Lead developer
 * Farid
+* @j-brkr 
