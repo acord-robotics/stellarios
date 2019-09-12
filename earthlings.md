@@ -1,4 +1,5 @@
 # Characters
+Read earthlings here: https://www.wattpad.com/story/198551620-star-sailors
 * [Opus "Siridium"]({{ site.baseurl }}/opus) - Main character, Human/Cancrinite/*Miydlian,* ***Stellarios Arm***
 * [Jayin]({{ site.baseurl }}/jayin) - Chancellor of Galactic Parliament/Commmonwealth - Midgard Legacy
 * [Starrix Lierge]({{ site.baseurl }}/starrix) - Commander of the Miydlian Fleet
