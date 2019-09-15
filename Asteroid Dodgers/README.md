@@ -13,3 +13,4 @@ Explore the galaxy and find "alien artifacts"
 # Level 2
 
 Bring those artifacts back to your base
+http://allianceofdroids.org.au/aod/forums/topic/asteroid-dodgers-storyline/
