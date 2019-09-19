@@ -42,4 +42,6 @@ Menteth - 'where did he come from?' - appeared from a jumble of wires underneath
 
 The inventor looked up as two men in military uniforms stood in front of his door. "We need you to come with us, Tullo," one of them said, as the other cocked his stun blaster menacingly. "We're about to head into the Flux and before we do we need you to plot a course through it. And Starrix wants to see you as well."
 
-Tullo bought himself to his full height. As a Keplernian, he stood almost half a metre taller than the military goons, who had been well trained and didn't shrink back. "Has Starrix received my message?" he asked calmly as he
+Tullo bought himself to his full height. As a Keplernian, he stood almost half a metre taller than the military goons, who had been well trained and didn't shrink back. "Has Starrix received my message?" he asked calmly as he as he tied his hair back and submitted his datapad to the taller of the soldiers, who seemed to be in charge. "It is quite urgent that it is seen immediately." 
+
+The soldiers ignored him, as Tullo expected them to. He followed them out the door of his messy workshop, past the half-finished electrical clutter that was his home away from home. They also ignored him as he bent down to secretly place 2 high-fidelity router speakers, which would re-route his discoveries to the command bridge, and to Starrix, before his room blew up and took the guards with it. Just a few more seconds...
