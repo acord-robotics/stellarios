@@ -48,4 +48,12 @@ The soldiers ignored him, as Tullo expected them to. He followed them out the do
 
 ----
 
+"McInstay, fly back." 
+
+Gilbert heard a voice in the back of his mind, the same voice that had been ordering him around since he'd awoken. They'd rushed him into a spacesuit, placed him into a spaceship which had launched out of the shuttle bay almost as soon as he was inside. He'd been flying around in a weird universe, full of bright lights and alien spaceships. Had Opus put him back in the training simulator? He'd have to tell him how good the simulators had gotten when he got out.
+
+This went on for a few minutes, and he shot down starfighter after starfighter, which were then collected by more spaceships, the pilots rescued and captured. Gilbert wondered why the creators of the simulation had added that redundant part. This thought nagged at the back of his mind for the next few minutes
+
+----
+
 The entire fleet, under Starrix's command, jumped into the Flux/Hyperspace
