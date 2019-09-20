@@ -61,7 +61,27 @@ Menteth - 'where did he come from?'  - appeared from a jumble of wires underneat
 
 The inventor looked up as two men in military uniforms stood in front of his door. "We need you to come with us, Tullo," one of them said, as the other cocked his stun blaster menacingly. "We're about to head into the Flux and before we do we need you to plot a course through it. And Starrix wants to see you as well." 
 
-Tullo bought himself to his full height. As a Keplernian, he stood almost half a metre taller than the military goons, who had been well trained and didn't shrink back. "Has Starrix received my message?" he asked calmly as he 
+Tullo bought himself to his full height. As a Keplernian, he stood almost half a metre taller than the military goons, who had been well trained and didn't shrink back. "Has Starrix received my message?" he asked calmly as he tied his hair back and submitted his datapad to the taller of the soldiers, who seemed to be in charge. "It is quite urgent that it is seen immediately." 
+
+The soldiers ignored him, as Tullo expected them to. He followed them out the door of his messy workshop, past the half-finished electrical clutter that was his home away from home. They also ignored him as he bent down to secretly place 2 high-fidelity router speakers, which would re-route his discoveries to the command bridge, and to Starrix, before his room blew up and took the guards with it. Just a few more seconds...
+
+-----
+
+"McInstay, fly back." 
+
+Gilbert heard a voice in the back of his mind, the same voice that had been ordering him around since he'd awoken. They'd rushed him into a spacesuit, placed him into a spaceship which had launched out of the shuttle bay almost as soon as he was inside. He'd been flying around in a weird universe, full of bright lights and alien spaceships. Had Opus put him back in the training simulator? He'd have to tell him how good the simulators had gotten when he got out.
+
+This went on for a few minutes, and he shot down starfighter after starfighter, which were then collected by more spaceships, the pilots rescued and captured. Gilbert wondered why the creators of the simulation had added that redundant part. This thought nagged at the back of his mind for the next few minutes
+
+----
+
+The entire fleet, under Starrix's command, jumped into the Flux/Hyperspace
+
+
+
+
+
+
 
 
 
