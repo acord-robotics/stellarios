@@ -78,7 +78,7 @@ This went on for a few minutes, and he shot down starfighter after starfighter, 
 The entire fleet, under Starrix's command, jumped into the Flux/Hyperspace
 
 
-
+Finished Chapter 4 on Wattpad - acord.tech/readstarsailors
 
 
 
