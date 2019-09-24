@@ -1,11 +1,14 @@
 
-# ACORD ROBOTICS/Star Sailors
+# ACORD ROBOTICS/Stellarios
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd-stellarios/wikis/home)
 [ACORD Portal](https://gitlab.com/snippets/1869196)
 
+# Stellarios Releases
+* [0.2 - Le Tang](https://github.com/acord-robotics/stellarios/releases/tag/0.2)
+
 <<<<<<< HEAD
 =======
-# ACORD ROBOTICS/Star Sailors
+# ACORD ROBOTICS/Stellarios
 >>>>>>> 05f9ec6b0419eb0a1301e51d5a93fda2f9fc8886
 @IrisDroidology
 
