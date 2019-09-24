@@ -13,6 +13,8 @@
 
 Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/README.md
 
+![forthebadge](https://img.shields.io/badge/Droid-Blueprints-blueviolet)
+
 This project is also stored here: https://gitlab.com/acord-robotics/robodev/s2rd/tree/stellarios
 
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
