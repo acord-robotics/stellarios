@@ -43,19 +43,6 @@ Check out the [Arduino Branch](http://github.com/acord-robotics/stellarios/tree/
 # Python
 Check out the [Python Repo](http://irisdroidology.github.io/learning-python)
 
-# Asteroid Dodgers
-Asteroid Dodgers is a game created by ACORD in collaboration with [@Orgzy-Design](http://github.com/orgzy-design) (our Chairman's company). It is a slight parody on Star Sailors and is part of the RPG family.
-
-## Development
-__What's going on?__
-Currently we are working on developing Asteroid Dodgers in the Unity Game Engine. Level 2 is what is being developed, as well as the main menu.
-
-## Level 1
-Explore the galaxy and find "alien artifacts"
-
-## Level 2
-Bring those artifacts back to your base
-
 # Installation of Stellarios
 Stellarios can be installed by ACORD members at [the portal](http://allianceofdroids.org.au/aod/star-sailors-embed). For everyone else, download this git repository. There is currently no single executable file for the whole of Stellarios, there are individual executables for the different games and apps in Stellarios
 
@@ -81,6 +68,18 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 A large part of the Stellarios software suite by ACORD is our games. These games are made both by us and by other developers (for example Backflip Studios, CCP Games, Hello Games, etc). Here's a list of all our games, the [ACORD world backups](http://allianceofdroids.org.au/aod/forums/forum/droidologists/aod-game-worlds/) and more.
 From Pull Request 35
 
+# Asteroid Dodgers
+Asteroid Dodgers is a game created by ACORD in collaboration with [@Orgzy-Design](http://github.com/orgzy-design) (our Chairman's company). It is a slight parody on Star Sailors and is part of the RPG family.
+
+## Development
+__What's going on?__
+Currently we are working on developing Asteroid Dodgers in the Unity Game Engine. Level 2 is what is being developed, as well as the main menu.
+
+## Level 1
+Explore the galaxy and find "alien artifacts"
+
+## Level 2
+Bring those artifacts back to your base
 ## Asteroid Dodgers (aka Unityballs)
 Asteroid Dodgers is a game part of Stellarios that is created in Unity. It is actively developed at Github/Acord-Robotics/Unityballs.
 
