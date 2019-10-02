@@ -13,10 +13,9 @@
 
 Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/README.md
 
-![forthebadge](https://img.shields.io/badge/Droid-Blueprints-blueviolet)
+![forthebadge](https://img.shields.io/badge/Droid-Blueprints-blueviolet)(https://gitlab.com/acord-robotics/robodev/s2rd/tree/stellarios)
 
-This project is also stored here: https://gitlab.com/acord-robotics/robodev/s2rd/tree/stellarios
-
+![forthebadge](https://img.shields.io/badge/Droid-Wiki-violet)
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 
 # Stellarios
