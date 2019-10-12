@@ -27,6 +27,7 @@ Every member of ACORD gets the ACORD package of Stellarios, which includes:
 * Virtual companion robot
 * All ACORD "Jedi Archives"
 * Star Sailors (novella series) - special edition
+* Star Sailors RPG access on ACORD portal
 
 Stellarios is free for personal and commercial use and is open-source. Joining ACORD is free and gets you plenty of cool stuff only available to ACORD members. It's easy to sign up - go to http://allianceofdroids.org.au/aod/signup
 
