@@ -47,6 +47,7 @@ Check out the [Arduino Branch](http://github.com/acord-robotics/stellarios/tree/
 
 # Python
 Check out the [Python Repo](http://irisdroidology.github.io/learning-python)
+Python games include a parody of Pong, with "upgrades" to your ball
 
 # Installation of Stellarios
 Stellarios can be installed by ACORD members at [the portal](http://allianceofdroids.org.au/aod/star-sailors-embed). For everyone else, download this git repository. There is currently no single executable file for the whole of Stellarios, there are individual executables for the different games and apps in Stellarios
@@ -62,7 +63,7 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 * Evaluation (start by 9th September 2019)
 
 ## Python
-* Complete Udemy course (due in by 30th September 2019)
+* Complete Udemy course (due in by 30th October 2019)
 
 # Developers of ACORD/Stellarios
 * Liam Arbuckle (@IrisDroidology) - Lead developer
