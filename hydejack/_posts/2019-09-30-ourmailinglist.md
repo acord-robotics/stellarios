@@ -1,6 +1,6 @@
 ---
 title: Arduino Repository
-image: /assets/img/Our new mailing list.png
+image: /assets/Our new mailing list.png
 description: Something that a few people that follow our news have complained about is the lack of a detailed mailing system. While subscribers to our blog get our latest posts in their inbox (thanks WordPress), there are some features missing from this primitive system. Because of this I’ve been searching around for plugins that work with WordPress for this purpose. And the answer that I’ve found is pretty popular – you may have heard of it. It’s Mailchimp.
 published: true
 ---
