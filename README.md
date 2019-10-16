@@ -66,7 +66,7 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 * Complete Udemy course (due in by 30th October 2019)
 
 # Developers of ACORD/Stellarios
-* Liam Arbuckle (@IrisDroidology) - Lead developer
+* Liam Arbuckle (@IrisDroidology) - Lead developer - [My Website](http://irisdroidology.github.io/portfolio)
 * @mfaridn03 - Farid
 * @j-brkr 
 
