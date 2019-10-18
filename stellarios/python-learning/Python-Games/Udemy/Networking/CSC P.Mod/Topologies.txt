@@ -1,0 +1,61 @@
+	• Bus
+	• Ring
+	• Star
+	• Mesh
+	• Hybrid
+
+What is a topology?
+	• The ways nodes in networks are connected together
+
+Bus Topology
+	• Early ethernet networks used a bus structure
+	• Modern ethernet networks use a star bus structure (hybrid) 
+	• Every device and computer is connected to a single cable 
+	• Linear bus topology - 2 end points 
+	• Features: 
+		○ Every device is connected to one cable
+		○ Transmits data in one direction
+	• Advantages:
+		○ Cost effective
+		○ Low amount of cable required (compared to other networking topologies)
+		○ Used in small networks
+		○ Easy to understand and set-up
+		○ Easy to expand (join 2 cables together)
+	• Disadvantages:
+		○ If cable fails, network fails
+		○ If network is heavy performance decreases
+		○ Limited cable length
+		○ Slower than ring topology
+Ring Topology
+	• Each computer is connected to another computer
+		○ (Benzene shape)
+		○ 2 neighbours for each device
+	• Features:
+		○ A number of repeaters are needed (as data has to travel through all the nodes from the first computer/device to the desired node)
+		○ Unidirectional transmission
+			§ However, bidirectional transmission can be done by having 2 connections between each device
+			§ Benzene double bonding (eg)
+			§ Dual Ring Topology
+		○ Dual Ring Topology - 2 ring networks are formed
+			§ 1 can be a backup
+		○ Data is transferred bit by bit in a sequential manner
+	• Advantages:
+		○ Cheap to install and expand
+		○ Network is not affected by high traffic or adding more nodes 
+	• Disadvantages:
+		○ Troubleshooting is difficult
+		○ Adding/deleting nodes disturbs the network activity
+		○ Failure of one computer disturbs the whole network
+Mesh Topology
+	• Both Wi-Fi & Bluetooth are being upgraded to support Mesh Networking
+	
+
+Star Topology
+
+Hybrid Topology
+	• Modern Ethernet Networks use a hybrid topology structure (star bus) 
+
+
+References
+	• http://www.steves-internet-guide.com/networking/
+	• https://www.studytonight.com/computer-networks/network-topology-types.php

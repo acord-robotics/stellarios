@@ -1,0 +1,1265 @@
+{
+  "namespace": "resource_packs",
+
+  "resource_packs_toggle_button_control": {
+    "type": "panel",
+    "layer": 2,
+    "controls": [
+      {
+        "icon_border@white_image": {
+          "size": [ 16, 16 ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [ 5.5, 0 ],
+          "layer": 1
+        }
+      },
+      {
+        "cycling_icon": {
+          "type": "image",
+          "size": [ 15, 15 ],
+          "offset": [ 6, 0 ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "$icon_collection_name": "none",
+          "layer": 3,
+          "bindings": [
+            {
+              "binding_name": "$cycling_icon_path",
+              "binding_name_override": "#texture",
+              "binding_condition": "always"
+            },
+            {
+              "binding_name": "$cycling_icon_zip",
+              "binding_name_override": "#zip_folder",
+              "binding_condition": "always"
+            },
+            {
+              "binding_name": "$cycling_icon_file_system",
+              "binding_name_override": "#texture_file_system",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      {
+        "tab_button_text": {
+          "type": "label",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "max_size": [ "100% - 34px", "100%" ],
+          "offset": [ 34, 0 ],
+          "text": "$button_text",
+          "layer": 3,
+          "color": "$text_color",
+          "alpha": "$content_alpha"
+        }
+      }
+    ]
+  },
+
+  "available_pack_button_layout": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$available_pack_items"
+        }
+      },
+      {
+        "available_icon_image@resource_packs.available_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "type": "stack_panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "orientation": "horizontal",
+          "size": [ "100% - 48px", "10px" ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "available_pack_name_label@resource_packs.available_pack_name_label": {
+                "layer": 5,
+                "size": [ "fill", 10 ]
+              }
+            },
+            {
+              "lock_panel": {
+                "layer": 5,
+                "type": "panel",
+                "size": [ 10, 10 ],
+                "controls": [
+                  {
+                    "icon_lock@resource_packs.icon_lock": {
+                      "layer": 1,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left"
+                    }
+                  }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_premium_locked",
+                    "binding_name_override": "#visible",
+                    "binding_collection_name": "$available_pack_items",
+                    "binding_type": "collection"
+                  }
+                ]
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$available_pack_items"
+              }
+            },
+            {
+              "available_file_size_label@resource_packs.available_file_size_label": {
+                "layer": 5,
+                "size": [ "default", 10 ]
+              }
+            }
+
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", "30px" ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "available_pack_description_label@resource_packs.available_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_pack_button_layout_hover": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$available_pack_items"
+        }
+      },
+      {
+        "hover_image@resource_packs.white_image": {
+          "layer": 3
+        }
+      },
+      {
+        "available_icon_image@resource_packs.available_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "type": "stack_panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "orientation": "horizontal",
+          "size": [ "100% - 48px", "10px" ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "available_pack_name_label@resource_packs.available_pack_name_label": {
+                "layer": 5,
+                "size": [ "fill", 10 ]
+              }
+            },
+            {
+              "lock_panel": {
+                "layer": 5,
+                "type": "panel",
+                "size": [ 10, 10 ],
+                "controls": [
+                  {
+                    "icon_lock@resource_packs.icon_lock": {
+                      "layer": 1,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left"
+                    }
+                  }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_premium_locked",
+                    "binding_name_override": "#visible",
+                    "binding_collection_name": "$available_pack_items",
+                    "binding_type": "collection"
+                  }
+                ]
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$available_pack_items"
+              }
+            },
+            {
+              "available_file_size_label@resource_packs.available_file_size_label": {
+                "layer": 5,
+                "size": [ "default", 10 ]
+              }
+            }
+
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", 30 ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "available_pack_description_label@resource_packs.available_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "unowned_pack_button_layout": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$unowned_pack_items"
+        }
+      },
+      {
+        "unowned_icon_image@resource_packs.unowned_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "type": "stack_panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "orientation": "horizontal",
+          "size": [ "100% - 48px", "10px" ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "unowned_pack_name_label@resource_packs.unowned_pack_name_label": {
+                "layer": 5,
+                "size": [ "fill", 10 ]
+              }
+            },
+            {
+              "lock_panel": {
+                "layer": 5,
+                "type": "panel",
+                "size": [ 10, 10 ],
+                "controls": [
+                  {
+                    "icon_lock@resource_packs.icon_lock": {
+                      "layer": 1,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left"
+                    }
+                  }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_premium_locked",
+                    "binding_name_override": "#visible",
+                    "binding_collection_name": "$unowned_pack_items",
+                    "binding_type": "collection"
+                  }
+                ]
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$unowned_pack_items"
+              }
+            },
+            {
+              "unowned_file_size_label@resource_packs.unowned_file_size_label": {
+                "layer": 5,
+                "size": [ "default", 10 ]
+              }
+            }
+
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", "30px" ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "unowned_pack_description_label@resource_packs.unowned_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "unowned_pack_button_layout_hover": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$unowned_pack_items"
+        }
+      },
+      {
+        "hover_image@resource_packs.white_image": {
+          "layer": 3
+        }
+      },
+      {
+        "unowned_icon_image@resource_packs.unowned_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "type": "stack_panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "orientation": "horizontal",
+          "size": [ "100% - 48px", "10px" ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "unowned_pack_name_label@resource_packs.unowned_pack_name_label": {
+                "layer": 5,
+                "size": [ "fill", 10 ]
+              }
+            },
+            {
+              "lock_panel": {
+                "layer": 5,
+                "type": "panel",
+                "size": [ 10, 10 ],
+                "controls": [
+                  {
+                    "icon_lock@resource_packs.icon_lock": {
+                      "layer": 1,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left"
+                    }
+                  }
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_premium_locked",
+                    "binding_name_override": "#visible",
+                    "binding_collection_name": "$unowned_pack_items",
+                    "binding_type": "collection"
+                  }
+                ]
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$unowned_pack_items"
+              }
+            },
+            {
+              "unowned_file_size_label@resource_packs.unowned_file_size_label": {
+                "layer": 5,
+                "size": [ "default", 10 ]
+              }
+            }
+
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", 30 ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "unowned_pack_description_label@resource_packs.unowned_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "invalid_pack_button_layout": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$invalid_pack_items"
+        }
+      },
+      {
+        "invalid_icon_image@resource_packs.invalid_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "layer": 5,
+          "type": "panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "100% - 48px", 10 ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "invalid_pack_name_label@resource_packs.invalid_pack_name_label": {
+                "size": [ "100%", 10 ],
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", "30px" ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "invalid_pack_description_label@resource_packs.invalid_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "invalid_pack_button_layout_hover": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$invalid_pack_items"
+        }
+      },
+      {
+        "hover_image@resource_packs.white_image": {
+          "layer": 3
+        }
+      },
+      {
+        "invalid_icon_image@resource_packs.invalid_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "type": "panel",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "100% - 48px", "10px" ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "invalid_pack_name_label@resource_packs.invalid_pack_name_label": {
+                "layer": 5,
+                "size": [ "100%", 10 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", 30 ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "invalid_pack_description_label@resource_packs.invalid_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "selected_pack_button_layout": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$selected_pack_items"
+        }
+      },
+      {
+        "selected_icon_image@resource_packs.selected_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "layer": 5,
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "100% - 48px", 10 ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "selected_pack_name_label@resource_packs.selected_pack_name_label": {
+                "size": [ "fill", 10 ],
+                "layer": 1
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$selected_pack_items"
+              }
+            },
+            {
+              "selected_file_size_label@resource_packs.selected_file_size_label": {
+                "size": [ "default", 10 ],
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", 30 ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "selected_pack_description_label@resource_packs.selected_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "selected_pack_button_layout_hover": {
+    "type": "panel",
+    "controls": [
+      {
+        "pack_background@resource_packs.pack_background": {
+          "layer": 1,
+          "$collection_name": "$selected_pack_items"
+        }
+      },
+      {
+        "hover_image@resource_packs.white_image": {
+          "layer": 3
+        }
+      },
+      {
+        "selected_icon_image@resource_packs.selected_icon_image": {
+          "layer": 4,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "size": [ 43, 43 ],
+          "offset": [ 0.5, 0 ]
+        }
+      },
+      {
+        "name_panel": {
+          "layer": 5,
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "100% - 48px", 10 ],
+          "offset": [ -2, 2 ],
+          "controls": [
+            {
+              "selected_pack_name_label@resource_packs.selected_pack_name_label": {
+                "size": [ "fill", 10 ],
+                "layer": 1
+              }
+            },
+            {
+              "unlock_panel@resource_packs.unlock_panel": {
+                "$unlock_pack_collection": "$selected_pack_items"
+              }
+            },
+            {
+              "selected_file_size_label@resource_packs.selected_file_size_label": {
+                "size": [ "default", 10 ],
+                "layer": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description_panel": {
+          "layer": 4,
+          "type": "panel",
+          "anchor_from": "bottom_right",
+          "anchor_to": "bottom_right",
+          "size": [ "100%-45px", "30px" ],
+          "offset": [ -1, -1 ],
+          "controls": [
+            {
+              "selected_pack_description_label@resource_packs.selected_pack_description_label": {
+                "layer": 1,
+                "size": [ "100%-2px", "100%" ],
+                "offset": [ 1, 0 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "50%-4px", "100%-1px" ],
+    "offset": [ 3, 0 ],
+    "controls": [
+      {
+        "selected_packs@common.scrolling_panel": {
+          "$scrolling_content": "resource_packs.available_stack_panel",
+          "$scroll_pane_name": "available_packs_pane",
+          "$scrolling_pane_size": [ "100%-2px", "100%" ],
+          "$scrolling_pane_offset": [ 2, 0 ],
+          "$show_background": false,
+          "$scroll_size": [ 6, "100%-4px" ],
+          "variables": [
+            {
+              "requires": "$pocket_screen",
+              "$touch": true
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "panel_bg": {
+    "type": "panel",
+    "controls": [
+      { "black_background@resource_packs.black_image": { "layer": 1 } },
+      {
+        "gray@resource_packs.gray_image": {
+          "size": [ "100%-1px", "100%-1px" ],
+          "layer": 2
+        }
+      }
+    ]
+  },
+
+  "selected_stack_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "error_panel": {
+          "type": "panel",
+          "visible": "(not $is_pregame)",
+          "size": [ "100%", 30 ],
+          "controls": [
+            { "panel_bg@resource_packs.panel_bg": {} },
+            {
+              "error_label": {
+                "type": "label",
+                "color": "$light_grid_item_text_color",
+                "offset": [ 5, 3 ],
+                "size": [ "100% - 10px", "100% - 6px" ],
+                "text": "$in_game_error_text",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "layer": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "offset_0": {
+          "type": "panel",
+          "visible": "(not $is_pregame)",
+          "size": [ "100%", "6px" ]
+        }
+      },
+      {
+        "top_panel": {
+          "type": "panel",
+          "visible": "$top_label_box",
+          "size": [ "100%", 30 ],
+          "$force_pack_download_binding_type|default": "none",
+          "controls": [
+            { "panel_bg@resource_packs.panel_bg": {} },
+            { "header_control@resource_packs.header_control": {} }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#force_pack_download_enabled_level",
+              "binding_name_override": "#visible",
+              "binding_type": "$force_pack_download_binding_type"
+            }
+          ]
+        }
+      },
+      {
+        "offset_if_top_panel_active": {
+          "type": "panel",
+          "visible": "$top_label_box",
+          "size": [ "100%", "6px" ]
+        }
+      },
+      {
+        "selected_label_and_size_stack_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%", 12 ],
+          "controls": [
+            {
+              "selected_packs_title_label@resource_packs.selected_packs_title_label": {
+                "size": [ "fill", 12 ]
+              }
+            },
+            {
+              "loaded_extensions_size_label": {
+                "type": "label",
+                "color": "$light_grid_item_text_color",
+                "size": [ "default", 12 ],
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "text": "$total_size_binding",
+                "bindings": [
+                  {
+                    "binding_name": "$total_size_binding"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "selected_pack_grid@resource_packs.selected_pack_grid": {
+          "size": [ "100%", "default" ]
+        }
+      },
+      {
+        "default_item": {
+          "type": "panel",
+          "size": [ "100%-2px", "44px" ],
+          "controls": [
+            { "black_background@resource_packs.black_image": { "layer": 1 } },
+            {
+              "gray@resource_packs.gray_image": {
+                "anchor_from": "right_middle",
+                "anchor_to": "right_middle",
+                "size": [ "100%-44.5px", "43px" ],
+                "offset": [ -0.5, 0 ],
+                "layer": 2
+              }
+            },
+            {
+              "icon_image@resource_packs.icon_image": {
+                "layer": 4,
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+                "size": [ 43, 43 ],
+                "offset": [ 0.5, 0 ],
+                "type": "image",
+                "texture": "$default_item_texture",
+                "texture_file_system": "$default_item_file_system",
+                "zip_folder": "$default_item_zip",
+                "bindings": [
+                  {
+                    "binding_name": "$default_item_texture",
+                    "binding_name_override": "#texture"
+                  },
+                  {
+                    "binding_name": "$default_item_file_system",
+                    "binding_name_override": "#texture_file_system"
+                  },
+                  {
+                    "binding_name": "$default_item_zip",
+                    "binding_name_override": "#zip_folder"
+                  }
+                ]
+              }
+            },
+            {
+              "name_panel": {
+                "layer": 5,
+                "type": "panel",
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "size": [ "100% - 48px", 10 ],
+                "offset": [ -2, 2 ],
+                "controls": [
+                  {
+                    "white_label@resource_packs.white_label": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "$default_item_title",
+                      "layer": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "description_panel": {
+                "layer": 4,
+                "type": "panel",
+                "anchor_from": "bottom_right",
+                "anchor_to": "bottom_right",
+                "size": [ "100%-45px", 30 ],
+                "offset": [ -1, -1 ],
+                "controls": [
+                  {
+                    "gray_label@resource_packs.gray_label": {
+                      "layer": 1,
+                      "size": [ "100%-2px", "100%" ],
+                      "text": "$default_item_description",
+                      "offset": [ 1, 0 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "offset_1": {
+          "type": "panel",
+          "size": [ "100%", "6px" ],
+          "bindings": [
+            {
+              "binding_name": "(not $no_available_packs_visibility_binding)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "available_packs_title_label@resource_packs.available_packs_title_label": {
+          "size": [ "100%", "12px" ],
+          "bindings": [
+            {
+              "binding_name": "(not $no_available_packs_visibility_binding)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "available_pack_grid@resource_packs.available_pack_grid": {
+          "size": [ "100%", "default" ],
+          "$available_grid_visible_binding_name": "(not $no_available_packs_visibility_binding)",
+          "$available_grid_visible_binding_type": "global"
+        }
+      },
+      {
+        "invalid_pack_grid@resource_packs.invalid_pack_grid": {
+          "size": [ "100%", "default" ]
+        }
+      },
+      {
+        "unowned_packs_stack_panel": {
+          "type": "stack_panel",
+          "ignored": "(not $is_pregame or not $display_suggested_content_offers or $education_edition)",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "offset_2": {
+                "type": "panel",
+                "size": [ "100%", "6px" ]
+              }
+            },
+            {
+              "unowned_packs_title_label@resource_packs.unowned_packs_title_label": {
+                "size": [ "100%", "12px" ]
+              }
+            },
+            {
+              "unowned_pack_grid@resource_packs.unowned_pack_grid": {
+                "size": [ "100%", "default" ]
+              }
+            },
+            {
+              "more_suggested_content_offers_button@common_buttons.light_text_button": {
+                "size": [ "100% - 2px", 30 ],
+                "$pressed_button_name": "$button.more_suggested_content_offers",
+                "$button_text": "$view_more_unowned_content_button_text",
+                "bindings": [
+                  {
+                    "binding_name": "$view_more_unowned_content_button_visibility_binding",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "unowned_pack_grid",
+              "source_property_name": "(#collection_length > 0)",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "offset_3": {
+          "type": "panel",
+          "size": [ "100%", "10px" ]
+        }
+      },
+      {
+        "filler_panel": {
+          "type": "panel",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "description_label@resource_packs.description_label": {
+                "size": [ "100%", "default" ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_stack_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "available_packs_title_label@resource_packs.available_packs_title_label": {
+          "size": [ "100%", "12px" ]
+        }
+      },
+      {
+        "available_pack_grid@resource_packs.available_pack_grid": {
+          "size": [ "100%", "default" ]
+        }
+      }
+    ]
+  },
+
+  "pack_background": {
+    "type": "panel",
+    "controls": [
+      { "black_image@resource_packs.black_image": { "layer": 1 } },
+      {
+        "white_image@resource_packs.white_image": {
+          "layer": 2,
+          "bindings": [
+            {
+              "binding_name": "#is_selected",
+              "binding_name_override": "#visible",
+              "binding_collection_name": "$collection_name",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "gray_image@resource_packs.gray_image": {
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle",
+          "size": [ "100%-44.5px", "43px" ],
+          "offset": [ -0.5, 0 ],
+          "layer": 3
+        }
+      }
+    ]
+  },
+
+  "selected_pack_panel": {
+    "type": "stack_panel",
+    "size": [ "100%-2px", "100%c" ],
+    "min_size": [ "100% - 2px", "44px" ],
+    "$button_collection_name": "$selected_pack_items",
+    "$resource_pack_button_0": "resource_packs.selected_pack_minus_button",
+    "$resource_pack_button_1": "resource_packs.selected_pack_up_button",
+    "$resource_pack_button_2": "resource_packs.selected_pack_down_button",
+    "$resource_pack_button_3": "resource_packs.selected_pack_options_button",
+    "$resource_pack_button_4": "resource_packs.selected_pack_warning_button",
+    "controls": [
+      {
+        "selected_pack_button@resource_packs.selected_pack_button": {
+          "size": [ "100%", 44 ],
+          "layer": 1
+        }
+      },
+      {
+        "center_panel": {
+          "type": "panel",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "visibility_panel": {
+                "type": "panel",
+                "size": [ "100%", "100%c" ],
+                "controls": [
+                  {
+                    "selected_pack_direction_buttons@resource_packs.input_button_panel": {
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "available_pack_panel": {
+    "type": "stack_panel",
+    "size": [ "100%-2px", "100%c" ],
+    "min_size": [ "100% - 2px", "44px" ],
+    "$button_collection_name": "$available_pack_items",
+    "$resource_pack_button_0": "resource_packs.selected_pack_plus_button",
+    "$resource_pack_button_1": "resource_packs.selected_pack_up_button",
+    "$resource_pack_button_2": "resource_packs.selected_pack_down_button",
+    "$resource_pack_button_3": "resource_packs.selected_pack_warning_button",
+    "controls": [
+      {
+        "available_pack_button@resource_packs.available_pack_button": {
+          "size": [ "100%", 44 ],
+          "layer": 1
+        }
+      },
+      {
+        "center_panel": {
+          "type": "panel",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "selected_pack_direction_buttons@resource_packs.input_button_panel": {
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "unowned_pack_panel": {
+    "type": "stack_panel",
+    "size": [ "100% - 2px", "100%c" ],
+    "min_size": [ "100% - 2px", "44px" ],
+    "$button_collection_name": "$unowned_pack_items",
+    "$resource_pack_button_0": "resource_packs.selected_pack_plus_button",
+    "$resource_pack_button_1": "resource_packs.selected_pack_up_button",
+    "$resource_pack_button_2": "resource_packs.selected_pack_down_button",
+    "$resource_pack_button_3": "resource_packs.selected_pack_warning_button",
+    "ignored": "$education_edition",
+    "controls": [
+      {
+        "unowned_pack_button@resource_packs.unowned_pack_button": {
+          "size": [ "100%", 44 ],
+          "layer": 1
+        }
+      },
+      {
+        "center_panel": {
+          "type": "panel",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "selected_pack_direction_buttons@resource_packs.input_button_panel": {
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "selected_pack_grid": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+
+    "factory": {
+      "name": "selected_pack_factory",
+      "control_name": "resource_packs.selected_pack_panel"
+    },
+
+    "collection_name": "$selected_pack_items",
+    "bindings": [
+      {
+        "binding_name": "$selected_grid_dimensions",
+        "binding_name_override": "#collection_length"
+      }
+    ]
+  },
+
+  "available_pack_grid": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+
+    "factory": {
+      "name": "available_pack_factory",
+      "control_name": "resource_packs.available_pack_panel"
+    },
+
+    "collection_name": "$available_pack_items",
+    "$available_grid_visible_binding_name|default": "",
+    "$available_grid_visible_binding_type|default": "none",
+    "bindings": [
+      {
+        "binding_name": "$available_grid_dimensions",
+        "binding_name_override": "#collection_length"
+      },
+      {
+        "binding_name": "$available_grid_visible_binding_name",
+        "binding_name_override": "#visible",
+        "binding_type": "$available_grid_visible_binding_type"
+      }
+    ]
+  },
+
+  "unowned_pack_grid": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "ignored": "$education_edition",
+
+    "factory": {
+      "name": "unowned_pack_factory",
+      "control_name": "resource_packs.unowned_pack_panel"
+    },
+
+    "collection_name": "$unowned_pack_items",
+    "bindings": [
+      {
+        "binding_name": "$unowned_grid_dimensions",
+        "binding_name_override": "#collection_length"
+      }
+    ]
+  },
+
+  "invalid_pack_grid": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+
+    "factory": {
+      "name": "invalid_pack_factory",
+      "control_name": "resource_packs.invalid_pack_panel"
+    },
+
+    "collection_name": "$invalid_pack_items",
+    "bindings": [
+      {
+        "binding_name": "$invalid_grid_dimensions",
+        "binding_name_override": "#collection_length"
+      }
+    ]
+  }
+}
+
+// Edited by Offroaders123 for the Faithful 32x resource pack for Minecraft Bedrock Edition.

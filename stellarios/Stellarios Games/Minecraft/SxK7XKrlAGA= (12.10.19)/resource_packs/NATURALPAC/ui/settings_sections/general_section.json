@@ -1,0 +1,397 @@
+/*********************************************************
++*   File created:                                       *
++*   (c) Mojang. All rights reserved                     *
++*   (c) Microsoft. All rights reserved.                 *
++*********************************************************/
+
+/*********************************************************
++*   File modifity:                                      *
++*   (c) MINEPAPER. All rights reserved                  *
++*   (c) NaturalPack. All rights reserved.               *
++*********************************************************/
+
+{
+  "namespace": "general_section",
+
+  /// Разработчики
+  "automation_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "automation_button_toggle",
+    "$glyph_texture": "textures/image/imageUI/credits_glyph",
+    "$glyph_color_texture": "textures/image/imageUI/credits_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "credits.title",
+    "$toggle_property_bag": {
+      "#panel_title": "credits.title"
+    }
+  },
+
+  "automation_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "automation_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+      "image.title": {
+      "type": "image",
+      "texture": "textures/ui/title",
+      "size": [ "100%", 50 ],
+      "layer": 5
+        }
+      },
+      {
+        "credits.content.devTitle@how_to_play_common.header": {
+          "$text": "credits.content.devTitle"
+        }
+      },
+      {
+        "spase_0@how_to_play_common.paragraph": {
+          "$text": " "
+        }
+      },
+      {
+        "credits.content.devText@how_to_play_common.paragraph": {
+          "$text": "credits.content.devText"
+        }
+      },
+      {
+        "spase_1@how_to_play_common.paragraph": {
+          "$text": " "
+        }
+      },
+      {
+        "credits.content.betaTitle@how_to_play_common.header": {
+          "$text": "credits.content.betaTitle"
+        }
+      },
+      {
+        "spase_2@how_to_play_common.paragraph": {
+          "$text": " "
+        }
+      },
+      {
+        "credits.content.autor@how_to_play_common.paragraph": {
+          "$text": "credits.content.betaText"
+            }
+          }
+        ]
+      },
+
+      //// Информация
+  "debug_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "debug_button_toggle",
+    "$glyph_texture": "textures/image/imageUI/information_glyph",
+    "$glyph_color_texture": "textures/image/imageUI/information_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "information.title",
+    "$toggle_property_bag": {
+      "#panel_title": "information.title"
+    }
+  },
+  "debug_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "debug_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+    {
+    "image": {
+    "type": "image",
+    "texture": "textures/ui/title",
+    "size": [ "100%", 50 ],
+    "layer": 5
+  }
+},
+{
+  "information.version.comment@how_to_play_common.header": {
+    "$text": "information.version.comment",
+    "layer": 2
+  }
+},
+{
+  "information.content.comment@how_to_play_common.paragraph": {
+    "$text": "information.content.comment",
+    "layer": 2
+  /*}
+},
+{
+  "information.alpha.test.link@how_to_play_common.header": {
+    "$text": "information.alpha.test.link",
+    "layer": 2*/
+  }
+},
+{
+  "information.content.title@how_to_play_common.header": {
+    "$text": "information.content.title",
+    "layer": 2
+  }
+},
+{
+  "image.block.preview": {
+    "type": "image",
+    "texture": "textures/image/imageInformation/block.preview",
+    "size": [ "100%", 100 ],
+    "layer": 5
+  }
+},
+{
+  "information.content.block.title@how_to_play_common.header": {
+    "$text": "information.content.block.title"
+  }
+},
+{
+  "information.content.block.text@how_to_play_common.paragraph": {
+    "$text": "information.content.block.text"
+  }
+},
+{
+  "information.content.items.title@how_to_play_common.header": {
+    "$text": "information.content.items.title"
+  }
+},
+{
+  "information.content.items.text@how_to_play_common.paragraph": {
+    "$text": "information.content.items.text"
+  }
+},
+{
+  "information.content.entity.title@how_to_play_common.header": {
+    "$text": "information.content.entity.title"
+  }
+},
+{
+  "information.content.entity.text@how_to_play_common.paragraph": {
+    "$text": "information.content.entity.text"
+  }
+},
+{
+  "information.content.interface.title@how_to_play_common.header": {
+    "$text": "information.content.interface.title"
+  }
+},
+{
+  "information.content.interface.text@how_to_play_common.paragraph": {
+    "$text": "information.content.interface.text"
+  }
+},
+{
+  "information.content.more.title@how_to_play_common.header": {
+    "$text": "information.content.more.title"
+  }
+},
+{
+  "information.content.more.text@how_to_play_common.paragraph": {
+    "$text": "information.content.more.text"
+  }
+},
+{
+  "information.content.other.title@how_to_play_common.header": {
+    "$text": "information.content.other.title"
+  }
+},
+{
+  "information.content.other.text@how_to_play_common.paragraph": {
+    "$text": "information.content.other.text"
+  }
+},
+{
+  "spase_16@how_to_play_common.paragraph": {
+    "$text": " "
+  }
+},
+{
+  "information.content.version@how_to_play_common.header": {
+    "$text": "information.content.version"
+  }
+},
+{
+  "information.content.version_nume@how_to_play_common.header": {
+    "$text": "information.content.version_nume"
+        }
+      }
+    ]
+  },
+
+  /// Магазин
+  "vr_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "vr_button_toggle",
+    "$glyph_texture": "textures/image/imageUI/store_glyph",
+    "$glyph_color_texture": "textures/image/imageUI/store_glyph_color",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "marketplace.title",
+    "$toggle_property_bag": {
+      "#panel_title": "marketplace.title"
+    }
+  },
+
+  "vr_section": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "vr_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+      "image.title_top": {
+      "type": "image",
+      "texture": "textures/ui/title",
+      "size": [ "100%", 50 ],
+      "layer": 5
+      }
+    },
+    {
+      "store.soon@how_to_play_common.header": {
+        "$text": "store.soon"
+/* Это "Магазин", но он еще закрыт :)
+    }
+  },
+  {
+    "store.content.inventory+.title@how_to_play_common.header": {
+      "$text": "store.content.inventory+.title"
+    }
+  },
+  {
+        "inventory+.image": {
+        "type": "image",
+        "texture": "textures/image/imageStore/store.image.test",
+        "size": [ "100%", 215 ],
+        "layer": 5
+      }
+    },
+    {
+      "store.content.inventory+.text@how_to_play_common.header": {
+        "$text": "store.content.inventory+.text"
+      }
+    },
+    {
+      "store.content.inventory+.link@how_to_play_common.header": {
+        "$text": "store.content.inventory+.link"
+      }
+    },
+    {
+          "image.line_0": {
+          "type": "image",
+          "texture": "textures/image/imageUI/imageStore.line",
+          "size": [ "100%", 30 ],
+          "layer": 5
+        }
+      },
+      {
+        "store.content.villager+.title@how_to_play_common.header": {
+          "$text": "store.content.villager+.title"
+        }
+      },
+      {
+            "villager+.image": {
+            "type": "image",
+            "texture": "textures/image/imageStore/store.image.test",
+            "size": [ "100%", 215 ],
+            "layer": 5
+          }
+        },
+        {
+          "store.content.villager+.text@how_to_play_common.header": {
+            "$text": "store.content.villager+.text"
+          }
+        },
+        {
+          "store.content.villager+.link@how_to_play_common.header": {
+            "$text": "store.content.villager+.link"
+          }
+        },
+        {
+              "image.line_1": {
+              "type": "image",
+              "texture": "textures/image/imageUI/imageStore.line",
+              "size": [ "100%", 30 ],
+              "layer": 5
+       }
+      },
+      {
+        "store.content.turtleDefault.title@how_to_play_common.header": {
+          "$text": "store.content.turtleDefault.title"
+        }
+      },
+      {
+            "turtleDefault.image": {
+            "type": "image",
+            "texture": "textures/image/imageStore/store.image.test",
+            "size": [ "100%", 215 ],
+            "layer": 5
+          }
+        },
+        {
+          "store.content.turtleDefault.text@how_to_play_common.header": {
+            "$text": "store.content.turtleDefault.text"
+          }
+        },
+        {
+          "store.content.turtleDefault.link@how_to_play_common.header": {
+            "$text": "store.content.turtleDefault.link"
+          }
+        },
+        {
+              "image.line_2": {
+              "type": "image",
+              "texture": "textures/image/imageUI/imageStore.line",
+              "size": [ "100%", 30 ],
+              "layer": 5
+        }
+      },
+      {
+        "store.content.snowMod.title@how_to_play_common.header": {
+          "$text": "store.content.snowMod.title"
+        }
+      },
+      {
+            "snowMod.image": {
+            "type": "image",
+            "texture": "textures/image/imageStore/store.image.test",
+            "size": [ "100%", 215 ],
+            "layer": 5
+          }
+        },
+        {
+          "store.content.snowMod.text@how_to_play_common.header": {
+            "$text": "store.content.snowMod.text"
+          }
+        },
+        {
+          "store.content.snowMod.link@how_to_play_common.header": {
+            "$text": "store.content.snowMod.link"
+          }
+        },
+        {
+              "image.line_3": {
+              "type": "image",
+              "texture": "textures/image/imageUI/imageStore.line",
+              "size": [ "100%", 30 ],
+              "layer": 5 */
+        }
+      }
+    ]
+  }
+}

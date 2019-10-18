@@ -1,0 +1,96 @@
+{
+	"format_version": "1.8.0",
+	"geometry.bed": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "bed",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [0, 0, 0], "size": [16, 32, 6], "uv": [0, 0]},
+					{"origin": [0, 29, -5], "size": [16, 3, 11], "uv": [2, 39], "inflate": 0.01},
+					{"origin": [0, 0, -3], "size": [16, 3, 9], "uv": [2, 39], "inflate": 0.01},
+					{"origin": [13, 0, 6], "size": [3, 3, 3], "uv": [2, 39], "inflate": 0.01},
+					{"origin": [0, 0, 6], "size": [3, 3, 3], "uv": [51, 58], "inflate": 0.01},
+					{"origin": [13, 29, 6], "size": [3, 3, 3], "uv": [51, 57], "inflate": 0.01},
+					{"origin": [0, 29, 6], "size": [3, 3, 3], "uv": [51, 0], "inflate": 0.01}
+				]
+			}
+		]
+	},
+	"geometry.boat": {
+		"texturewidth": 128,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "bottom",
+				"pivot": [0, 18, 0],
+				"rotation": [90, 0, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-14, 10, 0], "size": [28, 16, 3], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "front",
+				"pivot": [15, 24, 0],
+				"rotation": [0, 90, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [7, 21, -1], "size": [16, 6, 2], "uv": [0, 19]}
+				]
+			},
+			{
+				"name": "back",
+				"pivot": [-15, 24, 0],
+				"rotation": [0, -90, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-23, 21, -1], "size": [16, 6, 2], "uv": [0, 19]}
+				]
+			},
+			{
+				"name": "right",
+				"pivot": [0, 24, -9],
+				"rotation": [0, -180, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-14, 21, -10], "size": [28, 6, 2], "uv": [0, 27]}
+				]
+			},
+			{
+				"name": "left",
+				"pivot": [0, 24, 9],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-14, 21, 8], "size": [28, 6, 2], "uv": [0, 27]}
+				]
+			},
+			{
+				"name": "paddle_left",
+				"pivot": [-2.5, 28, 9],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-3.5, 27, 3.5], "size": [2, 2, 18], "uv": [87, 44]},
+					{"origin": [-3, 26, 17.5], "size": [1, 6, 7], "uv": [96, 18]}
+				]
+			},
+			{
+				"name": "paddle_right",
+				"pivot": [-2.5, 28, -9],
+				"mirror": true,
+				"cubes": [
+					{"origin": [-3.5, 27, -14.5], "size": [2, 2, 18], "uv": [87, 44]},
+					{"origin": [-3, 26, -0.5], "size": [1, 6, 7], "uv": [96, 18]}
+				]
+			}
+		]
+	}
+}
