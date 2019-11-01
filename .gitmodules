@@ -4,11 +4,12 @@
 [submodule "stellarios/osr-app"]
 	path = stellarios/osr-app
 	url = https://gitlab.com/acord-robotics/osr-android-app
-[submodule "acord-robotics"]
-	url = https://github.com/acord-robotics/acord-robotics
 [submodule "stellarios/osr-code"]
 	path = stellarios/osr-code
 	url = https://gitlab.com/IrisDroidology/osr-rover-code
 [submodule "stellarios/osr"]
 	path = stellarios/osr
 	url = https://gitlab.com/acord-robotics/robodev/open-source-rover
+[submodule "stellarios/acord-general"]
+	path = stellarios/acord-general
+	url = https://github.com/acord-robotics/acord-robotics
