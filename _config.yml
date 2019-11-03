@@ -58,12 +58,10 @@ author:
 menu:
   - title:             Site Map
     url:               /compass/
-  - title:             ACORD
-    url:               /ACORD/
   - title:             Documentation
     url:               /docs/
-  - title:             ACORD Portal
-    url:               http://acord.tech/portal
+  - title:             Star Sailors
+    url:               http://acord.tech/readstarsailors
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
