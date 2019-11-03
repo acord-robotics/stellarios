@@ -20,15 +20,25 @@ Learn all about ACORD here
 * [ACORD in 2018](/stellarios/2018) - Stellarios was first dreamt up in 2018
 * [Name Change & Rebirth](/stellarios/2019) - in 2019, we rebranded from AoD to ACORD and started working on the official release of Stellarios
 
+## Page Contents
+Search through this page easily:
+
+* [ACORD](#about-acord)
+* [Our Members](#our-members)
+* [Robots & Software](#robots-and-software)
+	* [Robots](#robots)
+	* [Stellarios](#Stellarios-map)
+	* [Stellarios Code](#Stellarios)
+
 ## Our members
 ### Liam Arbuckle
 Liam Arbuckle is our Chairman & Co-Founder, and was the CEO from 2016-2018. He codes in a variety of languages, including C# & C++, and is currently working on a number of games - including Asteroid Dodgers (see below)
 
 * [Github](http://github.com/irisdroidology)
-* [Website](http://acord.tech/otr)
+* [Website](http://acord.tech/portfolio)
 * [Twitter](http://twitter.com/OpusTheRobot)
 
-# Robots & Software
+# Robots and Software
 
 At ACORD, we intend to create robots and software for every purpose. Want a rover to explore Mars? We'll make it. Need a game made? We'll code it. ACORD is a not-for-profit organisation that seeks to design, develop and package creations that will go out and do good in the world.
 
@@ -50,7 +60,7 @@ Our robots serve a variety of purposes. Our main project at this time, A0-D2, is
 
 ### Other games
 
-Some games that we think are worthy of being in Stellarios are included. These games have personally bought us great happiness playing them and they are truly innovative. You can view these games at this [repo](http://github.com/acord-robotics/stellarios/blob/master/README.md) and if you want to add games to it, fork [this repo](http://github.com/acord-robotics/stellarios-sugestions) to tell us about them!
+Some games that we think are worthy of being in Stellarios are included. These games have personally bought us great happiness playing them and they are truly innovative. You can view these games at this [repo](http://github.com/acord-robotics/stellarios/blob/master/README.md) and if you want to add games to it, fork [this repo](http://github.com/acord-robotics/stellarios-sugestions) to tell us about them! Also go here: allianceofdroids.org.au/aod/2019/11/01/the-stellarios-family-whos-a-part-of-it/
 
 
 
@@ -129,8 +139,7 @@ Star Sailors was designed to be the future of science fiction gaming!
 
 
 
-  
-	---
+---
 layout: about
 title: Star Sailors by ACORD
 cover: true
@@ -164,45 +173,6 @@ Star Sailors was designed to be the future of science fiction gaming!
 	
 
 
-## Computer Science
-
-### HTML
-[HTML](http://acord-robotics.github.io/starsailors/html/)
-
-### C++
-[C++](http://acord-robotics.github.io/starsailors/cplusplus)
-
-### CS
-I'm currently doing a computer science course at school, and I'm aiming to get into a Software Engineering course at university. To code Star Sailors, I'll be needing to learn the following coding languages:
-
-* HTML
-* CSS
-* Python
-* PHP
-* Java & Javascript
-* C, C#, C++
-
-I'll be starting with Python for 2 reasons:
-
-* I know how to code basic things in Python (and it is needed)
-* In August we'll be doing Python in school
-
-Because of this, I'll be learning all about Python and how to use it. There are 2 repos that I will be sharing my knowledge, notes and basic code:
-
-[DroidOS Python Repo](http://irisdroidology.github.io/droidos-python)
-[Star Sailors Repo](http://acord-robotics.github.io/starsailors/droidos-python/)
-
-I'll be storing it here as well as on my personal Github account.
-
-### Python
-
-## Python Map (on this site)
-[Python Repo](http://acord-robotics.github.io/starsailors/droidos-python)
-[Basic Concepts](http://acord-robotics.github.io/starsailors/droidos-python)
-
-## What will I be using to learn Python?
-[Sololearn](http://sololearn.com)
-[Grok](http://groklearning.com)
 
 # S2-RD
 
@@ -301,24 +271,6 @@ I'll be storing it here as well as on my personal Github account.
 ## ACORD Anniversaries
 <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/163063357@N08/albums/72157703345314821" title="AoD Anniversaries"><img src="https://live.staticflickr.com/4816/31449261517_811f2cb12b_b.jpg" width="1024" height="581" alt="AoD Anniversaries"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-
-# COOL LINKS
-## Starbound
-* [ACORD Starbound World](https://1drv.ms/f/s!Ak1pvbWm73EpiaYhsLf3WID8h-RATw)
-
-<iframe src="https://onedrive.live.com/embed?cid=2971EFA6B5BD694D&resid=2971EFA6B5BD694D%21152353&authkey=AMg5GAWwsOjx3OM" width="165" height="128" frameborder="0" scrolling="no"></iframe>
-
-## Minecraft (Mushlantis)
-* [27/3/19 Mushlantis 2.0](https://1drv.ms/f/s!Ak1pvbWm73EpidoDAt1HR6YoKutGYQ)
-
-<iframe src="https://onedrive.live.com/embed?cid=2971EFA6B5BD694D&resid=2971EFA6B5BD694D%21158979&authkey=AOJeFPfEXYY4mq8" width="165" height="128" frameborder="0" scrolling="no"></iframe>
-
-## ACORD Stuff
-* [ACORD Folder](https://1drv.ms/f/s!Ak1pvbWm73EpgSMgyjkY4sQ3BR6z)
-
-<script type="text/javascript" src="//Menu16.com/U/0947E64C/1/MyMenu1.js?h=BC0E"></script>
-<div id="MyMenu1"></div>
-Moved menu (need to fix)
 
 
 
@@ -430,9 +382,11 @@ Chapters Done:
 * Prologue
 * Chapter 1
 * Chapter 2
-
-Chapters in progress:
 * Chapter 3
+* Chapter 4
+
+Chapters in Progress:
+* Chapter 5
 Gilbert McInstay and the Earthlings join the senate
 
 We've finished the chapter outline: https://gitlab.com/acord-robotics/robodev/star-sailors/blob/master/star-sailors-earthlings/book-chapteroutline.md
@@ -475,7 +429,7 @@ We're going to be using Gitlab as a secondary git client. Gitlab and Github will
 * [Gitlab Group](http://gitlab.com/acord-robotics)
 * [Gitlab Profile](http://gitlab.com/irisdroidology)
 
-* [Gitlab Repo](http://gitlab.com/acord-robotics/robodev/s2-rdstellarios)
+* [Gitlab Repo](http://gitlab.com/acord-robotics/robodev/s2rd)
 
 The github repository will be made private once we upgrade to a more expensive Github plan. Then both the gitlab and github clients will be private
 
