@@ -7,6 +7,15 @@ hide_description: false
 
 # ACORD
 
+# Contents
+* [ACORD](#acord) --- Site map for ACORD
+* [Stellarios](#stellarios) --- view the updates & release history here
+* [Works](#works) --- View our media (books, novels, etc) & works here
+* [External Sites](#external-sites) --- Everything not on Github or the ACORD Portal, including maintenance & admin
+* [Social](#social-media) --- Social feeds like Facebook & Twitter
+* [Readme](#logs)
+
+
 * [ABOUT ACORD]({{ site.baseurl }}/ACORD) - Learn about us, what we do, and how to get involved
 
 # Stellarios
@@ -17,18 +26,26 @@ hide_description: false
 
 # Works
 * [Star Sailors]({{ site.baseurl }}/starsailors/) - Our science fiction novella loosely based off Star Wars
-
-# External Sites
-* [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything
-* [Public Blog](http://acord.tech/news) - Find out everything about ACORD!
-
-# Media
-## Stellarios
-
-## Star Sailors
+* [Read Star Sailors](http://acord.tech/readstarsailors)
 * [Concept Art](/stellarios/concept-art)
 * [Writing](/stellarios/writing)
 * [Read Star Sailors](http://acord.tech/starsailors)
+
+# External Sites
+* [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything
+* [App Control](https://my.mobiroller.com/Home/AppList) ACORD members can control our app here
+* [Gator cPanel](http://gator4047.hostgator.com:2083)
+* [Envato](https://themeforest.net/user/thelimosine)
+* [Star Wars](http://starwars.com)
+* [Planetary](http://planetary.org)
+* [Steam](http://steampowered.com)
+
+
+# Social Media
+* [Facebook](http://fb.me/droidology)
+* [Twitter](http://twitter.com/OpusTheRobot)
+
+
 
 
 
