@@ -1,6 +1,6 @@
 ---
 title: Write a perfect Github Readme
-image: /assets/img/blog/star-wars-cyberpunk-ap.jpg
+image: /assets/img/blog/64639960_834260466961008_9116984919543775232_o.jpg
 description: >
   Originally published on the ACORD Portal & Dev.to, updated by Liam Arbuckle. Arguably the single most important piece of documentation for any open source project is the README. A good README not only informs people what the project does but also who is it for, how they can install and use it and how they can contribute to it.
 published: true
