@@ -75,5 +75,5 @@ Now we come to my home system, the real garden
         Planetary garden (finds planets in Chapter 7)
         Portal to star wars
 
-It’s been a long journey, and I’m glad to say that Opus Siridium is retired. That chapter has been written. I’ll stay here in this garden forevermore, but my new name is *willchangename Vetrur, after the great warrior and protectorate member. Goodbye Opus, hello Vetrur
+It’s been a long journey, and I’m glad to say that Opus Siridium is retired. That chapter has been written. I’ll stay here in this garden forevermore, but my new name is *willchangename Vetrur, after the great warrior and protectorate member. Goodbye Opus, hello Vetrur. I've been awarded the Star of Siridium for my services to the universe, and I've used this to earn a position as Lieutenant of the Miydlian Fleet and to earn my stripes and medals in the fleet. No matter what happens, the essence of everyone will survive.
 
