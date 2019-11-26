@@ -10,6 +10,7 @@ Join our [Github](http://github.com/acord-robotics), and send us an [email](droi
 # Contents
 * [A0-D2](#a0-d2)
   * [Build Log](##a0-d2-build-log)
+* [S2-RD](#s2-rd)
 
 # A0-D2
 A0-D2 is the second major project that ACORD has worked on. The first one, A0-D1 (aka Sp-D2), is a steampunk-styled R2-unit that is currently being built by myself (Liam) and my uncle, Ian. 
@@ -44,6 +45,7 @@ S2-RD (Science, Spawn (Creation), Robotics, Development) is the ultimate goal of
 * Completion of Stellarios by ACoRD (including virtual, connect versions of droids)
 * Plans for future generations of A0-D2 (as in A0-D2.1, A0-D2.2)
 * Scientific robots + discovery
+* Star Sailors + Fandom (SW) - fandom outlined during formation of AoD/ACoRD
 
 **Personal Member Projects that are part of this project**
 * Liam - Completion of HS, Uni, full-time job - https://github.com/IrisDroidology/school
@@ -51,4 +53,12 @@ S2-RD (Science, Spawn (Creation), Robotics, Development) is the ultimate goal of
 * Liam, Nicholas - Partial sale of ACORD
 * Liam - Collection (see https://www.notion.so/gizmotron/ACoRD-Robotics-1edd973ac48447e5a1efae3e2af6a2e5)
 
-These personal projects have been added to S2-RD as the point of ACORD is to bring happiness, purpose and creativity to our world and our lives, as well as the lives of others. These goals are our major goals in life and S2-RD will not be completely finish until these goals have been achieved in a way
+These personal projects have been added to S2-RD as the point of ACORD is to bring happiness, purpose and creativity to our world and our lives, as well as the lives of others. These goals are our major goals in life and S2-RD will not be completely finish until these goals have been achieved in a way.
+
+S2-RD is a project that will be completed at a venue called Midgard, after the capital city in our Star Sailors universe - Midgardiacosl:
+
+* MidgARDCOsl - ACoRD
+* MidgardiacosL - Life
+* MidgardiaCosl2 - Creation
+
+[gitlab.com/acord-robotics/robodev/s2rd/issues](gitlab.com/acord-robotics/robodev/s2rd/issues)
