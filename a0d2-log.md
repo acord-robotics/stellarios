@@ -46,7 +46,7 @@ S2-RD (Science, Spawn (Creation), Robotics, Development) is the ultimate goal of
 * Scientific robots + discovery
 
 **Personal Member Projects that are part of this project**
-* Liam - Completion of HS, Uni, full-time job
+* Liam - Completion of HS, Uni, full-time job - https://github.com/IrisDroidology/school
 * Liam - scientific discovery
 * Liam, Nicholas - Partial sale of ACORD
 * Liam - Collection (see https://www.notion.so/gizmotron/ACoRD-Robotics-1edd973ac48447e5a1efae3e2af6a2e5)
