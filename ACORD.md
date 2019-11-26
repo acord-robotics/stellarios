@@ -52,6 +52,8 @@ Our robots serve a variety of purposes. Our main project at this time, A0-D2, is
 * [Science Experiments](/stellarios/science) - Learn about our science work here
 * [Companion for people with disabilities](/stellarios/companion) - Learn about our "companion robots" here
 
+* [A0-D2 Build Log](/a0d2-log)
+
 ## Games in Stellarios
 
 ### Made by us
