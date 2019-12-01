@@ -38,6 +38,8 @@ Droids, or robots, are a major part of the work that ACORD Robotics does. These 
 
 Our prototype of our master droid, A0-D2 (7), or S2-RD (43), is being built and has been worked on since the formation of ACORD/AoD, however we physically started working on it at the end of 2017. The parts list is available here: [acord.tech/partslist](https://irisdroidology.github.io/otr/meeting-with-adventures/)
 
+A0-D2 Build Log: https://acord-robotics.github.io/stellarios/a0d2-log
+
 # List of Apps & Games in Stellarios
 * [Asteroid Dodgers](#asteroid-dodgers)
 * Droid Control Unit
