@@ -19,7 +19,7 @@ Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/READ
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 
 # Stellarios
-Stellarios is a suite of software being developed by ACORD Robotics. This software includes games, applications and tools used in a variety of situations, for example software used to control explorartory rovers. The ACORD only version is being developed on Gitlab/Acord-Robotics/Robodev/S2RD and Github/IrisDroidology/S2RD
+Stellarios is a suite of software being developed by ACORD Robotics. This software includes games, applications and tools used in a variety of situations, for example software used to control explorartory rovers. The ACORD only version is being developed on Gitlab/Acord-Robotics/Robodev/S2RD and Github/IrisDroidology/S2RD.
 
 # Discussion
 
