@@ -34,7 +34,7 @@ Every member of ACORD gets the ACORD package of Stellarios, which includes:
 Stellarios is free for personal and commercial use and is open-source. Joining ACORD is free and gets you plenty of cool stuff only available to ACORD members. It's easy to sign up - go to http://allianceofdroids.org.au/aod/signup
 
 # Stellarios Droids
-Droids, or robots, are a major part of the work that ACORD Robotics does. These robots will be used for a variety of purposes, including scientific exploration (['NASA-JPL'](http://github.com/nasa-jpl)), mental health stability (Blue Frog Robotics), and other uses.
+Droids, or robots, are a major part of the work that ACORD Robotics does. These robots will be used for a variety of purposes, including scientific exploration ([`NASA-JPL` Open-Source-Rover](http://github.com/nasa-jpl)), mental health stability (Blue Frog Robotics), and other uses.
 
 Our prototype of our master droid, A0-D2 (7), or S2-RD (43), is being built and has been worked on since the formation of ACORD/AoD, however we physically started working on it at the end of 2017. The parts list is available here: [acord.tech/partslist](https://irisdroidology.github.io/otr/meeting-with-adventures/)
 
