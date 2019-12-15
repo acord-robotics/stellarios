@@ -77,3 +77,8 @@ Join the [ACORD Tapatalk](https://www.tapatalk.com/groups/acordrobotics/) to dis
 # ACORD Robotics/Stellarios/Acord-Games
 A large part of the Stellarios software suite by ACORD is our games. These games are made both by us and by other developers (for example Backflip Studios, CCP Games, Hello Games, etc). Here's a list of all our games, the [ACORD world backups](http://allianceofdroids.org.au/aod/forums/forum/droidologists/aod-game-worlds/) and more.
 
+# Integrations
+* Slack
+* Zapier
+* Discord
+* Gitlab
