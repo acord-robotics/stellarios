@@ -82,4 +82,3 @@ A large part of the Stellarios software suite by ACORD is our games. These games
 * Zapier
 * Discord
 * Gitlab
- 
