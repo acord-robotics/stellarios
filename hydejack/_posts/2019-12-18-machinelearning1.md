@@ -1,6 +1,6 @@
 ---
 title: Machine Learning for ACORD
-img: /assets/img/blog/Machine Learning #1.png
+img: /assets/img/blog/mkl.png
 description: ACoRCD Robotics is collaborating with numerous companies and organisations to create software with high-level machine learning capabilities. Here's how we're doing it!
 ---
 
