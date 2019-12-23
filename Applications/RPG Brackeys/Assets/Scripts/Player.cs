@@ -1,52 +1,39 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// This is the player script, it contains functionality that is specific to the Player
-/// </summary>
-public class Player : Character
-{
+public class Player : MonoBehaviour {
+
     /// <summary>
-    /// The player's health
+    /// The Player's movement speed
     /// </summary>
     [SerializeField]
-    private Stat health;
+    private float speed = 1; // when a variable is private, only the player/entity it is assigned to can access it
 
     /// <summary>
-    /// The player's mana
+    /// The Player's direction
     /// </summary>
-    [SerializeField]
-    private Stat mana;
+    private Vector2 direction;
 
-    /// <summary>
-    /// The player's initialHealth
-    /// </summary>
-    private float initHealth = 100;
 
-    /// <summary>
-    /// The player's initial mana
-    /// </summary>
-    private float initMana = 50;
 
-    protected override void Start()
-    {
-
-        health.Initialize(initHealth, initHealth);
-        mana.Initialize(initMana, initMana);
-
-        base.Start();
-    }
-
-    /// <summary>
-    /// We are overriding the characters update function, so that we can execute our own functions
-    /// </summary>
-    protected override void Update()
+	// Update is called once per frame
+	void Update ()
     {
         //Executes the GetInput function
         GetInput();
 
-        base.Update();
+        //Executes the Move function
+        Move();
+	}
+
+    /// <summary>
+    /// Moves the player
+    /// </summary>
+    public void Move()
+    {
+        //Makes sure that the player moves
+        transform.Translate(direction*speed*Time.deltaTime); // the entity will move at the same speed on all devices (not dependant on FPS)
     }
 
     /// <summary>
@@ -56,33 +43,19 @@ public class Player : Character
     {
         direction = Vector2.zero;
 
-        ///THIS IS USED FOR DEBUGGING ONLY
-        ///
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            health.MyCurrentValue -= 10;
-            mana.MyCurrentValue -= 10;
-        }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            health.MyCurrentValue += 10;
-            mana.MyCurrentValue += 10;
-        }
-
-
-        if (Input.GetKey(KeyCode.W)) //Moves up
+        if (Input.GetKey(KeyCode.W))
         {
             direction += Vector2.up;
         }
-        if (Input.GetKey(KeyCode.A)) //Moves left
+        if (Input.GetKey(KeyCode.A)) // If "A" key is pressed, move to the left (line 52) - this follows for everything in this "private void GetInput()" at line 42
         {
-            direction += Vector2.left; //Moves down
+            direction += Vector2.left;
         }
         if (Input.GetKey(KeyCode.S))
         {
             direction += Vector2.down;
         }
-        if (Input.GetKey(KeyCode.D)) //Moves right
+        if (Input.GetKey(KeyCode.D))
         {
             direction += Vector2.right;
         }
