@@ -99,8 +99,11 @@ Star Sailors is an online-RPG which will be bundled together with StellariOS in 
 <details>
 <summary>Stellarios</summary>
 <br>
-# Stellarios
 Stellarios is a suite of applications that is made by ACORD. Coded in a variety of languages, these apps are games, robotic controllers, and much more.
+</br>
+<pre>
+# Stellarios
+
 
 ## Acord app
 * Laid out like *Terragenesis* App
@@ -212,9 +215,6 @@ We're going to be using Gitlab as a secondary git client. Gitlab and Github will
 * [Gitlab Repo](http://gitlab.com/acord-robotics/robodev/s2rd)
 
 The github repository will be made private once we upgrade to a more expensive Github plan. Then both the gitlab and github clients will be private
-</br>
-<pre>
-
 </pre>
 </details>
 
