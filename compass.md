@@ -45,7 +45,7 @@ hide_description: false
 # Social Media
 * [Facebook](http://fb.me/droidology)
 * [Twitter](http://twitter.com/OpusTheRobot)
-<br><br>
+</br>
 <pre>
 
 </pre>
