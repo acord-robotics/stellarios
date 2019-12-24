@@ -176,17 +176,20 @@ Star Sailors was designed to be the future of science fiction gaming!
 
 
 
-# S2-RD
+# S2-RD / L6-S5 / A0-D2
+### Portal - Science of Droidology #2
+<div class="codegena_iframe" data-src="http://allianceofdroids.org.au/aod/jedi-order/science-of-droidology-2-1103082242/" style="height:441px;width:750px;" data-responsive="true" data-img="https://blog.allianceofdroids.org.au/wp-content/uploads/2019/02/ACORD.v1.png" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
 
-<div class="codegena_iframe" data-src="http://allianceofdroids.org.au" style="height:441px;width:750px;" data-responsive="true" data-img="https://blog.allianceofdroids.org.au/wp-content/uploads/2019/02/ACORD.v1.png" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
-
+### Space.com - A0-D3 (Space Robots)
 <div class="codegena_iframe" data-src="http://space.com" style="height:441px;width:750px;" data-responsive="true" data-img="https://miro.medium.com/max/1024/0*bSwUwANQkztwGQKr.jpg" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
 
+### Gitlab.com Repository - S2-RD
 <div class="codegena_iframe" data-src="https://gitlab.com/acord-robotics/robodev/s2rd" style="height:441px;width:750px;" data-responsive="true" data-img="http://www.semageek.com/wp-content/uploads/2013/05/r2d2-is-alive-un-robot-r2d2-customise-a-la-sauce-arduino_03.jpg" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
 
+### Tapatalk forums - A0-D4 (Perfect ACoRD Network)
 <div class="codegena_iframe" data-src="https://www.tapatalk.com/groups/acordrobotics/" style="height:441px;width:750px;" data-responsive="true" data-img="https://tagn.files.wordpress.com/2015/10/eveonlinecontrolpanel.jpg" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
 
-
+### Planetary Society - A0-D3
 <div class="codegena_iframe" data-src="http://planetary.org" style="height:441px;width:750px;" data-responsive="true" data-img="https://hackster.imgix.net/uploads/attachments/981441/1_c1vv7b34H8WdvqeD_SBxgw.jpeg?auto=compress%2Cformat" data-css="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
 
 
