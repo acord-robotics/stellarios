@@ -4,10 +4,7 @@ description: >
 permalink: /compass/
 hide_description: false
 ---
-
-<details>
-<summary>Contents</summary>
-<br>
+# Contents
 * [ACORD](#acord) --- Site map for ACORD
 * [Stellarios](#stellarios) --- view the updates & release history here
 * [Works](#works) --- View our media (books, novels, etc) & works here
@@ -45,38 +42,6 @@ hide_description: false
 # Social Media
 * [Facebook](http://fb.me/droidology)
 * [Twitter](http://twitter.com/OpusTheRobot)
-</br>
-<pre>
-
-</pre>
-</details>
-
----
-
-<details open>
-<summary>Want to ruin the surprise?</summary>
-<br>
-Well, you asked for it!
-<br><br>
-<pre>
-&lt;details open&gt;
-&lt;summary&gt;Want to ruin the surprise?&lt;&#47;summary&gt;
-&lt;br&gt;
-Well, you asked for it!
-&lt;&#47;details&gt;
-</pre>
-</details>
-
-
-# ACORD
-
-# Contents
-
-
-
-
-
-
 
 
 
@@ -126,6 +91,17 @@ Star Sailors is an online-RPG which will be bundled together with StellariOS in 
 * [Reddit](http://acord.tech/reddit)
 
 
+
+
+
+
+# What is Stellarios?
+<details>
+<summary>Stellarios</summary>
+<br>
+
+</br>
+<pre>
 # Stellarios
 Stellarios is a suite of applications that is made by ACORD. Coded in a variety of languages, these apps are games, robotic controllers, and much more.
 
@@ -239,6 +215,9 @@ We're going to be using Gitlab as a secondary git client. Gitlab and Github will
 * [Gitlab Repo](http://gitlab.com/acord-robotics/robodev/s2rd)
 
 The github repository will be made private once we upgrade to a more expensive Github plan. Then both the gitlab and github clients will be private
+</pre>
+</details>
+
 
 ## OpusTheRobot
 My name is Liam, also known as Opus, and I'm the Chairman & Co-Founder of ACORD (formerly Alliance of Droids). I've got plenty of cool things that I will be sharing on this repo, including personal things:
