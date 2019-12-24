@@ -8,9 +8,6 @@ hide_description: false
 <details>
 <summary>Contents</summary>
 <br>
-This is how you dropdown.
-<br><br>
-<pre>
 * [ACORD](#acord) --- Site map for ACORD
 * [Stellarios](#stellarios) --- view the updates & release history here
 * [Works](#works) --- View our media (books, novels, etc) & works here
@@ -48,6 +45,9 @@ This is how you dropdown.
 # Social Media
 * [Facebook](http://fb.me/droidology)
 * [Twitter](http://twitter.com/OpusTheRobot)
+<br><br>
+<pre>
+
 </pre>
 </details>
 
