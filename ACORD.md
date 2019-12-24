@@ -6,8 +6,6 @@ description: >
 You can check out all our websites and social media stuff on [this page](/stellarios/online-presence/), however the main stuff is listed here:
 
 * [ACORD Portal](http://allianceofdroids.org.au) - This portal is for ACORD members only, it is a way for us to communicate, develop, design and entertain!
-* [ACORD News](http://acord.tech/news) - Read our blog and find out about what's going on in the wide world of ACORD
-* [Twitter](http://twitter.com/ACORDRobotics) - Short snippets about what's going on
 * [Github](http://github.com/acord-robotics) - Our code projects
 
 # ABOUT ACORD
@@ -30,13 +28,7 @@ Search through this page easily:
 	* [Stellarios](#Stellarios-map)
 	* [Stellarios Code](#Stellarios)
 
-## Our members
-### Liam Arbuckle
-Liam Arbuckle is our Chairman & Co-Founder, and was the CEO from 2016-2018. He codes in a variety of languages, including C# & C++, and is currently working on a number of games - including Asteroid Dodgers (see below)
 
-* [Github](http://github.com/irisdroidology)
-* [Website](http://acord.tech/portfolio)
-* [Twitter](http://twitter.com/OpusTheRobot)
 
 # Robots and Software
 
@@ -629,3 +621,11 @@ Launch into space
 
 * Take photo of earth
 * Analyze...
+
+## Our members
+### Liam Arbuckle
+Liam Arbuckle is our Chairman & Co-Founder, and was the CEO from 2016-2018. He codes in a variety of languages, including C# & C++, and is currently working on a number of games - including Asteroid Dodgers (see below)
+
+* [Github](http://github.com/irisdroidology)
+* [Website](http://acord.tech/portfolio)
+* [Twitter](http://twitter.com/OpusTheRobot)
