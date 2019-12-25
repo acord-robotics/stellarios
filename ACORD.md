@@ -5,7 +5,7 @@ description: >
 # Stellarios ACoRD
 
 
-<iframe src="https://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe>
+
 
 
 # Our Online Presence
