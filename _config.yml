@@ -29,7 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Software Suite by ACORD".
+  "Software Suite by AC0RD".
   Robotics software & science-fiction games.
 
 # Disqus Comments
@@ -61,7 +61,9 @@ menu:
   - title:             Documentation
     url:               /docs/
   - title:             Star Sailors
-    url:               http://acord.tech/readstarsailors
+    url:               /stellarios/starsailors
+  - title:             ACoRD Board of Directors
+    url:               http://larbuckle.tech   
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
