@@ -19,6 +19,8 @@ Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/READ
 ![forthebadge](https://img.shields.io/badge/Droid-Wiki-violet)
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 
+
+
 # Stellarios
 Stellarios is a suite of software being developed by ACORD Robotics. This software includes games, applications and tools used in a variety of situations, for example software used to control explorartory rovers. The ACORD only version is being developed on Gitlab/Acord-Robotics/Robodev/S2RD and Github/IrisDroidology/S2RD.
 
@@ -183,3 +185,4 @@ A large part of the Stellarios software suite by ACORD is our games. These games
 All commits to ACoRD repositories are sent to our discord and forwarded onto the slack (acord-robotics.slack.com). Slack is integrated with a number of applications that we use, for example onedrive. Discord and slack are in constant communication (I.e. syncing) with each other thanks to Zapier.
 We use Reddit, Tapatalk & Bbpress for the forums. Reddit can talk directly to discord, but the main problem with Reddit is that the boards are set out differently to traditional forum boards, meaning we consider Reddit as a tool to share the forum posts from the portal on, rather than the other way around. Tapatalk is used also, and there are ways to integrate it with Bbpress, which is one of the tasks of the network dept at ACORD. We need to decipher a method to get the portal talking with everything else (especially the membership features). For example, if a user posts in a specific channel on Slack, it should be sent to a bbpress forum and to discord. 
 >>>>>>> master
+All pr branches can be restored
