@@ -21,6 +21,14 @@ Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/READ
 # Stellarios
 Stellarios is a suite of software being developed by ACORD Robotics. This software includes games, applications and tools used in a variety of situations, for example software used to control explorartory rovers. The ACORD only version is being developed on Gitlab/Acord-Robotics/Robodev/S2RD and Github/IrisDroidology/S2RD.
 
+## ACORD Originals: Apps & Games in Stellarios
+Currently these games (located at [Stellarios/`applications`](http://github.com/acord-robotics/stellarios/tree/master/applications) and apps are being developed by ACORD:
+
+* [`Manacaster`](http://github.com/acord-robotics/manacaster) --- [Developed by `Liam Arbuckle`](http://larbuckle.tech)
+* [Àsteroid Dodgers'](http://github.com/acord-robotics/unityballs)
+
+More games and apps are available in Stellarios. 
+
 # Discussion
 
 Every member of ACORD gets the ACORD package of Stellarios, which includes:
