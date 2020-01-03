@@ -16,3 +16,9 @@
 [submodule "stellarios/s2-rd/osr"]
 	path = stellarios/s2-rd/osr
 	url = http://github.com/acord-robotics/open-source-rover
+[submodule "Applications/manacaster"]
+	path = Applications/manacaster
+	url = https://github.com/IrisDroidology/manacaster
+[submodule "Applications/manacaster-acord-fork"]
+	path = Applications/manacaster-acord-fork
+	url = https://github.com/acord-robotics/manacaster
