@@ -30,3 +30,6 @@ A video on Jayin's datapad was about to play, but Jayin paused it. "So we know t
 • ---Cut to Opus---
 • Opus sees his captor for the first time
 • ---Cut to Gilbert Gilbert meets the scientist and plans a way to rescue Opus
+
+
+
