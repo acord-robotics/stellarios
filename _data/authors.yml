@@ -32,11 +32,11 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         ACORDRobotics
-    github:          acord-robotics/stellarios/stellarios
+    github:          http://acord-robotics.github.io/stellarios/stellarios
     steam:           droidology
     reddit:          https://www.reddit.com/r/ACORDRobotics/
     download:        http://github.com/acord-robotics/stellarios
-    deviantart:      gizmotronn
+    # deviantart:      gizmotronn
     gitlab:          http://gitlab.com/acord-robotics/robodev/s2rd
    #  dribbble:        http://dribbble.com/gizmotronn
     # email:           <mail@domain.tld>
