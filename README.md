@@ -19,6 +19,8 @@ Full Readme: https://github.com/acord-robotics/stellarios/blob/star-sailors/READ
 ![forthebadge](https://img.shields.io/badge/Droid-Wiki-violet)
 [Wiki](https://gitlab.com/acord-robotics/robodev/s2rd/wikis/home)
 
+![forthebadge](https://img.shields.io/github/downloads/acord-robotics/stellarios/Beta1/total?style=for-the-badge&logo=gitlab)
+
 
 
 # Stellarios
