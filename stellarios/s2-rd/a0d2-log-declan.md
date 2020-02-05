@@ -6,3 +6,10 @@ We have created an email template & we have also sent out a number of calls to d
 
 # CLPG
 We have started to fill in the form from clpg.org.au
+
+# Budget & Parts Required
+* MarcDuinos - **R2-D2 Builders Club** (not for first iteration)
+* Raspberry Pi 4B - Received (for first iteration)
+
+### Raspberry Pi Models
+* [From Raspberry Pi Forums](https://www.raspberrypi.org/forums/viewtopic.php?t=234304)
