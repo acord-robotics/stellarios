@@ -7,3 +7,4 @@
 ![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)
 
 
+Full Readme: [`Acord-Robotics/Stellarios`/Stellarios](https://github.com/acord-robotics/stellarios/blob/master/stellarios/README.md)
