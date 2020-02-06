@@ -62,8 +62,8 @@ menu:
     url:               /docs/
   - title:             Star Sailors
     url:               /stellarios/starsailors
-  - title:             ACoRD Board of Directors
-    url:               http://larbuckle.tech   
+  - title:             ACoRD Portal
+    url:               http://acord-robotics.github.io 
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -146,7 +146,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                acord_robotics
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
