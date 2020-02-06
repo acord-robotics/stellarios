@@ -2,6 +2,7 @@
 title: Facebook Page - ACORD
 img: /assets/img/blog/mkl.png
 description: http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page/
+comments: true
 ---
 
 
