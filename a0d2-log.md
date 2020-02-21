@@ -1,8 +1,11 @@
 ---
 description: A0-D2 Build Log
 hide_description: false
+comments: true
 ---
 * Note: Article still in progress. View [Issue](http://github.com/acord-robotics/stellarios/issues)[52](http://github.com/acord-robotics/stellarios/issues/52), or go to our [Gitlab Co-Op](http://gitlab.com/acord-robotics/robodev/s2rd/) to find what's going on.
+
+{% include jointcomments.html %}
 
 ## Contributing
 Join our [Github](http://github.com/acord-robotics), and send us an [email](droidology@allianceofdroids.org.au).
