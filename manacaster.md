@@ -20,6 +20,6 @@ Here, you can read the Manacaster plot, find out more about the beta release, re
 
 ## Manacaster Plot
 * [Opening Act `#1`]({{ site.baseurl }}/manacaster-opening-act)
-* [Mr Mailman `2`]({{ site.baseurl }}/manacaster-mr-mailman)
+* [Mr Mailman `#2`]({{ site.baseurl }}/manacaster-mr-mailman)
 * [Waking Up `#3`]({{ site.baseurl }}/manacaster-waking-up)
-* [Load your account `4`]({{ site.baseurl }}/manacaster-load-account)
+* [Load your account `#4`]({{ site.baseurl }}/manacaster-load-account)
