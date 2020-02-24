@@ -18,8 +18,17 @@ published: true
 * [Chapter 6]({{ site.baseurl }}/earth-ch-6)
 * [Chapter 7]({{ site.baseurl }}/earth-ch-7)
 
-# Manacaster -
-### The star Sailors Video Game
+# Manacaster
+***The star Sailors Video Game***
+Read the Manacaster Texts:
+* [`Manacaster` by AC0/RD]({{ site.baseurl }}/manacaster)
+
+Play the game:
+
+Read the documentation:
+* [Stellarios Docs]({{ site.baseurl }}/docs/)
+
+
 ![](https://repository-images.githubusercontent.com/181161208/d0987280-2eed-11ea-99a5-24d5b8cabff1)
 
 
