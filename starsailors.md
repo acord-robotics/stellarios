@@ -1,7 +1,10 @@
 ---
-description: Star Sailors is a science-fiction novella loosely based off Star Wars. Read it here
+description: >-
+  Star Sailors is a science-fiction novella loosely based off Star Wars. Read it
+  here
 hide_description: false
 comments: true
+published: true
 ---
 
 # Star Sailors: Earthlings
@@ -11,6 +14,14 @@ comments: true
 * [Chapter 2]({{ site.baseurl }}/earth-ch-2)
 * [Chapter 3]({{ site.baseurl }}/earth-ch-3)
 * [Chapter 4]({{ site.baseurl }}/earth-ch-4)
+* [Chapter 5]({{ site.baseurl }}/earth-ch-5)
+* [Chapter 6]({{ site.baseurl }}/earth-ch-6)
+* [Chapter 7]({{ site.baseurl }}/earth-ch-7)
+
+# Manacaster -
+### The star Sailors Video Game
+![](https://repository-images.githubusercontent.com/181161208/d0987280-2eed-11ea-99a5-24d5b8cabff1)
+
 
 {% include jointcomments.html %}
 
