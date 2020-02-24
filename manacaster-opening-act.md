@@ -11,7 +11,7 @@ hide_description: false
 * [Manacaster]({{ site.baseurl }}/manacaster)
 
 # Manacaster Opening Act
-*The screen fades from black into the command center of a space station, which is actually an extension of a planet. 
+*The screen fades from black into the command center of a space station, which is actually an extension of a planet. *
 <center> Console CPU </center>
 <center> "What was that?" </center>
-*The screen shakes 
+*The screen shakes *
