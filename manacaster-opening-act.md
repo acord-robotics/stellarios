@@ -13,16 +13,20 @@ hide_description: false
 * [How it works](#how-it-works)
 
 # Manacaster Opening Act
-*The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup> is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*
+<center>*The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup> is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*</center>
 <center> __CONSOLE CPU__<sup>2</sup> </center>
 <center> "What was that?" </center>
-*The screen shakes as one of the spaceships on the table flies off the table.*
-<center> __OPUS__ </center>
-<center> "Hi! My name's Opus...sorry we haven't got more time.</center>
-*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc <sup>3</sup>.*
+<center>*The screen shakes as one of the spaceships on the table flies off the table.*</center>
+ 
+<center> **OPUS** </center>
+<center> "Hi! My name's Opus...sorry we haven't got more time."</center>
+
+<center>*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc <sup>3</sup>.*</center> 
+ 
 <center> **OPUS** </center>
 <center> Anyway...the ship's AI is a little battered. That last battle with the Miydlians cost us dearly, my friend. But the Miydlians suffered even heavier casualties, and we will - we must - persevere.</center>
-*A hooded being walks (in contrast to the others) towards Opus. They converse quickly, with their antennaes lighting up - telepathically (no sound or facial movements). Opus shoes the alien away and turns back to the player.*
+ 
+<center>*A hooded being walks (in contrast to the others) towards Opus. They converse quickly, with their antennaes lighting up - telepathically (no sound or facial movements). Opus shoes the alien away and turns back to the player.*</center>
 
 # Footnotes
 1. Command table - like in Star Wars: ROTJ (1983)
