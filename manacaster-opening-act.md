@@ -12,7 +12,7 @@ hide_description: false
 * [Footnotes](#footnotes)
 
 # Manacaster Opening Act
-*The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup>*
+__The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup> is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.  __
 <center> Console CPU </center>
 <center> "What was that?" </center>
 *The screen shakes*
