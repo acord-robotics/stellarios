@@ -19,9 +19,10 @@ hide_description: false
 *The screen shakes as one of the spaceships on the table flies off the table.*
 <center> __OPUS__ </center>
 <center> "Hi! My name's Opus...sorry we haven't got more time.</center>
-*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc <sup>3</sup>. *
-<center> __OPUS__ </center>
-<center> Anyway...the ship's AI is a little battered. That last battle with the Miydlians cost us dearly, my friend.</center>
+*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc <sup>3</sup>.*
+<center> **OPUS** </center>
+<center> Anyway...the ship's AI is a little battered. That last battle with the Miydlians cost us dearly, my friend. But the Miydlians suffered even heavier casualties, and we will - we must - persevere.</center>
+*A hooded being walks (in contrast to the others) towards Opus. They converse quickly, with their antennaes lighting up - telepathically (no sound or facial movements). Opus shoes the alien away and turns back to the player.*
 
 # Footnotes
 1. Command table - like in Star Wars: ROTJ (1983)
