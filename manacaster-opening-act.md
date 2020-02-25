@@ -37,15 +37,20 @@ published: true
 
 *Opus turns around to the control panel/dashboard and presses some buttons. Suddenly, a hole appears in the ground below your feet and you fall through. Quickly, you are deposited into the cockpit of a star/spaceship and its engines are firing up - you are go!* <br/>
 
-<center> Opus </center>
+<center> OPUS </center>
 <center> "Oh, and one more thing. The enemy took your memories away - we've been nursing you back to health over the last few weeks, in addition to the war we've been winning. They jetisonned a package that looks like an artifact - it may be the stolen memories from our people. That's your primary mission. Good luck, soldier, Midgard thanks you."</center><br/>
 
 *A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship<sup>4</sup>* <br/>
 
 *Another speech bubble pops up; this time it's Starrix Lierge (the Miydlian-Midgard Fleet Commander). He is a tall, blue-skinned alien with a dramatic persona.* <br/>
 
-<center> Starrix Lierge<sup>5</sup> </center>
-<center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do? </center>
+<center> STARRIX LIERGE<sup>5</sup> </center>
+<center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do? </center> <br/>
+
+<center> YOUR CHARACTER<sup>6</sup> </center>
+<center> Choices available to your character:</center><br/>
+* Yes
+* 
 
   
   
@@ -55,6 +60,7 @@ published: true
 3. Pushing flight suits on, etc - like the scenes in SW before a naval (spaceship) fight/battle
 4. Inside your spaceship - currently this is the [Acord-Robotics/`Asteroid-Dodgers`](http://github.com/acord-robotics/unityballs) scene, which only shows the external ship view. For now (25.02.2020) we will just ignore this for the sake of the story 
 5. Starrix Lierge - We'll have links (like in [CSS Solar System](http://codepen.io/irisdroidology) to the character/lore bio...
+6. YOUR CHARACTER - whenever "YOUR CHARACTER" is seen on the script, it shows that you have a selection of choices (i.e. inputs). Sometimes these are multiple choice, sometimes they are just straight character input
 
 # Star Sailors - the novel
 * The opening chapters take the place of Chapter 8, and we'll add cutscenes and mini-games for each of the previous chapters. These unlock rewards, cosmetics, etc.
@@ -65,3 +71,7 @@ published: true
 * They input the code into Manacaster
 
 * This behaviour is the same for different parts of the game
+
+# To-Do
+* Add links to footnotes ([.](.))
+* Finish your choices (<sup>6</sup>
