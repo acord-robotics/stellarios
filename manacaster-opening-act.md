@@ -43,25 +43,56 @@ published: true
 
 *A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship<sup>4</sup>* <br/>
 
-*Another speech bubble pops up; this time it's Starrix Lierge (the Miydlian-Midgard Fleet Commander). He is a tall, blue-skinned alien with a dramatic persona.* <br/>
+*Another speech bubble pops up; this time it's Starrix Lierge (the Miydlian-Midgard Fleet Commander). He is a tall, blue-skinned alien with a dramatic persona. He's in the form of a hologram.* <br/>
 
 <center> STARRIX LIERGE<sup>5</sup> </center>
-<center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do? </center> <br/>
+<center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do?" </center> <br/>
 
 <center> YOUR CHARACTER<sup>6</sup> </center>
 <center> Choices available to your character:</center><br/>
-* Yes
-* 
+1. Yes
+2. No
+3. Absolutely, I'm ready 
 
+* [If answer is `"1"`](#if-1-or-3)
+* [If answer is `"2"`](#if-2)
+* [If answer is `"3"`](#if-1-or-3)
+
+To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
+
+#### If 1 or 3
+<center> STARRIX LIERGE </center>
+<center> "That's good, soldier. Opus<sup>7</sup> did better than he usually does" *laughs* "Just kidding - if you have Opus, you'll be right."</center><br/>
+
+*Starrix starts to pace around, and he strokes his goatee.* <br/>
+
+<center> STARRIX LIERGE </center>
+<center> "Now, this is something that we never imagined. We've known for a long time that ancient civilizations - " *looks at datapad* "perhaps the forerunners of the Miydlians or the Cancrinites - had incredible technology that we can't imagine today. But we didn't know that this technology still existed."</center>
+
+*Starrix is obviously excited. The hologram flickers slightly as Opus comes into view.* <br/>
+
+<center> OPUS </center>
+<center> "That's enough chit-chat for now, Starrix. We've got a war to win." </center>
+
+
+#### If 2
   
   
 # Footnotes
-1. Command table - like in Star Wars: ROTJ (1983)
-2. CONSULE CPU - little speech bubble with the avatar of the character on the edge
-3. Pushing flight suits on, etc - like the scenes in SW before a naval (spaceship) fight/battle
-4. Inside your spaceship - currently this is the [Acord-Robotics/`Asteroid-Dodgers`](http://github.com/acord-robotics/unityballs) scene, which only shows the external ship view. For now (25.02.2020) we will just ignore this for the sake of the story 
-5. Starrix Lierge - We'll have links (like in [CSS Solar System](http://codepen.io/irisdroidology) to the character/lore bio...
-6. YOUR CHARACTER - whenever "YOUR CHARACTER" is seen on the script, it shows that you have a selection of choices (i.e. inputs). Sometimes these are multiple choice, sometimes they are just straight character input
+###### 1
+1. Command table - like in Star Wars: ROTJ (1983) <br/>
+###### 2
+2. CONSULE CPU - little speech bubble with the avatar of the character on the edge <br/>
+###### 3
+3. Pushing flight suits on, etc - like the scenes in SW before a naval (spaceship) fight/battle <br/>
+###### 4
+4. Inside your spaceship - currently this is the [Acord-Robotics/`Asteroid-Dodgers`](http://github.com/acord-robotics/unityballs) scene, which only shows the external ship view. For now (25.02.2020) we will just ignore this for the sake of the story <br/>
+###### 5
+5. Starrix Lierge - We'll have links (like in [CSS Solar System](http://codepen.io/irisdroidology) to the character/lore bio...<br/>
+###### 6
+6. YOUR CHARACTER - whenever "YOUR CHARACTER" is seen on the script, it shows that you have a selection of choices (i.e. inputs). Sometimes these are multiple choice, sometimes they are just straight character input<br/>
+###### 7
+7. Whenever a speechbubble/other entity/thing mentions an entity, a link appears
 
 # Star Sailors - the novel
 * The opening chapters take the place of Chapter 8, and we'll add cutscenes and mini-games for each of the previous chapters. These unlock rewards, cosmetics, etc.
@@ -75,4 +106,4 @@ published: true
 
 # To-Do
 * Add links to footnotes ([.](.))
-* Finish your choices (<sup>6</sup>
+* Finish your choices (<sup>6</sup>)
