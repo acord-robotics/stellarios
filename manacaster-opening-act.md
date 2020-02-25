@@ -13,6 +13,7 @@ published: true
 * [Manacaster]({{ site.baseurl }}/manacaster)
 * [Footnotes](#footnotes)
 * [How it works](#how-it-works)
+* [To-Do](#to-do)
 
 # Manacaster Opening Act
 *The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup> is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*<br/>  
