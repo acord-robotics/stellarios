@@ -11,14 +11,17 @@ published: true
 * [Back `home`](http://acord-robotics.github.io)
 * [Site Map]({{ site.baseurl }}/compass)
 * [Manacaster]({{ site.baseurl }}/manacaster)
+	* [Opening Act - `Scene 1`](#scene-1)
+    * [Opening Act - `Scene 2`](#scene-2)
 * [Footnotes](#footnotes)
 * [How it works](#how-it-works)
 * [To-Do](#to-do)
 
 # Manacaster Opening Act
-*The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table<sup>1</sup> is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*<br/>  
+## Scene 1
+*The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table[<sup>1</sup>](#1) is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*<br/>  
 
-<center> CONSOLE CPU<sup>2</sup> </center>
+<center> CONSOLE CPU[<sup>2</sup>](#2) </center>
 <center> "What was that?" </center><br/>
 
 *The screen shakes as one of the spaceships on the table flies off the table.*<br/>
@@ -26,7 +29,7 @@ published: true
 <center> OPUS </center>  
 <center> "Hi! My name's Opus...sorry we haven't got more time."</center><br/>
 
-*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc <sup>3</sup>.*  
+*Another crash/shake. Opus looks over his shoulder nervously as another spaceship leaves the dashboard. While the second one is leaving, a loud rumble is heard, and suddenly the first spaceship comes back in on the left side. The middle of the hull is shown to be green, in contrast to the original yellow, and this symbolises the cargo hold is no longer empty. The second ship docks back after a few seconds, and more people are running around, pushing flight suits on, etc [<sup>3</sup>](#3).*  
 
 <center> OPUS </center>
 <center> "Anyway...the ship's AI is a little battered. That last battle with the Miydlians cost us dearly, my friend. But the Miydlians suffered even heavier casualties, and we will - we must - persevere."</center><br/>  
@@ -41,14 +44,14 @@ published: true
 <center> OPUS </center>
 <center> "Oh, and one more thing. The enemy took your memories away - we've been nursing you back to health over the last few weeks, in addition to the war we've been winning. They jetisonned a package that looks like an artifact - it may be the stolen memories from our people. That's your primary mission. Good luck, soldier, Midgard thanks you."</center><br/>
 
-*A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship<sup>4</sup>* <br/>
+*A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship[<sup>4</sup>](#4)* <br/>
 
 *Another speech bubble pops up; this time it's Starrix Lierge (the Miydlian-Midgard Fleet Commander). He is a tall, blue-skinned alien with a dramatic persona. He's in the form of a hologram.* <br/>
 
-<center> STARRIX LIERGE<sup>5</sup> </center>
+<center> STARRIX LIERGE[<sup>5</sup>](#5) </center>
 <center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do?" </center> <br/>
 
-<center> YOUR CHARACTER<sup>6</sup> </center>
+<center> YOUR CHARACTER[<sup>6</sup>](#6) </center>
 <center> Choices available to your character:</center><br/>
 1. Yes
 2. No
@@ -72,11 +75,28 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 *Starrix is obviously excited. The hologram flickers slightly as Opus comes into view.* <br/>
 
 <center> OPUS </center>
-<center> "That's enough chit-chat for now, Starrix. We've got a war to win." </center>
+<center> "That's enough chit-chat for now, Starrix. We've got a war to win." *Opus turns to face you* "Go, Soldier" </center>
+
 
 
 #### If 2
-  
+<center> STARRIX LIERGE </center>
+<center> "Well, we don't have much time, but he really should have told you...in fact, it's very weird that he hasn't".....</center><br/>
+
+*Starrix looks down at his datapad (still in hologram form) and sends a message to Opus. The message flickers up on your console screen in your starship for a second before flashing away again. A loud beep is heard, and Starrix looks up, with shock and angst on his face. He then composes himself - his men should never see him lose his composure - and turns to face you again* <br/>
+
+<center> STARRIX LIERGE </center>
+<center> "Oh blimey, I've gotta go. Just fly around and collect those spinning box things." </center> <br/>
+
+
+
+## Scene 2
+(Act 1, Scene 2 - Opening Act) <br/>
+
+*You're now quickly jetisoned from the station and you see the stars around you. Dozens of ships similar to yours are flying around, ducking and weaving through the clouds of gas and zooming back to the station. You spot a red cube floating and spinning around, and a speech bubble pops up* <br/>
+
+<center> CONSOLE CPU </center>
+<center> "Let's get started by flying over that red box over there." </center>
   
 # Footnotes
 ###### 1
