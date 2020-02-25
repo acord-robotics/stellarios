@@ -1,8 +1,10 @@
 ---
 description: >-
-  When booting up Manacaster for the first time, you'll see something amazing. Read all about what happens here.
+  When booting up Manacaster for the first time, you'll see something amazing.
+  Read all about what happens here.
 comments: true
 hide_description: false
+published: true
 ---
 
 **Contents**
@@ -38,7 +40,7 @@ hide_description: false
 <center> Opus </center>
 <center> "Oh, and one more thing. The enemy took your memories away - we've been nursing you back to health over the last few weeks, in addition to the war we've been winning. They jetisonned a package that looks like an artifact - it may be the stolen memories from our people. That's your primary mission. Good luck, soldier, Midgard thanks you."</center><br/>
 
-*A new bubble appears in your dashboard section of the HUD - your missions section.*
+*A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship*
   
   
 # Footnotes
