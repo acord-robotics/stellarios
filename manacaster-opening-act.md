@@ -14,6 +14,7 @@ published: true
 	* [Opening Act - `Scene 1`](#scene-1)
     * [Opening Act - `Scene 2`](#scene-2)
 * [Footnotes](#footnotes)
+* [Resources](#resources)
 * [How it works](#how-it-works)
 * [To-Do](#to-do)
 
@@ -88,6 +89,7 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 <center> STARRIX LIERGE </center>
 <center> "Oh blimey, I've gotta go. Just fly around and collect those spinning box things." </center> <br/>
 
+*Starrix's hologram disappears as the screen fades to black slightly before your ship is jetisoned >>* <br/>
 
 
 ## Scene 2
@@ -96,23 +98,48 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 *You're now quickly jetisoned from the station and you see the stars around you. Dozens of ships similar to yours are flying around, ducking and weaving through the clouds of gas and zooming back to the station. You spot a red cube floating and spinning around, and a speech bubble pops up* <br/>
 
 <center> CONSOLE CPU </center>
-<center> "Let's get started by flying over that red box over there." </center>
+<center> "Let's get started by flying over that red box over there." </center> <br/>
+
+*Out in space, near a planet<sup>[8](#8)</sup>, a red box is located. The minimap in the top-right-hand-corner shows a red icon that's flashing from dark red to light red - this is how we know it's an artifact." <br/>* 
+
+*Another speech bubble appears, this time it's the ship's console CPU (sort of like the tutorial)*<br/>
+
+<center> CONSOLE CPU </center>
+<center> "Let's run through the controls quickly, shall we?" <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display. </center>
   
 # Footnotes
 ###### 1
-1. Command table - like in Star Wars: ROTJ (1983) <br/>
+1. Command table - like in Star Wars: ROTJ (1983) 
 ###### 2
-2. CONSULE CPU - little speech bubble with the avatar of the character on the edge <br/>
+2. CONSULE CPU - little speech bubble with the avatar of the character on the edge 
 ###### 3
-3. Pushing flight suits on, etc - like the scenes in SW before a naval (spaceship) fight/battle <br/>
+3. Pushing flight suits on, etc - like the scenes in SW before a naval (spaceship) fight/battle 
 ###### 4
-4. Inside your spaceship - currently this is the [Acord-Robotics/`Asteroid-Dodgers`](http://github.com/acord-robotics/unityballs) scene, which only shows the external ship view. For now (25.02.2020) we will just ignore this for the sake of the story <br/>
+4. Inside your spaceship - currently this is the [Acord-Robotics/`Asteroid-Dodgers`](http://github.com/acord-robotics/unityballs) scene, which only shows the external ship view. For now (25.02.2020) we will just ignore this for the sake of the story 
 ###### 5
-5. Starrix Lierge - We'll have links (like in [CSS Solar System](http://codepen.io/irisdroidology) to the character/lore bio...<br/>
+5. Starrix Lierge - We'll have links (like in [CSS Solar System](http://codepen.io/irisdroidology) to the character/lore bio...
 ###### 6
-6. YOUR CHARACTER - whenever "YOUR CHARACTER" is seen on the script, it shows that you have a selection of choices (i.e. inputs). Sometimes these are multiple choice, sometimes they are just straight character input<br/>
+6. YOUR CHARACTER - whenever "YOUR CHARACTER" is seen on the script, it shows that you have a selection of choices (i.e. inputs). Sometimes these are multiple choice, sometimes they are just straight character input
 ###### 7
 7. Whenever a speechbubble/other entity/thing mentions an entity, a link appears
+###### 8
+8. Like in Eve Online, when you're warping (not through a gate) 
+![](https://cdn1us.denofgeek.com/sites/denofgeekus/files/2019/05/eve-online-amarr-fleet.png)
+We could potentially use similar art - photoshop? - to create backgrounds. Remember that Manacaster - for now - is a 2D Unity game, but this part could potentially have 3D elements?
+
+# Resources
+**Contents**
+* [Game Art](#game-art)
+
+## Game Art
+* [PNGTree](https://pngtree.com/) - - - Free images
+* [Unity Asset Store - 2D](https://assetstore.unity.com/lists/2d-game-art-19940) - - - Assets & Images from the Unity community
+* [Unity Art & Design Editor](https://unity3d.com/unity/features/editor/art-and-design) - - - Tools from Unity for art & design creation
+* [Shutterstock](https://www.shutterstock.com/search/game+background) - - - Game Art from Shutterstock
+* [Udemy Course #1](https://www.udemy.com/course/learn-professional-2d-game-asset-graphic-design-in-photoshop/)
+* [Udemy Course #2](https://www.udemy.com/course/2d-game-art-for-non-artists/) - - - 2D Game Art for non-artists
+
+Creating the game art is the second step after creating the plot for the game.
 
 # Star Sailors - the novel
 * The opening chapters take the place of Chapter 8, and we'll add cutscenes and mini-games for each of the previous chapters. These unlock rewards, cosmetics, etc.
