@@ -22,7 +22,7 @@ published: true
 ## Scene 1
 *The screen fades from black into the command center of a space station, which is actually an extension of a planet. Animated characters run past the you (currently you are in the third-person). A command table[<sup>1</sup>](#1) is in front of you, with small, holographic figures (these are not pixel-art) moving across the top.*<br/>  
 
-<center> CONSOLE CPU[<sup>2</sup>](#2) </center>
+<center> CONSOLE CPU<sup>[2](#2)</sup> </center>
 <center> "What was that?" </center><br/>
 
 *The screen shakes as one of the spaceships on the table flies off the table.*<br/>
@@ -45,14 +45,14 @@ published: true
 <center> OPUS </center>
 <center> "Oh, and one more thing. The enemy took your memories away - we've been nursing you back to health over the last few weeks, in addition to the war we've been winning. They jetisonned a package that looks like an artifact - it may be the stolen memories from our people. That's your primary mission. Good luck, soldier, Midgard thanks you."</center><br/>
 
-*A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship[<sup>4</sup>](#4)* <br/>
+*A new bubble appears in your dashboard section of the HUD - your missions section. The screen turns to black, and after around 2 seconds you are now in the first person inside your spaceship<sup>[4](#4)</sup>* <br/>
 
 *Another speech bubble pops up; this time it's Starrix Lierge (the Miydlian-Midgard Fleet Commander). He is a tall, blue-skinned alien with a dramatic persona. He's in the form of a hologram.* <br/>
 
-<center> STARRIX LIERGE[<sup>5</sup>](#5) </center>
+<center> STARRIX LIERGE[<sup>[5](#5)</sup> </center>
 <center> "Hi, my name's Starrix; I'm the Midgard Fleet Commander. I expect that Opus has told you about what we need to do?" </center> <br/>
 
-<center> YOUR CHARACTER[<sup>6</sup>](#6) </center>
+<center> YOUR CHARACTER[<sup>[6](#6)</sup> </center>
 <center> Choices available to your character:</center><br/>
 1. Yes
 2. No
@@ -66,7 +66,7 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 
 #### If 1 or 3
 <center> STARRIX LIERGE </center>
-<center> "That's good, soldier. Opus<sup>7</sup> did better than he usually does" *laughs* "Just kidding - if you have Opus, you'll be right."</center><br/>
+<center> "That's good, soldier. Opus<sup>[7](#7)</sup> did better than he usually does" *laughs* "Just kidding - if you have Opus, you'll be right."</center><br/>
 
 *Starrix starts to pace around, and he strokes his goatee.* <br/>
 
@@ -104,7 +104,7 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 
 *Another speech bubble appears, this time it's the ship's console CPU (sort of like the tutorial). The speech bubble is different for the tutorial sections*<br/>
 
-<center> CONSOLE CPU (Tut.<sup>[9](#9)</sup>) </center>
+<center> CONSOLE CPU Tut<sup>[9](#9)</sup> </center>
 <center> "Let's run through the controls quickly, shall we?" <br/> <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display." <br/><br/> "The flashing icons show special artifacts or mission objectives, while the circles show heavenly bodies like planets and comets, green icons show friendly ships and red icons show enemy ships." <br/>  </center>
   
 # Footnotes
