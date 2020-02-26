@@ -102,10 +102,10 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 
 *Out in space, near a planet<sup>[8](#8)</sup>, a red box is located. The minimap in the top-right-hand-corner shows a red icon that's flashing from dark red to light red - this is how we know it's an artifact." <br/>* 
 
-*Another speech bubble appears, this time it's the ship's console CPU (sort of like the tutorial)*<br/>
+*Another speech bubble appears, this time it's the ship's console CPU (sort of like the tutorial). The speech bubble is different for the tutorial sections*<br/>
 
-<center> CONSOLE CPU </center>
-<center> "Let's run through the controls quickly, shall we?" <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display. </center>
+<center> CONSOLE CPU (Tut.<sup>[9](#9)</sup>) </center>
+<center> "Let's run through the controls quickly, shall we?" <br/> <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display." <br/><br/> "The flashing icons show special artifacts or mission objectives, while the circles show heavenly bodies like planets and comets, green icons show friendly ships and red icons show enemy ships." <br/>  </center>
   
 # Footnotes
 ###### 1
@@ -126,6 +126,8 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 8. Like in Eve Online, when you're warping (not through a gate) 
 ![](https://cdn1us.denofgeek.com/sites/denofgeekus/files/2019/05/eve-online-amarr-fleet.png)
 We could potentially use similar art - photoshop? - to create backgrounds. Remember that Manacaster - for now - is a 2D Unity game, but this part could potentially have 3D elements?
+###### 9
+9. Refers to tutorial sections - Tut.
 
 # Resources
 **Contents**
