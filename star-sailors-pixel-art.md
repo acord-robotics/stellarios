@@ -6,4 +6,4 @@ comments: true
 published: true
 ---
 
-#  PixelArt for Star Sailors Game - Manacaster #99
+#  Star Sailors Pixel Art
