@@ -29,4 +29,4 @@ Here, you can read the Manacaster plot, find out more about the beta release, re
 The issues, pull requests and other stuff to do with the dev of Star Sailors & Manacaster
 
 ## Issues
-* [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking.md)
+* [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking)
