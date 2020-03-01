@@ -7,3 +7,7 @@ published: true
 ---
 
 #  Star Sailors Pixel Art
+
+{% include utterances.html %}
+
+{% include jointcomments.html %}
