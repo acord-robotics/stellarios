@@ -36,7 +36,7 @@ published: true
 ***The star Sailors Video Game***
 Read the Manacaster Texts:
 * [`Manacaster` by AC0/RD]({{ site.baseurl }}/manacaster)
-& [`Game Art` and Assets]({{ site.baseurl }}/Create PixelArt for Star Sailors Game - Manacaster #99)
+& [`Game Art` and Assets]({{ site.baseurl }}/star-sailors-pixel-art)
 
 Play the game:
 
