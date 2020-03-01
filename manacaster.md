@@ -9,6 +9,7 @@ hide_description: false
 * [Manacaster](#manacaster)
 * [Read Star Sailors](#read-star-sailors)
 * [Manacaster Plot](#manacaster-plot)
+* [Development Log](#development-log)
 
 
 # Manacaster
@@ -23,3 +24,9 @@ Here, you can read the Manacaster plot, find out more about the beta release, re
 * [Mr Mailman `#2`]({{ site.baseurl }}/manacaster-mr-mailman)
 * [Waking Up `#3`]({{ site.baseurl }}/manacaster-waking-up)
 * [Load your account `#4`]({{ site.baseurl }}/manacaster-load-account)
+
+# Development Log
+The issues, pull requests and other stuff to do with the dev of Star Sailors & Manacaster
+
+## Issues
+* [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking.md)
