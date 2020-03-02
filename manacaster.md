@@ -30,4 +30,4 @@ The issues, pull requests and other stuff to do with the dev of Star Sailors & M
 
 ## Issues
 * [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking)
-* [Acord-Robotics/Manacaster11]({{ site.baseurl }}/ar-11-healthmanabar2dot0)
+* [Acord-Robotics/Manacaster#11]({{ site.baseurl }}/ar-11-healthmanabar2dot0)
