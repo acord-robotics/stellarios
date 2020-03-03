@@ -6,31 +6,32 @@ hide_description: false
 comments: true
 ---
 # Contents
-* [ACORD](#acord) --- Site map for ACORD
+* [ACORD](#ac0rd) --- Site map for ACORD
 * [Stellarios](#stellarios) --- view the updates & release history here
 * [Works](#works) --- View our media (books, novels, etc) & works here
 * [External Sites](#external-sites) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Social](#social-media) --- Social feeds like Facebook & Twitter
 * [Readme](#logs)
-* [Repository Info](gh-pages-readme)
+* [Repository Info](#gh-pages-readme)
+* [Issues & Pull Requests]({{ site.baseurl }}/manacaster#development-log)
 
 {% include jointcomments.html %}
 
-<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> 
+<!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> -->
 
-A
+# AC0RD
 
 
 * [ABOUT ACORD]({{ site.baseurl }}/ACORD) - Learn about us, what we do, and how to get involved
 
-# Stellarios
+## Stellarios
 * [Changelog]({{ site.baseurl }}/CHANGELOG) - What's been added in the previous versions?
 * [Release History]({{ site.baseurl }}/releases) - What's the most recent version?
 * [About Stellarios]({{ site.baseurl }}/ACORD#robots--software) - What is Stellarios?
 * [Mobile Site](http://acordstellarios.netlify.com) & [Main Site](http://acord-robotics.github.io/stellarios) & [ACORD Site](http://s2rd.netlify.com) & [Portal](http://acord.tech/portal)
 * [Stellarios Games & Apps]({{ site.baseurl }}/games-apps)
 
-# Works
+## Works
 * [Star Sailors]({{ site.baseurl }}/starsailors/) - Our science fiction novella loosely based off Star Wars
 * [Read Star Sailors](http://acord.tech/readstarsailors)
 * [Concept Art](/stellarios/concept-art)
@@ -38,7 +39,7 @@ A
 * [Read Star Sailors](http://acord.tech/starsailors)
 
 # External Sites
-* [My Blog](http://irisdroidology.github.io/portfolio) - our chairman's blog on anything and everything
+* [My Blog](http://larbuckle.tech) - our chairman's blog on anything and everything
 * [App Control](https://my.mobiroller.com/Home/AppList) ACORD members can control our app here
 * [Gator cPanel](http://gator4047.hostgator.com:2083)
 * [Envato](https://themeforest.net/user/thelimosine)
@@ -60,9 +61,9 @@ A
 * [Portal](http://acord-robotics.github.io/stellarios/acordportal)
 * [Git](http://acord.tech/gitlab)
 * [Landing](http://acord.tech/acord)
-* [News](http://acord.tech/news)
-* [Chairman's Site](http://acord.tech/opus)
-* [Reddit](http://acord.tech/reddit)
+* [News](http://acord-robotics.github.io/blog.html)
+* [Chairman's Site](http://larbuckle.tech)
+* [Reddit](http://reddit.com/r/ACORDRobotics)
 
 
 
@@ -70,6 +71,7 @@ A
 
 
 # What is Stellarios?
+###### gh-pages-readme
 <details>
 <summary>Stellarios</summary>
 <br>
