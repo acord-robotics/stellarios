@@ -31,3 +31,7 @@ The issues, pull requests and other stuff to do with the dev of Star Sailors & M
 ## Issues
 * [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking)
 * [Acord-Robotics/Manacaster#11]({{ site.baseurl }}/ar-11-healthmanabar2dot0)
+
+## Discussion Forums
+[Star Sailors Discussion]({{ site.baseurl }}/starsailors)
+<!--* [`A0-D2` Budget]({{ site.baseurl }}/a0d2budget) --> <!-- This is an example of a forum thread, however this will only show the forum "categories" #//# We embed the forum threads there, with an integration service automatically creating a post. We'll have an iframe there as well for the star sailors forums on github, which also has an utterances.html "tag" on each forum thread -->
