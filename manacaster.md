@@ -10,6 +10,7 @@ hide_description: false
 * [Read Star Sailors](#read-star-sailors)
 * [Manacaster Plot](#manacaster-plot)
 * [Development Log](#development-log)
+* [To-Do](#to-do)
 
 
 # Manacaster
@@ -35,3 +36,10 @@ The issues, pull requests and other stuff to do with the dev of Star Sailors & M
 ## Discussion Forums
 [Star Sailors Discussion]({{ site.baseurl }}/starsailors)
 <!--* [`A0-D2` Budget]({{ site.baseurl }}/a0d2budget) --> <!-- This is an example of a forum thread, however this will only show the forum "categories" #//# We embed the forum threads there, with an integration service automatically creating a post. We'll have an iframe there as well for the star sailors forums on github, which also has an utterances.html "tag" on each forum thread -->
+
+## To-Do
+Here's things that we need to do for AC0/RD:
+
+### This site
+* [Create a tutorial on how to create forum posts]({{ site.baseurl }}/forum-post-tutorial)
+<!--* [Browse my personal notes, slack, etc for stuff to do. -->
