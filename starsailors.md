@@ -60,7 +60,10 @@ You can sign up for Star Sailors today. To sign up, you need to:
 * Read it on [Wattpad](https://www.wattpad.com/776817208) - the writing is also being done on Wattpad, not just Github. 
 
 
-[A0-D2 Budget]({{ site.baseurl }}/a0d2budget)
+* [A0-D2 Budget]({{ site.baseurl }}/a0d2budget)
+
+### AWS_JPL_OSR_DRL
+* [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)
 
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
