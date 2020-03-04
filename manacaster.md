@@ -32,6 +32,7 @@ The issues, pull requests and other stuff to do with the dev of Star Sailors & M
 ## Issues
 * [Acord-Robotics/Manacaster#7]({{ site.baseurl }}/ar-7-walkanimsnotworking)
 * [Acord-Robotics/Manacaster#11]({{ site.baseurl }}/ar-11-healthmanabar2dot0)
+* [`Inscope.me` RPG 2.1]({{ site.baseurl }}/inscoperpg2dot1)
 
 ## Discussion Forums
 [Star Sailors Discussion]({{ site.baseurl }}/starsailors)
