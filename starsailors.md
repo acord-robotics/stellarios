@@ -66,11 +66,11 @@ You can sign up for Star Sailors today. To sign up, you need to:
 # Forums
 ## Space Challenge
 
-| Thread  | Created by  | Issue #  | Repository  | Assignees  |
+| Thread  | Created by  | Issue #  | Repository  |
 |---|---|---|---|---|
-| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | 107  | Acord-Robotics/Stellarios  | Liam Arbuckle, Edwin Montgomery, Rishabh Charkabarnty |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | 107  |
+|   |   |   |   |
+|   |   |   |   |
 
 {% include issuefeed.js %}
 
