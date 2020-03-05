@@ -68,7 +68,7 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 | Thread  | Created by  | Issue #  | Repository  |
 |---|---|---|---|---|
-| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | 107  |
+| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | 107  | Acord-Robotics/Stellarios |
 |   |   |   |   |
 |   |   |   |   |
 
