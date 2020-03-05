@@ -16,6 +16,7 @@ published: true
     * [Vehicles](#vehicles)
 * [Manacaster](#manacaster)
 	* [Sign up](#sign-up)
+* [Forums](#forums)	
 * [Notes](#notes)
 
 # Star Sailors Earthlings
@@ -64,7 +65,13 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 
 # Forums
-## Space Challenge
+*Contents*
+* [NASA-JPL][(#nasa-jpl)
+* [Droids](#science-of-droidology)
+
+## NASA-JPL
+### SpaceChallenge.tech
+###### OSR
 
 | Thread  | Created by  | Issue #  | Repository  |
 |---|---|---|---|---|
@@ -73,6 +80,11 @@ You can sign up for Star Sailors today. To sign up, you need to:
 |   |   |   |   |
 
 {% include issuefeed.js %}
+
+## Science of Droidology
+### Administration
+| Thread | Created by | Root | Repository |
+| [Original Portal](http://allianceofdroids.org.au/portal/groups/science-of-droidology/forum/topic/science-of-droidology-1/) | [Liam Arbuckle](#osr) | AllianceOfDroids.org.au/portal | Acord-Robotics/Acord-Robotics
 
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
