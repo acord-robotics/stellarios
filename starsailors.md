@@ -72,7 +72,7 @@ You can sign up for Star Sailors today. To sign up, you need to:
 |   |   |   |   |   |
 |   |   |   |   |   |
 
-{% include issuefeed.html %}
+{% include issuefeed.js %}
 
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
