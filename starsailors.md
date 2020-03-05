@@ -79,8 +79,6 @@ You can sign up for Star Sailors today. To sign up, you need to:
 |   |   |   |   |
 |   |   |   |   |
 
-{% include issuefeed.js %}
-
 ## Science of Droidology
 ### Administration
 | Thread | Created by | Root | Repository |
