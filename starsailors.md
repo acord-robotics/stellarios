@@ -62,15 +62,13 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 * [A0-D2 Budget]({{ site.baseurl }}/a0d2budget)
 
-### AWS_JPL_OSR_DRL
-* [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions). 
 
 # Forums
 ## Space Challenge
 
 | Thread  | Created by  | Issue #  | Repository  | RSS  |
 |---|---|---|---|---|
-| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | #107  | Acord-Robotics/Stellarios  |  awsjplosrdrl-dimensions |
+| [Map Size & Rover Dimensions]({{ site.baseurl }}/awsjplosrdrl-dimensions)  | [@IrisD](http://allianceofdroids.org.au/portal/droidlings/id)[roidology](http://github.com/irisdroidology)   | #107  | Acord-Robotics/Stellarios  |  http://gh-feed.imsun.net/acord-robotics/stellarios/issues/107 {% include rssfeed-107.html %} |
 |   |   |   |   |   |
 |   |   |   |   |   |
 
