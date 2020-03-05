@@ -81,9 +81,12 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 ## Science of Droidology
 ### Administration
-| Thread | Created by | Root | Repository |
+
+| Thread  | Created by  | Root   | Repository  |
 |---|---|---|---|---|
-| [Original Portal](http://allianceofdroids.org.au/portal/groups/science-of-droidology/forum/topic/science-of-droidology-1/) | [Liam Arbuckle](#osr) | AllianceOfDroids.org.au/portal | Acord-Robotics/Acord-Robotics |
+| [[Original Portal](http://allianceofdroids.org.au/portal/groups/science-of-droidology/forum/topic/science-of-droidology-1/) | [Liam Arbuckle](#osr) | AllianceOfDroids.org.au/portal | Acord-Robotics/Acord-Robotics |
+|   |   |   |   |
+|   |   |   |   |
 
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
