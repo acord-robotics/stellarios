@@ -88,6 +88,14 @@ You can sign up for Star Sailors today. To sign up, you need to:
 |   |   |   |   |
 |   |   |   |   |
 
+## AI For Good Challenge (Microsoft)
+
+| Thread  | Created by  | Tool | Repository  |
+|---|---|---|---|---|
+| [Google Doc]({{ site.baseurl }}/aiforgoodchallenge-googledoc)  | Liam Arbuckle  | [Google](http://drive.google.com) | Acord-Robotics/AIForGood |
+|   |   |   |   |
+|   |   |   |   |
+
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
 
