@@ -15,6 +15,8 @@ comments: true
 * [Repository Info](#gh-pages-readme)
 * [Issues & Pull Requests]({{ site.baseurl }}/manacaster#development-log)
 
+{% include utterances.html %}
+
 {% include jointcomments.html %}
 
 <!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> -->
