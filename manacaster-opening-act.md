@@ -17,6 +17,7 @@ published: true
 * [Resources](#resources)
 * [How it works](#how-it-works)
 * [To-Do](#to-do)
+* [Discussion](#discussion)
 
 # Manacaster Opening Act
 ## Scene 1
@@ -107,6 +108,11 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 <center> CONSOLE CPU Tut<sup>[9](#9)</sup> </center>
 <center> "Let's run through the controls quickly, shall we?" <br/> <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display." <br/><br/> "The flashing icons show special artifacts or mission objectives, while the circles show heavenly bodies like planets and comets, green icons show friendly ships and red icons show enemy ships." <br/>  </center>
   
+  
+# Discussion
+
+{% include utterances.html %}
+
 # Footnotes
 ###### 1
 1. Command table - like in Star Wars: ROTJ (1983) 
