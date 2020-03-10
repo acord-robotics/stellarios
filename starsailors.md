@@ -104,3 +104,6 @@ Chapter 9 is only on Github & ACORD, not on Wattpad
 
 ## Applets
  <iframe src="https://replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->
+ 
+ <embed src="https://replika.ai" width=200 height=200 />
+
