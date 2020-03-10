@@ -18,6 +18,7 @@ published: true
 	* [Sign up](#sign-up)
 * [Forums](#forums)	
 * [Notes](#notes)
+* [Applets](#applets)
 
 # Star Sailors Earthlings
 [Everything about Earthlings]({{ site.baseurl }}/earthlings)
@@ -100,3 +101,6 @@ You can sign up for Star Sailors today. To sign up, you need to:
 Chapter 9 is only on Github & ACORD, not on Wattpad
 
 {% include utterances.html %}
+
+## Applets
+ <iframe src="http://replia.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->
