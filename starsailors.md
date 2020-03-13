@@ -69,6 +69,8 @@ You can sign up for Star Sailors today. To sign up, you need to:
 *Contents*
 * [NASA-JPL](#nasa-jpl)
 * [Droids](#science-of-droidology)
+* [Challenges](#challenges)
+* [Games, Software & Media](#games)
 
 ## NASA-JPL
 ### SpaceChallenge.tech
@@ -89,11 +91,22 @@ You can sign up for Star Sailors today. To sign up, you need to:
 |   |   |   |   |
 |   |   |   |   |
 
-## AI For Good Challenge (Microsoft)
+## Challenges
+### AI For Good Challenge (Microsoft)
 
 | Thread  | Created by  | Tool | Repository  |
 |---|---|---|---|---|
 | [Google Doc]({{ site.baseurl }}/aiforgoodchallenge-googledoc)  | Liam Arbuckle  | [Google](http://drive.google.com) | Acord-Robotics/AIForGood |
+|   |   |   |   |
+|   |   |   |   |
+
+## Games
+Games, Apps, Software, Media
+
+### Games
+| Thread  | Created by  | Site | Game  |
+|---|---|---|---|---|
+| [Eve Online - My Journey](http://allianceofdroids.org.au/portal/groups/eve-online/forum/topic/eve-online-my-journey-gizmotronn/#post-174)  | IrisDroidology/Gizmotronn  | New Portal | Eve Online |
 |   |   |   |   |
 |   |   |   |   |
 
@@ -106,5 +119,5 @@ Chapter 9 is only on Github & ACORD, not on Wattpad
  <iframe src="https://my.replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->
  
  * [Replika.ai](https://replika.ai)
- * [Reddit](https://reddit.com/r/ACORDRobotics
+ * [Reddit](https://reddit.com/r/ACORDRobotics)
 
