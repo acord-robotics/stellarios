@@ -1,3 +1,13 @@
+---
+description: >-
+  Chapter 2 of Star Sailors: Earthlings!
+comments: true
+hide_description: false
+---
+
+# Chapter 2
+
+
 Starrix Lierze, the Miydlian Fleet Commander, was not used to losing. Whether it was his rank or any of his soldiers, Lierze very rarely lost. That was why he’d been named the Fleet Commander for the Miydlians. For the past 2 years, he’d scoured the galaxy for life-giving planets in conservation zones, and he’d found Earth, a planet roughly the same size as Midgard – in fact, it had almost exactly the same physical properties as Midgard. Earth had looked like a planet that had intelligent life, and there were also other planets and moons in the same system that could be home to life as well. When he’d become Fleet Commander, he’d asked the Chancellor, Jayin, if would be allowed to send a mission to the Sol system, however, due to the ongoing crisis in the galactic parliament in regards to the Keplernians requesting full representation, Jayin had not believed another conquest had been in order.
 
 Last month, Starrix’s friend, Lens Zaev, had been accepted as senator for the planet of Icon. Lens was an unusual Iconite – while he wasn’t very tech-savvy, he was definitely a lot more comfortable around technology than most of his people. The Iconites were a group that loved a good fight and a conquest, and immediately after his admission Starrix had walked over and told Lens about Earth.
