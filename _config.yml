@@ -60,8 +60,8 @@ menu:
     url:               /compass/
   - title:             Documentation
     url:               /docs/
-  - title:             Star Sailors
-    url:               /stellarios/starsailors
+  - title:             Blog
+    url:               https://blog.acord.software
   - title:             ACoRD Portal
     url:               http://acord-robotics.github.io 
 
