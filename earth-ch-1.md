@@ -1,5 +1,7 @@
 ---
-description: Star Sailors Earthlings is the first book in the Star Sailors series by ACORD
+description: >-
+  Chapter 1
+comments: true
 hide_description: false
 ---
 
