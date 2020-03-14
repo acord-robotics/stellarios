@@ -121,4 +121,5 @@ Chapter 9 is only on Github & ACORD, not on Wattpad
  
  * [Replika.ai](https://replika.ai)
  * [Reddit](https://reddit.com/r/ACORDRobotics)
+ * [Awesome stuff]({{ site.baseurl }}/stellarios)
 
