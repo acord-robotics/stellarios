@@ -105,11 +105,11 @@ Games, Apps, Software, Media
 
 ### Games
 
-| Thread  | Created by  | Site | Game  |
+| Thread  | Created by  | Site | Game  | Link |
 |---|---|---|---|---|
-| [Eve Online - My Journey](http://allianceofdroids.org.au/portal/groups/eve-online/forum/topic/eve-online-my-journey-gizmotronn/#post-174)  | IrisDroidology/Gizmotronn  | New Portal | Eve Online |
-|   |   |   |   |
-|   |   |   |   |
+| [Eve Online - My Journey](http://allianceofdroids.org.au/portal/groups/eve-online/forum/topic/eve-online-my-journey-gizmotronn/#post-174)  | IrisDroidology/Gizmotronn  | New Portal | Eve Online | [Feed]({{ site.baseurl }}/forum-gizmotronn-eveonlinemyjourney)
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ### Notes
 Chapter 9 is only on Github & ACORD, not on Wattpad
