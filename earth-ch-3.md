@@ -1,3 +1,13 @@
+---
+description: >-
+  Chapter 3 of Star Sailors: Earthlings!
+comments: true
+hide_description: false
+---
+
+# Chapter 3
+
+
 The cabin was dark. Gilbert McInstay was searching for his space suit. He didn't like what "prepare for boarding" sounded like. Where is it, where is it, he thought over and over. Reaching into an unmarked supply bin, he felt some cloth. It was the space suits!
 
 For anyone that has never put on a space suit before,
