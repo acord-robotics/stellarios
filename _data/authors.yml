@@ -14,10 +14,10 @@ author1:
 
     [Join ACORD](http://acord.tech/join)
     -- or --
-    [Login & Download](http://allianceofdroids.org.au/aod/starsailors)
+    [Login & Download](http://allianceofdroids.org.au/portal/starsailors)
 
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+    [kit]: https://github.com/acord-robotics/stellarios
+    [contribute]: http://acord-robotics.github.io/stellarios/stellarios
 
   # This photo will be used in the about section
   picture:
@@ -32,7 +32,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         ACORDRobotics
-    github:          http://acord-robotics.github.io/stellarios/stellarios
+    github:          acord-robotics
     steam:           droidology
     reddit:          https://www.reddit.com/r/ACORDRobotics/
     # download:        http://github.com/acord-robotics/stellarios
