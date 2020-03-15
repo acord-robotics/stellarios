@@ -33,6 +33,7 @@ published: true
 
 # Star Sailors Lore
 ## Alien Species
+* [Humans]({{ site.baseurl }}/lore-humans)
 
 # Manacaster
 ***The star Sailors Video Game***
