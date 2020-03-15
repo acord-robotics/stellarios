@@ -19,6 +19,7 @@ published: true
 * [Forums](#forums)	
 * [Notes](#notes)
 * [Applets](#applets)
+* [Resources](#resources)
 
 # Star Sailors Earthlings
 [Everything about Earthlings]({{ site.baseurl }}/earthlings)
@@ -118,9 +119,18 @@ Chapter 9 is only on Github & ACORD, not on Wattpad
 {% include utterances.html %}
 
 ## Applets
- <iframe src="https://my.replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->
+ <!--<iframe src="https://my.replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->-->
  
  * [Replika.ai](https://replika.ai)
  * [Reddit](https://reddit.com/r/ACORDRobotics)
  * [Awesome stuff]({{ site.baseurl }}/stellarios)
 
+# Resources
+Contents:
+
+| Resource Type | Description | 
+|---|---|
+| [Story Generation](#story-generation) | Tools that are used for the development & creation of entities or chapters in the story, either the novel or the game |
+
+## Story Generation
+* [Fantasy Name Generator](https://www.fantasynamegenerators.com/)
