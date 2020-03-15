@@ -6,8 +6,6 @@ comments: true
 published: true
 hide_description: false
 ---
-
-
 # Star Sailors Lore: Humans
 Contents:
 
