@@ -8,7 +8,22 @@ Backstory - not just for the characters, but even for inanimate objects sometime
 
 > The lore of a game is its backstory, all the elements that complement the principal narrative. These details add depth and richness to the universe of a video game, expanding its history outside the main plot. It is an aspect that is sometimes overlooked by developers, which is a mistake. Good lore writing is essential to engage players, and a good way to offer them more than the base title.
 
+- GameSkinny.com
+
 I've spent a lot of money and time reading through books about writing stories and world building, and after also devouring online material about this subject, it's evident to me that writing lore is a great way to engage the player/reader in the content, and thanks to the internet, we're all able to contribute to the lore of a game or a story, which will be a great thing for our future.
+
+## What's included in the lore?
+Literally anything & everything to do with Star Sailors & Manacaster, including:
+
+* Alien species - a history of the species that make up Midgard's University
+* Characters - a biography of some of the main characters in Star Sailors, and later on, Manacaster. Over time, with a growth  in our community, we hope to have biographies for every character
+* Players - code may make the game go round, but the players make it worthwhile! The adventures & journeys of our players can be created, logged and maintained on the Manacaster App, as well as on this website
+* Vehicles
+* Devices
+* Weapons
+* Buildings
+* Technology
+* + many more....
 
 
 # Credits
