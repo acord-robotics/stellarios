@@ -1,14 +1,11 @@
 ---
-title: Star Sailors Backstory
-img: /assets/img/blog/Garden Party.png
-description >:
-  To turn Star Sailors, and Manacaster, into a series that is created, played, and expanded upon by people all over the world, we need to write some lore, or a backstory. To increase the likelihood and quality of sequels, we need to identify and nail down what the universe of Star Sailors is about. [1](http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page)
+title: Facebook Page - ACORD
+img: /assets/img/blog/mkl.png
+description: http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page/
 comments: true
 ---
 
 # Lore for Star Sailors
-
-{% include utterances.html %}
 
 When I started out writing Star Sailors, I knew that I wanted it to be an expansive and open-world universe, with the possibility - indeed, the neccessity - for expansion upon what I originally build. While I had no idea that I would later be creating a video game based on the novel, my ideas regarding the open-worldness have helpfully been very useful when designing the game as well.
 
@@ -36,3 +33,12 @@ Literally anything & everything to do with Star Sailors & Manacaster, including:
 
 # Credits
 * [Quote](https://www.gameskinny.com/ow6z1/telling-stories-the-importance-of-lore-in-video-games)
+
+{% include utterances.html %}
+
+{% include jointcomments.html %}
+
+title: Star Sailors Backstory
+img: /assets/img/blog/Garden Party.png
+description >:
+  To turn Star Sailors, and Manacaster, into a series that is created, played, and expanded upon by people all over the world, we need to write some lore, or a backstory. To increase the likelihood and quality of sequels, we need to identify and nail down what the universe of Star Sailors is about. [1](http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page)
