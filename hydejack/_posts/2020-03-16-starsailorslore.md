@@ -1,10 +1,12 @@
 ---
-title: Star Sailors Backstory
-img: /assets/img/Party.png
+title: Stellarios Family Update
+image: /assets/img/blog/Stellarios-Family.png
 description: >
-  To turn Star Sailors, and Manacaster, into a series that is created, played, and expanded upon by people all over the world, we need to write some lore, or a backstory. To increase the likelihood and quality of sequels, we need to identify and nail down what the universe of Star Sailors is about. [1](http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page)
-comments: true
+  Stellarios is a suite of software apps and games developed and distributed by ACORD Corporation. This software includes control units for our robots as well as extensions for applications such as firefox, chrome and visual studio. We release a number of games as well, and we’re working on a few right now: Star Sailors & Asteroid Dodgers. So here’s who’s a part of the Stellarios family, and what the current state of development is.
+published: true
 ---
+
+
 
 ![](/assets/img/party.png)
 
@@ -48,7 +50,10 @@ The development, including the Inscope.me tutorials, are being done at a rate of
 
 {% include jointcomments.html %}
 
+---
 title: Star Sailors Backstory
-img: /assets/img/blog/Garden Party.png
-description >:
-  
+img: /assets/img/Party.png
+description: >
+  To turn Star Sailors, and Manacaster, into a series that is created, played, and expanded upon by people all over the world, we need to write some lore, or a backstory. To increase the likelihood and quality of sequels, we need to identify and nail down what the universe of Star Sailors is about. [1](http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page)
+comments: true
+---
