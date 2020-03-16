@@ -8,7 +8,7 @@ published: true
 
 
 
-![](/assets/img/blog/Party.png)
+<!--![](/assets/img/blog/Party.png)-->
 
 # Lore for Star Sailors
 
