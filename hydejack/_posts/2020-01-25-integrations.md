@@ -4,7 +4,7 @@ image: /assets/img/New Integrations.png
 description: >
   In this post, I’ll be walking you through our automatic posting system, thanks to Integromat, Zapier & IFTTT. There have also been a few changes to our commenting and forum systems on the portal, a revamped subreddit, and so much more. Nicholas & I will also quickly talk about our native app, which has been a number of years in the making – we hope you enjoy!
 comments: true  
----
+--- 
 
 {% include jointcomments.html %}
 
