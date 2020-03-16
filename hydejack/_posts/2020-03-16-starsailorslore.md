@@ -30,6 +30,13 @@ Literally anything & everything to do with Star Sailors & Manacaster, including:
 * Technology
 * + many more....
 
+# What's going on now?
+Right now, the development team are working on the pixel art and the script for the game. We're also actively working on the lore for Star Sailors, which definitely inspires the design choices we make regarding the pixel art. We've also noticed that when we're creating the pixel art, we come up with new ideas that then make their way into the official lore.
+
+The development, including the Inscope.me tutorials, are being done at a rate of twice a fortnight by myself, however anyone else at AC0/RD, or in the community, is welcome to start coding. The files are available in the Resources section, or you can easily create your own little mini-scenes and add them via a PR to our Repo.
+
+# Resources
+* [Game Files](http://github.com/acord-robotics/manacaster)
 
 # Credits
 * [Quote](https://www.gameskinny.com/ow6z1/telling-stories-the-importance-of-lore-in-video-games)
