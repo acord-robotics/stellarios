@@ -6,6 +6,8 @@ description: >
 comments: true
 ---
 
+![](/assets/img/party.png)
+
 # Lore for Star Sailors
 
 When I started out writing Star Sailors, I knew that I wanted it to be an expansive and open-world universe, with the possibility - indeed, the neccessity - for expansion upon what I originally build. While I had no idea that I would later be creating a video game based on the novel, my ideas regarding the open-worldness have helpfully been very useful when designing the game as well.
