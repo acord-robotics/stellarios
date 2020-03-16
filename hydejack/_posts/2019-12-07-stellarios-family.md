@@ -4,7 +4,7 @@ image: /assets/img/blog/Stellarios-Family.png
 description: >
   Stellarios is a suite of software apps and games developed and distributed by ACORD Corporation. This software includes control units for our robots as well as extensions for applications such as firefox, chrome and visual studio. We release a number of games as well, and we’re working on a few right now: Star Sailors & Asteroid Dodgers. So here’s who’s a part of the Stellarios family, and what the current state of development is.
 published: true
----  
+---   
 
 Originally published: http://allianceofdroids.org.au/aod/2019/11/01/the-stellarios-family-whos-a-part-of-it/
 
