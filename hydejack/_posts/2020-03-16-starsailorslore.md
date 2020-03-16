@@ -1,6 +1,6 @@
 ---
 title: Star Sailors Backstory
-img: /assets/img/Party.png">
+img: /assets/img/Party.png
 description: >
   To turn Star Sailors, and Manacaster, into a series that is created, played, and expanded upon by people all over the world, we need to write some lore, or a backstory. To increase the likelihood and quality of sequels, we need to identify and nail down what the universe of Star Sailors is about. [1](http://allianceofdroids.org.au/aod/2020/01/06/redesigning-acord-facebook-page)
 comments: true
