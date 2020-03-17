@@ -23,7 +23,7 @@ published: true
 * [Applets](#applets)
 * [Resources](#resources)
 
-# Star Sailors Earthlings
+# Star Sailors: Earthlings
 [Everything about Earthlings]({{ site.baseurl }}/earthlings)
 * [Prologue]({{ site.baseurl }}/earth-prologue)
 * [Chapter 1]({{ site.baseurl }}/earth-ch-1)
