@@ -7,7 +7,8 @@ comments: true
 published: true
 ---
 # Star Sailors
-# Contents
+
+### Contents
 * [Back Home](http://acord-robotics.github.io/)
 * [Site Map]({{ site.baseurl }}/compass)
 * [SS: Earthlings](#star-sailors-earthlings)
