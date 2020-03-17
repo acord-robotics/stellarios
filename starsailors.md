@@ -34,7 +34,14 @@ published: true
 
 # Star Sailors Lore
 ## Alien Species
-* [Humans]({{ site.baseurl }}/lore-humans)
+
+| Alien Species | Description | Planet | System | Author |
+|---|---|---|
+| [Homo Sapiens]({{ site.baseurl }}/lore-humans) | A bipedal intelligent species from: | Earth, | Sol | [Liam Arbuckle](http://larbuckle.tech) |
+| [Miydlians]({{ site.baseurl }}/lore-miydlians) | A bipedal, living crystal species from: | Midgard, | Midgardia | [Liam Arbuckle](http://larbuckle.tech) |
+
+
+<!--* [Humans]({{ site.baseurl }}/lore-humans)-->
 
 # Manacaster
 ***The star Sailors Video Game***
