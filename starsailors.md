@@ -63,7 +63,7 @@ You can sign up for Star Sailors today. To sign up, you need to:
 * Choose your username, in-game name and password, email
 * Create an account on the ACoRD Website to back up your profile info
 
-![](https://repository-images.githubusercontent.com/181161208/d0987280-2eed-11ea-99a5-24d5b8cabff1)
+<!--![](https://repository-images.githubusercontent.com/181161208/d0987280-2eed-11ea-99a5-24d5b8cabff1)-->
 
 
 {% include jointcomments.html %}
