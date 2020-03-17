@@ -9,6 +9,8 @@ hide_description: false
 published: true
 ---
 
+# Manacaster February Update
+
 # Script
 
 While Manacaster only started development in 2019, we’ve been working on the novel that Manacaster is based on - Star Sailors - for a number of years now (check out the “further reading” section at the bottom of this page.
