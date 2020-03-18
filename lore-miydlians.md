@@ -38,11 +38,11 @@ Starting emotion: 4/20
 
 However, I began to come up with the name "Midgard" for the galactic Parliament after the Miydlians, and also from some mythological stories. [Midgard in norse mythology](https://www.britannica.com/topic/Midgard) refers to "Middle Earth", or the abode of mankind, and the "gard" part (in my mind) referred to the fact that the Parliament was a "guard" to protect the galaxy/universe. I came up with the name Mi*d*g*ard*ia*c*osl, for the capital ship of the people, and I began to question if the first group to create a massive civilization would really be war-loving. I've kept this here to reference our earlier work, and the old lore is freely visible to AC0/RD members at [the gitlab repo](https://gitlab.com/acord-robotics/robodev/star-sailors/-/tree/starsailorsearthlings/star-sailors-earthlings). It's possible that the original ideas for the Miydlians' characteristics could apply to another species, or better yet - a "splinter group" of Miydlians. Time will tell, and the entire community can chip in with your thoughts.
 
-[poll]
+<!--[poll]
 * Original characteristics apply to new species
 * Original characteristics apply to "splinter group"
 * Shelve the original characteristics
-[/poll]
+[/poll]-->
 
 
 
