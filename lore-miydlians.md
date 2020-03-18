@@ -4,10 +4,10 @@ description: >
   The Miydlians were possibly the first intelligent species to arise across the
   stars, and they were the first to advocate for a universal governing body.
   They're classified as "living crystal aliens", after the slang name for beings
-  from the world of Horrucun. They''ve spent the eons exploring, crafting and
-  researching, but don''t expect them to be push-overs': they are incredibly
-  good manufacturers of weapons and possess super strength, and they've never
-  lost a war.
+  from the world of Horrucun. They've spent the eons exploring, crafting and
+  researching, but don't expect them to be push-overs': they are incredibly good
+  manufacturers of weapons and possess super strength, and they've never lost a
+  war.
 comments: true
 published: true
 hide_description: false
@@ -15,6 +15,20 @@ hide_description: false
 
 ### Star Sailors - Miydlian Lore
 
+Contents
+
+| Title | Author | 
+|---|---|
+| [Notable Miydlians](#notable-miydlians) | Liam Arbuckle |
+| [History](#a-history-of-miydlians) | Liam Arbuckle |
+| [A note](#a-note-from-liam) | Liam Arbuckle | 
+| [Inspiration](#inspiration) | Liam Arbuckle |
+| [Resources](#resources) | Dylan Vekaria | 
+
+# Notable Miydlians
+
+# A history of miydlians
+Today, very few Miydlians exist, after a recent plague wiped out large numbers of the population of the Miydlians. 
 
 # A note from Liam
 When we originally created Star Sailors on the [old portal](https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions), we came up with a number of species and lore regarding them, including:
@@ -44,7 +58,20 @@ However, I began to come up with the name "Midgard" for the galactic Parliament 
 * Shelve the original characteristics
 [/poll]-->
 
+## Inspiration
+* [Cereans from Star Wars](https://starwars.fandom.com/wiki/Cerean)
 
+## Resources
+* [Names](http://fantasynamegenerators.com)
+
+> Cereans are a sentient species of humanoids, and are distinguished by their elongated heads. Their heads are so tall because they have two brains, which are supplied with blood by their two hearts. Besides this feature they look relatively human in comparison to many other species.
+Cereans are force-sensitive beings as well, in fact, Ki-Adi-Mundi served as both a Jedi Master and member of the Jedi High Council for years.
+
+> Cerean names are very diverse, often with a hyphen or two in the case of male names. There are only about a dozen named female Cereans, none of which have any hyphens like many male names do. Not all male names contain a hyphen though, which just adds to the diversity.
+
+> Besides these hyphens, Cerean names tend to be melodic, relatively easy to pronounce, and fairly short. Even the longer names are just two or three short names linked with hyphens. There are always exceptions though.
+
+> Surnames can be longer at times however, as can female names based on the small sample group, but short names are more common.
 
 
 # Contributors
