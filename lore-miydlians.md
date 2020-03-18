@@ -24,6 +24,8 @@ Contents
 | [A note](#a-note-from-liam) | Liam Arbuckle | 
 | [Inspiration](#inspiration) | Liam Arbuckle |
 | [Resources](#resources) | Dylan Vekaria | 
+| [Contributors](#contributors) | N/A |
+| [Contribute](#contribute) | N/A |
 
 # Notable Miydlians
 
@@ -76,3 +78,6 @@ Cereans are force-sensitive beings as well, in fact, Ki-Adi-Mundi served as both
 
 # Contributors
 * Liam Arbuckle
+
+# Contribute
+{% include utterances-starsailors.html %}
