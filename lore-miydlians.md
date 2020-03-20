@@ -30,7 +30,11 @@ Contents
 # Notable Miydlians
 
 # A history of miydlians
-Today, very few Miydlians exist, after a recent plague wiped out large numbers of the population of the Miydlians. 
+Today, very few Miydlians exist, after a recent plague wiped out large numbers of the population of the Miydlians. Those that remain mostly live on the first alien planets that they inhabited after spreading out from Midgard, many millions of years ago. 
+
+| Time Period | Years Ago | Description |
+|---|---|---|
+| [The Occult Era](#the-occult-era) | 3 million years ago | The Occult Era is so named due to the mystery behind the creation of the race of Miydlians |
 
 # A note from Liam
 When we originally created Star Sailors on the [old portal](https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions), we came up with a number of species and lore regarding them, including:
@@ -81,3 +85,8 @@ Cereans are force-sensitive beings as well, in fact, Ki-Adi-Mundi served as both
 
 # Contribute
 {% include utterances-starsailors.html %}
+
+# More Ideas
+* Medieval humans somehow made contact w/ aliens/god-like beings, got whisked away
+* Opus (few hundred years in the future) -> meet the old humans, who underwent very different cybernetic & natural evolutionary augmentations
+
