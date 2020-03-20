@@ -69,6 +69,6 @@ Learn how to implement a spaceship and a movement script in Unity.
 
 Github.com/Acord-Robotics/Stellarios/Tree/Gh-Pages/development-notes-savingprogressinunity.md
 
-{% include utterances.html %}
+{% include utterances-unity.html %}
 
 {% include jointcomments.html %}
