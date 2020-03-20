@@ -34,7 +34,10 @@ Today, very few Miydlians exist, after a recent plague wiped out large numbers o
 
 | Time Period | Years Ago | Description |
 |---|---|---|
-| [The Occult Era](#the-occult-era) | 3 million years ago | The Occult Era is so named due to the mystery behind the creation of the race of Miydlians |
+| [The Age of Origin](#the-age-of-origin) | 8 billion to 18 million years ago | While no intelligent life existed during this period, the seeds of the Miydlians were laid during this Age. |
+| [The Occult Era](#the-occult-era) | 18 million to 5.6 million years ago | The Occult Era is so named due to the mystery behind the creation of the race of Miydlians |
+| [The Aeon of Development](#the-aeon-of-development) | 5.6 million to 5.5 million years ago | Small communities banded together during this period of mass discovery and industrial development to form the first cities on Midgard |
+| [The Era of Neglect](#the-era-of-neglect) | 5.5 million to 5.45 million years ago | While the small number of explorarory Miydlians prospered, the masses did not and many starved in what was possibly the first mass extinction of intelligent life ever. |
 
 # A note from Liam
 When we originally created Star Sailors on the [old portal](https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions), we came up with a number of species and lore regarding them, including:
