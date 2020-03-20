@@ -71,6 +71,7 @@ However, I began to come up with the name "Midgard" for the galactic Parliament 
 * [Cereans from Star Wars](https://starwars.fandom.com/wiki/Cerean)
 
 ## Resources
+* [Astrobiology Stuff](#astrobiology-stuff)
 * [Names](http://fantasynamegenerators.com)
 
 > Cereans are a sentient species of humanoids, and are distinguished by their elongated heads. Their heads are so tall because they have two brains, which are supplied with blood by their two hearts. Besides this feature they look relatively human in comparison to many other species.
@@ -81,6 +82,12 @@ Cereans are force-sensitive beings as well, in fact, Ki-Adi-Mundi served as both
 > Besides these hyphens, Cerean names tend to be melodic, relatively easy to pronounce, and fairly short. Even the longer names are just two or three short names linked with hyphens. There are always exceptions though.
 
 > Surnames can be longer at times however, as can female names based on the small sample group, but short names are more common.
+
+### Astrobiology Stuff
+* [Zoo Hypothesis](https://en.wikipedia.org/wiki/Zoo_hypothesis)
+* [How would aliens adapt and develop - like humans?](https://singularityhub.com/2017/12/04/oxford-study-says-alien-life-would-evolve-and-adapt-just-like-life-earth/)
+* [Should we seed alien worlds?](https://www.sciencemag.org/news/2016/09/qa-should-we-seed-life-alien-worlds)
+
 
 
 # Contributors
