@@ -51,6 +51,10 @@ Read the Manacaster Texts:
 * [`Manacaster` by AC0/RD]({{ site.baseurl }}/manacaster)
 & [`Game Art` and Assets]({{ site.baseurl }}/star-sailors-pixel-art)
 
+## Manacaster Development
+* [Tutorials]({{ site.baseurl }}/development-tutorials)
+* [Notes]({{ site.baseurl }}/development-notes) --> Notes and ideas about how we will go about developing Manacaster
+
 
 ## Resources
 * [Spaceships in Unity 2D]({{ site.baseurl }}/manacaster-spaceship)
