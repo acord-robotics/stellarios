@@ -85,6 +85,10 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 
 # Forums
+
+## Open Source Social Network
+* [Building a network]({{ site.baseurl }}/opensourcesocialnetwork-building)
+
 *Contents*
 * [NASA-JPL](#nasa-jpl)
 * [Droids](#science-of-droidology)
