@@ -132,7 +132,7 @@ Games, Apps, Software, Media
 | Thread  | Created by  | Site | Game  | Link |
 |---|---|---|---|---|
 | [Eve Online - My Journey](http://allianceofdroids.org.au/portal/groups/eve-online/forum/topic/eve-online-my-journey-gizmotronn/#post-174)  | IrisDroidology/Gizmotronn  | New Portal | Eve Online | [Feed]({{ site.baseurl }}/forum-gizmotronn-eveonlinemyjourney)
-|   |   |   |   |   |
+| [Eve Online]({{ site.baseurl }}/forums-eveonline)  |  AC0/RD Bot | New Portal  | Eve Online  | .  |
 |   |   |   |   |   |
 
 ### Notes
