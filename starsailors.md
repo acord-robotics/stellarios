@@ -58,6 +58,7 @@ Read the Manacaster Texts:
 
 ## Resources
 * [Spaceships in Unity 2D]({{ site.baseurl }}/manacaster-spaceship)
+* [Scoring in Unity 2D]({{ site.baseurl }}/unity2dscoring)
 
 Play the game:
 
