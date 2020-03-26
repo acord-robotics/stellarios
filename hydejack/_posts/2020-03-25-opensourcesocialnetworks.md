@@ -3,7 +3,7 @@ title: Open Source Social Networks - a viable option?
 image: /assets/img/blog/The Aquatic Life.png
 description: >
   Due to the rise in popularity of services like Humhub and cheap - but good quality - hardware like the Raspberry Pi, we're considering migrating & combining wordpress with a R.Pi service that will be secondarily hosted on Github.published: true
-categories: Open Source, Network
+categories: Open-Source Network
 comments: true
 ---
 
