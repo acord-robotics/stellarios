@@ -30,5 +30,6 @@ layout: base
   {% when 'related' %}
     {% include components/related-posts.html post=post %}
   {% else %}
+  {% include utterances.html %}
   {% endcase %}
 {% endfor %}
