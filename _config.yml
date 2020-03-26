@@ -60,8 +60,8 @@ menu:
     url:               /compass/
   - title:             Documentation
     url:               /docs/
-  - title:             Blog
-    url:               https://blog.acord.software
+  - title:             Create
+    url:               http://prose.io
   - title:             ACoRD Portal
     url:               http://acord-robotics.github.io 
 
