@@ -65,8 +65,8 @@ HumHub is a free and open-source social network software written on top of the Y
 
 {% include jointcomments.html %}
 
-# Technical Discussion
-{% include utterances-website.html %}
+<!--# Technical Discussion-->
+<!--{% include utterances-website.html %} https://github.com/acord-robotics/stellarios/commit/3befcec0ab6cc4a3ddf48c4e6eea7e9f0bf091c9-->
 
 # Credits
 This post was bought to you by:
