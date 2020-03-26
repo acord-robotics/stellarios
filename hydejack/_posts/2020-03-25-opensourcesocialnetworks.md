@@ -51,6 +51,15 @@ There's plenty more that you can easily find by doing a search on google:
 
 ![](https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Google-Image-Search.jpg)
 
+But here's a definition that, as both a user and a creator of social networks & community websites, I find valid:
+
+> A social networking website is an online service that individiuals use to form connections with other users through the sharing of content (like photos, text posts, and videos) and to discover new communities related to their interests. Social networking websites are also used to promote a brand to a wide community, while community websites are mainly for already-established groups regarding a main, overarching topic, whether that's a movie series or a brand like Apple, or anything in between.
+
+That's a bit of a long definition, and I understand that that's going to cause some controversy. So I'd like to whack a big "Disclaimer" before I go any further:
+
+## Disclaimer
+You are free to call Facebook an online community, and to an extent it is - billions of people sharing content and making connections with anyway. But services like Facebook, Instagram, `the whole of Reddit`, and many other large websites, are successful because they cater to everyone, not to a specific clique of individuals or users. Imagine if Facebook was only for Star Wars fans to discuss Star Wars-related topics. Suddenly the number of users would plummet into the millions. Similarly, if the Star Wars website was expanded to cater to everyone and every topic, you'd see many more people joining (the number of users does depend, of course, on the quality of your content and the amount of traffic your site gets). 
+
 # Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
 
