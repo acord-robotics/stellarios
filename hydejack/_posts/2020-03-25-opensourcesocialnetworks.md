@@ -59,7 +59,21 @@ But here's a definition that, as both a user and a creator of social networks & 
 That's a bit of a long definition, and I understand that that's going to cause some controversy. So I'd like to whack a big "Disclaimer" before I go any further:
 
 ## Disclaimer
-You are free to call Facebook an online community, and to an extent it is - billions of people sharing content and making connections with anyway. But services like Facebook, Instagram, `the whole of Reddit`, and many other large websites, are successful because they cater to everyone, not to a specific clique of individuals or users. Imagine if Facebook was only for Star Wars fans to discuss Star Wars-related topics. Suddenly the number of users would plummet into the millions. Similarly, if the Star Wars website was expanded to cater to everyone and every topic, you'd see many more people joining (the number of users does depend, of course, on the quality of your content and the amount of traffic your site gets). 
+You are free to call Facebook an online community, and to an extent it is - billions of people sharing content and making connections with anyway. But services like Facebook, Instagram, **the whole of Reddit**, and many other large websites, are successful because they cater to everyone, not to a specific clique of individuals or users. Imagine if Facebook was only for Star Wars fans to discuss Star Wars-related topics. Suddenly the number of users would plummet into the millions. Similarly, if the Star Wars website was expanded to cater to everyone and every topic, you'd see many more people joining (the number of users does depend, of course, on the quality of your content and the amount of traffic your site gets). 
+
+## Community websites
+
+Subreddits are, under my definition, online communities as well as being a social network, because you're able to discover other communities through Reddit. When you're on the r/StarWars subreddit, for example, you're seeing recommendations in the sidebar for other subreddits to join, making it a rare example of a website truly being both a social networking service and an online community website
+
+The [Buddypress Forums](http://buddypress.org) are another example of a community website. A large group of people discuss the world's most popular tool for creating online social networks, but it's about **one** topic, rather than thousands.
+
+## Social networking websites
+On the other hand, Facebook & Twitter are great examples of social networking sites. Twitter's recently unveiled something called "topics", which are one-way conversations of news topics that you subscribe to. It's not really a community feature as you can't post anything to a topic directly. 
+
+Topics in Twitter aren't groups. They're essentially glorified hashtags that contain more high-quality tweets regarding a certain topic, for example FIFA 20 or Github. However, using Twitter or Facebook does fulfill my definition above ^.
+
+# Tools for creating community websites
+The future is open source. And it's been that way for a long time. You don't have one of the world's biggest companies, Microsoft, [buying out Github for over $7.5 BILLION](https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/) if open source is not where the world is heading to. With coding being taught in almost every school now, and from the early years right up until senior school (this is one of the few times I say "well done, Apple". Their "Anyone Can Code" mentality has helped make this come true), there is no reason that in 10 or 20 years there will still be mostly proprietry and shareware software, with smatterings of open source. Already Github [has over 40 million users](https://en.wikipedia.org/wiki/GitHub) and that number is only going to increase. Even after [seemingly every developer jumped ship to Gitlab after Microsoft's acquisition](https://www.reuters.com/article/us-github-microsoft-gitlab/gitlab-gains-developers-after-microsoft-buys-rival-github-idUSKCN1J12BR), over the last few months we've seen that not only is Microsoft embracing open-source, but that they genuinely think that it's the future. And if that means that the big companies lose a few dollars here and there for an increased population of coders and better-quality software, then in my opinion that's a small price to pay.
 
 # Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
