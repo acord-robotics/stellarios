@@ -75,7 +75,26 @@ Topics in Twitter aren't groups. They're essentially glorified hashtags that con
 # Tools for creating community websites
 The future is open source. And it's been that way for a long time. You don't have one of the world's biggest companies, Microsoft, [buying out Github for over $7.5 BILLION](https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/) if open source is not where the world is heading to. With coding being taught in almost every school now, and from the early years right up until senior school (this is one of the few times I say "well done, Apple". Their "Anyone Can Code" mentality has helped make this come true), there is no reason that in 10 or 20 years there will still be mostly proprietry and shareware software, with smatterings of open source. Already Github [has over 40 million users](https://en.wikipedia.org/wiki/GitHub) and that number is only going to increase. Even after [seemingly every developer jumped ship to Gitlab after Microsoft's acquisition](https://www.reuters.com/article/us-github-microsoft-gitlab/gitlab-gains-developers-after-microsoft-buys-rival-github-idUSKCN1J12BR), over the last few months we've seen that not only is Microsoft embracing open-source, but that they genuinely think that it's the future. And if that means that the big companies lose a few dollars here and there for an increased population of coders and better-quality software, then in my opinion that's a small price to pay.
 
-# Humhub
+## Wordpress
+> WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.
+
+`Wikipedia`
+
+Wordpress powers over 25% of the world's websites, and when you look at what you can build with wordpress, it's not surprising:
+
+**Online community**
+![](https://www.buddyboss.com/wp-content/uploads/2019/11/background_image_home-1-1200x764.png)
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhPRetgZGSpQxRE44yo0Ajdl91o9FYKlEJhY8cyV6tbSayoxTV)
+
+**Online shop**
+![](https://s.tmimgcdn.com/scr/53400/t-shirt-shop-woocommerce-theme_53419-original.jpg)
+
+**Dashboard**
+![](https://bashooka.com/wp-content/uploads/2019/01/admin-ui-wordpress-11.jpg)
+
+
+## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
 
 {% include jointcomments.html %}
