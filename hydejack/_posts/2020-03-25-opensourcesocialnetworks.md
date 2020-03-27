@@ -103,6 +103,8 @@ I have used Wordpress since early 2016. It has a self-hosted plan (Wordpress.org
 | Shareware | Open-Source |
 | Limited support if on free plan | Great support (but obscure questions can take a while to be answered |
 
+While Wordpress.com (maintained by Automattic) is under
+
 ## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
 
