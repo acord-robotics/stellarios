@@ -85,7 +85,7 @@ Wordpress powers over 25% of the world's websites, and when you look at what you
 **Online community**
 ![](https://www.buddyboss.com/wp-content/uploads/2019/11/background_image_home-1-1200x764.png)
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhPRetgZGSpQxRE44yo0Ajdl91o9FYKlEJhY8cyV6tbSayoxTV)
+<!--![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhPRetgZGSpQxRE44yo0Ajdl91o9FYKlEJhY8cyV6tbSayoxTV)-->
 
 **Online shop**
 ![](https://s.tmimgcdn.com/scr/53400/t-shirt-shop-woocommerce-theme_53419-original.jpg)
@@ -93,9 +93,23 @@ Wordpress powers over 25% of the world's websites, and when you look at what you
 **Dashboard**
 ![](https://bashooka.com/wp-content/uploads/2019/01/admin-ui-wordpress-11.jpg)
 
+I have used Wordpress since early 2016. It has a self-hosted plan (Wordpress.org), and a managed hosting plan (Wordpress.com). Let's compare the two:
+
+| Wordpress.com | Wordpress.org |
+|---|---|
+| Freemium plan - different pricing plans | Free to download (open-source), but hosting and domain name required |
+| No plugins | Over 50,000 free plugins + many more premium ones |
+| Limited selection of themes | Tens of thousands of themes |
+| Shareware | Open-Source |
+| Limited support if on free plan | Great support (but obscure questions can take a while to be answered |
 
 ## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
+
+# Resources
+
+## Comparing the tools
+Check out [StackShare.io](https://stackshare.io/stackups/buddypress-vs-humhub) to compare the software listed in this post to find out what's right for you!
 
 {% include jointcomments.html %}
 
