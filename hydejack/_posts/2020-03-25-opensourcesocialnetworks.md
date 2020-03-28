@@ -103,12 +103,32 @@ I have used Wordpress since early 2016. It has a self-hosted plan (Wordpress.org
 | Shareware | Open-Source |
 | Limited support if on free plan | Great support (but obscure questions can take a while to be answered |
 
-While Wordpress.com (maintained by Automattic) is under the moniker "Wordpress", we're just going to focus on Wordpress.org, which is the open-source platform.
+While Wordpress.com (maintained by Automattic) is technically under the moniker "Wordpress", we're just going to focus on Wordpress.org, which is the open-source platform.
+
+### About Wordpress
+Wordpress was first developed by [Matt Mullenweg](http://ma.tt) as a replacement for the (at the time) popular blogging service *cafelog* in 2003. It was written in PHP coupled with a database using either MySQL or MariaDB (the database depends on the host, but in my case it was MySQL). The open-source version (Wordpress.org) is free to install and is created by the Wordpress community (hence the term open-source). However, to create a public site you need to first buy a domain name (like www.mywordpresssite.com) and hosting space (you can buy both at a provider like Bluehost or Hostgator). We're not going to go into the details of creating and publishing a wordpress site today, but there's some great posts about this matter that I'll link in the [resources](#resources) section below. Of course, to test it out you can always try it out on a local machine for free (like a Raspberry Pi, or your own laptop/PC), but it's sort of hard to share your content with people that way.
+
+As we've seen above, there's so much that you can do with Wordpress - it's incredible. 
+
+<!--# TO DO FOR THIS POST
+* Finish off list of OS SNs
+* Why do we want it on a PI? - location specific (i.e. artifactory?)
+* Backing up
+* What features we want
+* Integrations with integromat AND the dashboard (http://acord-robotics.github.io/dashboard.html) - Basanta
+* Webhooks ^^ (integrations)
+* Create a new page for the second part of this post-->
 
 ## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
 
 # Resources
+
+## Wordpress
+### Installing Wordpress.org
+* [Official Wordpress Documentation](https://wordpress.org/support/article/how-to-install-wordpress/)
+* [Wordpress 101](https://www.wp101.com/tutorial/how-to-install-wordpress/)
+* [WpBeginner's Guide](https://www.wpbeginner.com/how-to-install-wordpress/)
 
 ## Comparing the tools
 Check out [StackShare.io](https://stackshare.io/stackups/buddypress-vs-humhub) to compare the software listed in this post to find out what's right for you!
