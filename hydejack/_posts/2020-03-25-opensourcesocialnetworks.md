@@ -117,6 +117,7 @@ As we've seen above, there's so much that you can do with Wordpress - it's incre
 * What features we want
 * Integrations with integromat AND the dashboard (http://acord-robotics.github.io/dashboard.html) - Basanta
 * Webhooks ^^ (integrations)
+* Oh yeah, and fix integromat if it's not working!
 * Create a new page for the second part of this post-->
 
 ## Humhub
