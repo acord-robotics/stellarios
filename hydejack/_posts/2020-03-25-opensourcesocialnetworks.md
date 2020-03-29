@@ -108,7 +108,7 @@ While Wordpress.com (maintained by Automattic) is technically under the moniker 
 ### About Wordpress
 Wordpress was first developed by [Matt Mullenweg](http://ma.tt) as a replacement for the (at the time) popular blogging service *cafelog* in 2003. It was written in PHP coupled with a database using either MySQL or MariaDB (the database depends on the host, but in my case it was MySQL). The open-source version (Wordpress.org) is free to install and is created by the Wordpress community (hence the term open-source). However, to create a public site you need to first buy a domain name (like www.mywordpresssite.com) and hosting space (you can buy both at a provider like Bluehost or Hostgator). We're not going to go into the details of creating and publishing a wordpress site today, but there's some great posts about this matter that I'll link in the [resources](#resources) section below. Of course, to test it out you can always try it out on a local machine for free (like a Raspberry Pi, or your own laptop/PC), but it's sort of hard to share your content with people that way.
 
-As we've seen above, there's so much that you can do with Wordpress - it's incredible. 
+As we've seen above, there's so much that you can do with Wordpress - it's incredible. And the reason for this is that it's open source. You can add whatever plugins or themes you want, so that in just a handful of clicks a 
 
 <!--# TO DO FOR THIS POST
 * Finish off list of OS SNs
