@@ -110,7 +110,11 @@ Wordpress was first developed by [Matt Mullenweg](http://ma.tt) as a replacement
 
 As we've seen above, there's so much that you can do with Wordpress - it's incredible. And the reason for this is that it's open source. You can add whatever plugins or themes you want, so that in just a handful of clicks a 
 
-<!--# TO DO FOR THIS POST
+<!--
+Brainstorming ideas: 
+
+
+# TO DO FOR THIS POST 
 * Finish off list of OS SNs
 * Why do we want it on a PI? - location specific (i.e. artifactory?)
 * Backing up
@@ -118,7 +122,73 @@ As we've seen above, there's so much that you can do with Wordpress - it's incre
 * Integrations with integromat AND the dashboard (http://acord-robotics.github.io/dashboard.html) - Basanta
 * Webhooks ^^ (integrations)
 * Oh yeah, and fix integromat if it's not working!
-* Create a new page for the second part of this post-->
+* Create a new page for the second part of this post
+* Split this post into two or more pages - https://www.google.com/search?rlz=1C1CHBF_en-GBAU885AU885&sxsrf=ALeKk00HKTteZzNd6azs3FqGM84lw_nRtQ%3A1585357015789&ei=16B-XuDpL6Gb4-EPzo240AI&q=jekyll+multiple+pages+for+long+post&oq=jekyll+multiple+pages+for+long+post&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1AAWABg28PBNGgAcAF4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwigsZKO-7voAhWhzTgGHc4GDioQ4dUDCAs&uact=5 - as it is getting too long
+
+Humhub, bp, reddit - gh-integromat
+Check integrations w/ humhub webhooks
+Humhub 4 events, draw into WP after intranet expired
+
+So we set up a SSO maybe for the Humhub and the Portal?
+
+What we could possibly do is use Humhub for development, because it integrates well with Github (through webhooks, github issues), then send it along to Wordpress with each release.
+
+Example: 
+We're working on a new update for the Manacaster game. We discuss it on Humhub, through integrations with Rocketchat, Slack, Github, Disqus, etc. This is made possible through webhooks. 
+We create a space on Humhub that "mirrors" a repository AND a group on the WP site (which, also being open-source, is extensible. I think part of the reason I've been kinda reluctant to try this with WP is because I don't know PHP that well, and I don't have enough money to pay for a developer - with Rishabh, this could change). 
+When we create a release, we'll then draw the content from the Humhub space into the WP Portal, with the content/posts being attributed to each user. We'll use custom post types and a comment-forum-bbpress plugin to attribute the content (possibly using Integromat, we'll create "posts" that can then be turned into a forum post - check out the "bbpress post blog post plugin", where a forum thread is created every time a new post is published on the blog). We don't have to use integromat either.
+This means that we can deploy Humhub to a Pi for when we have localized meetings so that we don't push through unfinished releases to the portal. We can also enjoy the best of both worlds, where we get the github integrations that are slightly awkward to do with WP as well. We could install them onto the same server, and if it's on a Pi it could talk to our rovers? Continuous deployments to the pi could be the way to go
+
+To Do:
+* Figure out compelling reasons to install a social network to a pi
+* What can we do with Humhub that we can't do with WP?
+* How can we make WP talk to Humhub?
+
+By Humhub, we mean any Open Source Social Network
+
+https://www.google.com/search?q=deploy+github+repo+to+raspberry+pi&rlz=1C1CHBF_en-GBAU885AU885&oq=deploy+github+repo+to+raspberry+pi&aqs=chrome..69i57j33l6.4230j0j1&sourceid=chrome&ie=UTF-8
+
+https://opensource.com/article/19/9/open-source-social-networks
+https://diasporafoundation.org/
+
+
+
+Reasons to keep Buddypress:
+* Great group email digest
+* Rewards, badges
+* Youzer AND buddyboss theme
+* Great themes + jonradiomultiplethemesplugin
+* We've used it for so long - sentimental reasons
+* What's the point of using Sean if we don't use BP?
+* Open Source
+
+Reasons to use Youzer:
+* Great cover image designs
+* VCard
+* Great support
+* Extensible
+* Almost completely customizable
+* Works on every theme
+* Multiple post types
+* Link sharing
+
+Problems with Youzer: 
+* The buddyboss design, which is great and light on resources, would be shelved
+* Badges can't be shown on the cover image
+* May have to switch badge providers
+
+Reasons against Peepso:
+* Expensive
+* Not open-source
+
+HUMHUB Modules
+* https://www.humhub.com/en/marketplace/youracclaim/
+
+HUMHUB Integration brainstorming
+Rocketchat vs slack - I think slack wins!
+https://tryolabs.com/blog/2016/06/01/raspberrypi-slack-our-humble-contribution-to-the-offices-laziness/
+
+-->
 
 ## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
