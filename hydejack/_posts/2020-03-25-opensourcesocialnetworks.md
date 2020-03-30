@@ -188,7 +188,7 @@ HUMHUB Integration brainstorming
 Rocketchat vs slack - I think slack wins!
 https://tryolabs.com/blog/2016/06/01/raspberrypi-slack-our-humble-contribution-to-the-offices-laziness/
 
--->
+--> 
 
 ## Humhub
 HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
