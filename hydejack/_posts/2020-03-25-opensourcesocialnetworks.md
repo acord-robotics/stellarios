@@ -108,7 +108,19 @@ While Wordpress.com (maintained by Automattic) is technically under the moniker 
 ### About Wordpress
 Wordpress was first developed by [Matt Mullenweg](http://ma.tt) as a replacement for the (at the time) popular blogging service *cafelog* in 2003. It was written in PHP coupled with a database using either MySQL or MariaDB (the database depends on the host, but in my case it was MySQL). The open-source version (Wordpress.org) is free to install and is created by the Wordpress community (hence the term open-source). However, to create a public site you need to first buy a domain name (like www.mywordpresssite.com) and hosting space (you can buy both at a provider like Bluehost or Hostgator). We're not going to go into the details of creating and publishing a wordpress site today, but there's some great posts about this matter that I'll link in the [resources](#resources) section below. Of course, to test it out you can always try it out on a local machine for free (like a Raspberry Pi, or your own laptop/PC), but it's sort of hard to share your content with people that way.
 
-As we've seen above, there's so much that you can do with Wordpress - it's incredible. And the reason for this is that it's open source. You can add whatever plugins or themes you want, so that in just a handful of clicks a 
+As we've seen above, there's so much that you can do with Wordpress - it's incredible. And the reason for this is that it's open source. You can add whatever plugins or themes you want, so that in just a handful of clicks a default and bland site can become your major source of income:
+
+![](https://i0.wp.com/themes.svn.wordpress.org/twentytwenty/1.1/screenshot.png)
+`The default Wordpress theme for 2020`
+
+![](https://img.themesinfo.com/i/1/174/online-shop-child-best-woocommerce-theme-bkd51-o.jpg0)
+`Many people make a living by selling things on their Wordpress website`
+
+
+As it's open-source and highly extensible, it's great to use and we're going to continue using it for the forseeable future. But it's not the only option out there...
+
+There's plenty of great guides about Wordpress and membership sites that I've linked in the [Resources](#resources) section of this post.
+
 
 <!--
 Brainstorming ideas: 
@@ -191,7 +203,12 @@ https://tryolabs.com/blog/2016/06/01/raspberrypi-slack-our-humble-contribution-t
 --> 
 
 ## Humhub
-HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
+
+> HumHub is a free and open-source social network software written on top of the Yii PHP framework that provides an easy to use toolkit for creating and launching your own social network.
+
+![](https://www.humhub.com/static/img/features/app.png)
+
+Humhub is all about privacy. Have a big extended family that you want to keep in contact with, but don't want Big Data (aka companies like Facebook) snooping on your information, or non-relatives unwittingly coming across your data? Install humhub. You could even set up a social network that is only accessible by being on a specific internet network. This can be done by installing humhub (or another [open source platform](https://www.opensource-socialnetwork.org/) on a device like a Raspberry Pi.
 
 # Resources
 
@@ -200,6 +217,10 @@ HumHub is a free and open-source social network software written on top of the Y
 * [Official Wordpress Documentation](https://wordpress.org/support/article/how-to-install-wordpress/)
 * [Wordpress 101](https://www.wp101.com/tutorial/how-to-install-wordpress/)
 * [WpBeginner's Guide](https://www.wpbeginner.com/how-to-install-wordpress/)
+* [Buddypress Guide](http://buddypress.org)
+* [Great Buddypress Resources](http://buddyboss.com)
+
+Also check out the links scattered throughout this post!
 
 ## Comparing the tools
 Check out [StackShare.io](https://stackshare.io/stackups/buddypress-vs-humhub) to compare the software listed in this post to find out what's right for you!
