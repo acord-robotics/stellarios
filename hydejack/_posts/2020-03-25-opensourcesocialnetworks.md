@@ -113,7 +113,7 @@ As we've seen above, there's so much that you can do with Wordpress - it's incre
 ![](https://i0.wp.com/themes.svn.wordpress.org/twentytwenty/1.1/screenshot.png)
 `The default Wordpress theme for 2020`
 
-![](https://img.themesinfo.com/i/1/174/online-shop-child-best-woocommerce-theme-bkd51-o.jpg0)
+![](https://img.themesinfo.com/i/1/174/online-shop-child-best-woocommerce-theme-bkd51-o.jpg)
 `Many people make a living by selling things on their Wordpress website`
 
 
