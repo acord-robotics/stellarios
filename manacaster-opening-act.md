@@ -17,6 +17,7 @@ published: true
 * [Resources](#resources)
 * [How it works](#how-it-works)
 * [To-Do](#to-do)
+	* [Private Notes on Git](http://prose.io/#acord-robotics/stellarios/edit/gh-pages/manacaster-opening-act.md)
 * [Discussion](#discussion)
 
 # Manacaster Opening Act
@@ -107,11 +108,37 @@ To find out more about your choices, go to [Footnote 6<sup>6</sup>](#6) <br/>
 
 <center> CONSOLE CPU Tut<sup>[9](#9)</sup> </center>
 <center> "Let's run through the controls quickly, shall we?" <br/> <br/> "The traditional controls that you probably learnt in the academy, W,A,S,D apply here. The map of your location is shown at the top right-hand corner of the display, however it is also available on your ship's display." <br/><br/> "The flashing icons show special artifacts or mission objectives, while the circles show heavenly bodies like planets and comets, green icons show friendly ships and red icons show enemy ships." <br/>  </center>
+
+<!-- sup links - * - [<sup>3</sup>](#3) -->
+
+<center> Player Action </center>
+<center> User presses W to move forward, with the red box directly in front of the player. A small window in the top right of the screen appears:</center>
+
+*"You've unlocked <!--think of sci-fi word that can go here to replace/add to unlocked--> an achievement: 'Natural Pilot'."*<!-- The user earns some **ship energy**, **5 credits**, and some **acord points** (these can be redeemed by entering a code (check out MyCred - http://acord.software/stellarios/hydejack/open-source/network/2020-03-25-opensourcesocialnetworks/).
+
+Add an icon for the achivement, along with the player's avatar-->
+
+<center> Player Action </center>
+<center> The player rides around the game environment like in </center> [Asteroid Dodgers](https://github.com/acord-robotics/unityballs), <center> collecting the artifacts (as a new achievement pops up - Galactic Archivist/Archaelogist). They're put into the cargo hold of the ship, which flashes up as a new tab in the inventory of the player, where the player can then research the artifacts that he's found. </center>
+
+# Scene 3
+Starrix
+The ship flies in as you gently pull your helmet off. Starrix comes up to you and says:
+"Nice flying soldier...""
   
   
 # Discussion
 
 {% include utterances.html %}
+
+{% include jointcomments.html %}
+
+<!-- is there somehow a way that we can incorporate this project into something like Seti@Home?
+
+I've shared discussions and ideas on the r/ACORDRobotics subreddit (reddit.com/r/ACORDRobotics) to do with the pis and stuff. If there was a way to incorporate the two... maybe something like this https://www.reddit.com/r/Minecraft/comments/2eqybl/new_easter_egg_discovered_disk_13_not_to_be/ that could be created from the "rss feed"-like thing of the activity in the game. This could create help new maps that the rl-agent could test, like in Github/Acord-Robotics/AWS_JPL_OSR_DRL (the "Acord-Robotics" could be replaced with "Exynos-999"-->
+
+## Adding Achievements to Unity 
+* [Search](https://www.google.com/search?q=adding+achievements+to+unity&rlz=1C1CHBF_en-GBAU885AU885&oq=adding+achievements+to+unity&aqs=chrome..69i57j33.4742j0j1&sourceid=chrome&ie=UTF-8)  
 
 # Footnotes
 ###### 1
