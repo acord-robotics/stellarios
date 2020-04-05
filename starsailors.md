@@ -90,6 +90,12 @@ You can sign up for Star Sailors today. To sign up, you need to:
 
 # Forums
 
+## Coding
+
+| Thread | Language | Issue # | Repository (Github) |
+|---|---|---|---|
+| [General Python Discussion]({{ site.baseurl }}/python-discussion.md) | <span style="color:blue">Python</span> | 62 | Irisdroidology/Python-Learning |  
+
 ## Open Source Social Network
 * [Building a network]({{ site.baseurl }}/opensourcesocialnetwork-building)
 
