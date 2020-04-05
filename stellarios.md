@@ -4,6 +4,7 @@ description: >
 ---
 # Stellarios ACoRD
 
+<!--<iframe src="https://onedrive.live.com/embed?cid=2971EFA6B5BD694D&resid=2971EFA6B5BD694D%21163&authkey=AP6IKXCztCy9K8g" width="165" height="128" frameborder="0" scrolling="no"></iframe>-->
 
 [`AC0/oRD Stellarios`](http://gitlab.com/acord-robotics/robodev/s2rd)
 
