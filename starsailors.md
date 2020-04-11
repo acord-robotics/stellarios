@@ -16,6 +16,7 @@ published: true
 * [SS: Lore](#star-sailors-lore)
 	* [Alien Species](#alien-species)
     * [Vehicles](#vehicles)
+    * [Space Craft & Space Projects](#spacecraft-and-space-projects)
 * [Manacaster](#manacaster)
 	* [Sign up](#sign-up)
 * [Forums](#forums)	
@@ -166,3 +167,8 @@ Contents:
 ## Story Generation
 * [Fantasy Name Generator](https://www.fantasynamegenerators.com/)
  
+# Spacecraft and Space Projects
+Inspiration from other space & science related projects that <AC0/RD> have undertaken:
+
+* [NASA JPL Open Source Rover Comp](https://github.com/acord-robotics/AWS_JPL_OSR_DRL)
+* [NASA AREEEH Challenge](https://github.com/acord-robotics/zooniverse/tree/areeeh)
