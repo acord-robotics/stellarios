@@ -200,6 +200,14 @@ HUMHUB Integration brainstorming
 Rocketchat vs slack - I think slack wins!
 https://tryolabs.com/blog/2016/06/01/raspberrypi-slack-our-humble-contribution-to-the-offices-laziness/
 
+SLACK
+* We can send disqus threads there and have people reply to the threads (may occasionally need moderators or bots to ensure that it's an actual slack thread)
+* It's good for chatting, sending files, integrates well with everything (except WP, HH) that we use and is quite popular
+* We can send messages between other services
+* Can send messages to Discord (therefore keeping our options open) and vice-versa
+* Perhaps private messages sent in Humhub/BP could be sent in Slack as well?
+* Forum posts can go to slack and everything else -> see our integromat applets
+
 --> 
 
 ## Humhub
