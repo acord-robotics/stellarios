@@ -208,6 +208,55 @@ SLACK
 * Perhaps private messages sent in Humhub/BP could be sent in Slack as well?
 * Forum posts can go to slack and everything else -> see our integromat applets
 
+Community
+
+Flarum/Discourse/Tribe.so --> all can import data
+Incorporate w/ wordpress (Flarum & Discourse are bringing in WP plugins), buddypress & the theme
+
+All this can be embedded in the dashboard: http://acord.software 
+
+Organising issues
+
+Zenhub
+
+Assign tasks to people through slack, wordpress
+
+Buddypress + slack --> possible slack app?
+
+
+How do we incorporate the games into the network apart from through RP? Look at simpleMMO, PSS, rpg plugins
+My Arcade Plugin: https://myarcadeplugin.com/
+http://www.meralesson.com/2016/08/display-online-games-in-WordPress.html
+http://wpplugindirectory.org/multiplayer-games-plugin/
+https://timgarrity.me/wordpress-rpg/
+https://github.com/davidrgreen/DRG-RPG
+https://blacklodgegames.com/shop/gamedev/tools/indiedev-game-marketer-wordpress-plugin/
+http://aesopstoryengine.com/
+
+Search reddit stuff from wp/search entire network from WP? how to implement dashboard --> multisite?
+https://wordpress.org/support/topic/external-site-search/
+
+
+WORDPRESS Stuff
+Widgets in menu//max mega menu --> user can see experience, wallet, etc
+
+Attribute credits for each contributions - maybe force use gitlab, as there is a gitlab rss feed --> when new update in feed, add a credit?
+
+Wordpress --> sign in with Disqus?
+Wordpress --> log in with memberstack
+
+https://mycred.me/store/
+
+Fix bbpress on groups
+
+Integromat + bbpress comments + posts
+
+WP sidebar like thrive/admin demo --> vikinger does this, so wait for WP version
+
+Buddypress --> share posts like in facebook
+
+
+
 --> 
 
 ## Humhub
