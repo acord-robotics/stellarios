@@ -53,6 +53,7 @@ Read the Manacaster Texts:
 & [`Game Art` and Assets]({{ site.baseurl }}/star-sailors-pixel-art)
 
 ## Manacaster Development
+* [Develop & Play]({{ site.baseurl }}/manacaster-discussion)
 * [Tutorials]({{ site.baseurl }}/development-tutorials)
 * [Notes]({{ site.baseurl }}/development-notes) --> Notes and ideas about how we will go about developing Manacaster
 
