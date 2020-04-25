@@ -1,10 +1,19 @@
 ---
 description: >-
-  ACORD is an Australian/Global Robotics and Software company that was formed in 2015 as the "Alliance of Droids". At ACORD, we strive to build great products and improve the world with our inventions and innovations. [`AC0/oRD Stellarios`](http://gitlab.com/acord-robotics/robodev/s2rd)
+  When booting up Manacaster for the first time, you'll see something amazing.
+  Read all about what happens here.
 comments: true
 hide_description: false
 published: true
 ---
+
+
+description: >
+  ACORD is an Australian/Global Robotics and Software company that was formed in 2015 as the "Alliance of Droids". At ACORD, we strive to build great products and improve the world with our inventions and innovations. [`AC0/oRD Stellarios`](http://gitlab.com/acord-robotics/robodev/s2rd)
+comments: true
+hide_description: false
+published: true
+
 
 {% include joincomments.html %}
 {% include utterances.html %}
