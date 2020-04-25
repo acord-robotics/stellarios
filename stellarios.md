@@ -1,3 +1,13 @@
+---
+title: AC0/RD
+description: >
+	ACORD is an Australian/Global Robotics and Software company that was formed in 2015 as the "Alliance of Droids". At ACORD, we strive to build great products and improve the world with our inventions and innovations. [`AC0/oRD Stellarios`](http://gitlab.com/acord-robotics/robodev/s2rd)
+comments: true
+---
+
+{% include joincomments.html %}
+{% include utterances.html %}
+
 # Stellarios ACoRD
 
 <!--<iframe src="https://onedrive.live.com/embed?cid=2971EFA6B5BD694D&resid=2971EFA6B5BD694D%21163&authkey=AP6IKXCztCy9K8g" width="165" height="128" frameborder="0" scrolling="no"></iframe>-->
