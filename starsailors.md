@@ -11,7 +11,7 @@ published: true
 
 ### Contents
 * [Back Home](http://acord-robotics.github.io/)
-* [Site Map]({{ site.baseurl }}/compass)
+* [Site Map]({{ site.baseurl }}/stellarios)
 * [SS: Earthlings](#star-sailors-earthlings)
 * [SS: Lore](#star-sailors-lore)
 	* [Alien Species](#alien-species)
