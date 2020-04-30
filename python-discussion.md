@@ -12,7 +12,7 @@ title: Python Discussion
 
 {% include utterances-python.html %}
 
-As this forum grows, we'll be adding more threads and issues (the full list can be viewed [here]({{ site.baseurl }/starsailors#coding)).
+As this forum grows, we'll be adding more threads and issues (the full list can be viewed [here]({{ site.baseurl }}/starsailors#coding)).
 
 
 
