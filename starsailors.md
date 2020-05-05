@@ -1,12 +1,4 @@
----
-description: >-
-  Star Sailors is a science-fiction novella loosely based off Star Wars. Read it
-  here
-hide_description: false
-comments: true
-published: true
----
-
+Star Sailors is a science-fiction novella loosely based off Star Wars. Read it here
 # Star Sailors
 
 ### Contents
