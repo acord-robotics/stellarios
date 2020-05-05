@@ -1,4 +1,4 @@
-{% include joincomments.html %} {% include utterances.html %}
+
 
 # Stellarios ACoRD
 
@@ -6,7 +6,9 @@
 
 [`AC0/oRD Stellarios`](http://gitlab.com/acord-robotics/robodev/s2rd)
 
+{% include joincomments.html %} 
 
+{% include utterances.html %}
 # Our Online Presence
 You can check out all our websites and social media stuff on [this page](/stellarios/online-presence/), however the main stuff is listed here:
 
