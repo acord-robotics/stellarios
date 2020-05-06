@@ -44,7 +44,7 @@ Thanks to Zenva Academy for the initial "skeleton" of a lot of the Arcadia games
 We hope you enjoy it
 
 
-
+{% include jointcomments.html %}
 
 
 Links:
