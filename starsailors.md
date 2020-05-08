@@ -35,6 +35,10 @@ Star Sailors is a science-fiction novella loosely based off Star Wars. Read it h
 | [Homo Sapiens]({{ site.baseurl }}/lore-humans) | A bipedal intelligent species from: | Earth, | Sol | [Liam Arbuckle](http://larbuckle.tech) |
 | [Miydlians]({{ site.baseurl }}/lore-miydlians) | A bipedal, living crystal species from: | Midgard, | Midgardia | [Liam Arbuckle](http://larbuckle.tech) |
 
+## Project Arcadia Lore
+| Game | Original Game Link | Our Lore | 
+|---|---|---|
+| Space Invaders | [Wikipedia Page](https://en.wikipedia.org/wiki/Space_Invaders) | [Galactic Defense]({{ site.baseurl }}/space-invaders.md) + [News](https://acord.software/stellarios/hydejack/django/python/games/2020-05-05-django-games-library/) |
 
 <!--* [Humans]({{ site.baseurl }}/lore-humans)-->
 
