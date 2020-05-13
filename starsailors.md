@@ -1,7 +1,29 @@
 Star Sailors is a science-fiction novella loosely based off Star Wars. Read it here
 # Stellarios by AC0/RD
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
+<div id="graphcomment"></div>
+<script type="text/javascript">
 
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'ACORD',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
+  };
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>
 ### Contents
 * [Back Home](http://acord-robotics.github.io/)
 * [Site Map]({{ site.baseurl }}/stellarios)
