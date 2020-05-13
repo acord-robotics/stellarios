@@ -6,7 +6,7 @@ comments: true
 published: true
 ---
 
-
+{% include graphcomments.html %}
 
 > After purchasing a Zenva Academy Membership, I’ve been starting to follow the Space Invaders Tutorial. I’ll be logging my progress here. Currently I’ve completed the firing and cooldown mechanics. I also sent through a thread on tribe.acord.software, however this thread will be kept up to date.
 
@@ -70,28 +70,5 @@ Links:
 5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
 
 
-<div id="graphcomment"></div>
-<script type="text/javascript">
 
-  /* - - - CONFIGURATION VARIABLES - - - */
 
-  // make sure the id is yours
-  window.gc_params = {
-    graphcomment_id: 'ac0rdsoftware',
-
-    // if your website has a fixed header, indicate it's height in pixels
-    fixed_header_height: 0,
-  };
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-
-</script>
-
-{% include graphcomments.html %}
