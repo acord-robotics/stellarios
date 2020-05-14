@@ -10,7 +10,10 @@ cover: true
 # Stellarios by AC0/RD
 <iframe src="https://gitq.com/acord-robotics" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
-<iframe src="https://forums.acord.software/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="700px" width="100%" allowfullscreen></iframe>
+<!-- not needed as this site is accessed through the forums now <iframe src="https://forums.acord.software/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="700px" width="100%" allowfullscreen></iframe>-->
+
+<iframe src="https://allianceofdroids.org.au/portal" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+
 
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
 <div id="graphcomment"></div>
