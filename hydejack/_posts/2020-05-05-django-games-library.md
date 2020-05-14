@@ -94,3 +94,5 @@ Links:
   })();
 
 </script>
+
+{% include graphcomments.html %}
