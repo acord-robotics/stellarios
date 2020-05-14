@@ -2,6 +2,8 @@ Star Sailors is a science-fiction novella loosely based off Star Wars. Read it h
 # Stellarios by AC0/RD
 <iframe src="https://gitq.com/acord-robotics" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
+<iframe src="http://allianceofdroids.org.au/portal/forums" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
 <div id="graphcomment"></div>
 <script type="text/javascript">
