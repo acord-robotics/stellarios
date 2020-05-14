@@ -19,13 +19,13 @@ baseurl:               '/stellarios'
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Stellarios
+title:                 AC0/RD
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Stellarios - by ACORD".
-  **Stellarios** is a software suite for Mac, Windows and mobile devices designed and developed by ACORD.
+  **AC0/RD** is an open source scientific software development community
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -36,8 +36,8 @@ tagline:               >
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: 
-# acordrobotics
+    shortname: acordrobotics
+# 
 
 # A list of keywords for your blog
 keywords:              []
@@ -50,7 +50,7 @@ logo:                  /assets/icons/acord.PNG
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                Liam Arbuckle
-  email:             irisdroidology@allianceofdroids.org.au
+  email:             liam@acordsoftware.tech
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -59,11 +59,11 @@ menu:
   - title:             Site Map
     url:               /compass/
   - title:             Documentation
-    url:               /docs/
+    url:               http://docs.acord.software
   - title:             Create
     url:               http://prose.io
   - title:             ACoRD Portal
-    url:               http://acord-robotics.github.io 
+    url:               http://acord.software
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -74,7 +74,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019. All rights reserved.
+copyright:             © 2015-20. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -169,7 +169,7 @@ hydejack:
   no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
-  no_push_state:       false
+  no_push_state:       true
 
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
@@ -202,7 +202,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   advertise:           false
@@ -210,7 +210,7 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            false
+    always:            true
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
@@ -300,8 +300,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+   username:            OpusTheRobot
 
 # Used for Facebook open graph
 # facebook:
