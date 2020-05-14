@@ -2,7 +2,7 @@ Star Sailors is a science-fiction novella loosely based off Star Wars. Read it h
 # Stellarios by AC0/RD
 <iframe src="https://gitq.com/acord-robotics" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
-<iframe src="http://allianceofdroids.org.au/portal/forums" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+<iframe src="http://forums.acord.software" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
 <div id="graphcomment"></div>
@@ -29,19 +29,39 @@ Star Sailors is a science-fiction novella loosely based off Star Wars. Read it h
 
 </script>
 ### Contents
-* [Back Home](http://acord-robotics.github.io/)
-* [Site Map]({{ site.baseurl }}/stellarios)
-* [SS: Earthlings](#star-sailors-earthlings)
-* [SS: Lore](#star-sailors-lore)
+
+| Project | Description | Repository | 
+|---|---|---|
+| [Root Repository]({{ site.baseurl }}/acord-robotics-github/) | The general repository | [Acord-Robotics/Acord-Robotics](https://github.com/acord-robotics) |
+| [Project Arcadia]({{ site.baseurl }}/hydejack/django/python/games/2020-05-05-django-games-library/) | Rebooting old arcade games | [Acord-Robotics/Arcadia](https://github.com/acord-robotics/arcadia) |
+
+| Area | Description | 
+|---|---|
+| [Back Home](http://acord.software) | Go home |
+| [Site Map]({{ site.baseurl }}/stellarios) | Browse everything | 
+| [SS: Earthlings](#star-sailors-earthlings) | Star Sailors Earthlings |
+<!--* [SS: Lore](#star-sailors-lore)
 	* [Alien Species](#alien-species)
     * [Vehicles](#vehicles)
     * [Space Craft & Space Projects](#spacecraft-and-space-projects)
 * [Manacaster](#manacaster)
-	* [Sign up](#sign-up)
-* [Forums](#forums)	
-* [Notes](#notes)
-* [Applets](#applets)
-* [Resources](#resources)
+	* [Sign up](#sign-up)-->
+| [Forums](#forums) | Github Discussion Forums |
+| [Notes](#notes) | Notes |
+| [Applets](#applets) | Apps part of Stellarios |
+| [Resources](#resources) | Resource list for contributing |
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Star Sailors: Earthlings
 [Everything about Earthlings]({{ site.baseurl }}/earthlings)
@@ -175,11 +195,10 @@ Chapter 9 is only on Github & ACORD, not on Wattpad
 {% include utterances.html %}
 
 ## Applets
- <!--<iframe src="https://my.replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/-->-->
+ <iframe src="https://my.replika.ai" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="100%" allowfullscreen></iframe> <!--https://acord-robotics.github.io/acord-robotics.github11/
  
  * [Replika.ai](https://replika.ai)
- * [Reddit](https://reddit.com/r/ACORDRobotics)
- * [Awesome stuff]({{ site.baseurl }}/stellarios)
+ * [Reddit](https://reddit.com/r/AC0RDSoftware)
 
 # Resources
 Contents:
