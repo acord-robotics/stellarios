@@ -9,8 +9,6 @@ published: true
 
 > After purchasing a Zenva Academy Membership, I’ve been starting to follow the Space Invaders Tutorial. I’ll be logging my progress here. Currently I’ve completed the firing and cooldown mechanics. I also sent through a thread on tribe.acord.software, however this thread will be kept up to date.
 
-{% include utterances-unity.html %}
-
 One of my main projects at the moment is a games library that will be incoporated into the Stellarios software suite. The idea behind this games library is that, like other sites like agame.com & friv.com, there will be a selection of games that users can play, however we’re taking it one step - or rather, a few steps further than that. 
 
 One of the single biggest projects in the suite is our game Star Sailors (development name Manacaster), based on a novella series I’ve been writing on and off over the past few years. One of the reasons for its importance to us is the large amount of citizen science integration that will be inserted into SS. But it’s also big for another reason.
@@ -68,7 +66,7 @@ Links:
 
 5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
 
-
+{% include utterances-unity.html %}
 
 <div id="graphcomment"></div>
 <script type="text/javascript">
