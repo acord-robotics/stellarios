@@ -2,7 +2,6 @@
 title: A Django games library
 image: /assets/img/blog/A Django games library.png
 categories: Django Python Games
-comments: true
 published: true
 ---
 
