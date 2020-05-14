@@ -202,7 +202,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   advertise:           false
@@ -210,7 +210,7 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            true
+    always:            false
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
@@ -300,8 +300,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-twitter:
-   username:            OpusTheRobot
+# twitter:
+   #username:            OpusTheRobot
 
 # Used for Facebook open graph
 # facebook:
