@@ -3,6 +3,7 @@ title: A Django games library
 image: /assets/img/blog/A Django games library.png
 categories: Django Python Games
 published: true
+comments: true
 ---
 
  <div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/rXPxI5LYyEuBJ9gnDcWo5Q/617238791736967168" data-did="69b286a2a0e25b7e62f0e64679cfaca65a3408d3"><a href="https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd">https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd</a></div>  <script async src="https://assets.tumblr.com/post.js"></script>
@@ -119,3 +120,31 @@ Links:
 </script>
 
 {% include graphcomments2.html %}
+
+<div id="graphcomment-widget"></div>
+
+<script src="https://graphcomment.com/js/widget.js"></script>
+
+<script>
+graphcommentWidget(document.getElementById('graphcomment-widget'), {
+  "graphcomment_id": "ACORD",
+  "defaultTab": "last_comments",
+  "tabs": [
+    "last_comments",
+    "top_comments",
+    "top_threads"
+  ],
+  "labels": {
+    "last_comments": "",
+    "top_comments": "",
+    "top_threads": ""
+  },
+  "period": "90 days",
+  "limit": 25,
+  "height": null,
+  "openLinksNewWindow": true,
+  "showVotes": true,
+  "locale": "en"
+});
+</script>
+    
