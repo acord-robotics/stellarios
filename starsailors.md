@@ -40,18 +40,17 @@ Star Sailors is a science-fiction novella loosely based off Star Wars. Read it h
 | [Back Home](http://acord.software) | Go home |
 | [Site Map]({{ site.baseurl }}/stellarios) | Browse everything | 
 | [SS: Earthlings](#star-sailors-earthlings) | Star Sailors Earthlings |
+| [Forums](#forums) | Github Discussion Forums |
+| [Notes](#notes) | Notes |
+| [Applets](#applets) | Apps part of Stellarios |
+| [Resources](#resources) | Resource list for contributing |
+
 <!--* [SS: Lore](#star-sailors-lore)
 	* [Alien Species](#alien-species)
     * [Vehicles](#vehicles)
     * [Space Craft & Space Projects](#spacecraft-and-space-projects)
 * [Manacaster](#manacaster)
 	* [Sign up](#sign-up)-->
-| [Forums](#forums) | Github Discussion Forums |
-| [Notes](#notes) | Notes |
-| [Applets](#applets) | Apps part of Stellarios |
-| [Resources](#resources) | Resource list for contributing |
-
-
 
 
 
