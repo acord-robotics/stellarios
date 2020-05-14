@@ -1,7 +1,7 @@
 ---
 title: AC0/RD
-comments: false
-layout: page
+comments: true
+layout: about
 ---
 
 <!--Star Sailors is a science-fiction novella loosely based off Star Wars. -->
