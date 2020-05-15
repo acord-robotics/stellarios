@@ -151,3 +151,5 @@ graphcommentWidget(document.getElementById('graphcomment-widget'), {
   })();
 
 </script>
+
+{% include newsletter.html %}
