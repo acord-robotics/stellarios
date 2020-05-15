@@ -11,13 +11,14 @@ author1:
     Stellarios is a suite of software developed by ACORD, an Australian Robotics & Science Development company.
     Stellarios includes a number of games, including Asteroid Dodgers. It also includes cool robots and hard/software designed for use in science experiments and missions.
 
+{% include newsletter.html %}
 
-    [Join ACORD](http://acord.tech/join)
+    [Join ACORD](http://acord.software)
     -- or --
     [Login & Download](http://allianceofdroids.org.au/portal/starsailors)
 
     [kit]: https://github.com/acord-robotics/stellarios
-    [contribute]: http://acord-robotics.github.io/stellarios/stellarios
+    [contribute]: http://github.com/acord-robotics
 
   # This photo will be used in the about section
   picture:
@@ -34,12 +35,12 @@ author1:
     # twitter:         ACORDRobotics
     github:          acord-robotics
     steam:           https://steamcommunity.com/id/droidology
-    reddit:          https://www.reddit.com/r/ACORDRobotics/
+    reddit:          https://www.reddit.com/r/AC0RDSoftware/
     # download:        http://github.com/acord-robotics/stellarios
-    # deviantart:      gizmotronn
-   # gitlab:          http://gitlab.com/acord-robotics/robodev/s2rd
+    deviantart:      gizmotronn
+   gitlab:          http://gitlab.com/acord-robotics/robodev/s2rd
    #  dribbble:        http://dribbble.com/gizmotronn
-    # email:           <mail@domain.tld>
+    email:           liam@acordsoftware.tech
     rss:             https://acord-robotics.github.io/stellarios/feed.xml
     # facebook:        <username>
     # google:          <number>
