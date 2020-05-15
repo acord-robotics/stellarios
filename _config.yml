@@ -169,7 +169,7 @@ hydejack:
   no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
-  no_push_state:       true
+  no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
