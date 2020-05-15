@@ -11,7 +11,7 @@ author1:
     Stellarios is a suite of software developed by ACORD, an Australian Robotics & Science Development company.
     Stellarios includes a number of games, including Asteroid Dodgers. It also includes cool robots and hard/software designed for use in science experiments and missions.
 
-{% include newsletter.html %}
+    {% include newsletter.html %}
 
     [Join ACORD](http://acord.software)
     -- or --
