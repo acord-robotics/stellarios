@@ -114,6 +114,7 @@ Read the Manacaster Texts:
 ## Resources
 * [Spaceships in Unity 2D]({{ site.baseurl }}/manacaster-spaceship)
 * [Scoring in Unity 2D]({{ site.baseurl }}/unity2dscoring)
+* [Unity tutorial]({{ site.baseurl }}/unity-intro-rw)
 
 ### Gameart
 * [Forest Pixel Art - itch.io](https://m.acord.software/bgart)
