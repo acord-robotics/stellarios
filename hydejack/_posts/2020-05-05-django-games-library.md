@@ -79,7 +79,7 @@ Links:
 
   // make sure the id is yours
   window.gc_params = {
-    graphcomment_id: 'ACORD',
+    graphcomment_id: 'ac0rdsoftware',
 
     // if your website has a fixed header, indicate it's height in pixels
     fixed_header_height: 0,
@@ -95,61 +95,3 @@ Links:
   })();
 
 </script>
-
-
-
-
-
-
-<div id="graphcomment-widget"></div>
-
-<script src="https://graphcomment.com/js/widget.js"></script>
-
-<script>
-graphcommentWidget(document.getElementById('graphcomment-widget'), {
-  "graphcomment_id": null,
-  "defaultTab": "last_comments",
-  "tabs": [
-    "last_comments",
-    "top_comments",
-    "top_threads"
-  ],
-  "labels": {
-    "last_comments": "",
-    "top_comments": "",
-    "top_threads": ""
-  },
-  "period": "90 days",
-  "limit": 25,
-  "height": null,
-  "openLinksNewWindow": true,
-  "showVotes": true,
-  "locale": "en"
-});
-</script>
-    
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-  /* - - - CONFIGURATION VARIABLES - - - */
-
-  // make sure the id is yours
-  window.gc_params = {
-    graphcomment_id: 'ACORD',
-
-    // if your website has a fixed header, indicate it's height in pixels
-    fixed_header_height: 0,
-  };
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-
-</script>
-
-{% include newsletter.html %}
