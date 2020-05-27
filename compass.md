@@ -12,10 +12,22 @@ hide_description: false
 {% include jointcomments.html %}
 
 # Contents
-* [ACORD](#ac0rd) --- Site map for ACORD
-* [Stellarios](#stellarios) --- view the updates & release history here
+## Works
+
+| Project | Description | Last post by |
+|---|---|---|
+| [ACORD](http://acord.software) | About us | Bot |
+| [Stellarios](http://acord.software/stellarios) | Our software suite | Nate |
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Solar System Explorer in CSS only" src="https://codepen.io/jcoulterdesign/embed/ZxXbeP?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/jcoulterdesign/pen/ZxXbeP'>Solar System Explorer in CSS only</a> by Jamie Coulter
+  (<a href='https://codepen.io/jcoulterdesign'>@jcoulterdesign</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 * [Works](#works) --- View our media (books, novels, etc) & works here
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
+	
+	
 * [External Sites](#external-sites) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Social](#social-media) --- Social feeds like Facebook & Twitter
 * [Readme](#logs)
@@ -25,9 +37,4 @@ hide_description: false
 View the rest of the compass here: ['Compass'](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md)
 
 <!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> -->
-
-# AC0RD
-
-
-* [ABOUT ACORD]({{ site.baseurl }}/ACORD) - Learn about us, what we do, and how to get involved
 
