@@ -14,6 +14,10 @@ title: Python Discussion
 
 As this forum grows, we'll be adding more threads and issues (the full list can be viewed [here]({{ site.baseurl }}/starsailors#coding)).
 
+<blockquote class="embedly-card" data-card-key="9c6c714bbff546b7a1ddaac5b46b8146" data-card-type="article-full"><h4><a href="https://www.reddit.com/r/ACORDRobotics/comments/gtuskp/wanting_to_improve_my_python_skills/">Wanting to improve my python skills</a></h4><p>Hi there! I've spent the last year (in between working through my last year of school and building websites) working on learning Python and increasing my skillset for when I end up at university. I've already got experience with Unity (C#) and I've gone through the basics of Python (variables, loops, functions, object oriented programming, etc).</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
 # Code Learning
 
 | Title | Repo |
