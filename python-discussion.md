@@ -29,7 +29,14 @@ As this forum grows, we'll be adding more threads and issues (the full list can 
 ## Javascript
 [Github Issue](https://github.com/acord-robotics/stellarios/issues/156#issuecomment-643233052)
 
- {% capture text-capture %}
+
+<div class="demo-thats-all-container">  
+    <div class="demo-thats-all-folks">
+      That's All Folks
+    </div>
+</div>
+
+ {% text-capture %}
 
 ```html
 
