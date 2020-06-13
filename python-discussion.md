@@ -25,3 +25,23 @@ As this forum grows, we'll be adding more threads and issues (the full list can 
 | Title | Repo |
 |---|---|
 | [Object-Oriented Programming](https://github.com/Gizmotronn/python-learning/tree/master/Applets/TWT) | Gizmotronn/Python-Learning |
+
+## Javascript
+[Github Issue](https://github.com/acord-robotics/stellarios/issues/156#issuecomment-643233052)
+
+ {% capture text-capture %}
+
+```html
+
+<div class="demo-thats-all-container">  
+    <div class="demo-thats-all-folks">
+      That's All Folks
+    </div>
+</div>
+
+\``` <!-- remove escape '\' in your code -->
+
+{% endcapture %}
+
+{% include widgets/toggle-field.html toggle-name="toggle-thats" button-text="Cod for Thats All Folks" toggle-text=text-capture  footer="cheers!" %}
+
