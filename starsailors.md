@@ -15,6 +15,8 @@ cover: true
 
 <iframe src="https://ac0rd.humhub.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
+<iframe src="https://blog.acord.software" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+
 <a class="muut" href="https://muut.com/i/ac0rdsoftware">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
 
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
