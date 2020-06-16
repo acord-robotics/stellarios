@@ -115,7 +115,26 @@ You can sign up for Star Sailors today. To sign up, you need to:
 <!--![](https://repository-images.githubusercontent.com/181161208/d0987280-2eed-11ea-99a5-24d5b8cabff1)-->
 
 
-{% include jointcomments.html %}
+<script> 
+var jv_comments_config = {
+	"website_id": "183",
+	"position": "left",
+	"is_open": "false",
+	"theme": {
+		"mainColor": "#29b2ff",
+		"textColor": "#ffffff"
+	}
+};
+
+	(function () {
+		var d = document, s = d.createElement("script");
+		s.src = "https://widget.jointcomments.com/e/embed.prod.js";
+		if (/MSIE|Trident/.test(window.navigator.userAgent)) {
+				s.src = "https://widget.jointcomments.com/e/embed.prodIE.js";
+		}
+		(d.head || d.body).appendChild(s);
+	})();
+			</script>
 
 [Back to Compass]({{ site.baseurl }}/compass)
 
