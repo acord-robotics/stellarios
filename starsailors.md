@@ -1,11 +1,10 @@
 ---
-title: AC0/RD
 comments: true
 layout: about
 cover: true
 ---
 
-<a class="muut" href="https://muut.com/i/ac0rdsoftware/comments" type="dynamic">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
+<a class="muut" href="https://muut.com/i/ac0rdsoftware">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
 
 
 <!--Star Sailors is a science-fiction novella loosely based off Star Wars. -->
