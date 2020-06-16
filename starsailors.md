@@ -65,7 +65,7 @@ cover: true
 * [Chapter 7]({{ site.baseurl }}/earth-ch-7)
 
 # Star Sailors Lore
-## Alien Species
+ Alien Species
 
 | Alien Species | Description | Planet | System | Author |
 |---|---|---|
@@ -73,6 +73,7 @@ cover: true
 | [Miydlians]({{ site.baseurl }}/lore-miydlians) | A bipedal, living crystal species from: | Midgard, | Midgardia | [Liam Arbuckle](http://larbuckle.tech) |
 
 ## Project Arcadia Lore
+
 | Game | Original Game Link | Our Lore | 
 |---|---|---|
 | Space Invaders | [Wikipedia Page](https://en.wikipedia.org/wiki/Space_Invaders) | [Galactic Defense]({{ site.baseurl }}/space-invaders.md) + [News](https://acord.software/stellarios/hydejack/django/python/games/2020-05-05-django-games-library/) |
