@@ -5,19 +5,17 @@ layout: about
 cover: true
 ---
 
+<a class="muut" href="https://muut.com/i/ac0rdsoftware/comments" type="dynamic">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
+
+<a class="muut" href="https://muut.com/i/ac0rdsoftware">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
+
 <!--Star Sailors is a science-fiction novella loosely based off Star Wars. -->
 
 # Stellarios by AC0/RD
 <iframe src="https://gitq.com/acord-robotics" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
-<iframe src="https://allianceofdroids.org.au/portal/members/gizmotronn/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+<!--<iframe src="https://ac0rd.humhub.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>-->
 
-
-<iframe src="https://ac0rd.humhub.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
-
-<iframe src="https://blog.acord.software" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
-
-<a class="muut" href="https://muut.com/i/ac0rdsoftware">ac0rdsoftware</a> <script src="//cdn.muut.com/1/moot.min.js"></script>
 
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
 
@@ -27,6 +25,8 @@ cover: true
 |---|---|---|
 | [Root Repository]({{ site.baseurl }}/acord-robotics-github/) | The general repository | [Acord-Robotics/Acord-Robotics](https://github.com/acord-robotics) |
 | [Project Arcadia]({{ site.baseurl }}/hydejack/django/python/games/2020-05-05-django-games-library/) | Rebooting old arcade games | [Acord-Robotics/Arcadia](https://github.com/acord-robotics/arcadia) |
+| [Blog & Comments](#blog) | Comments from recent posts | Stellarios/Gh-Pages |
+| [Wordpress](#wordpress) | The Wordpress frontend <!--gator4047.hostgator.com:2083--> | Acord-Robotics/Github.io |
 
 | Area | Description | 
 |---|---|
@@ -209,3 +209,9 @@ Inspiration from other space & science related projects that <AC0/RD> have under
 * [NASA JPL Open Source Rover Comp](https://github.com/acord-robotics/AWS_JPL_OSR_DRL)
 * [NASA AREEEH Challenge](https://github.com/acord-robotics/zooniverse/tree/areeeh)
 * [Stellarios]({{ site.baseurl }}/stellarios/stellarios) 
+
+# Blog
+<iframe src="https://blog.acord.software" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+
+# Wordpress
+<iframe src="https://allianceofdroids.org.au/portal/members/gizmotronn/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
