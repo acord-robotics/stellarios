@@ -23,6 +23,7 @@ As this forum grows, we'll be adding more threads and issues (the full list can 
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Note: all repos are copies to github/acord-robotics
+
 | Title | Repo | Clickup | 
 |---|---|---|
 | [Object-Oriented Programming](https://github.com/Gizmotronn/python-learning/tree/master/Applets/TWT) | Gizmotronn/Python-Learning | No clickup board |
