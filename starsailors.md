@@ -20,6 +20,8 @@ cover: true
 
 [![GitQ](https://gitq.com/badge.svg)](https://gitq.com/acord-robotics/)
 
+[![Facebook](https://img.shields.io/badge/Facebook-Group-lightgrey?style=for-the-badge&logo=facebook)](https://www.facebook.com/groups/acordsoftware)
+
 ### Contents
 
 | Project | Description | Repository | 
