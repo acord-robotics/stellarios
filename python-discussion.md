@@ -14,6 +14,9 @@ title: Python Discussion
 
 As this forum grows, we'll be adding more threads and issues (the full list can be viewed [here]({{ site.baseurl }}/starsailors#coding)).
 
+<script type="text/javascript" src="https://ac0rd.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-egccmf/b/23/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=348407e8"></script>
+
+
 
 # Code Learning
 
