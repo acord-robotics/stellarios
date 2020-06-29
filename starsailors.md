@@ -14,6 +14,16 @@ cover: true
 
 <iframe src="https://peerboard.org/297892995/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
+<script>
+var s = document.createElement('script'); s.type = "text/javascript"; s.async = true;
+s.src = "https://embedder.upraise.io/ext/widget/embed_confluence_search_init.js?widgetId=3ee2e3b0-b9fe-11ea-a5aa-73a40e7817cd&clientKey=441499f6-745c-3dd8-a494-1f28bc7105c8";
+s.onload = s.onreadystatechange = function() {
+    // can add logic to load widget or not
+    var wh = new window.embedConfluenceWidget();
+};
+var h = document.getElementsByTagName('head')[0]; h.appendChild(s);
+</script>
+
 
 
 <!--<iframe src="https://ac0rd.humhub.com/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>-->
