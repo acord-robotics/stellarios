@@ -14,7 +14,7 @@ cover: true
 
 <iframe src="https://peerboard.org/297892995/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
-<iframe src="https://community.vanila.io/ac0-rd-software" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
+<iframe src="https://acord.slite.com/app/channels/X4GfAoIZe/notes/s1EAtupwDSL" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="100%" allowfullscreen></iframe>
 
 <script>
 var s = document.createElement('script'); s.type = "text/javascript"; s.async = true;
