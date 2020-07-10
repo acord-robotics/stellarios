@@ -44,7 +44,8 @@ Note: all repos are copies to github/acord-robotics
 
 | Video | Desc | Link |
 |---|---|---|
-| [Intro to Scripting](#ITS1) | Learning about basics of scripting in Unity | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) | [Object oriented Programming](#OOP) | Learning about objects and classes in unity/C# | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) |
+| [Intro to Scripting](#ITS1) | Learning about basics of scripting in Unity | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) |
+| [Object oriented Programming](#OOP) | Learning about objects and classes in unity/C# | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) |
 
 
 #### ITS1
