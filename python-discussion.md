@@ -41,9 +41,20 @@ Note: all repos are copies to github/acord-robotics
 
 ## Unity
 ### Zenva - Intro to Unity
+
+| Video | Desc | Link |
+|---|---|---|
+| [Intro to Scripting](#ITS1) | Learning about basics of scripting in Unity | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) | [Object oriented Programming](#OOP) | Learning about objects and classes in unity/C# | [Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3) |
+
+
+#### ITS1
 **Intro to Scripting | Part 1**
 <iframe class="clickup-embed" src="https://share.clickup.com/t/h/1yur01/HFC3055EU8A4B79" frameborder="0" onmousewheel="" width="100%" height="700px" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-<!--div class="dem
-{% include widgets/toggle-field.html toggle-name="toggle-thats" button-text="Cod for Thats All Folks" toggle-text=text-capture  footer="cheers!" %}
+#### OOP
+**Object Oriented Programming**
+[Commit](https://github.com/Gizmotronn/Unity-Intro/commit/1a2d718da94d43919c9acdd7f902a0c0061acfe3)
 
+<iframe class="clickup-embed" src="https://share.clickup.com/t/h/1yur01/HFC3055EU8A4B79" frameborder="0" onmousewheel="" width="100%" height="700px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+<iframe class="clickup-embed clickup-dynamic-height" src="https://doc.clickup.com/d/h/6jy6k-499/d03a82687a8e367" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
