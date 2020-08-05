@@ -2,6 +2,7 @@
 title: July-August Updates - AC0/RD & Stellarios
 image: /img/Simple Music Icon Etsy Banner.png
 categories: Dashboard Updates
+published: true
 comments: true
 ---
 
