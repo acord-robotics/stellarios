@@ -7,7 +7,9 @@ hide_description: false
 ### Prevent character from having a value too large/too small
 
 Add this snippet just below where you define variables in the script `Stat.cs`:
+
 ```cs
+
  public float MyCurrentValue
     {
         get
@@ -35,7 +37,7 @@ Add this snippet just below where you define variables in the script `Stat.cs`:
             currentFill = currentValue / MyMaxValue;
         }
     }
-   ```
+```
     
    If we set the health (manually in the stat.cs script) to -50,000, the Debug.Log(MyCurrentValue); (this is for Health) would be set to 0, similarly, if the health was set to 50,000, the `Debug.Log(MyCurrentValue);` would set to 100, as that is the maximum defined value.
    
@@ -48,10 +50,13 @@ Add this snippet just below where you define variables in the script `Stat.cs`:
   GetInput();
   health.myCurrentValue = testValue;
   base.Update();
-}```
+}
+```
 
 ### Add health and mana to the player game object
+
 `Player.cs`
+
 ```cs
 public class Player : Character
 {
@@ -67,9 +72,13 @@ public class Player : Character
     [SerializeField]
     private Stat mana;
 ```
+
+
  By doing this ^^ we reference the health and mana objects in the Player game object, thus opening up a field to drag them in via the inspector. However, before doing this we must first initalize the values of health and mana:
  
  `Player.cs`
+ 
+ 
  ```cs
      /// <summary>
     /// The player's initialHealth
@@ -89,11 +98,13 @@ public class Player : Character
 
         base.Start();
     }
-    ```
+```
+
     
 ![](https://user-images.githubusercontent.com/31812229/89854958-d82ca200-dbc7-11ea-955a-dbb078e12f94.png)
 
 Finally, test it out by temporarily assigning a keybinding to modify the values of health and mana in the file `Player.cs`:
+
 ```cs
         base.Update();
     }
@@ -117,4 +128,4 @@ Finally, test it out by temporarily assigning a keybinding to modify the values 
             health.MyCurrentValue += 10;
             mana.MyCurrentValue += 10;
         }
-        ```
+        
