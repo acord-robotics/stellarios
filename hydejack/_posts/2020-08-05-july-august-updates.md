@@ -6,6 +6,8 @@ published: true
 comments: true
 ---
 
+# Updates 
+
 # July 2020 Updates
 ### A look at the Mars Rovers
 Originally published: https://devlog.acord.software/a-look-at-the-mars-2020-rovers-ckd9kr7gv000ryws117z2ghvr
@@ -14,5 +16,5 @@ Originally published: https://devlog.acord.software/a-look-at-the-mars-2020-rove
 
 Click on the link above to read more!
 
-More to come
-
+# August 2020 Updates
+You may have noticed that the link for the documentation on the sidebar of this website has changed. While we love Gitbook and the other documentation tools that integrate well with Git, we're carefully and cautiously switching to a github-pages powered documentation tool for *Stellarios*-related documentation. Tutorials, installs, guides, tips and more are available, and of course the full documentation for AC0/RD is not going anywhere - check it out [here](https://docs.acord.software). 
