@@ -1,27 +1,28 @@
 ---
 description: >
   The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases. The documentation is updated frequently
-hide_description: false
+hide_description: true
 permalink: /docs/
 ---
 
 # Documentation
-If you think something is missing, go to this [repo](http://github.com/acord-robotics/helpdesk) and file an issue, or send us an email at helpdesk@allianceofdroids.org.au
+Documentation describing the creation, maintenance and usage of our projects, software and hardware. Currently the following projects are available in documentation:
 
-**NOTE**: The documentation is always being updated, so if something you've posted about on the helpdesk isn't here, please be patient.
+[Arcadia](#arcadia) — Our social gaming service
+[Unnamed Unity RPG](#Unity) — Our currently unnamed RPG in Unity
+
+More coming soon!
+
+**NOTE**: The documentation is always being updated
 {:.message}
-
-Members of ACORD can [jump to the ACORD help desk](http://allianceofdroids.org.au/aod/forums/),
-or [continue reading](README.md#getting-started).
 
 # Getting started
 * [Install]{:.heading.flip-title} --- How to install and run Stellarios
 * [Support](/stellarios/support/) --- Learn how to contact us if you run into a problem
 
-## Versions
-* [Previous Versions](/stellarios/releases) --- All the previous releases of Stellarios
-* [App List](/stellarios/apps) --- What's currently part of Stellarios?
-* [Changelog]{:.heading.flip-title} --- What's been added in the updates?
+## Arcadia
+### Unity
+* [Adding health bars to RPG]{:.heading.flip-title} — How you can add health and other bars to a character in Unity
 
 # Network Docs
 * [Portal Backup Procedure]{:.heading.flip-title} --- How to create and store backups
@@ -30,7 +31,7 @@ or [continue reading](README.md#getting-started).
 [install]: install.md
 [upgrade]: upgrade.md
 [config]: config.md
-[basics]: basics.md
+[Adding health bars to RPG]: bars.md
 [writing]: writing.md
 [scripts]: scripts.md
 [build]: build.md
