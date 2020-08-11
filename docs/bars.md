@@ -105,7 +105,10 @@ public class Player : Character
 
 Finally, test it out by temporarily assigning a keybinding to modify the values of health and mana in the file `Player.cs`:
 
+
+
 ```cs
+{
         base.Update();
     }
 
@@ -129,3 +132,4 @@ Finally, test it out by temporarily assigning a keybinding to modify the values 
             mana.MyCurrentValue += 10;
         }
         
+```
