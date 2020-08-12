@@ -4,6 +4,14 @@ description: >
 hide_description: false
 ---
 
+**NOTE**: Part of a series on our unnamed Unity RPG
+{:.message}
+
+| Subject | Category | Language |
+|---|---|---|
+| [Maximum values](https://acord.software/stellarios/docs/bars/) | Health bars | C# |
+| [Initialization](https://acord.software/stellarios/docs/bars-init/) | Health bars | C# |
+
 ### Prevent character from having a value too large/too small
 
 Add this snippet just below where you define variables in the script `Stat.cs`:
