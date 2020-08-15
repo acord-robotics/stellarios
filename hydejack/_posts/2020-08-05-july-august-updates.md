@@ -10,7 +10,7 @@ comments: true
 
 # July 2020 Updates
 ### A look at the Mars Rovers
-Originally published: https://devlog.acord.software/a-look-at-the-mars-2020-rovers-ckd9kr7gv000ryws117z2ghvr
+Originally published: [Devlog.Acord.Software](https://devlog.acord.software/a-look-at-the-mars-2020-rovers-ckd9kr7gv000ryws117z2ghvr)
 
 > It’s fair to say that NASA has been at the forefront of off-world driving for a number of years now. After the Pathfinder mission in 1997, NASA’s sent 3 more rovers to the Red Planet and each of them has been extremely successful. A fifth American rover - nicknamed Perseverance - will be joining them in 9 months if - and that’s a bit if - all goes well. While one common misconception is that the primary focus, or objective of each current rover was to search for life, the Mars Perseverance Rover is the first that has the main goal to find biosignatures that signal life once existed on the surface of Mars - and may still.
 
@@ -18,3 +18,8 @@ Click on the link above to read more!
 
 # August 2020 Updates
 You may have noticed that the link for the documentation on the sidebar of this website has changed. While we love Gitbook and the other documentation tools that integrate well with Git, we're carefully and cautiously switching to a github-pages powered documentation tool for *Stellarios*-related documentation. Tutorials, installs, guides, tips and more are available, and of course the full documentation for AC0/RD is not going anywhere - check it out [here](https://docs.acord.software). 
+
+## Bite-sized updates
+* We've switched to `Notion.so` as our internal notebook, so internal logs & documentation can be found there. However, we're still using Git for logs, and the public documentation will be still be available on our [Gitbook Installation](https://docs.acord.software)
+
+* Big game development & corporate news coming soon
