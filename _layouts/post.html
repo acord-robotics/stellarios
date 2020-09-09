@@ -1,5 +1,5 @@
 ---
-# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+# Copyright (c) 2020 AC0/RD
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -28,18 +28,20 @@ layout: base
   {% when 'about' %}
      {% include components/about.html %}
   {% when 'related' %}
+    {% include components/related-posts.html post=post %}
+<h1> Technical Discussion </h1>
+    {% include utterances.html %}
+
 <div id="hyvor-talk-view"></div>
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 1927; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
-        url: '{{ page.url | absolute_url }}',
-        id: '{{page.id}}'
+        url: false,
+        id: false
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-    {% include components/related-posts.html post=post %}
-<h1> Technical Discussion </h1>
-    {% include utterances.html %}
+
   {% else %}
   {% endcase %}
 {% endfor %}
