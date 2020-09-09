@@ -28,9 +28,18 @@ layout: base
   {% when 'about' %}
      {% include components/about.html %}
   {% when 'related' %}
+<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 1927; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+        url: '{{ page.url | absolute_url }}',
+        id: '{{page.id}}'
+    };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
     {% include components/related-posts.html post=post %}
-<!--<h1> Technical Discussion </h1>
-    {% include utterances.html %}-->
+<h1> Technical Discussion </h1>
+    {% include utterances.html %}
   {% else %}
   {% endcase %}
 {% endfor %}
