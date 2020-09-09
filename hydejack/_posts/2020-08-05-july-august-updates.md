@@ -45,3 +45,12 @@ We're working on procedural generation & atari games in Unity, and also on contr
 We've switched to `Notion.so` as our internal notebook, so internal logs & documentation can be found there. However, we're still using Git for logs, and the public documentation will be still be available on our [Gitbook Installation](https://docs.acord.software). Notion can be easily accessed from the [member dashboard](https://acord.software/account/dashboard/elijah.html)
 
 
+<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 1927; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+        url: false,
+        id: false
+    };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
