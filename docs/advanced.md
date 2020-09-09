@@ -1,14 +1,14 @@
 ---
+layout: page
+title: Advanced
 description: >
   This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
 hide_description: true
+sitemap: false
 ---
 
-# Advanced
 This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
 
-## Table of Contents
-{:.no_toc}
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
@@ -17,23 +17,18 @@ Hydejack v8 introduces experimental "cache as you go" offline support. This is i
 
 Enabling this feature requires that your content meets the following criteria:
 
-* Content doesn't change between between deploys (e.g. manually adding things to `_site` etc.)
+* Content doesn't change between deploys (e.g. manually adding things to `_site` etc.)
 * All assets in `assets` are immutable, i.e. they never change (when changing a file in assets, it needs to have a new name and links need to point to the new file).
 * The site is mostly self-contained, i.e. assets are served from the same domain (offline support will not download assets form external sites by default)
 * The site is served via HTTPS (this is a Service Worker requirement)
 
-To enable this feature, create the [`sw.js`][sw] file in the root of your project and add the following content:
+To enable this feature, create a `sw.js` file in the root of your project and add the following content:
 
 ```js
 ---
 ---
-importScripts("{\{ '/assets/js/sw.js' | relative_url }\}?t={\{ site.time | date_to_xmlschema }\}");
+importScripts("{% raw %}{{ '/assets/js/service-worker.js' | relative_url }}?t={{ site.time | date_to_xmlschema }}{% endraw %}");
 ```
-
-**NOTE**: You have to remove the `\` after each `{` and before each `}`! Alternatively, you can just copy the file from [here][sw].
-{:.message}
-
-[sw]: https://github.com/qwtel/hydejack/blob/v8/sw.js
 
 This will load the main service worker script from Hydejack's assets. The `site.time` part is necessary to make the service worker "byte different" every time you create a new build of your site, which triggers an update.
 
@@ -49,7 +44,7 @@ The current implementation does not cache resources from external domains. There
 
 For example, Google Analytics uses GET requests to send page views, each of which would be cached by the service worker without this policy. Frequently updating images, such as badges would never change.
 
-![Gem Version][gemv]{:data-ignore=""}
+![Gem Version](https://badge.fury.io/rb/jekyll-theme-hydejack.svg)
 
 However, if you include resources that are hosted on another domain and don't change, you can add the `sw-cache` query parameter to the URL, e.g.
 
@@ -57,9 +52,12 @@ However, if you include resources that are hosted on another domain and don't ch
 
 This will cause them to be cached like resources from the assets folder.
 
-![57 Chevy](https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache)
+If you want to serve a file from the `assets` folder but NOT cache it for offline use, add the `no-cache` query parameter instead:
 
-[gemv]: https://badge.fury.io/rb/jekyll-theme-hydejack.svg
+    /assets/lfs/download.bin?no-cache
+
+
+![57 Chevy](https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache)
 
 
 ### How offline storage works
@@ -82,11 +80,11 @@ Other things to note are that the implementation will always cache the pages lis
 ## Adding a custom social media icon
 Hydejack includes a number of social media icons by default (in fact, everything that is provided by [IcoMoon](https://icomoon.io/)), but since the landscape is always changing, it is likely that a platform that is important to you will be missing at some point.
 
-**NOTE**: You can add any platform by simply providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used.
-{:.message}
+You can add any platform by simply providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used.
+{:.note}
 
 ### Creating the icon font
-In order to add a custom social media icon you have to use the [IcoMoon App](https://icomoon.io/app/) (free) to create a custom icon webfont. However, it is important that the generated font include all icons already in use by Hydejack. For this purpose, find the `selection.json` in [`assets/icomoon/selection.json`](https://github.com/qwtel/hydejack/blob/v6/assets/icomoon/selection.json) and upload it to the app via "Import Icons".
+In order to add a custom social media icon you have to use the [IcoMoon App](https://icomoon.io/app/) (free) to create a custom icon webfont. However, it is important that the generated font include all icons already in use by Hydejack. For this purpose, find the `selection.json` in [`assets/icomoon/selection.json`](https://github.com/hydecorp/hydejack/blob/v6/assets/icomoon/selection.json) and upload it to the app via "Import Icons".
 Then, use the app to add your icon(s).
 Consult the [IcoMoon docs](https://icomoon.io/#docs) for additional help.
 
@@ -105,7 +103,7 @@ deviantart:
 ~~~
 
 `name`
-: The name of the network. Used for for the title attribute and screen readers.
+: The name of the network. Used for the title attribute and screen readers.
 
 `icon`
 : The icon CSS class. Can be chosen during the IcoMoon creation process.
@@ -190,9 +188,9 @@ to your config file.
 ## Building the JavaScript
 In order to build the JavaScript you need to have [node.js](https://nodejs.org/en/) installed. Specifically, the `npm` command needs to be available, which is part of node.js.
 
-**NOTE**: Building the JavaScript is optional! Hydejack comes with a pre-built, minified `hydejack.js` file
+Building the JavaScript is optional! Hydejack comes with a pre-built, minified `hydejack.js` file
 that you can find in part of the theme's `assets`.
-{:.message}
+{:.note}
 
 Before you start, make sure you've copied the following files:
 * `_js/`

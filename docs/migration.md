@@ -1,16 +1,16 @@
 ---
+layout: page
+title: Migration
 description: >
   This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.
 hide_description: true
+sitemap: false
 ---
 
-# Migration
 This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.
 
 Unfortunately, upgrading form v5 and earlier is not straightforward. A lot of patterns and names have changed, motivated by a variety of reasons, including better integration with the rest of the Jekyll ecosystem and simplified workflows enabled by Jekyll Collections.
 
-## Table of Contents
-{:.no_toc}
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
@@ -73,8 +73,8 @@ You'll want to move your static assets there.
     ~~~
 
 
-**NOTE**: When making changes to `_config.yml`, it is necessary to restart the Jekyll process for the changes to take effect.
-{:.message}
+When making changes to `_config.yml`, it is necessary to restart the Jekyll process for the changes to take effect.
+{:.note}
 
 
 ### Restoring the tags
@@ -144,4 +144,4 @@ defaults:
 ### Restoring the about page
 Hydejack now has a dedicated layout for about pages.
 To use it, open `about.md` and change the `layout` in the front matter to `about`
-and delete `{\% include about-short.html author=site.author %\}`.
+and delete `{% raw %}{% include about-short.html author=site.author %}{% endraw %}`.

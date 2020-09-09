@@ -1,43 +1,16 @@
 ---
+layout: page
+title: Build
 description: >
   This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.
 hide_description: true
+sitemap: false
 ---
 
-# Build
 This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.
 
-## Table of Contents
-{:.no_toc}
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
-
-## Starter Kit
-If you're using the [starter kit](install.md#via-starter-kit), all you have to do is push your repository:
-
-```bash
-$ git add .
-$ git commit "Update"
-$ git push origin master
-```
-
-## Preparation
-
-Before building, make sure the following is part of your config file:
-
-```yml
-# file: _config.yml
-compress_html:
-  comments:  ["<!-- ", " -->"]
-  clippings: all
-  endings:   all
-
-sass:
-  style:     compressed
-```
-
-You can check out [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html) and
-<https://jekyllrb.com/docs/assets/#sassscss> for details.
 
 ## Building locally
 When building Hydejack it is important to set the environment variable `JEKYLL_ENV` to `production`.
@@ -62,7 +35,7 @@ To use the LSI, you first have to disable Hydejack's default behavior,
 by setting `use_lsi: true` under the `hydejack` key in your config file.
 
 ~~~yml
-# file: _config.yml
+# file: `_config.yml`
 hydejack:
   use_lsi: true
 ~~~
@@ -80,6 +53,15 @@ which can be deployed using the methods outlined in the [Jekyll Documentation][d
 
 
 ## GitHub Pages
+If you're using the Starter Kit for GitHub pages, all you have to do is push your repository:
+
+```bash
+$ git add .
+$ git commit "Update"
+$ git push origin master
+```
+
+<!-- ## GitHub Pages
 To deploy to GitHub Pages, the steps are:
 
 ~~~bash
@@ -98,11 +80,11 @@ $ cd ..
 `remote_branch`
 : Either `master` for "user or organization pages", or `gh-pages` for "project pages"
 
-More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/).
+More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/). -->
 
 
-Continue with [Advanced](advanced.md){:.heading.flip-title}
-{:.read-more}
+<!-- Continue with [Advanced](advanced.md){:.heading.flip-title}
+{:.read-more} -->
 
 [deploy]: https://jekyllrb.com/docs/deployment-methods/
 [lsa]: https://en.wikipedia.org/wiki/Latent_semantic_analysis

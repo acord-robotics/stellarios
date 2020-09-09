@@ -1,17 +1,17 @@
 ---
+layout: page
+title: Scripts
 description: >
   There are two ways of adding third party scripts.
   Embedding is ideal for one-off scripts, while global scripts are loaded on every page.
 hide_description: true
+sitemap: false
 ---
 
-# Scripts
 There are two ways of adding third party scripts.
 [Embedding](#embedding) is ideal for one-off scripts, e.g. `widgets.js` that is part of embedded tweets (see below).
 Adding [global scripts](#global-scripts) is for scripts that should be loaded on every page.
 
-## Table of Contents
-{:.no_toc}
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
@@ -40,7 +40,7 @@ If you have scripts that should be included on every page you can add them globa
 opening (or creating) `_includes/my-scripts.html` and adding them like you normally would:
 
 ```html
-<!-- file: _includes/my-scripts.html -->
+<!-- file: `_includes/my-scripts.html` -->
 <script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
@@ -53,9 +53,9 @@ opening (or creating) `_includes/my-scripts.html` and adding them like you norma
 When embedding scripts globally you might want to run some init code after each page load. However, the problem with push state-based page loads is that the `load` event won't fire again. Luckily, Hydejack's push state component exposes an event that you can listen to instead.
 
 ```html
-<!-- file: _includes/my-scripts.html -->
+<!-- file: `_includes/my-scripts.html` -->
 <script>
-  document.getElementsByTagName('hy-push-state')[0].addEventListener('hy-push-state-load', function() {
+  document.getElementById('_pushState').addEventListener('hy-push-state-load', function() {
     // <your init code>
   });
 </script>
@@ -84,7 +84,7 @@ If you can't make an external script work with Hydejack's push state approach to
 you can disable push state by adding to your config file:
 
 ```yml
-# file: _config.yml
+# file: `_config.yml`
 hydejack:
   no_push_state: true
 ```

@@ -1,37 +1,44 @@
 ---
+layout: page
+title: Documentation
 description: >
-  The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases. The documentation is updated frequently
+  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
-permalink: /docs/
+sitemap: false
 ---
 
-# Documentation
-Documentation describing the creation, maintenance and usage of our projects, software and hardware. Currently the following projects are available in documentation:
+Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
+Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
 
-[Arcadia](#arcadia) — Our social gaming service
-[Unnamed Unity RPG](#Unity) — Our currently unnamed RPG in Unity
+While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
+{:.note}
 
-More coming soon!
 
-**NOTE**: The documentation is always being updated
-{:.message}
+## Getting started
+* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
+* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
+{:.related-posts.faded}
 
-# Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Stellarios
-* [Support](/stellarios/support/) --- Learn how to contact us if you run into a problem
+## Using Hydejack
+* [Basics]{:.heading.flip-title} --- How to add different types of content.
+* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
+* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
+* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
+* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+{:.related-posts.faded}
 
-## Arcadia
-### Unity
-* [Adding health bars to RPG]{:.heading.flip-title} — How you can add health and other bars to a character in Unity
-
-# Network Docs
-* [Portal Backup Procedure]{:.heading.flip-title} --- How to create and store backups
-
+## Other
+* [LICENSE]{:.heading.flip-title} --- The license of this project.
+* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
+* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
+{:.related-posts.faded}
 
 [install]: install.md
 [upgrade]: upgrade.md
 [config]: config.md
-[Adding health bars to RPG]: bars.md
+[basics]: basics.md
 [writing]: writing.md
 [scripts]: scripts.md
 [build]: build.md
@@ -39,4 +46,3 @@ More coming soon!
 [LICENSE]: ../LICENSE.md
 [NOTICE]: ../NOTICE.md
 [CHANGELOG]: ../CHANGELOG.md
-[Portal Backup Procedure]: ../portalbackup.md
