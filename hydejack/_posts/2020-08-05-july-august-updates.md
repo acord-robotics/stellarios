@@ -4,6 +4,7 @@ image: /img/Simple Music Icon Etsy Banner.png
 categories: Dashboard Updates
 published: true
 comments: true
+layout: post
 ---
 
 # Updates 
