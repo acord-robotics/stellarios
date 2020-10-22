@@ -33,6 +33,11 @@ Note: all repos are copies to github/acord-robotics
 | [Python Discord Bot](https://github.com/gizmotronn/python-learning/tree/discord) | Gizmotronn/Python-Learning | [Clickup Board](https://share.clickup.com/t/h/1wvv7a/UE8XH9208HDHUS1) |
 | [Django Start](https://github.com/acord-robotics/stellarios/issues/156#issuecomment-647900439) | Gizmotronn/Django-Start | [Clickup](https://share.clickup.com/t/h/1wv8mm/QVHAJVILV1TKR1G) |
 
+
+### Django
+#### Getting started
+* [Getting started post](https://acord.software/stellarios/hydejack/2020-10-22-django-getting-started/)
+
 ### Pygame Starter Tutorial
 <iframe height="400px" width="100%" src="https://repl.it/@IrisDroidology/PyGame-Starter-Tutorial?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
