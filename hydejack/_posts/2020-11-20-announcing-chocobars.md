@@ -1,12 +1,14 @@
 ---
 title: Announcing Chocobars
-image: https://ibb.co/mTH7vk2
+image: /assets/img/Chocobars.png
 categories: Arcadia Games Python LibrariesModules 
 published: true
 comments: true
 ---
 
-![carbon.png]({{site.baseurl}}/hydejack/_posts/carbon.png)
+{% include jointcomments.html %}
+
+
 
 
 While our flagship project Arcadia is a webapp (with some games on the network being downloadable, we decided overall it would be less restrictive to rely on progressive web app architecturre), at Signal Kinetics we've become increasingly aware of the ubiquity of desktop applications, and while cloud computing does seem to be taking over, we feel it would be a mistake to disregard the lessons that local applications taught us. One of those being that the user needs to be able to find everything they need easily - with just a click of the mouse along the top of the screen. We're talking about navigation menus, of course.
