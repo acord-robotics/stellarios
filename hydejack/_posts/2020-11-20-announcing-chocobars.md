@@ -24,3 +24,4 @@ In our early mockups of the Arcadia website, we drew up sketches and mockups fea
 What we're basically saying is.....we want to create a navigation system for Arcadia that has something for everyone. Whether you're using Arcadia as the basic webapp or you're downloading it to your laptop and want to create multiple toolbars, you're going to be able to fulfill your intense navigation dreams - and this is being accomplished with PyQt. Check the repo below (soon to be amalgamated into github/acord-robotics) to see what applets we're introducing to our open-source library of toolbars, menu items and navigation drawers.
 
 ![]({{site.baseurl}}/https://gh-card.dev/repos/gizmotronn/chocobars.svg?fullname=)
+<iframe style="width: 90%; height: 100%; overflow: show;" src="https://sk.acord.software/4df182adca1e4f6387fedecb31e9d9c2" width="90" height="90" scrolling="yes">Iframes not supported</iframe>
