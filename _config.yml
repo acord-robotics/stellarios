@@ -61,7 +61,7 @@ menu:
   - title:             Documentation
     url:               /docs/
   - title:             Create
-    url:               http://prose.io
+    url:               https://dev.to/ac0rd-software
   - title:             ACoRD Portal
     url:               http://acord.software
 
