@@ -7,9 +7,7 @@ layout: about
 hide_description: false
 ---
 
-{% include utterances.html %}
 
-{% include jointcomments.html %}
 
 # Contents
 ## Works
@@ -18,6 +16,7 @@ hide_description: false
 |---|---|---|
 | [ACORD](http://acord.software) | About us | Bot |
 | [Stellarios](http://acord.software/stellarios) | Our software suite | Nate |
+| [Roleplay](#roleplay) | Discussing Arcadia/Stellarios | Bot |
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Solar System Explorer in CSS only" src="https://codepen.io/jcoulterdesign/embed/ZxXbeP?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/jcoulterdesign/pen/ZxXbeP'>Solar System Explorer in CSS only</a> by Jamie Coulter
@@ -38,3 +37,11 @@ View the rest of the compass here: ['Compass'](https://github.com/acord-robotics
 
 <!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> -->
 
+{% include utterances.html %}
+
+{% include jointcomments.html %}
+
+# Roleplay
+![[](https://img.shields.io/badge/The%20Midgard-Files-brightgreen?style=for-the-badge&logo=visual-studio-code)](https://www.notion.so/skinetics/Role-Play-f01190d8fbfd47a4ba1215dc745a9612) --- Head to the Midgardia city archives
+
+[Captain's Logs]({{ site.baseurl }}/captainslogs) --- Little snippets of the "capt'n" on his journey across the stars, inspired by No Man's Sky, Pixel Starships & Savy Soda
