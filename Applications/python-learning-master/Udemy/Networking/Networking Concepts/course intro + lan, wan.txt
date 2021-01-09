@@ -1,0 +1,19 @@
+https://www.udemy.com/course/networking-concepts-for-beginners/learn/lecture/6060530#overview
+
+LANs
+	• A Local Area Network is a group of computers and associated devices that share a common communications line or wireless link to a server
+	• A LAN includes devices and computers that are connected to a server within a small geographical landscape, for example an office building or a house
+	• Computers, and other devices can share resources
+		○ Printer
+		○ Network storage
+	• A LAN can serve one or 2 users, or hundreds
+		○ The definition does not depend on the size of the group, rather the geographical size
+
+WANs
+	• Wide Area Network
+	• Geographically dispersed telecommunications network
+	• May be privately owned or rented
+		○ However, the term WAN usually denotes shared networks (public)
+	• Computers and users can communicate with computers and users in other locations
+	• Hundreds of branches in different cities are connected with each other
+	

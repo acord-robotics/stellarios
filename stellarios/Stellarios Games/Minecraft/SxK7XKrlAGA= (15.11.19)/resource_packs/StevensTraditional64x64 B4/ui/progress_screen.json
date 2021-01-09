@@ -1,0 +1,75 @@
+{
+  "namespace": "progress",
+  
+
+  "empty_progress_bar": {
+    "type": "image",
+    "texture": "textures/gui/icons",
+	"uv": [ 0, 128 ],
+	"uv_size": [ 372, 10 ],
+	"nineslice_size": [ 0.0, 0.0, 0.0, 0.0 ]
+  },
+  
+  "full_progress_bar": {
+    "type": "image",
+    "texture": "textures/gui/icons",
+	"uv": [ 0, 138 ],
+	"uv_size": [ 372, 10 ],
+	"nineslice_size": [ 0.0, 0.0, 0.0, 0.0 ],
+    "clip_direction": "left",
+    "clip_pixelperfect": false,
+    "bindings": [
+      {
+        "binding_name": "#exp_progress",
+        "binding_name_override": "#clip_ratio",
+        "binding_type": "global"
+      }
+    ]
+  },
+
+  "progress_bar_nub": {
+    "type": "image",
+    "texture": "textures/gui/achievements/notnub",
+	"uv": [ 0, 0 ],
+	"uv_size": [ 11, 5 ],
+	"tiled": false
+  },
+  
+  "fancy_progress_loading_bars": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ "90%", 5 ],
+    "layer": 5,
+    "controls": [
+      {
+        "full_progress_bar@progress.full_progress_bar": {
+          "layer": 2,
+          "bindings": [
+            {
+              "binding_name": "#loading_bar_percentage",
+              "binding_name_override": "#clip_ratio"
+            }
+          ]
+        }
+      },
+      {
+        "empty_progress_bar@progress.empty_progress_bar": {
+          "layer": 1
+        }
+      },
+      {
+        "progress_bar_nub@progress.progress_bar_nub": {
+          //"size": [ "100% - 10px", 5 ],
+          "layer": 4
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#loading_bar_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  }
+}

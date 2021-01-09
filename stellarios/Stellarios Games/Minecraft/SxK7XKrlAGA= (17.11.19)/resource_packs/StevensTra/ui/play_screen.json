@@ -1,0 +1,43 @@
+{
+  "namespace": "play",
+
+  "close_navigation_tab": {
+    "type": "panel",
+    "controls": [
+      {
+        "background@play.X_tab_back": {
+		  "offset": [ -4, 0 ]
+		}
+      },
+      {
+        "x_image@common.close_button": {
+          "layer": 1,
+          "offset": [ 0, -1 ],
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+  
+  "default_tab_navigation_panel_layout@play.common_tab_navigation_panel_layout": {
+    "offset": [ 4, 0 ],
+    "controls": [
+      {
+        "world_navigation_tab@play.world_navigation_tab": {
+          "size": [ "33%", "86%" ]
+        }
+      },
+      {
+        "friends_navigation_tab@play.friends_navigation_tab": {
+          "size": [ "33%", "86%" ]
+        }
+      },
+      {
+        "server_navigation_tab@play.server_navigation_tab": {
+          "size": [ "33%", "86%" ]
+        }
+      }
+    ]
+  }
+}

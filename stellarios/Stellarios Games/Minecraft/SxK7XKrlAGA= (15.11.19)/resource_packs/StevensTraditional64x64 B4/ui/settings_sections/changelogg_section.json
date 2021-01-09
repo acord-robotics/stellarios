@@ -1,0 +1,225 @@
+{
+  "namespace": "changelogg_section",
+
+  "title_label": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "color": "$a_color_format",
+    "shadow": true,
+    "offset": [ 15, 0 ]
+  },
+
+  "link_label": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "color": [ 1.0, 1.0, 0.333 ],
+    "offset": [ 15, 0 ]
+  },
+
+  "changelogg_button@settings_common.section_toggle_base": {
+    "$toggle_view_binding_name": "changelogg_button_toggle",
+    "$glyph_texture": "textures/ui/changelogg_image",
+    "$glyph_color_texture": "textures/ui/changelogg_image",
+    "$glyph_size": [ 16, 16 ],
+    "$button_text": "options.changelogg",
+    "$toggle_property_bag": {
+      "#panel_title": "options.changeloggtitle"
+    }
+  },
+
+  "changelogg_section": {
+    "type": "stack_panel",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "changelogg_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "spacer_0": {
+          "type": "panel",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "spacer_1": {
+          "type": "panel",
+          "size": [ 0, 6 ]
+        }
+      },
+      {
+        "selector_group_lable_0@settings_common.selector_group_label": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "text": "§aSteven's Tradidional 64x Bedrock Edition"
+        }
+      },
+      {
+        "selector_group_lable_1@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text1"
+        }
+      },
+      {
+        "spacer_2": {
+          "type": "panel",
+          "size": [ 0, 12 ]
+        }
+      },
+      {
+        "title_label_0@changelogg_section.title_label": {
+          "text": "resourcepack.stetraditional.changelogg.text2"
+        }
+      },
+      {
+        "spacer_3": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "selector_group_lable_2@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text3"
+        }
+      },
+      {
+        "selector_group_lable_3@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text4"
+        }
+      },
+    //Forgot to change this i can't count lol
+      {
+          "selector_group_lable_18@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text5"
+        }
+      },
+      {
+        "selector_group_lable_4@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text6"
+        }
+      },
+      {
+        "selector_group_lable_5@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text7"
+        }
+      },
+      {
+        "selector_group_lable_6@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text8"
+        }
+      },
+      {
+        "selector_group_lable_7@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text9"
+        }
+      },
+      {
+        "selector_group_lable_8@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text10"
+        }
+      },
+      {
+        "selector_group_lable_9@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text11"
+        }
+      },
+      {
+        "selector_group_lable_10@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text12"
+        }
+      },
+      {
+        "selector_group_lable_11@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text13"
+        }
+      },
+      {
+        "selector_group_lable_12@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text14"
+        }
+      },
+      {
+        "selector_group_lable_13@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text15"
+        }
+      },
+      {
+        "selector_group_lable_14@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text16"
+        }
+      },
+      {
+        "selector_group_lable_15@settings_common.selector_group_label": {
+          "text": "resourcepack.stetraditional.changelogg.text17"
+        }
+      },
+      {
+        "spacer_4": {
+          "type": "panel",
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "link_label_0@changelogg_section.link_label": {
+          "text": "§aSteven's Tradidional 64x Bedrock Edition"
+        }
+      },
+      {
+        "spacer_5": {
+          "type": "panel",
+          "size": [ 0, 3 ]
+        }
+      },
+      {
+        "link_label_1@changelogg_section.link_label": {
+          "text": "http://mcpedl.com/stevens-traditional/"
+        }
+      },
+     {
+        "spacer_6": {
+          "type": "panel",
+          "size": [ 0, 5 ]
+        }
+      },
+      {
+        "link_label_2@changelogg_section.link_label": {
+          "text": "pack.version.packinformationlabel"
+        }
+      },
+      {
+        "link_label_3@changelogg_section.link_label": {
+          "text": "pack.version.name"
+        }
+      },
+      {
+        "link_label_4@changelogg_section.link_label": {
+          "text": "pack.version.name2"
+        }
+      },
+      {
+        "link_label_5@changelogg_section.link_label": {
+          "text": "pack.version.name3"
+        }
+      },
+      {
+        "spacer_7": {
+          "type": "panel",
+          "size": [ 0, 12 ]
+        }
+      },
+      {
+        "spacer_8": {
+          "type": "panel",
+          "size": [ 0, 8 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

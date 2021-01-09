@@ -1,0 +1,61 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/torch_on",
+    "atlas_tile": "torch_on",
+    "frames": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/diamond_ore",
+    "atlas_tile": "diamond_ore",
+    "frames": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/redstone_ore",
+    "atlas_tile": "redstone_ore",
+    "frames": [ 0, 1, 2, 3, 2, 1 ],
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/quartz_ore",
+    "atlas_tile": "quartz_ore",
+    "frames": [ 0, 1, 2, 3, 2, 1 ],
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/redstone_block",
+    "atlas_tile": "redstone_block",
+    "frames": [ 0, 1, 2, 3, 2, 1 ],
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/stonecutter_top",
+    "atlas_tile": "stonecutter_top",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+  },
+  {
+    "flipbook_texture": "textures/blocks/furnace_front_on",
+    "atlas_tile": "furnace_front_on",
+    "frames": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+},
+{
+  "flipbook_texture": "textures/blocks/blast_furnace_front_on",
+  "atlas_tile": "blast_furnace_front_on",
+  "ticks_per_frame": 10
+},
+{
+  "flipbook_texture": "textures/blocks/campfire",
+  "atlas_tile": "campfire_fire",
+  "ticks_per_frame": 2
+},
+{ 
+  "flipbook_texture": "textures/blocks/lantern",
+  "atlas_tile": "lantern",
+  "ticks_per_frame": 8
+},
+{
+  "flipbook_texture": "textures/blocks/stonecutter2_saw",
+  "atlas_tile": "stonecutter2_saw",
+  "frames": [ 0, 1, 0, 2, 1, 0],
+  "ticks_per_frame": 1
+}
+]

@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "reddye", "count" : 3 },
+    { "item" : "yellowdye", "count" : 3 },
+    { "item" : "bluedye", "count" : 3 },
+    { "item" : "logblock", "count" : 10 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "clay", "count" : 100 }
+ 
+  ],
+  "output" : {
+    "item" : "figurinescrafting",
+    "count" : 1
+  },
+  "duration" : 0.1,
+  "groups" : [ "inventorstable", "all" ]
+}
