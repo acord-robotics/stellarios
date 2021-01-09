@@ -1,5 +1,8 @@
 # ACORD ROBOTICS/Stellarios
 
+[![Join the chat at https://gitter.im/ACORD-Robotics/stellarios](https://badges.gitter.im/ACORD-Robotics/stellarios.svg)](https://gitter.im/ACORD-Robotics/stellarios?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 ![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)
 
 ![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)
