@@ -2,9 +2,12 @@
 title: Signal Kompass
 image: /assets/img/blog/wade-lambert.jpg
 description: >
-  This is a dedicated site for the software suite known as Stellarios. On the site map, you can view all the versions of Stellarios, find out about ACORD, and more.
+  This is a dedicated site for the software suite known as Stellarios. On the
+  site map, you can view all the versions of Stellarios, find out about ACORD,
+  and more.
 comments: true
 layout: about
+published: true
 ---
 
 
@@ -17,6 +20,7 @@ layout: about
 | [ACORD](http://acord.software) | About us | Bot |
 | [Stellarios](http://acord.software/stellarios) | Our software suite | Nate |
 | [Roleplay](#roleplay) | Discussing Arcadia/Stellarios | Bot |
+| [Documentation](https://acord.software/stellarios/docs/) | Documents for SK | Notion |
 
 
 
