@@ -2,37 +2,25 @@
 title: Signal Kompass
 image: /assets/img/blog/wade-lambert.jpg
 description: >
-  This is a dedicated site for the software suite known as Stellarios. On the
-  site map, you can view all the versions of Stellarios, find out about ACORD,
+  This is a dedicated site for the software suite known as Arcadia
   and more.
 comments: true
 layout: about
 published: true
 ---
 
-
-
-# Contents
-## Works
-
-| Project | Description | Last post by |
+# Actions
+| Project | Org | Action |
 |---|---|---|
-| [ACORD](http://acord.software) | About us | Bot |
-| [Stellarios](http://acord.software/stellarios) | Our software suite | Nate |
-| [Roleplay](#roleplay) | Discussing Arcadia/Stellarios | Bot |
-| [Documentation](https://acord.software/stellarios/docs/) | Documents for SK | Notion |
+| [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
+
 
 
 
 * [Works](#works) --- View our media (books, novels, etc) & works here
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
-	
-	
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
-* [Social](#social-media) --- Social feeds like Facebook & Twitter
-* [Readme](#logs)
-* [Repository Info](#gh-pages-readme)
-* [Issues & Pull Requests]({{ site.baseurl }}/manacaster#development-log)
+
 
 View the rest of the compass here: ['Compass'](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md)
 
@@ -46,7 +34,7 @@ View the rest of the compass here: ['Compass'](https://github.com/acord-robotics
 [Homepage](https://acord.software)
 [Dev Talk](https://devlog.acord.software)
 [KinetiKast - coming soon](https://kinetikast.co)
-
+<!--
 # Roleplay
 ![[](https://img.shields.io/badge/The%20Midgard-Files-brightgreen?style=for-the-badge&logo=visual-studio-code)](https://www.notion.so/skinetics/Role-Play-f01190d8fbfd47a4ba1215dc745a9612) --- Head to the Midgardia city archives
 
@@ -62,3 +50,4 @@ Information & resources for the citizen science aspect of Arcadia (our game serv
 
 * [NASA API HTTP Request](https://www.notion.so/skinetics/NASA-API-HTTP-Request-51d843d2d8954138a167da60fc215eed)
 * [Roleplay](#roleplay)
+-->
