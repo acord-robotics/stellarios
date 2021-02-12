@@ -9,17 +9,10 @@ layout: about
 published: true
 ---
 
-# Actions
-| Project | Org | Action |
-|---|---|---|
-| [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
 
-| Project | Description | Last post by |
+| Project | Org | Action/Package |
 |---|---|---|
-| [ACORD](http://acord.software) | About us | Bot |
-| [Stellarios](http://acord.software/stellarios) | Our software suite | Nate |
-| [Roleplay](#roleplay) | Discussing Arcadia/Stellarios | Bot |
-| [Documentation](https://acord.software/stellarios/docs/) | Documents for SK | Notion [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
+| [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
 
 
 * [Works](#works) --- View our media (books, novels, etc) & works here
