@@ -50,7 +50,7 @@ logo:                  /assets/img/acordminimallogo.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                Liam Arbuckle
-  email:             liam@acordsoftware.tech
+  email:             liam@skinetics.tech
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -59,11 +59,11 @@ menu:
   - title:             Site Map
     url:               /compass/
   - title:             Documentation
-    url:               /docs/
+    url:               https://sk.acord.software
   - title:             Create
     url:               https://dev.to/ac0rd-software
-  - title:             ACoRD Portal
-    url:               http://acord.software
+  - title:             Login
+    url:               http://acord.software/login/login
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -74,7 +74,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2015-20 AC0/RD. All rights reserved.
+copyright:             © 2015-21 AC0/RD. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -149,7 +149,7 @@ defaults:
 disqus:                acordrobotics
 
 # Setting a tinyletter username will enable the newsletter subscription box.
-# tinyletter:            <tinyletter_username>
+# tinyletter:            ACORD
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
