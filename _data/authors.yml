@@ -3,13 +3,12 @@
 # Change `author1` to your shortname.
 author1:
   name:              Liam Arbuckle
-  email:             irisdroidology@allianceofdroids.org.au
+  email:             liam@skinetics.tech
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Stellarios is a suite of software developed by ACORD, an Australian Robotics & Science Development company.
-    Stellarios includes a number of games, including Asteroid Dodgers. It also includes cool robots and hard/software designed for use in science experiments and missions.
+    Stellarios, now known as Arcadia is a suite of software developed by ACORD, an Australian Robotics & Science Development company.
 
     {% include newsletter.html %}
 
@@ -34,13 +33,13 @@ author1:
   social:
     # twitter:         ACORDRobotics
     github:          acord-robotics
-    steam:           https://steamcommunity.com/id/droidology
-    reddit:          https://www.reddit.com/r/AC0RDSoftware/
+   # steam:           https://steamcommunity.com/id/droidology
+   # reddit:          https://www.reddit.com/r/AC0RDSoftware/
     # download:        http://github.com/acord-robotics/stellarios
-    #deviantart:      gizmotronn
+    deviantart:      gizmotronn
     #gitlab:          http://gitlab.com/acord-robotics/robodev/s2rd
-   #  dribbble:        http://dribbble.com/gizmotronn
-    email:           liam@acordsoftware.tech
+    dribbble:        http://dribbble.com/gizmotronn
+    email:           liam@skinetics.tech
     rss:             https://acord-robotics.github.io/stellarios/feed.xml
     # facebook:        <username>
     # google:          <number>
