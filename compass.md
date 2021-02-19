@@ -13,7 +13,7 @@ published: true
 | Project | Org | Action/Package |
 |---|---|---|
 | [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
-| [Elearning Applet]({{ site.baseurl }}/docs/Elearning) | [Github/Signal-K](https://github.com/signal-k/elearning) | GH Pages: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
+| [Elearning Applet]({{ site.baseurl }}/docs/elearning) | [Github/Signal-K](https://github.com/signal-k/elearning) | GH Pages: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
 
 
 * [Works](#works) --- View our media (books, novels, etc) & works here
@@ -23,16 +23,7 @@ published: true
 
 View the rest of the compass here: ['Compass'](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md)
 
-<!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe> -->
-
-{% include utterances.html %}
-
-{% include jointcomments.html %}
-
-# External
-[Homepage](https://acord.software)
-[Dev Talk](https://devlog.acord.software)
-[KinetiKast - coming soon](https://kinetikast.co)
+<!--<iframe src="http://i.simmer.io/@Gizmotronn/stellarios-star-sailors" style="width:960px;height:600px"></iframe>
 <!--
 # Roleplay
 ![[](https://img.shields.io/badge/The%20Midgard-Files-brightgreen?style=for-the-badge&logo=visual-studio-code)](https://www.notion.so/skinetics/Role-Play-f01190d8fbfd47a4ba1215dc745a9612) --- Head to the Midgardia city archives
@@ -49,4 +40,13 @@ Information & resources for the citizen science aspect of Arcadia (our game serv
 
 * [NASA API HTTP Request](https://www.notion.so/skinetics/NASA-API-HTTP-Request-51d843d2d8954138a167da60fc215eed)
 * [Roleplay](#roleplay)
--->
+--> -->
+
+{% include utterances.html %}
+
+{% include jointcomments.html %}
+
+# External
+[Homepage](https://acord.software)
+[Dev Talk](https://devlog.acord.software)
+[KinetiKast - coming soon](https://kinetikast.co)
