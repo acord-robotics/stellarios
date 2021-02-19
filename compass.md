@@ -13,6 +13,7 @@ published: true
 | Project | Org | Action/Package |
 |---|---|---|
 | [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
+| [Elearning Applet]({{ site.baseurl }}/docs/Elearning) | [Github/Signal-K](https://github.com/signal-k/elearning) | GH Pages: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
 
 
 * [Works](#works) --- View our media (books, novels, etc) & works here
