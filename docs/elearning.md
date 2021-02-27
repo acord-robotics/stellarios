@@ -40,10 +40,23 @@ What we now need to work out is if the login/signup stuff has the same problem, 
 
 2. Integrating the design mockup done by [@artpassos](https://github.com/orgs/acord-robotics/people/artpassos) into the flask setup results in some broken pages. I've got a plan to turn those mockups from shoelace into react (ooooh a converter would be cool! maybe not specifically from react though) or at the very least into `/static` files that flask can work with. 
 
+## 27th February 2021
+It's gotten to the point where it's highly unlikely we'll be able to get much finished by the deadline but it was great fun to participate and we've learnt a lot about the structure and future flow of this platform, which we'll continue to work on. We'll still write an article on hashnode (and maybe their discord flow as well) with the required hashtag to generate some interest, show what we've done and prepare for the future. We've got some templates and the flow worked out, which has been amazing to see. 
 
+-[L](https://github.com/gizmotronn)
+
+## Issues/Tasks
+[AAH2-25: Allow users to get updates on the latest courses](https://signal-kinetics.atlassian.net/browse/AAH2-25?atlOrigin=eyJpIjoiNTNjY2ZiMDgwYzExNGZhOWFlMDFjY2FhNDhmOTExYzciLCJwIjoiaiJ9)
+Something a lot of elearning platforms have is an option for users (student users) to "subscribe" to content creators to get updates on new courses, as well as a global newsletter for new courses (I'm thinking of implementing something like the OneSignal "categories" where users can choose what notifications they want to get access to). I'm following https://dev.to/xinnks/sending-contact-form-messages-to-your-email-inbox-278 (this) to create a contact form for users to contact the teachers and also the creators (us) of this elearning software. This is something that I feel will be really useful as it opens up user engagement and paves the way for that engagement to turn into a comments form as well, which users will be able to then subscribe to, possibly link their account and newsletter/notifications to as well. 
+
+I'm not really sure how this would work (it seems like a cool idea for our currently shelved "Notification shelf" app that Rishabh and I came up with last year) but maybe editing the OneSignal service worker to integrate with your account could be an option?
+
+[AAH2-19: Render videos](https://signal-kinetics.atlassian.net/browse/AAH2-19?atlOrigin=eyJpIjoiOTg0ZDk1OWEzMzY3NDg1ZWIxZTg4YmIzY2ZjYjk2N2EiLCJwIjoiaiJ9)
 
 # Actions
 [![](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309)
+
+See [compass]({{ site.baseurl }}/compass) for the full list of actions
 
 
 # Articles
