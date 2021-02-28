@@ -155,8 +155,8 @@ See [compass]({{ site.baseurl }}/compass) for the full list of actions
 
 | File | Description | Issue # |
 |---|---|---
-| Full Figma Export | All the html files/pages, designed in Figma, for this iteration of the project | [#12](https://github.com/Signal-K/elearning/pull/12#issue-581465144) |
-| Login function (old) | A login/signup form with limited database functionality with Flask (part of learning/prototyping) | [#11](https://github.com/Signal-K/elearning/tree/main/loginapp) |
+| Full Figma [Export](https://github.com/Signal-K/elearning/pull/13) | All the html files/pages, designed in Figma, for this iteration of the project | [#12](https://github.com/Signal-K/elearning/pull/12#issue-581465144) |
+| Login function (old) | A login form with limited database functionality with Flask (part of learning/prototyping) | [#11](https://github.com/Signal-K/elearning/tree/main/loginapp) |
 
 
 # Articles
