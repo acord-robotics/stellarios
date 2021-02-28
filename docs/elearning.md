@@ -19,13 +19,36 @@ Still to do:
 -->
 
 ## Contents
+* [About the app](#about)
 * [Updates](#updates)
 	* [What we've got](#current-state)
-* [Actions](#actions)
+* [Git[hub]Actions, Workflows & Files](#actions)
 * [Articles](#articles)
 
 
+# About
+*Written by [@artpassos](https://github.com/artpassos)*
+***Tools, front-end and libraries***
 
+The app was design using Figma and the front-end in Microsoft Studio Code (unfortunately just the login screen for now).  The first choice was to customise elements from the sholace.style library.  Shoelace is very light and works smoothly across any web application and it is likely that we will be trying to bring this library into SK’s eLearning platform to cut development time.
+
+Another library used for illustrations,  that I highly recommend is [Undraw.co](http://undraw.co) . There are some very useful illustrations and all of them are in vector format, which allow us to edit each layer of the illustration. 
+
+***User flow***
+
+There is not much about to say about the user flow. It is very intuitive, simple and not different than other eLearning platforms or even social media. The idea is to make the platform easy to use and manage, accessible to every level of familiarity with webapps and the internet.  The user can create a new account by defining a user account (no email necessary) or login into an existing account. Also, users can be invited by content creators to the platform via email or by a shared link.
+
+The first screen that the user see is a dashboard to monitor progress and access the courses enrolled.  Relevant information such as percentual of courses completed and access to the latest courses, displayed at the beginning of the list.  For content creators, or teachers, the courses created by them will be available on the dashboard.  Information about each course will be presented, such as the number of students enrolled, engagement and if the course is published - available for search in the platform.  Users can also explore other courses by accessing the tab *Explore*, giving it more opportunities develop new skills.
+
+Courses have no limit in the number of chapters or individual lessons.  Chapters can contain videos, quizzes, tests, text or zip files to be downloaded by the user – resources for instance.  Each course can also have deadlines by chapters or the whole course.  The course structure is very flexible, accommodating any type of subject.
+
+***Visual identity (the fun part!)***
+
+The general visual identity of the application reflects what is trending in the web/app development, making it friendly and visually pleasant to any type of user.  In order to make the application easy to navigate, many design principles are applied. For instance, most elements, including typography, present elements with smooth edges, following a principle called contour bias.  This principle states that element with round edges can be perceived as *friendly,* and therefore, can make the user more comfortable using the application.
+
+Back to typography, the main font used is an open-source Sans-Serif from Google Fonts with smooth edges called *Open Sans.*  To create contrast, another Google Font with serif, creating balance and a visual balance among elements that represent different level of information.
+
+A light pastel colour scheme also features the platform, avoiding eyes strain and reinforcing the *friendly* image of the application. These colours are also presented in gradients, a recent trend in the market.  This also complement the idea of *fun* and *friendly* represented in other elements in the composition.
 
 # Updates
 ## 20-22nd February 2021
@@ -129,6 +152,11 @@ I'm not really sure how this would work (it seems like a cool idea for our curre
 [![](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309)
 
 See [compass]({{ site.baseurl }}/compass) for the full list of actions
+
+| File | Description | Issue # |
+|---|---|---
+| Full Figma Export | All the html files/pages, designed in Figma, for this iteration of the project | [#12](https://github.com/Signal-K/elearning/pull/12#issue-581465144) |
+| Login function (old) | A login/signup form with limited database functionality with Flask (part of learning/prototyping) | [#11](https://github.com/Signal-K/elearning/tree/main/loginapp) |
 
 
 # Articles
