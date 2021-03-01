@@ -161,3 +161,4 @@ See [compass]({{ site.baseurl }}/compass) for the full list of actions
 
 # Articles
 [![](https://img.shields.io/badge/-Introduction-yellow?style=for-the-badge&logo=dev.to)](https://dev.to/ac0rd-software/elearning-platform-e9d)
+[Hackathon Complete - 1/3/2021](https://dev.to/ac0rd-software/hashnode-elearning-platform-aws-amplify-2021-challenge-2a7f)
