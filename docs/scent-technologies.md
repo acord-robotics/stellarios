@@ -1,2 +1,6 @@
 # Scent Technologies
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;"><iframe src="https://glitch.com/embed/#!/embed/scent-technologies?path=README.md&previewSize=0"title="scent-technologies on Glitch"allow="geolocation; microphone; camera; midi; vr; encrypted-media"style="height: 100%; width: 100%; border: 0;"></iframe></div> 
+<iframe src="https://glitch.com/embed/#!/embed/scent-technologies?path=README.md&previewSize=0"title="scent-technologies on Glitch" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="80%" width="80%" allowfullscreen></iframe>
+
+[Repo](https://github.com/signal-k/st)
+
+.
