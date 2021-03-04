@@ -14,6 +14,9 @@ published: true
 | [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
 | [Elearning Applet]({{ site.baseurl }}/docs/elearning) | [Github/Signal-K](https://github.com/signal-k/elearning) | GH Pages: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
 | [Scent Technologies]({{ site.baseurl }}/docs/scent-technologies) | [Github/Signal-k](https://github.com/signal-k/) | [![!CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://signal-kinetics.atlassian.net/jira/software/projects/DSP/boards/5/backlog?selectedIssue=DSP-18) |
+| [Unity RPG Building](https://github.com/acord-robotics/unity-intro) | [Github/Acord-Robotics](https://github.com/acord-robotics) | Unity: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
+
+<!--need to update runs so it links to the most recent action run, also readmes need to be in the docs! Links to repos in the docs pages -->
 
 
 * [Works](#works) --- View our media (books, novels, etc) & works here
