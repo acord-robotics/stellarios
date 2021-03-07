@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://acord-robotics.github.io/
+url:                   http://ar.skinetics.tech
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -58,12 +58,12 @@ author:
 menu:
   - title:             Site Map
     url:               /compass/
-  - title:             Documentation
-    url:               https://sk.acord.software
+  #- title:             Documentation
+  #  url:               https://sk.acord.software
   - title:             Create
     url:               https://dev.to/ac0rd-software
   - title:             Login
-    url:               http://acord.software/login/login
+    url:               http://ar.skinetics.tech/login/login
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
