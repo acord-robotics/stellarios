@@ -14,7 +14,7 @@ published: true
 | [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
 | [Elearning Applet]({{ site.baseurl }}/docs/elearning) | [Github/Signal-K](https://github.com/signal-k/elearning) | GH Pages: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/Signal-K/elearning/runs/1932367309) |
 | [Scent Technologies]({{ site.baseurl }}/docs/scent-technologies) | [Github/Signal-k](https://github.com/signal-k/) | [![!CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://signal-kinetics.atlassian.net/jira/software/projects/DSP/boards/5/backlog?selectedIssue=DSP-18) |
-| [Unity RPG Building](https://github.com/acord-robotics/unity-intro) | [Github/Acord-Robotics](https://github.com/acord-robotics) | Unity: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md)) |
+| [Unity RPG Building](https://github.com/acord-robotics/unity-intro) | [Github/Acord-Robotics](https://github.com/acord-robotics) | Unity: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md) |
 | [Individual Project Snippets](https://larbuckle.glitch.me) | [Glitch/Signal-K*inetics*](https://glitch.com/@signal-kinetics) | <!--src="https://glitch.com/embed/#!/embed/larbuckle?path=index.html&previewSize=0"--> Glitch: [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://glitch.com/@signal-kinetics) |
 
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
@@ -45,11 +45,11 @@ Information & resources for the citizen science aspect of Arcadia (our game serv
 
 * [NASA API HTTP Request](https://www.notion.so/skinetics/NASA-API-HTTP-Request-51d843d2d8954138a167da60fc215eed)
 * [Roleplay](#roleplay)
---> 
+
 
 {% include utterances.html %}
 
-{% include jointcomments.html %}
+{% include jointcomments.html %}-->
 
 # External
 [Homepage](https://acord.software)
