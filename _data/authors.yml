@@ -8,37 +8,37 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Stellarios, now known as Arcadia is a suite of software developed by ACORD, an Australian Robotics & Science Development company.
+    Signal Kinetics is an open-source scientific development community creating and powering the new scientific revolution
 
-    {% include newsletter.html %}
+    #{% include newsletter.html %}
 
-    [Join ACORD](http://acord.software)
+    [Join ACORD](http://ar.skinetics.tech/login/login)
     -- or --
-    [Login & Download](http://allianceofdroids.org.au/portal/starsailors)
+    [Login & Download](http://ar.skinetics.tech/account)
 
-    [kit]: https://github.com/acord-robotics/stellarios
+    [kit]: https://larbuckle.glitch.me
     [contribute]: http://github.com/acord-robotics
 
   # This photo will be used in the about section
   picture:
-    path:            https://i2.wp.com/blog.allianceofdroids.org.au/wp-content/uploads/2019/02/cropped-ACORD-Sq.png
+    path:            https://media-exp1.licdn.com/dms/image/C5603AQHtM1EpxGAkQw/profile-displayphoto-shrink_200_200/0/1606301008833?e=1621468800&v=beta&t=wcHx9dWTLH0wuXT39JNF9pPI5YIzr7NxGengnnNJ_qo
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://i2.wp.com/blog.allianceofdroids.org.au/wp-content/uploads/2019/02/cropped-ACORD-Sq.png
-      2x:            https://i2.wp.com/blog.allianceofdroids.org.au/wp-content/uploads/2019/02/cropped-ACORD-Sq.png
+      1x:           https://media-exp1.licdn.com/dms/image/C5603AQHtM1EpxGAkQw/profile-displayphoto-shrink_200_200/0/1606301008833?e=1621468800&v=beta&t=wcHx9dWTLH0wuXT39JNF9pPI5YIzr7NxGengnnNJ_qo
+      2x:            https://media-exp1.licdn.com/dms/image/C5603AQHtM1EpxGAkQw/profile-displayphoto-shrink_200_200/0/1606301008833?e=1621468800&v=beta&t=wcHx9dWTLH0wuXT39JNF9pPI5YIzr7NxGengnnNJ_qo
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
     # twitter:         ACORDRobotics
-    github:          acord-robotics
+    github:          signal-k
    # steam:           https://steamcommunity.com/id/droidology
    # reddit:          https://www.reddit.com/r/AC0RDSoftware/
     # download:        http://github.com/acord-robotics/stellarios
-    deviantart:      gizmotronn
+    #deviantart:      gizmotronn
     #gitlab:          http://gitlab.com/acord-robotics/robodev/s2rd
-    dribbble:        http://dribbble.com/gizmotronn
+    #dribbble:        http://dribbble.com/gizmotronn
     email:           liam@skinetics.tech
     rss:             https://acord-robotics.github.io/stellarios/feed.xml
     # facebook:        <username>
@@ -64,7 +64,7 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    # stackoverflow:   <number/username>
+    stackoverflow:   12364070/liam-arbuckle
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
@@ -79,12 +79,10 @@ author1:
 # Another author (optional)
 author2:
   name:              Liam
-  email:             liam.chairman@allianceofdroids.org.au
+  email:             liam@skinetics.tech
   about:             |
-    I'm the Chairman & Co-Founder of ACORD Robotics. I'm 16, and I'm a developer and work on game and web projects. I'm the chief developer of Stellarios & Star Sailors.
-
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://miro.medium.com/fit/c/256/256/1*Q8bpe9sqFqoCV5mbgwe6wQ.jpeg
+    I'm the Co-Founder & Technical Director/CTO of Signal Kinetics
+  picture:           https://media-exp1.licdn.com/dms/image/C5603AQHtM1EpxGAkQw/profile-displayphoto-shrink_200_200/0/1606301008833?e=1621468800&v=beta&t=wcHx9dWTLH0wuXT39JNF9pPI5YIzr7NxGengnnNJ_qo
   twitter:           OpusTheRobot
   github:            Gizmotronn
   accent_color:      '#268bd2'
