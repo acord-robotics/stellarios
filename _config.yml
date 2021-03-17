@@ -19,7 +19,7 @@ baseurl:               '/stellarios'
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 AC0/RD
+title:                 SK.15
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,8 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  Open Source Software Community
-  Scientific Development & Sci-Fi Games, AI & AR Innovation
+  Open Source Community powering the next scientific revolution
 
 # Disqus Comments
 disqus:
@@ -52,7 +51,7 @@ author:
   name:                Liam Arbuckle
   email:             liam@skinetics.tech
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             OpusTheRobot
 
 # Add links to the sidebar.
 menu:
@@ -64,6 +63,8 @@ menu:
     url:               https://dev.to/ac0rd-software
   - title:             Login
     url:               http://ar.skinetics.tech/login/login
+  - title:             Glitch Meta
+    url:               https://larbuckle.glitch.me
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -74,7 +75,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2015-21 AC0/RD. All rights reserved.
+copyright:             © 2015-21 SKinetics. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
