@@ -1,12 +1,14 @@
 ---
 comments: true
-title: "Unity RPG"
+title: Unity RPG
+published: true
 ---
 
 # Unity RPG
 
 [Plot](#plot)
 [Resources](#resources)
+	[Inventory](#inventory)
 
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d" width="100%" height="1000" scrolling="yes">Iframes not supported</iframe>
 
@@ -17,6 +19,9 @@ Start as an astronaut (human) on a planet. Planets in the solar system you're in
 # Resources
 [Notion Documentation](https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d)
 Music (from Veonity) - Coming Soon!
+
+## Inventory
+<iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/56c1cffce8ee403bb78314a979fe3210" width="100%" height="1000" scrolling="yes">IFrame</iframe>
 
 ### Devlogs
 * [Update for Veonity - 16.3.2021]({{ site.baseurl }}/docs/unify16321)
