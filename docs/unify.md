@@ -9,6 +9,7 @@ published: true
 [Plot](#plot)
 [Resources](#resources)
 	[Inventory](#inventory)
+[Dev Updates](#Devlogs)
 
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d" width="100%" height="1000" scrolling="yes">Iframes not supported</iframe>
 
@@ -22,6 +23,8 @@ Music (from Veonity) - Coming Soon!
 
 ## Inventory
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/56c1cffce8ee403bb78314a979fe3210" width="100%" height="1000" scrolling="yes">IFrame</iframe>
+
+[Github Docs](https://github.com/acord-robotics/Unity-Intro/blob/master/InscopeRPG/Inventory.md)
 
 <iframe
     src="https://glitch.com/embed/#!/embed/larbuckle?path=README.md&previewSize=0"
