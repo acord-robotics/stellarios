@@ -24,6 +24,7 @@ Music (from Veonity) - Coming Soon!
 ## Inventory
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/56c1cffce8ee403bb78314a979fe3210" width="100%" height="1000" scrolling="yes">IFrame</iframe>
 
+### Components
 | Component | Parent | Status | Desc |
 |---|---|---|---|
 | [Canvas Setup](https://www.notion.so/skinetics/Inscope-RPG-Inventory-56c1cffce8ee403bb78314a979fe3210#ca6ece24514e401797749af13eef316a) | [Corkboard Inventory](https://www.notion.so/skinetics/Inscope-RPG-Inventory-56c1cffce8ee403bb78314a979fe3210#d7c28861c14c43d7ad246646232e71e7) | 1.1 Done | Creating minimal inventory UI that will eventually behave like a multitool |
