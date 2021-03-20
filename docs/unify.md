@@ -9,7 +9,7 @@ published: true
 [Plot](#plot)
 [Resources](#resources)
 	[Inventory](#inventory)
-[Dev Updates](#Devlogs)
+[Dev Updates](#devlogs)
 
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d" width="100%" height="1000" scrolling="yes">Iframes not supported</iframe>
 
