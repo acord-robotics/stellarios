@@ -31,6 +31,11 @@ Music (from Veonity) - Coming Soon!
 
 [Github Docs](https://github.com/acord-robotics/Unity-Intro/blob/master/InscopeRPG/Inventory.md)
 
+### Assets
+| Component | Location |
+|---|---|
+| [Ufo Capture Pod](https://www.pixilart.com/art/ufo-capture-pod-d6de1cc5aeb3f9e) | Pixilart.com |
+
 <iframe
     src="https://glitch.com/embed/#!/embed/larbuckle?path=README.md&previewSize=0"
     title="larbuckle on Glitch"
