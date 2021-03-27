@@ -4,7 +4,6 @@ title: Unity RPG
 published: true
 ---
 
-<!--https://dev.to/isaacbroyles/building-unity-with-github-actions-1l85Welcome to Gboard clipboard, any text that you copy will be saved here.-->
 # Unity RPG
 
 [Plot](#plot)
@@ -30,6 +29,31 @@ Music (from Veonity) - Coming Soon!
 |---|---|---|---|
 | [Canvas Setup](https://www.notion.so/skinetics/Inscope-RPG-Inventory-56c1cffce8ee403bb78314a979fe3210#ca6ece24514e401797749af13eef316a) | [Corkboard Inventory](https://www.notion.so/skinetics/Inscope-RPG-Inventory-56c1cffce8ee403bb78314a979fe3210#d7c28861c14c43d7ad246646232e71e7) | 1.1 Done | Creating minimal inventory UI that will eventually behave like a multitool |
 
+Github Actions
+```yml
+name: Acquire activation file
+on: [push]
+jobs:
+  activation:
+    name: Request manual activation file 🔑
+    runs-on: ubuntu-latest
+    steps:
+        # Request manual activation file
+        - name: Request manual activation file
+          id: getManualLicenseFile
+          uses: webbertakken/unity-request-manual-activation-file@v1.1
+          with:
+            unityVersion: 2019.3.14f1
+        # Upload artifact (Unity_v20XX.X.XXXX.alf)
+        - name: Expose as artifact
+          uses: actions/upload-artifact@v1
+          with:
+            name: ${{ steps.getManualLicenseFile.outputs.filePath }}
+            path: ${{ steps.getManualLicenseFile.outputs.filePath }} 
+	    
+	    https://dev.to/isaacbroyles/building-unity-with-github-actions-1l85
+	    
+```
 [Github Docs](https://github.com/acord-robotics/Unity-Intro/blob/master/InscopeRPG/Inventory.md)
 
 ### Assets
