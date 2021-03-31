@@ -4,11 +4,11 @@ comments: false
 ---
 
 A simple table of contents to get to what you're interested in:
-* [Q & A](#QA)
-* [Game Engine - ML](#Engine)
-	* [Social Game Engine](#Arcadia)
-* [Our awesome game](#Games)
-	* [Storyline](#Storyline)
+* [Q & A](#qa)
+* [Game Engine - ML](#engine)
+	* [Social Game Engine](#arcadia)
+* [Our awesome game](#games)
+	* [Storyline](#storyline)
     
 * PS My PSS username is 
 > LimoDroid
@@ -23,16 +23,18 @@ Some simple Q & A first:
 
 * Who are we?
 Simply put, SK (formerly known as AC0/RD) is a loose collective of developers, designers and science-people who are passionate about gaming and technology in general. We have 3 full-time members based in Perth:
-* Arthur Passos | Design & Web | Shoelace.style, HTML, CSS, JS | Curtin University 
-* Elijah Gardi | Dev & Physics | Unity, AWS | University of Western Australia
-* Liam Arbuckle | Dev, ML & Web | Unity, Python (Full Stack), AWS | Offers from Curtin, RMIT, from Perth Modern School
+* Arthur Passos -- Design & Web 
+* Elijah Gardi -- Dev & Physics 
+* Liam Arbuckle -- Dev, ML & Web 
+
 We have 2 other teammembers who work with us on a part-time basis overseas:
-* Rishabh Chakrabarty | Dev & ML | Unity, Python, AWS | Mumbai University
-* Edwin Montgomery | ML & Outreach | Python, AWS | NASA/JPL (formerly)
+* Rishabh Chakrabarty -- Dev & ML 
+* Edwin Montgomery -- ML & Outreach 
+
 As well as a number of outside collaborators and other team-members, including:
-* Dylan Vekaria | Databasing | SQL, Unity | Perth Modern School
-* Martin Evans | Dev | Unity, Java | Perth Modern School
-* Chilumba Machona | Web, Hardware | Curtin University
+* Dylan Vekaria -- Databasing 
+* Martin Evans -- Dev 
+* Chilumba Machona -- Web, Hardware
 
 We're trying to contribute to scientific research by working on our product line-up (see below):
 
