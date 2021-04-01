@@ -56,6 +56,8 @@ jobs:
 ```
 [Github Docs](https://github.com/acord-robotics/Unity-Intro/blob/master/InscopeRPG/Inventory.md)
 
+[Build Test](https://github.com/Gizmotronn/Unity-Intro/commit/f8f04f403e3d101086c02a8ea88438e045594fbe)
+
 ### Assets
 | Component | Location |
 |---|---|
