@@ -58,6 +58,87 @@ jobs:
 
 [Build Test](https://github.com/Gizmotronn/Unity-Intro/commit/f8f04f403e3d101086c02a8ea88438e045594fbe)
 
+<!-- Do Notion toggle
+`.github/workflows/main.yml`
+
+```yml
+name: Build
+
+on:
+  push:
+    tags:
+      - '*'
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+jobs:
+  build:
+    name: Build my project
+    runs-on: ubuntu-latest
+    steps:
+
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+
+      # Cache
+      - uses: actions/cache@v1.1.0
+        with:
+          path: Library
+          key: Library
+
+      # Test
+      - name: Run tests
+        uses: webbertakken/unity-test-runner@v1.3
+        with:
+          unityVersion: 2019.3.14f1
+
+      # Build
+      - name: Build project
+        uses: webbertakken/unity-builder@v0.10
+        with:
+          unityVersion: 2019.3.14f1
+          targetPlatform: StandaloneWindows64 
+
+      # Output 
+      - uses: actions/upload-artifact@v1
+        with:
+          name: Build
+          path: build
+
+      - name: Zip build
+        run: |
+          pushd build/StandaloneWindows64
+          zip -r ../../StandaloneWindows64.zip .
+          popd
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: ./StandaloneWindows64.zip
+          asset_name: StandaloneWindows64.zip
+          asset_content_type: application/zip
+          ```
+-->
+
 ### Assets
 | Component | Location |
 |---|---|
