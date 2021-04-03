@@ -139,6 +139,9 @@ jobs:
           ```
 -->
 
+<!--Glitch Unity Git Workflow - version control on Glitch?
+https://support.glitch.com/t/unable-to-connect-to-websocket-from-unity/30890-->
+
 ### Assets
 | Component | Location |
 |---|---|
