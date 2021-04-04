@@ -58,7 +58,7 @@ jobs:
 
 [Build Test](https://github.com/Gizmotronn/Unity-Intro/commit/f8f04f403e3d101086c02a8ea88438e045594fbe)
 
-<!-- Do Notion toggle
+Do Notion toggle
 `.github/workflows/main.yml`
 
 ```yml
@@ -136,10 +136,8 @@ jobs:
           asset_path: ./StandaloneWindows64.zip
           asset_name: StandaloneWindows64.zip
           asset_content_type: application/zip
-          ```
--->
-
-<!--Glitch Unity Git Workflow - version control on Glitch?
+```
+Glitch Unity Git Workflow - version control on Glitch?
 https://support.glitch.com/t/unable-to-connect-to-websocket-from-unity/30890-->
 
 ### Assets
