@@ -17,7 +17,7 @@ More coming soon!
 {:.message}
 
 # Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Stellarios
+* [Meta](http://larbuckle.glitch.me) --- Snippets & Particles (Software Components)
 * [Support](/stellarios/support/) --- Learn how to contact us if you run into a problem
 
 ## Arcadia
