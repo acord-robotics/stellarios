@@ -1,7 +1,7 @@
 ---
 description: >
-  The documentation describes how to install and use Stellarios, as well as listing the changelogs, code and plans for future releases. The documentation is updated frequently
-hide_description: true
+  The documentation describes how to install and use our software, how to contribute and what our software/hardware does and how it works
+hide_description: false
 permalink: /docs/
 ---
 
@@ -26,6 +26,9 @@ More coming soon!
 
 # Network Docs
 * [Portal Backup Procedure]{:.heading.flip-title} --- How to create and store backups
+
+# Third-Party Software
+* [VSCode Installs](/stellarios/docs/vscode/)
 
 
 [install]: install.md
