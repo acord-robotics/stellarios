@@ -23,7 +23,7 @@ published: true
 <!--need to update runs so it links to the most recent action run, also readmes need to be in the docs! Links to repos in the docs pages 
 
 
-* [Works](#works) --- View our media (books, novels, etc) & works here
+* [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
 
 
