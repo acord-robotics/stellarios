@@ -9,7 +9,7 @@ permalink: /docs/
 Documentation describing the creation, maintenance and usage of our projects, software and hardware. Currently the following projects are available in documentation:
 
 [Arcadia](#arcadia) — Our social gaming service
-[Unnamed Unity RPG](#Unity) — Our currently unnamed RPG in Unity
+[Unnamed Unity RPG]({{ site.baseurl }}/stellarios/docs/unify) — Our currently unnamed RPG in Unity
 
 More coming soon!
 
