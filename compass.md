@@ -19,6 +19,8 @@ published: true
 | [Individual Project Snippets](https://larbuckle.glitch.me) | [Glitch/Signal-K*inetics*](https://glitch.com/@signal-kinetics) | <!--src="https://glitch.com/embed/#!/embed/larbuckle?path=index.html&previewSize=0"--> Glitch: [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://glitch.com/@signal-kinetics) |
 
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
+* [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
+	* [Star Sailors]({{ site.baseurl }}/starsailors)
 
 <!--need to update runs so it links to the most recent action run, also readmes need to be in the docs! Links to repos in the docs pages 
 
