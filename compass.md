@@ -17,6 +17,7 @@ published: true
 | [Scent Technologies]({{ site.baseurl }}/docs/scent-technologies) | [Github/Signal-k](https://github.com/signal-k/) | [![!CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://signal-kinetics.atlassian.net/jira/software/projects/DSP/boards/5/backlog?selectedIssue=DSP-18) |
 | [Unity RPG Building]({{ site.baseurl }}/docs/unify) | [Github/Acord-Robotics](https://github.com/acord-robotics/unity-intro) | Unity: [![CI](https://img.shields.io/github/checks-status/signal-k/elearning/c0976aaf396161be244ffed50ba5489d1a2d5667?style=flat-square)](https://github.com/acord-robotics/stellarios/commits/gh-pages/compass.md) |
 | [Individual Project Snippets](https://larbuckle.glitch.me) | [Glitch/Signal-K*inetics*](https://glitch.com/@signal-kinetics) | <!--src="https://glitch.com/embed/#!/embed/larbuckle?path=index.html&previewSize=0"--> Glitch: [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://glitch.com/@signal-kinetics) |
+| [API for Arcadia Messaging](https://www.notion.so/skinetics/Slack-API-5cbe02421423410ca4a1c2f731df56e2) | [Github/Signal-K](http://github.com/signal-k) | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
