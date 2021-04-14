@@ -48,7 +48,8 @@ success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being
 disabled = true
 ```
 
-Here's my current setup:
+<details><Summary>Here's my current setup</summary>
+
 ```bash
 # Inserts a blank line between shell prompts
 add_newline = true
@@ -73,4 +74,19 @@ truncation_symbol = ""
 #pyenv_version_name = true
 ```
 
-Then press `ctrl+x` to save the toml file
+Then press `ctrl+x` to save the toml file 
+</details>
+
+<!--Idea: Integrate Starship with Jira-->
+
+## Integrate [OhMy]ZSH with Python
+[![](https://img.shields.io/github/stars/sakshamsharma/zpyi?color=red&logo=github&style=for-the-badge)](https://github.com/sakshamsharma/zpyi)
+
+```bash
+cd ~
+git clone https://github.com/sakshamsharma/zpyi ~/.zpyi
+echo "source ~/.zpyi/zpyi.zsh" >> ~/.zshrc
+source ~/.zshrc
+```
+
+Then enter any command you want!
