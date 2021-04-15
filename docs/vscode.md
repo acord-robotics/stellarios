@@ -1,5 +1,4 @@
 # VSCode for SK
-Skeleton
 
 # Starship.rs
 
@@ -14,7 +13,7 @@ eval "$(starship init zsh)"
 
 # Git
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
-{% include utterances-general.html %}
+
 
 # Starship.rs
 ## Installing
@@ -25,7 +24,7 @@ Or use curl:
 ```curl -fsSL https://starship.rs/install.sh | bash```
 
 ## Configuring the prompt
-Go into the `settings.json` file for Visual Studio Code to set the default shell to `zsh`
+<details><Summary>Go into the `settings.json` file for Visual Studio Code to set the default shell to `zsh`</Summary>
 
 Then:
 `nano ~\.zshrc`
@@ -47,6 +46,8 @@ success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being
 [package]
 disabled = true
 ```
+
+</details>
 
 <details><Summary>Here's my current setup</summary>
 
@@ -77,7 +78,7 @@ truncation_symbol = ""
 Then press `ctrl+x` to save the toml file 
 </details>
 
-<!--Idea: Integrate Starship with Jira-->
+
 
 ## Integrate [OhMy]ZSH with Python
 [![](https://img.shields.io/github/stars/sakshamsharma/zpyi?color=red&logo=github&style=for-the-badge)](https://github.com/sakshamsharma/zpyi)
@@ -90,3 +91,44 @@ source ~/.zshrc
 ```
 
 Then enter any command you want!
+
+# Jekyll on the command line
+Follow the instructions from the [documentation](https://jekyllrb.com/docs/installation/ubuntu/).
+
+Install jekyll on the zsh prompt:
+```sudo apt-get install ruby-full build-essential zlib1g-dev```
+
+Then install it to your `~/.zshrc` file:
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.zshrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+```
+gem install jekyll bundler
+```
+
+### Jekyll example
+With [this repo](https://github.com/acord-robotics/stellarios/tree/gh-pages), we've got a jekyll library/setup that's quite old and isn't too well optimised for 2021 (I'm working on changing that). To get jekyll working on my CLI with my zsh profile, I had to enter the following command:
+
+```
+bundle update --bundler
+bundle update jekyll build
+```
+
+Building the site:
+```
+bundle update jekyll serve
+```
+
+### Discussion
+{% include utterances-general.html %}
+
+<!--To do
+Fix python version to 3
+-->
+
+<!--Idea: Integrate Starship with Jira
+Force `bundle update` on all jekyll commands on stellarios/gh-pages repo-->
