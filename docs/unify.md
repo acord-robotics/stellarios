@@ -63,3 +63,21 @@ Music (from Veonity) - Coming Soon!
 ### Devlogs
 * [Update for Veonity - 16.3.2021]({{ site.baseurl }}/docs/unify16321)
 * [441 Docklands - 31.3.2021]({{ site.baseurl }}/docs/unifydocklands31321)
+
+<details><summary>Introduction post for game communities</summary>
+	Hey guys, I've spent a few months working on a new project with my software development team and No Man's Sky is a really big component in this project. Basically, I'm trying to integrate Citizen Science directly into video games (sort of like Eve Online's Project Discovery, but as a part of the main game rather than a secondary storyline/minigame). I've found that there are heaps of people interested in science (whether it's space, bio, whatever) that might want to contribute or learn more - but if you aren't part of the industry (i.e. didn't study science at university) then it's sort of a walled-garden - it's hard to connect with anyone doing any work or even learn about your area of interest properly. Science magazines and other media formats are great but they're not always the most engaging, so I thought that video games would be a good way to
+Engage with interested people
+Teach these people concepts, studies and information about their area of interest
+Allow these people to contribute to relevant, important scientific research regardless of their background, job or location.
+This is a two-part process - 
+Our own game, built with the Unity Game Engine and on top of our own game engine, Arcadia (which is also a "fork" of platforms like Facebook Games & Steam). Our game will be an open-world sci-fi game with tons of mini-games based on old Arcade(ia) games included
+Mods for games made by other manufacturers, like No Man's Sky (storylines, custom maps, and custom items) 
+
+How will it work? Well, suffice it to say many interesting science projects have APIs and these can integrate with your favourite games using either Unity addressables (for Unity games) or plain mods. What's cool about this is we can even create a platform to share your items and resources between games (like Pokemon Home) using the in-game API and your accounts. 
+
+We've started negotiating some official tie-ins with game studios of varying scales and have a little bit - not much - funding behind us. Since we're trying to bring science to the people without locking it behind a paywall, we've decided our project will be 100% open-source. 
+
+If you're interested, drop me a PM on Facebook. I'm not going to fill this page up with links. 
+
+-L
+</details>
