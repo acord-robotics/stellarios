@@ -60,7 +60,7 @@ menu:
   #- title:             Documentation
   #  url:               https://sk.acord.software
   - title:             Create
-    url:               https://dev.to/ac0rd-software
+    url:               https://notions-puce.vercel.app/
   - title:             Login
     url:               http://ar.skinetics.tech/login/login
   - title:             Glitch Meta
