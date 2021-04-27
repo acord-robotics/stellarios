@@ -13,6 +13,10 @@ Documentation describing the creation, maintenance and usage of our projects, so
 
 More coming soon!
 
+<details><summary>Mini-Updates</summary>
+<iframe style="width: 90%; height: 1000px; overflow: show;" src="https://cli.skinetics.tech/f03618a962d94c7a8dc742c85d34c3b5" width="100%" height="1000" scrolling="yes">IFrame</iframe>
+</details>
+
 **NOTE**: The documentation is always being updated
 {:.message}
 
