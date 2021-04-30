@@ -20,6 +20,10 @@ published: true
 | [API for Arcadia Messaging](https://www.notion.so/skinetics/Slack-API-5cbe02421423410ca4a1c2f731df56e2) | [Github/Signal-K](http://github.com/signal-k) | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 | [SK CMS](https://notions-puce.vercel.app) | Notion.So | ![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg) |
 
+| Project READMEs | Repository/Related/Jira | Project |
+|---|---|---|
+| [Signal-K/API](https://github.com/signal-k/api) | Api/Flask1/DSP, RAPIA (Restful API for Arcadia, coming soon) | RESTful [APIs]({{ site.baseurl }}/docs/api) for Games |
+
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
