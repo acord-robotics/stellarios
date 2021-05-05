@@ -22,6 +22,7 @@ Start as an astronaut (human) on a planet. Planets in the solar system you're in
 # Resources
 [Notion Documentation](https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d)
 Music (from Veonity) - Coming Soon!
+[Boilerplates for Unity]({{ site.baseurl }}/stellarios/docs/unity-boilerplates)
 
 ## Inventory
 
