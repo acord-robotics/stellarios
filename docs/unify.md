@@ -6,23 +6,33 @@ published: true
 
 # Unity RPG
 
-[Plot](#plot)
-[Resources](#resources)
-	[Inventory](#inventory)
-  [Git & Unity](#GitUnity)
-[Dev Updates](#devlogs)
+* [Plot](#plot)
+* [Resources](#resources)
+	* [Inventory](#inventory)
+* [Git & Unity](#GitUnity)
+* [Dev Updates](#devlogs)
+* [How the game engine works](https://cli.skinetics.tech/26a34bc558184b45839a7259641b852d#0c39636042034d27adba68e63d215e7a)
 
+<details><summary>Documents</summary>
 <iframe style="width: 90%; height: 1000px; overflow: show;" src="https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d" width="100%" height="1000" scrolling="yes">Iframes not supported</iframe>
+</details>
 
+Ask questions or comment:
+{% include utterances.html %}
 
 
 # Plot
+*Working plot - subject to change*
+
+> Each alien civilisation (including Homo sapiens) have their own “hero” at each time period, who is hand-picked by the “forces”. Each force (gravity, electromagnetism, etc) has its own distinct persona and due to their power they’re constantly at risk of tearing the universe apart. The heroes are picked to repair the parts of the universe that are at breaking point (as well as going off on their own cool adventures) (and yes, a lot of this is a metaphor for events in regular human lives).
+
+For the RPG Phase:
 Start as an astronaut (human) on a planet. Planets in the solar system you're in are starting to be "disintegrated" (aka being moved, see the Star Sailors story) and you need to gather as much alien DNA as possible. You travel from planet to planet using a ship that you repair with the help of your new alien friends and once you get aliens from each of the 5 biospheres on each planet (with a shared history between all life in the ecosystems this is enough data to retrieve) you need to mine asteroids and other space anomalies to prepare for a jump to the Galactic Capital, Midgard, where you will bring the aliens for safekeeping and bring word of the destruction of planets (by sentient forces like gravity and electromagnetism). 
 
 # Resources
-[Notion Documentation](https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d)
-Music (from Veonity) - Coming Soon!
-[Boilerplates for Unity]({{ site.baseurl }}/docs/uboilerplates)
+* [Notion Documentation](https://skinetics.notelet.so/bcbdcd59d2a443c9bc278318b8ce241d)
+* Music (from Veonity) - Coming Soon!
+* [Boilerplates for Unity]({{ site.baseurl }}/docs/uboilerplates)
 
 ## Inventory
 
@@ -54,12 +64,15 @@ Music (from Veonity) - Coming Soon!
 |---|---|
 | [Ufo Capture Pod](https://www.pixilart.com/art/ufo-capture-pod-d6de1cc5aeb3f9e) | Pixilart.com |
 
+### Glitch files
+<details><summary>glitch.com</summary>
 <iframe
     src="https://glitch.com/embed/#!/embed/larbuckle?path=README.md&previewSize=0"
     title="larbuckle on Glitch"
     allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style="height: 100%; width: 100%; border: 0;">
+    style="height: 100%; width: 1000px; border: 0;">
 </iframe>
+</details>
 
 ### Devlogs
 * [Update for Veonity - 16.3.2021]({{ site.baseurl }}/docs/unify16321)
