@@ -19,5 +19,3 @@ We're taking a little bit of time off compared to the start of the year where ev
 If you don't know much about [keybase](https://keybase.io), I'd recommend having a look through their [documentation](https://book.keybase.io/docs/files). Basically, we're combining our Github orgs (through a flask-based RESTful API) with Keybase which will take over as our main method of inhouse communication.
 
 Leave a comment here if you'd like to be added to the group!
-
-{% include utterances.html %}
