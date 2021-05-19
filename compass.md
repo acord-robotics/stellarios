@@ -33,7 +33,7 @@ Flask Material Dashboard:
 Fork: ![](https://img.shields.io/codeship/4d67960f-4849-41b0-9a1f-701e010eacc2?label=Build%20%28Gunicorn%2019.10.0%29&logo=codeship&style=flat-square)
 
 Join the Keybase team: 
-![](https://img.shields.io/keybase/xlm/G1zmotronn?logo=keybase&style=social)
+[![](https://img.shields.io/keybase/xlm/G1zmotronn?logo=keybase&style=social)](https://keybase.io/team/signalkinetics)
 
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
