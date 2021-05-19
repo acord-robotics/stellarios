@@ -19,7 +19,7 @@ published: true
 | [Individual Project Snippets](https://larbuckle.glitch.me) | [Glitch/Signal-K*inetics*](https://glitch.com/@signal-kinetics) | <!--src="https://glitch.com/embed/#!/embed/larbuckle?path=index.html&previewSize=0"--> Glitch: [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://glitch.com/@signal-kinetics) |
 | [API for Arcadia Messaging](https://www.notion.so/skinetics/Slack-API-5cbe02421423410ca4a1c2f731df56e2) | [Github/Signal-K](http://github.com/signal-k) | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 | [SK CMS](https://notions-puce.vercel.app) | [Our Website]({{ site.baseurl }}/website/) | ![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg) |
-| [GeminiStation](#GeminiStation) | [Github/Acord-Robotics](https://github.com/acord-robotics) | [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMl-rRntLwAhUj4zgGHbRXA9kQFjAAegQIAhAE&url=https%3A%2F%2Fwww.geministation.com%2F&usg=AOvVaw3NvAx51WnhwsrPl0_FWygK) |
+| [GeminiStation](#geministation) | [Github/Acord-Robotics](https://github.com/acord-robotics) | [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMl-rRntLwAhUj4zgGHbRXA9kQFjAAegQIAhAE&url=https%3A%2F%2Fwww.geministation.com%2F&usg=AOvVaw3NvAx51WnhwsrPl0_FWygK) |
 
 | Project READMEs | Repository/Related/Jira | Project |
 |---|---|---|
