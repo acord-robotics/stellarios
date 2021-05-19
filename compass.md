@@ -25,6 +25,11 @@ published: true
 |---|---|---|
 | [Signal-K/API](https://github.com/signal-k/api) | Api/Flask1/DSP, RAPIA (Restful API for Arcadia, coming soon) | RESTful [APIs]({{ site.baseurl }}/docs/api) for Games |
 
+# GeminiStation
+[![](https://img.shields.io/codeship/0fd7c046-5825-4d75-ad81-0d14910a9ec2?color=green&logo=codeship&logoColor=green&style=for-the-badge)](https://github.com/acord-robotics/api-heroku/tree/main/GeminiStation)
+
+Join the Keybase team: 
+
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
@@ -36,8 +41,7 @@ published: true
 	* [Star Sailors]({{ site.baseurl }}/starsailors)
 
 
-# GeminiStation
-https://github.com/acord-robotics/api-heroku/tree/main/GeminiStation
+
 
 
 
