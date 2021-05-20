@@ -33,7 +33,7 @@ published: true
 | Documentation/Code | [Github Tree](https://github.com/acord-robotics/api-heroku/tree/main/GeminiStation) | / |
 | FMD -> Customised Gunicorn | Codeship: [![](https://img.shields.io/codeship/4d67960f-4849-41b0-9a1f-701e010eacc2?label=Build%20%28Gunicorn%2019.10.0%29&logo=codeship&style=flat-square)](https://app.codeship.com/projects/4d67960f-4849-41b0-9a1f-701e010eacc2) | [![](https://img.shields.io/github/labels/acord-robotics/api-heroku/jira?color=green&label=GSCA-2&logo=replit&style=social)](https://signal-kinetics.atlassian.net/browse/GSCA-2) |
 | `signalkinetics` | [![](https://img.shields.io/keybase/xlm/G1zmotronn?logo=keybase&style=social)](https://keybase.io/team/signalkinetics) | / |
-| FMD -> `run.py` | [Vercel](https://vercel.com/gizmotronn/flask-material-dashboard) | [![](https://img.shields.io/github/labels/acord-robotics/api-heroku/jira?color=green&label=GSCA-2&logo=replit&style=social)](https://signal-kinetics.atlassian.net/browse/GSCA-2) |
+| FMD -> `run.py` | [![](https://therealsujitk-vercel-badge.vercel.app/?app=flask-material-dashboard)](https://vercel.com/gizmotronn/flask-material-dashboard) | [![](https://img.shields.io/github/labels/acord-robotics/api-heroku/jira?color=green&label=GSCA-2&logo=replit&style=social)](https://signal-kinetics.atlassian.net/browse/GSCA-2) |
 
 
 
