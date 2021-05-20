@@ -26,7 +26,6 @@ published: true
 | [Signal-K/API](https://github.com/signal-k/api) | Api/Flask1/DSP, RAPIA (Restful API for Arcadia, coming soon) | RESTful [APIs]({{ site.baseurl }}/docs/api) for Games |
 
 # GeminiStation
-<!-- Add https://naereen.github.io/badges/-->
 
 | [Deployment](https://github.com/acord-robotics/api-heroku/tree/main/GeminiStation) | Platform | [![](https://img.shields.io/github/labels/acord-robotics/api-heroku/jira?color=green&label=Issues:t&logo=replit&style=social)](https://github.com/acord-robotics/api-heroku/issues/2) |
 |---|---|---|
