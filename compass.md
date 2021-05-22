@@ -105,4 +105,4 @@ Information & resources for the citizen science aspect of Arcadia (our game serv
 [Dev Talk](https://devlog.acord.software)
 [KinetiKast - coming soon](https://kinetikast.co)
 
-
+.
