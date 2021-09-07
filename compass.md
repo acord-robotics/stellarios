@@ -10,6 +10,17 @@ published: true
 
 <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="364dc741601f8ed38c797805d5e24ef4"> </script> 
 
+| Component | Project | Action/Package |
+|---|---|---|
+| [Phaser.io Game Server](https://github.com/M-68/dgame) | ♊️🛰 Integration | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
+| [Turn-based combat with Phaser](https://github.com/M-68/dgame/tree/main/phaser)| ♊️🛰 Mechanics | / |
+
+
+Legend:
+* ♊️🛰 = Gemini Station
+
+<!--
+
 | Project | Org | Action/Package |
 |---|---|---|
 | [Flask/Django Dashboard](https://acord.software/account) | [Github/Acord-Robotics](https://github.com/acord-robotics) | CSS: [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://github.com/acord-robotics/datascience) |
@@ -20,6 +31,7 @@ published: true
 | [API for Arcadia Messaging](https://www.notion.so/skinetics/Slack-API-5cbe02421423410ca4a1c2f731df56e2) | [Github/Signal-K](http://github.com/signal-k) | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 | [SK CMS](https://notions-puce.vercel.app) | [Our Website]({{ site.baseurl }}/website/) | ![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg) |
 | [GeminiStation](#geministation) | [Github/Acord-Robotics](https://github.com/acord-robotics) | [![CI](https://github.com/acord-robotics/argon-dashboard-flask/workflows/CI/badge.svg)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiMl-rRntLwAhUj4zgGHbRXA9kQFjAAegQIAhAE&url=https%3A%2F%2Fwww.geministation.com%2F&usg=AOvVaw3NvAx51WnhwsrPl0_FWygK) |
+
 
 | Project READMEs | Repository/Related/Jira | Project |
 |---|---|---|
@@ -64,7 +76,7 @@ published: true
 
 * [External Sites](#external) --- Everything not on Github or the ACORD Portal, including maintenance & admin
 * [Works]({{ site.baseurl }}/docs) --- View our media (books, novels, etc) & works here
-	* [Star Sailors]({{ site.baseurl }}/starsailors)
+	* [Star Sailors]({{ site.baseurl }}/starsailors)-->
 
 <!--need to update runs so it links to the most recent action run, also readmes need to be in the docs! Links to repos in the docs pages 
 
