@@ -3,7 +3,7 @@ title: Signal Kompass
 image: /assets/img/blog/wade-lambert.jpg
 description: |
   This is a dedicated site for the software suite known as Arcadia and more.
-comments: true
+comments: false
 layout: about
 published: true
 ---
