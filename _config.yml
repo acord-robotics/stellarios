@@ -24,8 +24,8 @@ title:                 SK.15
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Stellarios - by ACORD".
-  **AC0/RD** is an open source scientific software development community
+  "Signal Kinetics".
+  **SK** is an open source scientific software development community
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -75,7 +75,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2015-21 SKinetics. All rights reserved.
+copyright:             © 2015-21 Signal-K. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
