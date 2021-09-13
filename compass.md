@@ -21,6 +21,16 @@ Legend:
 
 [Edit page](https://github.com/acord-robotics/stellarios/blob/gh-pages/compass.md)
 
+<widgetbot
+  server="886939728694362183"
+  channel="886939728694362183"
+  width="800"
+  height="600"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+
+Join the Discord: https://discord.gg/j8V7wsCe5P
+
 
 <!--
 | Project | Org | Action/Package |
