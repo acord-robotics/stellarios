@@ -14,8 +14,8 @@ published: true
 |---|---|---|
 | [Phaser.io Game Server](https://github.com/M-68/dgame) | ♊️🛰 Integration | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 | [Turn-based combat with Phaser](https://github.com/M-68/dgame/tree/main/phaser)| ♊️🛰 Mechanics | / |
-| [Citizen Science](https://github.com/Signal-K/sytizen-unity) [visualisation](#Vis) | 🔭📉 Data Integration | / |
-| [Comms protocols](#Comms) | 💬📝 Data spaces | / |
+| [Citizen Science](https://github.com/Signal-K/sytizen-unity) [visualisation](#vis) | 🔭📉 Data Integration | / |
+| [Comms protocols](#comms) | 💬📝 Data spaces | / |
 
 
 Legend:
