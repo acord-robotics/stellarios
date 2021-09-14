@@ -26,6 +26,12 @@ Legend:
 [Edit page](https://github.com/acord-robotics/stellarios/blob/gh-pages/compass.md)
 
 # Vis
+Data visualisation in Unity to display data from different data sources (including external APIs, for example from Zooniverse).
+
+| Repository Folder | Repository |
+|---|---|
+| [Root Repository](https://github.com/Signal-K/sytizen-unity) | [Signal-k/Sytizen-Unity](https://github.com/Signal-K/sytizen-unity) |
+| [JSON results from API](https://github.com/Signal-K/sytizen-unity/tree/main/firework-vis) | [Signal-k/Sytizen-Unity](https://github.com/Signal-K/sytizen-unity) |
 
 
 # Comms
@@ -38,7 +44,11 @@ Legend:
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 
-Join the Discord: https://discord.gg/j8V7wsCe5P
+	
+| Platform | Purpose |
+|---|---|
+| [Notion](https://signal-k.vercel.app) | Files & Notes |
+| Slack/Matrix/Keybase/[Discord](https://discord.gg/j8V7wsCe5P) | Communication |
 </details>
 
 
