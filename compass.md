@@ -43,14 +43,12 @@ Data visualisation in Unity to display data from different data sources (includi
   height="600"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+</details>
 
-	
 | Platform | Purpose |
 |---|---|
 | [Notion](https://signal-k.vercel.app) | Files & Notes |
 | Slack/Matrix/Keybase/[Discord](https://discord.gg/j8V7wsCe5P) | Communication |
-</details>
-
 
 <!--
 | Project | Org | Action/Package |
