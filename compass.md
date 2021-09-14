@@ -14,13 +14,22 @@ published: true
 |---|---|---|
 | [Phaser.io Game Server](https://github.com/M-68/dgame) | ♊️🛰 Integration | [![Glitch Badge](https://badge.glitch.me/larbuckle)](https://github.com/Signal-K/flask1/commit/8ab5cb34c3ad278ff6bbdeaf1309c95c9cd4e906) |
 | [Turn-based combat with Phaser](https://github.com/M-68/dgame/tree/main/phaser)| ♊️🛰 Mechanics | / |
+| [Citizen Science](https://github.com/Signal-K/sytizen-unity) [visualisation](#Vis) | 🔭📉 Data Integration | / |
+| [Comms protocols](#Comms) | 💬📝 Data spaces | / |
 
 
 Legend:
 * ♊️🛰 = Gemini Station 
+* 🔭📉 = Citizen Science 
+* 💬📝 = Communication & data/productivity & apis relating to the development
 
 [Edit page](https://github.com/acord-robotics/stellarios/blob/gh-pages/compass.md)
 
+# Vis
+
+
+# Comms
+<details><summary>Holochat</summary>
 <widgetbot
   server="886939728694362183"
   channel="886939728694362183"
@@ -30,6 +39,7 @@ Legend:
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 
 Join the Discord: https://discord.gg/j8V7wsCe5P
+</details>
 
 
 <!--
