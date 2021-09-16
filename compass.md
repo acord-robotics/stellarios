@@ -16,6 +16,7 @@ published: true
 | [Turn-based combat with Phaser](https://github.com/M-68/dgame/tree/main/phaser)| ♊️🛰 Mechanics | / |
 | [Citizen Science](https://github.com/Signal-K/sytizen-unity) [visualisation](#vis) | 🔭📉 Data Integration | / |
 | [Comms protocols](#comms) | 💬📝 Data spaces | / |
+| [Game Narrative](https://3.basecamp.com/5181697/buckets/23845765/documents/4159175223) | 📝🔥 Storytelling | / |
 
 
 Legend:
