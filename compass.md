@@ -17,12 +17,14 @@ published: true
 | [Citizen Science](https://github.com/Signal-K/sytizen-unity) [visualisation](#vis) | 🔭📉 Data Integration | / |
 | [Comms protocols](#comms) | 💬📝 Data spaces | / |
 | [Game Narrative](https://3.basecamp.com/5181697/buckets/23845765/documents/4159175223) | 📝🔥 Storytelling | / |
+| [Hicetnunc NFTs](https://www.hicetnunc.xyz/siganl_kinetics/creations) | 🪙🧱⛓ Tezos Marketplace | [![Glitch badge](https://img.shields.io/badge/Hicetnunc-signal__kinetics-yellow?style=for-the-badge&logo=ethereum)](https://opensea.io/0xa173f2c5d59bdd76adbc0e3825a36b97b89f5e2a) |
 
 
 Legend:
 * ♊️🛰 = Gemini Station 
 * 🔭📉 = Citizen Science 
 * 💬📝 = Communication & data/productivity & apis relating to the development
+* 🪙🧱⛓ = Blockchain / nft platform for Arcadia/StarSailors
 
 [Edit page](https://github.com/acord-robotics/stellarios/blob/gh-pages/compass.md)
 
