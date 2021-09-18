@@ -27,6 +27,7 @@ Legend:
 * 🪙🧱⛓ = Blockchain / nft platform for Arcadia/StarSailors
 
 Our accounts
+
 | Crypto | Marketplace | An NFT | Account |
 |---|---|---|---|
 | XTZ // Tezos | [![RSS](https://img.shields.io/badge/Hicetnunc-FFA500?style=for-the-badge&logo=rss&logoColor=white)](https://www.hicetnunc.xyz/siganl_kinetics/creations) | [![NFT](https://img.shields.io/badge/M.Guardian-FFB222?style=for-the-badge&logo=github&logoColor=blac)](https://objkt.com/asset/hicetnunc/316405) | ![tz1Ze2fNbTy96bKFFRmNtTLpDrBP8RqBZXpd](https://img.shields.io/badge/tz1Ze2fNbTy96bKFFRmNtTLpDrBP8RqBZXpd-FFB387?style=for-the-badge&logo=sketch&logoColor=black) |
