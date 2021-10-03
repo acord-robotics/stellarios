@@ -3,6 +3,9 @@
 * [Jayin]({{ site.baseurl }}/jayin) - Chancellor of Galactic Parliament/Commmonwealth - Midgard Legacy
 * [Starrix Lierge]({{ site.baseurl }}/starrix) - Commander of the Miydlian Fleet
 
+
+[Compass](https://github.com/acord-robotics/stellarios/blob/gh-pages/starsailors.md#star-sailors-earthlings)
+
 # Star Sailors Earthlings - Outline:
 ```py
 # Prologue
