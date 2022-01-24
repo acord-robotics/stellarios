@@ -36,7 +36,7 @@ Our accounts
 | XTZ // Tezos | [![RSS](https://img.shields.io/badge/Hicetnunc-FFA500?style=for-the-badge&logo=rss&logoColor=white)](https://www.hicetnunc.xyz/siganl_kinetics/creations) | [![NFT](https://img.shields.io/badge/M.Guardian-FFB222?style=for-the-badge&logo=github&logoColor=blac)](https://objkt.com/asset/hicetnunc/316405) | ![tz1Ze2fNbTy96bKFFRmNtTLpDrBP8RqBZXpd](https://img.shields.io/badge/tz1Ze2fNbTy96bKFFRmNtTLpDrBP8RqBZXpd-FFB387?style=for-the-badge&logo=sketch&logoColor=black) |
 | Eth // Ethereum | [![Eth](https://img.shields.io/badge/OpenSea-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)](https://opensea.io/Gizmotronn) | [![NFT](https://img.shields.io/badge/Marble-375BD2?style=for-the-badge&logo=chainlink&logoColor=white)](https://marble.cards/card/160647) | ![](https://img.shields.io/badge/0xA173f2c5d59Bdd76aDbC0E3825a36b97b89f5e2a-090020?style=for-the-badge&logo=stellar&logoColor=white) ![](https://img.shields.io/badge/0xCdc5929e1158F7f0B320e3B942528E6998D8b25c-090020?style=for-the-badge&logo=stellar&logoColor=white) | <!--https://www.notion.so/skinetics/cfa8973513904096bbb339111c49baaf?v=58c7bcf864db444f9e2137cb15485745-->
 
-<iframe src="https://sk.super.site" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="600%" allowfullscreen></iframe>
+<iframe src="https://docs.skinetics.tech" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1200px" width="600%" allowfullscreen></iframe>
 
 [Edit page](https://github.com/acord-robotics/stellarios/blob/gh-pages/compass.md)
 
